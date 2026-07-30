@@ -1,0 +1,291 @@
+export interface BlogPostMeta {
+  slug: string;
+  title: string;
+  metaTitle: string;
+  metaDescription: string;
+  targetKeyword: string;
+  category: string;
+  summary: string;
+  datePublished: string;
+  dateModified: string;
+  relatedServices: string[];
+  relatedLocations: string[];
+  imageAlt: string;
+}
+
+export const BLOG_POSTS: BlogPostMeta[] = [
+  {
+    slug: "junk-removal-cost-los-angeles",
+    title: "How Much Does Junk Removal Cost in Los Angeles?",
+    metaTitle: "Junk Removal Cost in Los Angeles | Dump Happy",
+    metaDescription:
+      "What actually drives junk removal pricing in LA? We break down load-based pricing, what affects your quote, and how to get an accurate estimate fast.",
+    targetKeyword: "junk removal cost los angeles",
+    category: "Pricing",
+    summary: "Explains volume/load-based pricing and what drives cost; links to Pricing + Junk Removal.",
+    datePublished: "2026-04-06",
+    dateModified: "2026-04-06",
+    relatedServices: ["junk-removal"],
+    relatedLocations: [],
+    imageAlt: "Junk removal crew loading a truck by volume in Los Angeles",
+  },
+  {
+    slug: "what-junk-haulers-cant-take",
+    title: "What Junk Haulers Can and Can't Take",
+    metaTitle: "What Junk Removal Companies Won't Take | Dump Happy",
+    metaDescription:
+      "Household hazardous waste, paint, and asbestos are off-limits for junk haulers. Here's what's banned, why, and where to take it in LA County instead.",
+    targetKeyword: "what junk removal wont take",
+    category: "Disposal Rules",
+    summary: "HHW and banned items; where to take them; links Garage Clean-Out + Appliance.",
+    datePublished: "2026-04-13",
+    dateModified: "2026-04-13",
+    relatedServices: ["garage-cleanout", "appliance-removal"],
+    relatedLocations: [],
+    imageAlt: "Household hazardous waste sorted separately from a junk removal load",
+  },
+  {
+    slug: "illegal-dumping-los-angeles",
+    title: "Is It Legal to Leave Junk on the Curb in LA?",
+    metaTitle: "Is Illegal Dumping in LA a Crime? | Dump Happy",
+    metaDescription:
+      "Leaving furniture or debris on a curb or alley in LA can mean fines up to $10,000 under California law. Here's what Penal Code 374.3 actually says.",
+    targetKeyword: "illegal dumping los angeles",
+    category: "Disposal Rules",
+    summary: "PC 374.3 penalties, vehicle impound; why legal hauling matters; links Junk Removal.",
+    datePublished: "2026-04-20",
+    dateModified: "2026-04-20",
+    relatedServices: ["junk-removal"],
+    relatedLocations: [],
+    imageAlt: "Illegally dumped furniture on a Los Angeles curbside",
+  },
+  {
+    slug: "what-happens-to-junk-after-pickup",
+    title: "What Actually Happens to Your Junk After Pickup",
+    metaTitle: "Where Does Your Junk Go After Pickup? | Dump Happy",
+    metaDescription:
+      "A reputable hauler doesn't just dump your junk. Here's how donation, recycling, and legal disposal actually work once your items leave your home.",
+    targetKeyword: "where does junk go after removal",
+    category: "Guides",
+    summary: "Donate/recycle/dispose flow; links Furniture + Mattress.",
+    datePublished: "2026-04-27",
+    dateModified: "2026-04-27",
+    relatedServices: ["furniture-removal", "mattress-removal"],
+    relatedLocations: [],
+    imageAlt: "Donated furniture being sorted at a Los Angeles donation center",
+  },
+  {
+    slug: "mattress-disposal-california",
+    title: "How to Dispose of a Mattress in California",
+    metaTitle: "Mattress Disposal Rules in California | Dump Happy",
+    metaDescription:
+      "California recycles old mattresses through the Bye Bye Mattress program, with free drop-offs across LA County. How the program works, and when to hire it out.",
+    targetKeyword: "mattress disposal california",
+    category: "Disposal Rules",
+    summary: "Bye Bye Mattress program, free drop-offs, why hire out; links Mattress Removal.",
+    datePublished: "2026-05-04",
+    dateModified: "2026-05-04",
+    relatedServices: ["mattress-removal"],
+    relatedLocations: [],
+    imageAlt: "Old mattress being loaded for recycling in California",
+  },
+  {
+    slug: "refrigerator-disposal-california",
+    title: "Refrigerator Disposal Rules in California",
+    metaTitle: "Refrigerator Disposal Rules in CA | Dump Happy",
+    metaDescription:
+      "Old fridges hold refrigerant that federal and California law require to be recovered before disposal. Here's what's required, and how rebate programs can help.",
+    targetKeyword: "refrigerator disposal california",
+    category: "Disposal Rules",
+    summary: "EPA 608 refrigerant recovery, rebates; links Appliance Removal.",
+    datePublished: "2026-05-11",
+    dateModified: "2026-05-11",
+    relatedServices: ["appliance-removal"],
+    relatedLocations: [],
+    imageAlt: "Old refrigerator being removed for certified refrigerant recovery",
+  },
+  {
+    slug: "how-to-prep-garage-cleanout",
+    title: "How to Prep for a Garage Clean-Out",
+    metaTitle: "How to Prep for a Garage Clean-Out | Dump Happy",
+    metaDescription:
+      "Getting a garage clean-out quote right starts with a little prep. Here's a simple, step-by-step way to sort your garage before the crew arrives.",
+    targetKeyword: "garage cleanout tips",
+    category: "Guides",
+    summary: "Step-by-step + hazardous sorting; links Garage Clean-Out.",
+    datePublished: "2026-05-18",
+    dateModified: "2026-05-18",
+    relatedServices: ["garage-cleanout"],
+    relatedLocations: [],
+    imageAlt: "Cluttered garage being sorted before a clean-out",
+  },
+  {
+    slug: "estate-cleanout-checklist",
+    title: "Estate Clean-Out Checklist: Where to Start",
+    metaTitle: "Estate Clean-Out Checklist | Dump Happy",
+    metaDescription:
+      "Clearing a family home is overwhelming. This executor-friendly estate clean-out checklist covers valuables, timelines, and where to start first.",
+    targetKeyword: "estate cleanout checklist",
+    category: "Guides",
+    summary: "Executor-focused steps, valuables, timelines; links Estate Clean-Out.",
+    datePublished: "2026-05-25",
+    dateModified: "2026-05-25",
+    relatedServices: ["estate-cleanout"],
+    relatedLocations: ["beverly-hills", "brentwood"],
+    imageAlt: "Executor sorting boxes during an estate clean-out",
+  },
+  {
+    slug: "how-hot-tub-removal-works",
+    title: "How Hot Tub Removal Works (and Why It's Not DIY)",
+    metaTitle: "How Hot Tub Removal Works | Dump Happy",
+    metaDescription:
+      "A dead hot tub is heavier and far more dangerous to remove than it looks. Here's exactly how professional hot tub removal actually works, step by step.",
+    targetKeyword: "hot tub removal process",
+    category: "Guides",
+    summary: "Drain/disconnect/cut/haul, weight, disposal; links Hot Tub Removal.",
+    datePublished: "2026-06-01",
+    dateModified: "2026-06-01",
+    relatedServices: ["hot-tub-removal"],
+    relatedLocations: [],
+    imageAlt: "Hot tub being cut down into sections for removal",
+  },
+  {
+    slug: "construction-debris-recycling-los-angeles",
+    title: "LA's Construction Debris Recycling Rules for Contractors",
+    metaTitle: "LA Construction Debris Recycling Rules | Dump Happy",
+    metaDescription:
+      "LA County requires most construction debris to be recycled, and it can affect your Certificate of Occupancy. What contractors should know before demo day.",
+    targetKeyword: "construction debris recycling los angeles",
+    category: "Disposal Rules",
+    summary: "C&D 70% rule + Certificate of Occupancy angle; links Construction Debris.",
+    datePublished: "2026-06-08",
+    dateModified: "2026-06-08",
+    relatedServices: ["construction-debris-removal"],
+    relatedLocations: ["culver-city", "brentwood"],
+    imageAlt: "Construction debris sorted for recycling at a Los Angeles job site",
+  },
+  {
+    slug: "sb-1383-yard-waste-los-angeles",
+    title: "SB 1383 and Your Yard Waste: What LA Homeowners Should Know",
+    metaTitle: "SB 1383 Yard Waste Rules in LA | Dump Happy",
+    metaDescription:
+      "California's SB 1383 requires yard trimmings to be diverted from landfills. Here's what that means for LA homeowners and landscapers hauling green waste.",
+    targetKeyword: "yard waste rules los angeles",
+    category: "Disposal Rules",
+    summary: "Organics diversion, what counts; links Yard Waste.",
+    datePublished: "2026-06-15",
+    dateModified: "2026-06-15",
+    relatedServices: ["yard-waste-removal"],
+    relatedLocations: [],
+    imageAlt: "Yard trimmings and green waste piled for organics recycling",
+  },
+  {
+    slug: "junk-removal-vs-dumpster-rental",
+    title: "Junk Removal vs. Dumpster Rental: Which Is Cheaper?",
+    metaTitle: "Junk Removal vs Dumpster Rental | Dump Happy",
+    metaDescription:
+      "Not sure whether to book a junk hauler or rent a dumpster for your project? Here's an honest, side-by-side breakdown of when each option makes more sense.",
+    targetKeyword: "junk removal vs dumpster rental",
+    category: "Guides",
+    summary: "When each wins; links Junk Removal + Construction Debris.",
+    datePublished: "2026-06-22",
+    dateModified: "2026-06-22",
+    relatedServices: ["junk-removal", "construction-debris-removal"],
+    relatedLocations: [],
+    imageAlt: "Dumpster rental next to a loaded junk removal truck",
+  },
+  {
+    slug: "helping-a-loved-one-with-hoarding",
+    title: "How to Help a Loved One Facing Hoarding",
+    metaTitle: "Helping a Loved One With Hoarding | Dump Happy",
+    metaDescription:
+      "Supporting someone with hoarding disorder takes patience and the right resources. Here's a compassionate, judgment-free guide to helping them get started.",
+    targetKeyword: "hoarding cleanup help",
+    category: "Guides",
+    summary: "Compassionate, resource-forward guide; links Hoarding Clean-Out.",
+    datePublished: "2026-06-29",
+    dateModified: "2026-06-29",
+    relatedServices: ["hoarding-cleanout"],
+    relatedLocations: [],
+    imageAlt: "A supportive family member helping sort belongings",
+  },
+  {
+    slug: "office-cleanout-ewaste-california",
+    title: "Office Clean-Outs: E-Waste and Data Rules in California",
+    metaTitle: "Office E-Waste Rules in California | Dump Happy",
+    metaDescription:
+      "Old office computers count as covered e-waste in California, and dumping them is illegal. Here's what businesses need to know about disposal and data.",
+    targetKeyword: "office e-waste disposal california",
+    category: "Disposal Rules",
+    summary: "Covered e-waste + data destruction basics; links Commercial.",
+    datePublished: "2026-07-06",
+    dateModified: "2026-07-06",
+    relatedServices: ["commercial-junk-removal"],
+    relatedLocations: ["culver-city", "koreatown"],
+    imageAlt: "Old office computers and monitors staged for e-waste recycling",
+  },
+  {
+    slug: "junk-removal-santa-monica-apartment-moveout",
+    title: "Coastal Apartment Move-Outs: Junk Removal in Santa Monica",
+    metaTitle: "Santa Monica Apartment Move-Out Junk | Dump Happy",
+    metaDescription:
+      "Santa Monica's renter turnover is constant, and move-out junk piles up fast. Here's how apartment junk removal works in one of LA's densest coastal markets.",
+    targetKeyword: "junk removal santa monica",
+    category: "Local Guides",
+    summary: "Renter-turnover angle; links Santa Monica + Furniture.",
+    datePublished: "2026-07-13",
+    dateModified: "2026-07-13",
+    relatedServices: ["furniture-removal"],
+    relatedLocations: ["santa-monica"],
+    imageAlt: "Furniture being moved out of a Santa Monica apartment building",
+  },
+  {
+    slug: "estate-cleanout-beverly-hills-brentwood",
+    title: "Estate Clean-Outs in Beverly Hills & Brentwood",
+    metaTitle: "Estate Clean-Outs in Beverly Hills & Brentwood",
+    metaDescription:
+      "Large-home estate clean-outs in Beverly Hills and Brentwood come with their own challenges — scale, discretion, and canyon access. Here's what to expect.",
+    targetKeyword: "estate cleanout beverly hills",
+    category: "Local Guides",
+    summary: "Large-home/executor guide; links Beverly Hills, Brentwood, Estate.",
+    datePublished: "2026-07-20",
+    dateModified: "2026-07-20",
+    relatedServices: ["estate-cleanout"],
+    relatedLocations: ["beverly-hills", "brentwood"],
+    imageAlt: "Large estate home being cleared out in Beverly Hills",
+  },
+  {
+    slug: "apartment-junk-removal-koreatown-weho",
+    title: "Apartment Junk Removal in Koreatown & West Hollywood",
+    metaTitle: "Apartment Junk Removal: Koreatown & WeHo",
+    metaDescription:
+      "High-density living in Koreatown and West Hollywood means elevators, tight corridors, and small loads. Here's how apartment junk removal works there.",
+    targetKeyword: "apartment junk removal koreatown",
+    category: "Local Guides",
+    summary: "High-density small-load angle; links Koreatown, West Hollywood.",
+    datePublished: "2026-07-27",
+    dateModified: "2026-07-27",
+    relatedServices: ["junk-removal", "furniture-removal"],
+    relatedLocations: ["koreatown", "west-hollywood"],
+    imageAlt: "High-rise apartment building in Koreatown, Los Angeles",
+  },
+  {
+    slug: "garage-cleanout-westchester-lax",
+    title: "Garage Clean-Outs Near LAX: A Westchester Guide",
+    metaTitle: "Garage Clean-Outs Near LAX in Westchester",
+    metaDescription:
+      "Westchester's single-family garages fill up fast near LAX and LMU. Here's a local guide to what a typical Westchester garage clean-out looks like.",
+    targetKeyword: "garage cleanout westchester",
+    category: "Local Guides",
+    summary: "LAX-adjacent single-family angle; links Westchester + Garage Clean-Out.",
+    datePublished: "2026-07-29",
+    dateModified: "2026-07-29",
+    relatedServices: ["garage-cleanout"],
+    relatedLocations: ["westchester"],
+    imageAlt: "Single-family home garage near LAX in Westchester, Los Angeles",
+  },
+];
+
+export function getBlogPostBySlug(slug: string): BlogPostMeta | undefined {
+  return BLOG_POSTS.find((p) => p.slug === slug);
+}

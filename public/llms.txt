@@ -1,0 +1,43 @@
+# Dump Happy
+> Locally owned junk removal and clean-out company serving Los Angeles' Westside, South Bay, and Central LA — fast, load-based pricing, legal disposal, no hidden fees.
+
+## Contact
+- Phone: (424) 356-4141
+- Email: [NEEDS: email]
+- Hours: [NEEDS: hours]
+- Website: https://dumphappy.com
+
+## Services
+- Junk Removal (/services/junk-removal): Full-service household and property junk hauling.
+- Furniture Removal (/services/furniture-removal): Couches and bulky pieces from any room.
+- Appliance Removal (/services/appliance-removal): Fridges, washers, dryers — legal, refrigerant-compliant disposal.
+- Mattress Removal (/services/mattress-removal): Recycled through California's mattress program.
+- Garage Clean-Out (/services/garage-cleanout): Reclaim your garage in one visit.
+- Estate/Property Clean-Out (/services/estate-cleanout): Compassionate whole-home clear-outs.
+- Construction Debris Removal (/services/construction-debris-removal): C&D debris to certified recyclers.
+- Hoarding Clean-Out (/services/hoarding-cleanout): Discreet, compassionate clutter removal.
+- Hot Tub Removal (/services/hot-tub-removal): Drain, disconnect, cut down, and haul.
+- Commercial Junk Removal (/services/commercial-junk-removal): Office and retail clear-outs; e-waste to certified recyclers.
+- Yard/Green Waste Removal (/services/yard-waste-removal): Trimmings and storm debris to organics facilities.
+
+## Service Areas
+- Santa Monica (/locations/santa-monica): Coastal apartment turnovers and downsizing.
+- Culver City (/locations/culver-city): Office clear-outs and condo turnovers.
+- Beverly Hills (/locations/beverly-hills): Discreet estate clean-outs.
+- West Hollywood (/locations/west-hollywood): Dense apartment/condo small-load pickups.
+- Marina Del Rey (/locations/marina-del-rey): HOA-friendly waterfront condo clear-outs.
+- Venice (/locations/venice): Access-challenged canal and walk-street hauling.
+- Sawtelle (/locations/sawtelle): Little Osaka apartment and small-business clear-outs.
+- Brentwood (/locations/brentwood): Large-home and canyon estate clean-outs.
+- Westchester (/locations/westchester): LAX-adjacent garage and estate clean-outs.
+- Mid-City (/locations/mid-city): Older-home and renovation clear-outs (central LA).
+- Koreatown (/locations/koreatown): High-rise apartment turnovers (central LA).
+
+## Company
+- About (/about): Locally owned LA junk removal, honest load-based pricing.
+- Reviews (/reviews): Real Google reviews from customers across LA.
+- Gallery (/gallery): Before-and-after job photos.
+- Contact (/contact): Free quotes by phone or form.
+
+## Blog
+- /blog: Guides on junk removal cost, disposal laws, and LA-specific clean-out advice.
