@@ -43,9 +43,11 @@ export default function PricingPage() {
             {PRICING_TIERS.map((tier) => (
               <div key={tier.key} className="rounded-xl border border-black/10 bg-white p-6">
                 <div className="flex items-baseline justify-between gap-4">
-                  <h3 className="font-bold text-brand-black">{tier.name}</h3>
-                  <span className="rounded-full bg-brand-orange/10 px-3 py-1 text-xs font-bold text-brand-orange">
-                    [NEEDS: price]
+                  <h3 className="font-bold text-brand-black">
+                    {tier.name} <span className="font-normal text-brand-gray">({tier.subtitle})</span>
+                  </h3>
+                  <span className="whitespace-nowrap rounded-full bg-brand-orange/10 px-3 py-1 text-xs font-bold text-brand-orange">
+                    From ${tier.priceFrom}
                   </span>
                 </div>
                 <p className="mt-2 text-sm text-brand-gray">{tier.description}</p>
@@ -53,8 +55,9 @@ export default function PricingPage() {
             ))}
           </div>
           <p className="mt-6 text-xs text-brand-gray">
-            Pricing shown above is pending final rates from Dump Happy — call
-            or request a quote for an accurate, up-to-date price for your job.
+            Final pricing depends on crew size, volume and weight of
+            materials, and accessibility (including stairs and distance).
+            Get a free, firm quote before we lift a finger.
           </p>
         </div>
       </section>
