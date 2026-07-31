@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { SERVICES } from "@/lib/data/services";
@@ -74,9 +75,15 @@ export function Nav() {
   return (
     <header className="sticky top-0 z-50 bg-brand-black text-white">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        <Link href="/" className="flex min-h-12 items-center gap-2 text-lg font-extrabold">
-          <span className="inline-block h-3 w-3 rounded-full bg-brand-orange" aria-hidden="true" />
-          Dump Happy
+        <Link href="/" className="flex min-h-12 items-center">
+          <Image
+            src="/logo.webp"
+            alt="Dump Happy - Junk Removal"
+            width={381}
+            height={254}
+            priority
+            className="h-12 w-auto"
+          />
         </Link>
 
         <nav className="hidden items-center lg:flex" aria-label="Primary">

@@ -147,7 +147,7 @@ export default function HomePage() {
             </Link>
           </div>
           <div className="mt-8">
-            <ReviewSlot contextKey="general" label="Dump Happy" />
+            <ReviewSlot contextKey="general" label="Dump Happy" limit={3} />
           </div>
         </div>
       </section>

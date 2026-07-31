@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { buildMetadata, breadcrumbJsonLd, localBusinessJsonLd } from "@/lib/seo";
 import { JsonLd } from "@/components/JsonLd";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -41,16 +42,30 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-        <h2 className="text-2xl font-extrabold text-brand-black">Our Story</h2>
-        <p className="mt-4 leading-relaxed text-brand-charcoal">
-          Whether you&apos;re clearing a garage, tackling a renovation, managing
-          an estate clean-out, or removing construction debris, Jason and the
-          Dump Happy crew make it fast and hassle-free — showing up on time,
-          working hard, and treating every property with respect. From a
-          single-item pickup to a full property clean-out, we&apos;re ready to
-          help keep Southern California clean, safe, and clutter-free.
-        </p>
+      <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 gap-10 lg:grid-cols-5 lg:items-center">
+          <div className="lg:col-span-3">
+            <h2 className="text-2xl font-extrabold text-brand-black">Our Story</h2>
+            <p className="mt-4 leading-relaxed text-brand-charcoal">
+              Whether you&apos;re clearing a garage, tackling a renovation, managing
+              an estate clean-out, or removing construction debris, Jason and the
+              Dump Happy crew make it fast and hassle-free — showing up on time,
+              working hard, and treating every property with respect. From a
+              single-item pickup to a full property clean-out, we&apos;re ready to
+              help keep Southern California clean, safe, and clutter-free.
+            </p>
+          </div>
+          <div className="lg:col-span-2">
+            <Image
+              src="/team-photo.webp"
+              alt="The Dump Happy team wearing Dump Happy Junk Removal t-shirts"
+              width={1476}
+              height={1969}
+              sizes="(min-width: 1024px) 360px, 80vw"
+              className="mx-auto w-full max-w-sm rounded-xl object-cover shadow-md"
+            />
+          </div>
+        </div>
       </section>
 
       <section className="bg-brand-offwhite">

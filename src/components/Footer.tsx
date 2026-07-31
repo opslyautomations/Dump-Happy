@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { SERVICES } from "@/lib/data/services";
 import { LOCATIONS } from "@/lib/data/locations";
@@ -10,9 +11,14 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-5">
           <div className="lg:col-span-2">
-            <Link href="/" className="flex items-center gap-2 text-xl font-extrabold">
-              <span className="inline-block h-3 w-3 rounded-full bg-brand-orange" aria-hidden="true" />
-              Dump Happy
+            <Link href="/" className="flex items-center">
+              <Image
+                src="/logo.webp"
+                alt="Dump Happy - Junk Removal"
+                width={381}
+                height={254}
+                className="h-14 w-auto"
+              />
             </Link>
             <p className="mt-3 text-sm font-semibold text-brand-orange">{SITE.tagline}</p>
             <p className="mt-4 max-w-sm text-sm text-white/70">

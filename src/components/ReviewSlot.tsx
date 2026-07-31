@@ -13,8 +13,17 @@ function Stars({ rating }: { rating: number }) {
   );
 }
 
-export function ReviewSlot({ contextKey, label }: { contextKey: string; label: string }) {
-  const reviews = getReviews(contextKey);
+export function ReviewSlot({
+  contextKey,
+  label,
+  limit,
+}: {
+  contextKey: string;
+  label: string;
+  limit?: number;
+}) {
+  const allReviews = getReviews(contextKey);
+  const reviews = limit ? allReviews.slice(0, limit) : allReviews;
 
   if (reviews.length === 0) {
     return (
@@ -39,7 +48,8 @@ export function ReviewSlot({ contextKey, label }: { contextKey: string; label: s
           <Stars rating={r.rating} />
           <blockquote className="mt-3 text-sm text-brand-charcoal">&ldquo;{r.text}&rdquo;</blockquote>
           <figcaption className="mt-4 text-sm font-semibold text-brand-black">
-            {r.reviewerName} <span className="font-normal text-brand-gray">· {r.city}</span>
+            {r.reviewerName}
+            {r.city ? <span className="font-normal text-brand-gray"> · {r.city}</span> : null}
           </figcaption>
         </figure>
       ))}
