@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { SITE } from "@/lib/data/site";
 import { buildMetadata, organizationJsonLd } from "@/lib/seo";
@@ -9,6 +10,9 @@ import { LocationsGrid } from "@/components/LocationsGrid";
 import { ReviewSlot } from "@/components/ReviewSlot";
 import { CTABand } from "@/components/CTABand";
 import { Callout } from "@/components/Callout";
+import { GALLERY_PHOTOS } from "@/lib/data/gallery";
+
+const RECENT_WORK_PREVIEW = GALLERY_PHOTOS.slice(0, 4);
 
 export const metadata: Metadata = buildMetadata({
   title: "Junk Removal in Los Angeles | Dump Happy",
@@ -125,13 +129,21 @@ export default function HomePage() {
           </Link>
         </div>
         <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
-          {Array.from({ length: 4 }).map((_, i) => (
-            <div
-              key={i}
-              className="flex aspect-square items-center justify-center rounded-xl border border-dashed border-brand-gray/40 bg-brand-offwhite text-xs text-brand-gray"
+          {RECENT_WORK_PREVIEW.map((photo) => (
+            <Link
+              key={photo.src}
+              href="/gallery"
+              className="block overflow-hidden rounded-xl bg-brand-offwhite"
             >
-              Job photo coming soon
-            </div>
+              <Image
+                src={photo.src}
+                alt={photo.alt}
+                width={photo.width}
+                height={photo.height}
+                sizes="(min-width: 640px) 25vw, 50vw"
+                className="aspect-square w-full object-cover transition hover:scale-105"
+              />
+            </Link>
           ))}
         </div>
       </section>
