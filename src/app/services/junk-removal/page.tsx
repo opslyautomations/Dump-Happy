@@ -18,7 +18,6 @@ import { Callout } from "@/components/Callout";
 import { Hero } from "@/components/page-sections/Hero";
 import { Section } from "@/components/page-sections/Section";
 import { ProcessSteps } from "@/components/page-sections/ProcessSteps";
-import { JOB_PHOTOS } from "@/lib/data/job-photos";
 
 export const metadata: Metadata = buildMetadata({
   title: "Junk Removal in Los Angeles | Dump Happy Hauling",
@@ -130,14 +129,7 @@ export default function JunkRemovalPage() {
         h1="Junk Removal in Los Angeles — We Do the Lifting, You Reclaim the Space"
         intro={intro}
         aside={<QuoteForm compact variant="glass" defaultService="junk-removal" />}
-        background={{
-          type: "photo",
-          src: JOB_PHOTOS.truck.src,
-          alt: "Dump Happy truck and dump trailer parked on a Los Angeles street for a junk removal job",
-          width: JOB_PHOTOS.truck.width,
-          height: JOB_PHOTOS.truck.height,
-          focal: "center 30%",
-        }}
+        background={{ type: "pattern", tone: "charcoal" }}
       />
 
       <ProcessSteps heading="How Junk Removal Works" steps={steps} />

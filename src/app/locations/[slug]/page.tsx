@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
-import type { ReactNode } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { LOCATIONS } from "@/lib/data/locations";
 import { LOCATIONS_CONTENT, getLocationContent } from "@/lib/data/locations-content";
-import { getLocationPresentation, type LocationHeroStyle } from "@/lib/data/locations-presentation";
+import { getLocationPresentation } from "@/lib/data/locations-presentation";
 import {
   buildMetadata,
   localBusinessJsonLd,
@@ -18,54 +17,9 @@ import { ReviewSlot } from "@/components/ReviewSlot";
 import { CTABand } from "@/components/CTABand";
 import { ServicesGrid } from "@/components/ServicesGrid";
 import { QuoteForm } from "@/components/QuoteForm";
-import { Hero, type HeroBackground } from "@/components/page-sections/Hero";
+import { Hero } from "@/components/page-sections/Hero";
 import { Section } from "@/components/page-sections/Section";
-import { ImageTextSplit } from "@/components/page-sections/ImageTextSplit";
-import { FramedPhoto } from "@/components/page-sections/FramedPhoto";
-import { BeforeAfterTiles } from "@/components/page-sections/BeforeAfterTiles";
-import { PhotoStrip } from "@/components/page-sections/PhotoStrip";
 import { LocalServiceCard } from "@/components/page-sections/LocalServiceCard";
-
-function heroSlotsFor(style: LocationHeroStyle): {
-  background: HeroBackground;
-  media?: ReactNode;
-  asideMedia?: ReactNode;
-} {
-  switch (style.kind) {
-    case "photoBleed":
-      return {
-        background: {
-          type: "photo",
-          src: style.photo.src,
-          alt: style.photo.alt,
-          width: style.photo.width,
-          height: style.photo.height,
-          focal: style.focal,
-        },
-      };
-    case "photoStrip":
-      return { background: { type: "solid" }, media: <PhotoStrip photos={style.photos} /> };
-    case "pattern":
-      return { background: { type: "pattern", tone: style.tone } };
-    case "splitImage":
-      return {
-        background: { type: "solid" },
-        asideMedia: (
-          <FramedPhoto photo={style.photo} rotate={style.rotate} accent={style.accent} />
-        ),
-      };
-    case "beforeAfter":
-      return {
-        background: { type: "solid" },
-        media: <BeforeAfterTiles standalone={false} before={style.before} after={style.after} />,
-      };
-    case "teamTrust":
-      return {
-        background: { type: "solid" },
-        asideMedia: <FramedPhoto photo={style.photo} rotate accent />,
-      };
-  }
-}
 
 export function generateStaticParams() {
   return LOCATIONS.map((l) => ({ slug: l.slug }));
@@ -96,7 +50,6 @@ export default async function LocationPage({
   if (!content) notFound();
 
   const presentation = getLocationPresentation(content.slug);
-  const heroSlots = heroSlotsFor(presentation.hero);
 
   const path = `/locations/${content.slug}`;
   const nearbyLocations = content.nearby
@@ -128,35 +81,23 @@ export default async function LocationPage({
       <Hero
         h1={content.h1}
         intro={<p>{content.localLead}</p>}
-        background={heroSlots.background}
-        media={heroSlots.media}
-        asideMedia={heroSlots.asideMedia}
+        background={presentation.hero}
         aside={<QuoteForm compact variant={presentation.formVariant} defaultCity={content.slug} />}
       />
 
-      {presentation.bodyImage ? (
-        <ImageTextSplit
-          heading={content.localAngleHeading}
-          image={presentation.bodyImage.photo}
-          imageSide={presentation.bodyImage.side}
-        >
-          <p>{content.localAngle}</p>
-        </ImageTextSplit>
-      ) : (
-        <Section bg="white">
-          <h2 className="text-2xl font-extrabold text-brand-black">{content.localAngleHeading}</h2>
-          <p className="mt-4 leading-relaxed text-brand-charcoal">{content.localAngle}</p>
-        </Section>
-      )}
+      <Section bg="white">
+        <h2 className="text-2xl font-extrabold text-brand-black">{content.localAngleHeading}</h2>
+        <p className="mt-4 leading-relaxed text-brand-charcoal">{content.localAngle}</p>
+      </Section>
 
-      <Section bg={presentation.bodyImage ? "offwhite" : "white"}>
+      <Section bg="offwhite">
         <h2 className="text-2xl font-extrabold text-brand-black">
           Neighborhoods &amp; Areas We Serve
         </h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">{content.neighborhoods}</p>
       </Section>
 
-      <Section bg={presentation.bodyImage ? "white" : "offwhite"}>
+      <Section bg="white">
         <h2 className="text-2xl font-extrabold text-brand-black">
           Services Available in {content.name}
         </h2>
@@ -189,7 +130,7 @@ export default async function LocationPage({
         <p className="mt-8 leading-relaxed text-brand-charcoal">{content.coverage}</p>
       </Section>
 
-      <Section bg={presentation.bodyImage ? "offwhite" : "white"}>
+      <Section bg="offwhite">
         <h2 className="text-2xl font-extrabold text-brand-black">
           What {content.name} Customers Say
         </h2>
@@ -198,7 +139,7 @@ export default async function LocationPage({
         </div>
       </Section>
 
-      <Section bg={presentation.bodyImage ? "white" : "offwhite"}>
+      <Section bg="white">
         <h2 className="text-2xl font-extrabold text-brand-black">
           Frequently Asked Questions — {content.name}
         </h2>

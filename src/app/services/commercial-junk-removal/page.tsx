@@ -17,8 +17,6 @@ import { QuoteForm } from "@/components/QuoteForm";
 import { Callout } from "@/components/Callout";
 import { Hero } from "@/components/page-sections/Hero";
 import { Section } from "@/components/page-sections/Section";
-import { ImageTextSplit } from "@/components/page-sections/ImageTextSplit";
-import { JOB_PHOTOS } from "@/lib/data/job-photos";
 
 const SERVICE_NAME = "Commercial Junk Removal";
 const PATH = "/services/commercial-junk-removal";
@@ -149,21 +147,15 @@ export default function CommercialJunkRemovalPage() {
         </div>
       </Section>
 
-      <ImageTextSplit
-        heading="Logistics"
-        image={{
-          ...JOB_PHOTOS.furniture,
-          alt: "Trailer loaded with furniture during an office or commercial clear-out in Los Angeles",
-        }}
-        imageSide="left"
-      >
-        <p>
+      <Section bg="offwhite">
+        <h2 className="text-2xl font-extrabold text-brand-black">Logistics</h2>
+        <p className="mt-4 leading-relaxed text-brand-charcoal">
           After-hours and weekend scheduling so we&apos;re not disrupting your business,
           certificate of insurance (COI) for building management on request, and recurring
           pickups for ongoing turnover. Tell us the building&apos;s rules and we&apos;ll work
           within them.
         </p>
-      </ImageTextSplit>
+      </Section>
 
       <Section>
         <h2 className="text-2xl font-extrabold text-brand-black">What Our Clients Say</h2>

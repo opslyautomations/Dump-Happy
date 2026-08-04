@@ -1,46 +1,20 @@
 import type { ReactNode } from "react";
-import { PageImage } from "@/components/PageImage";
 
-export type HeroBackground =
-  | { type: "solid" }
-  | { type: "photo"; src: string; alt: string; width: number; height: number; focal?: string }
-  | { type: "pattern"; tone?: "orange" | "charcoal" };
+export type HeroBackground = { type: "solid" } | { type: "pattern"; tone?: "orange" | "charcoal" };
 
 export function Hero({
   h1,
   intro,
   aside,
   background = { type: "solid" },
-  media,
-  asideMedia,
 }: {
   h1: ReactNode;
   intro: ReactNode;
   aside: ReactNode;
   background?: HeroBackground;
-  media?: ReactNode;
-  asideMedia?: ReactNode;
 }) {
   return (
     <section className="relative overflow-hidden bg-brand-black">
-      {background.type === "photo" && (
-        <>
-          <div className="absolute inset-0">
-            <PageImage
-              src={background.src}
-              alt={background.alt}
-              width={background.width}
-              height={background.height}
-              sizes="100vw"
-              priority
-              className="h-full w-full object-cover"
-              objectPosition={background.focal}
-            />
-          </div>
-          <div className="absolute inset-0 bg-gradient-to-r from-brand-black via-brand-black/85 to-brand-black/50" />
-        </>
-      )}
-
       {background.type === "pattern" && (
         <div
           aria-hidden="true"
@@ -58,12 +32,8 @@ export function Hero({
         <div className="lg:col-span-3">
           <h1 className="text-3xl font-extrabold leading-tight text-white sm:text-4xl">{h1}</h1>
           <div className="mt-6 max-w-xl text-lg leading-relaxed text-white/80">{intro}</div>
-          {media && <div className="mt-8 max-w-xl">{media}</div>}
         </div>
-        <div className="lg:col-span-2">
-          {asideMedia && <div className="mb-4">{asideMedia}</div>}
-          {aside}
-        </div>
+        <div className="lg:col-span-2">{aside}</div>
       </div>
     </section>
   );

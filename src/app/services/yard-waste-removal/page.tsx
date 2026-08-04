@@ -18,8 +18,6 @@ import { Callout } from "@/components/Callout";
 import { Hero } from "@/components/page-sections/Hero";
 import { Section } from "@/components/page-sections/Section";
 import { PillList } from "@/components/page-sections/PillList";
-import { BeforeAfterTiles } from "@/components/page-sections/BeforeAfterTiles";
-import { JOB_PHOTOS } from "@/lib/data/job-photos";
 
 const SERVICE_NAME = "Yard/Green Waste Removal";
 const PATH = "/services/yard-waste-removal";
@@ -93,13 +91,7 @@ export default function YardWasteRemovalPage() {
       />
 
       <Hero
-        background={{
-          type: "photo",
-          src: JOB_PHOTOS.branches.src,
-          alt: "Dump Happy crew member loading tree branches and yard waste into a truck bed",
-          width: JOB_PHOTOS.branches.width,
-          height: JOB_PHOTOS.branches.height,
-        }}
+        background={{ type: "pattern", tone: "orange" }}
         h1={<>Yard &amp; Green Waste Removal in Los Angeles</>}
         intro={
           <p>
@@ -160,14 +152,7 @@ export default function YardWasteRemovalPage() {
         </p>
       </Section>
 
-      <BeforeAfterTiles
-        heading="A Real Yard Clean-Out"
-        before={{ ...JOB_PHOTOS.yardBefore }}
-        after={{ ...JOB_PHOTOS.yardAfter }}
-        bg="offwhite"
-      />
-
-      <Section>
+      <Section bg="offwhite">
         <h2 className="text-2xl font-extrabold text-brand-black">
           Storm and Overgrowth Cleanup
         </h2>
@@ -178,14 +163,14 @@ export default function YardWasteRemovalPage() {
         </p>
       </Section>
 
-      <Section bg="offwhite">
+      <Section>
         <h2 className="text-2xl font-extrabold text-brand-black">What Our Clients Say</h2>
         <div className="mt-6">
           <ReviewSlot contextKey="service:yard-waste-removal" label={SERVICE_NAME} />
         </div>
       </Section>
 
-      <Section>
+      <Section bg="offwhite">
         <h2 className="text-2xl font-extrabold text-brand-black">
           Frequently Asked Questions
         </h2>
@@ -194,7 +179,7 @@ export default function YardWasteRemovalPage() {
         </div>
       </Section>
 
-      <Section bg="offwhite">
+      <Section>
         <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-brand-gray">
           <span className="font-semibold text-brand-black">Related services:</span>
           <Link href="/services/junk-removal" className="text-brand-orange hover:underline">

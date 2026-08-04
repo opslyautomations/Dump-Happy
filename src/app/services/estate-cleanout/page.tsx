@@ -16,9 +16,7 @@ import { ServicesGrid } from "@/components/ServicesGrid";
 import { QuoteForm } from "@/components/QuoteForm";
 import { Hero } from "@/components/page-sections/Hero";
 import { Section } from "@/components/page-sections/Section";
-import { FramedPhoto } from "@/components/page-sections/FramedPhoto";
 import { Callout } from "@/components/Callout";
-import { JOB_PHOTOS } from "@/lib/data/job-photos";
 
 const SERVICE_NAME = "Estate/Property Clean-Out";
 const PATH = "/services/estate-cleanout";
@@ -104,15 +102,6 @@ export default function EstateCleanoutPage() {
             Whether you&apos;re an executor with a probate timeline, a family downsizing a
             parent, or a realtor prepping a listing, we take the physical weight off you.
           </>
-        }
-        asideMedia={
-          <FramedPhoto
-            photo={{
-              ...JOB_PHOTOS.furniture,
-              alt: "Furnishings cleared during a Los Angeles estate clean-out",
-            }}
-            rotate
-          />
         }
         aside={<QuoteForm compact variant="card" defaultService="estate-cleanout" />}
       />

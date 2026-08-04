@@ -15,10 +15,7 @@ import { CTABand } from "@/components/CTABand";
 import { ServicesGrid } from "@/components/ServicesGrid";
 import { Hero } from "@/components/page-sections/Hero";
 import { Section } from "@/components/page-sections/Section";
-import { FramedPhoto } from "@/components/page-sections/FramedPhoto";
-import { ImageTextSplit } from "@/components/page-sections/ImageTextSplit";
 import { PillList } from "@/components/page-sections/PillList";
-import { JOB_PHOTOS } from "@/lib/data/job-photos";
 import { QuoteForm } from "@/components/QuoteForm";
 
 export const metadata: Metadata = buildMetadata({
@@ -119,12 +116,7 @@ export default function FurnitureRemovalPage() {
       <Hero
         h1="Furniture Removal in Los Angeles — From One Couch to a Whole House"
         intro={<p>{intro}</p>}
-        asideMedia={
-          <FramedPhoto
-            photo={{ ...JOB_PHOTOS.furniture, alt: "Bulky furniture loaded for haul-away in Los Angeles" }}
-            accent
-          />
-        }
+        background={{ type: "pattern", tone: "charcoal" }}
         aside={<QuoteForm compact variant="card" defaultService="furniture-removal" />}
       />
 
@@ -152,22 +144,19 @@ export default function FurnitureRemovalPage() {
         <p className="mt-4 leading-relaxed text-brand-charcoal">{donationText}</p>
       </Section>
 
-      <ImageTextSplit
-        heading="In-Home vs. Curbside"
-        image={{ ...JOB_PHOTOS.truck, alt: "Dump Happy truck ready for a furniture haul-away in Los Angeles" }}
-        imageSide="left"
-      >
-        <p>{inHomeCurbsideText}</p>
-      </ImageTextSplit>
-
       <Section bg="offwhite">
+        <h2 className="text-2xl font-extrabold text-brand-black">In-Home vs. Curbside</h2>
+        <p className="mt-4 leading-relaxed text-brand-charcoal">{inHomeCurbsideText}</p>
+      </Section>
+
+      <Section>
         <h2 className="text-2xl font-extrabold text-brand-black">What Our Customers Say</h2>
         <div className="mt-6">
           <ReviewSlot contextKey="service:furniture-removal" label="Furniture Removal" />
         </div>
       </Section>
 
-      <Section>
+      <Section bg="offwhite">
         <p className="leading-relaxed text-brand-charcoal">
           Getting rid of the bed too? See{" "}
           <Link
@@ -202,7 +191,7 @@ export default function FurnitureRemovalPage() {
         </p>
       </Section>
 
-      <Section bg="offwhite">
+      <Section>
         <h2 className="text-2xl font-extrabold text-brand-black">
           Frequently Asked Questions
         </h2>

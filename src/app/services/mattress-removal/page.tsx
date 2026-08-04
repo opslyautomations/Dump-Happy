@@ -16,9 +16,7 @@ import { ServicesGrid } from "@/components/ServicesGrid";
 import { Callout } from "@/components/Callout";
 import { Hero } from "@/components/page-sections/Hero";
 import { Section } from "@/components/page-sections/Section";
-import { FramedPhoto } from "@/components/page-sections/FramedPhoto";
 import { PillList } from "@/components/page-sections/PillList";
-import { JOB_PHOTOS } from "@/lib/data/job-photos";
 import { QuoteForm } from "@/components/QuoteForm";
 
 export const metadata: Metadata = buildMetadata({
@@ -105,14 +103,7 @@ export default function MattressRemovalPage() {
       <Hero
         h1="Mattress Removal in Los Angeles — Off Your Floor, Into California's Recycling Stream"
         intro={<p>{intro}</p>}
-        asideMedia={
-          <FramedPhoto
-            photo={{
-              ...JOB_PHOTOS.mattress,
-              alt: "Dump Happy truck loaded with mattresses for a mattress removal job in Los Angeles",
-            }}
-          />
-        }
+        background={{ type: "pattern", tone: "orange" }}
         aside={<QuoteForm compact variant="glass" defaultService="mattress-removal" />}
       />
 

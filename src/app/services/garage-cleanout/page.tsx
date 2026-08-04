@@ -19,8 +19,6 @@ import { Hero } from "@/components/page-sections/Hero";
 import { Section } from "@/components/page-sections/Section";
 import { ProcessSteps } from "@/components/page-sections/ProcessSteps";
 import { PillList } from "@/components/page-sections/PillList";
-import { BeforeAfterTiles } from "@/components/page-sections/BeforeAfterTiles";
-import { JOB_PHOTOS } from "@/lib/data/job-photos";
 
 export const metadata: Metadata = buildMetadata({
   title: "Garage Clean-Out in Los Angeles | Dump Happy",
@@ -134,13 +132,7 @@ export default function GarageCleanoutPage() {
       <Hero
         h1="Garage Clean-Out in Los Angeles — Park in It Again"
         intro={<p>{intro}</p>}
-        media={
-          <BeforeAfterTiles
-            standalone={false}
-            before={JOB_PHOTOS.garageBefore}
-            after={JOB_PHOTOS.garageAfter}
-          />
-        }
+        background={{ type: "pattern", tone: "orange" }}
         aside={<QuoteForm compact variant="accent" defaultService="garage-cleanout" />}
       />
 

@@ -17,9 +17,6 @@ import { QuoteForm } from "@/components/QuoteForm";
 import { Callout } from "@/components/Callout";
 import { Hero } from "@/components/page-sections/Hero";
 import { Section } from "@/components/page-sections/Section";
-import { PhotoStrip } from "@/components/page-sections/PhotoStrip";
-import { ImageTextSplit } from "@/components/page-sections/ImageTextSplit";
-import { JOB_PHOTOS } from "@/lib/data/job-photos";
 
 const SERVICE_NAME = "Construction Debris Removal";
 const PATH = "/services/construction-debris-removal";
@@ -106,7 +103,7 @@ export default function ConstructionDebrisRemovalPage() {
             and clean job sites without a dumpster parked out front for a week.
           </>
         }
-        media={<PhotoStrip photos={[JOB_PHOTOS.debris, JOB_PHOTOS.tip, JOB_PHOTOS.truck]} />}
+        background={{ type: "pattern", tone: "charcoal" }}
         aside={
           <QuoteForm compact variant="card" defaultService="construction-debris-removal" />
         }
@@ -151,21 +148,14 @@ export default function ConstructionDebrisRemovalPage() {
         </p>
       </Section>
 
-      <ImageTextSplit
-        heading="What We Can't Take"
-        image={{
-          ...JOB_PHOTOS.tip,
-          alt: "Dump Happy trailer tipping a load of debris at a certified recycling and disposal facility",
-        }}
-        imageSide="right"
-        bg="offwhite"
-      >
-        <p>
+      <Section bg="offwhite">
+        <h2 className="text-2xl font-extrabold text-brand-black">What We Can&apos;t Take</h2>
+        <p className="mt-4 leading-relaxed text-brand-charcoal">
           Household hazardous waste and materials like asbestos, wet paint, and solvents
           can&apos;t ride in a standard truck — those need specialized handling. Flag them and
           we&apos;ll point you to the right route.
         </p>
-      </ImageTextSplit>
+      </Section>
 
       <Section>
         <h2 className="text-2xl font-extrabold text-brand-black">What Our Clients Say</h2>
