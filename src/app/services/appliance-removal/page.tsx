@@ -13,6 +13,11 @@ import { FAQAccordion } from "@/components/FAQAccordion";
 import { ReviewSlot } from "@/components/ReviewSlot";
 import { CTABand } from "@/components/CTABand";
 import { ServicesGrid } from "@/components/ServicesGrid";
+import { Hero } from "@/components/page-sections/Hero";
+import { Section } from "@/components/page-sections/Section";
+import { PillList } from "@/components/page-sections/PillList";
+import { QuoteForm } from "@/components/QuoteForm";
+import { Callout } from "@/components/Callout";
 
 export const metadata: Metadata = buildMetadata({
   title: "Appliance Removal in Los Angeles | Dump Happy",
@@ -107,91 +112,74 @@ export default function ApplianceRemovalPage() {
 
       <Breadcrumbs items={breadcrumbItems} />
 
-      <section className="bg-brand-black">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <p className="text-sm font-bold uppercase tracking-wide text-brand-orange">
-            Legal, Compliant Appliance Disposal
-          </p>
-          <h1 className="mt-3 text-3xl font-extrabold leading-tight text-white sm:text-4xl">
-            Appliance Removal in Los Angeles — Hauled Out, Recycled, and Disposed of Legally
-          </h1>
-          <p className="mt-6 leading-relaxed text-white/80">{intro}</p>
-        </div>
-      </section>
+      <Hero
+        h1="Appliance Removal in Los Angeles — Hauled Out, Recycled, and Disposed of Legally"
+        intro={
+          <>
+            <p className="text-sm font-bold uppercase tracking-wide text-brand-orange">
+              Legal, Compliant Appliance Disposal
+            </p>
+            <p className="mt-3">{intro}</p>
+          </>
+        }
+        background={{ type: "pattern", tone: "charcoal" }}
+        aside={<QuoteForm compact variant="card" defaultService="appliance-removal" />}
+      />
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section>
         <h2 className="text-2xl font-extrabold text-brand-black">{regulationHeading}</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">{regulationText}</p>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black sm:text-3xl">
-            Appliances We Remove
-          </h2>
-          <div className="mt-6 flex flex-wrap gap-3">
-            {applianceChips.map((chip) => (
-              <span
-                key={chip}
-                className="rounded-full border border-brand-orange/30 bg-white px-4 py-2 text-sm font-semibold text-brand-black"
-              >
-                {chip}
-              </span>
-            ))}
-          </div>
-        </div>
-      </section>
+      <PillList heading="Appliances We Remove" items={applianceChips} bg="offwhite" />
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-        <h2 className="text-2xl font-extrabold text-brand-black">{rebateHeading}</h2>
-        <p className="mt-4 leading-relaxed text-brand-charcoal">{rebateText}</p>
-      </section>
+      <Section>
+        <Callout title={rebateHeading} variant="info">
+          {rebateText}
+        </Callout>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">How It Works</h2>
-          <p className="mt-4 leading-relaxed text-brand-charcoal">{howItWorksText}</p>
-        </div>
-      </section>
+      <Section bg="offwhite">
+        <h2 className="text-2xl font-extrabold text-brand-black">How It Works</h2>
+        <p className="mt-4 leading-relaxed text-brand-charcoal">{howItWorksText}</p>
+      </Section>
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section>
         <h2 className="text-2xl font-extrabold text-brand-black">What Our Customers Say</h2>
         <div className="mt-6">
           <ReviewSlot contextKey="service:appliance-removal" label="Appliance Removal" />
         </div>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <p className="leading-relaxed text-brand-charcoal">
-            Clearing the whole garage the fridge lives in? See{" "}
-            <Link
-              href="/services/garage-cleanout"
-              className="font-semibold text-brand-orange hover:underline"
-            >
-              Garage Clean-Out
-            </Link>
-            . Furniture going too?{" "}
-            <Link
-              href="/services/furniture-removal"
-              className="font-semibold text-brand-orange hover:underline"
-            >
-              Furniture Removal
-            </Link>
-            .
-          </p>
-          <p className="mt-4 leading-relaxed text-brand-charcoal">
-            We serve Santa Monica, Culver City, Beverly Hills, and eight other Los Angeles
-            communities — see our full list of{" "}
-            <Link href="/locations" className="font-semibold text-brand-orange hover:underline">
-              service areas
-            </Link>
-            .
-          </p>
-        </div>
-      </section>
+      <Section bg="offwhite">
+        <p className="leading-relaxed text-brand-charcoal">
+          Clearing the whole garage the fridge lives in? See{" "}
+          <Link
+            href="/services/garage-cleanout"
+            className="font-semibold text-brand-orange hover:underline"
+          >
+            Garage Clean-Out
+          </Link>
+          . Furniture going too?{" "}
+          <Link
+            href="/services/furniture-removal"
+            className="font-semibold text-brand-orange hover:underline"
+          >
+            Furniture Removal
+          </Link>
+          .
+        </p>
+        <p className="mt-4 leading-relaxed text-brand-charcoal">
+          We serve Santa Monica, Culver City, Beverly Hills, and eight other Los Angeles
+          communities — see our full list of{" "}
+          <Link href="/locations" className="font-semibold text-brand-orange hover:underline">
+            service areas
+          </Link>
+          .
+        </p>
+      </Section>
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section>
         <h2 className="text-2xl font-extrabold text-brand-black">Frequently Asked Questions</h2>
         <div className="mt-6">
           <FAQAccordion faqs={faqs} />
@@ -216,7 +204,7 @@ export default function ApplianceRemovalPage() {
             CA DTSC Certified Appliance Recycler program
           </a>
         </p>
-      </section>
+      </Section>
 
       <ServicesGrid heading="Explore All Our Services" />
 

@@ -15,6 +15,12 @@ import { CTABand } from "@/components/CTABand";
 import { ServicesGrid } from "@/components/ServicesGrid";
 import { QuoteForm } from "@/components/QuoteForm";
 import { Callout } from "@/components/Callout";
+import { Hero } from "@/components/page-sections/Hero";
+import { Section } from "@/components/page-sections/Section";
+import { ProcessSteps } from "@/components/page-sections/ProcessSteps";
+import { PillList } from "@/components/page-sections/PillList";
+import { BeforeAfterTiles } from "@/components/page-sections/BeforeAfterTiles";
+import { JOB_PHOTOS } from "@/lib/data/job-photos";
 
 export const metadata: Metadata = buildMetadata({
   title: "Garage Clean-Out in Los Angeles | Dump Happy",
@@ -50,7 +56,18 @@ const timelineSteps = [
   },
 ];
 
-const includesText = `General clutter and boxes · old furniture · dead appliances (the classic garage fridge) · exercise equipment · bikes and toys · shelving · yard tools · remodel leftovers · e-waste. If it's in the garage and you're done with it, it goes.`;
+const includesIntro = `If it's in the garage and you're done with it, it goes:`;
+const includesItems = [
+  "General clutter and boxes",
+  "Old furniture",
+  "Dead appliances (the classic garage fridge)",
+  "Exercise equipment",
+  "Bikes and toys",
+  "Shelving",
+  "Yard tools",
+  "Remodel leftovers",
+  "E-waste",
+];
 
 const pricingText = `Priced by how much fills the truck — a light one-corner clear-out sits at a lower tier; a packed two-car garage runs toward full load. Quoted up front, and if it's less than expected, you pay less.`;
 
@@ -114,111 +131,87 @@ export default function GarageCleanoutPage() {
 
       <Breadcrumbs items={breadcrumbItems} />
 
-      <section className="bg-brand-black">
-        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-4 py-14 sm:px-6 lg:grid-cols-5 lg:items-start lg:px-8 lg:py-20">
-          <div className="lg:col-span-3">
-            <h1 className="text-3xl font-extrabold leading-tight text-white sm:text-4xl">
-              Garage Clean-Out in Los Angeles — Park in It Again
-            </h1>
-            <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/80">{intro}</p>
-          </div>
-          <div className="lg:col-span-2">
-            <QuoteForm compact defaultService="garage-cleanout" />
-          </div>
-        </div>
-      </section>
+      <Hero
+        h1="Garage Clean-Out in Los Angeles — Park in It Again"
+        intro={<p>{intro}</p>}
+        media={
+          <BeforeAfterTiles
+            standalone={false}
+            before={JOB_PHOTOS.garageBefore}
+            after={JOB_PHOTOS.garageAfter}
+          />
+        }
+        aside={<QuoteForm compact variant="accent" defaultService="garage-cleanout" />}
+      />
 
-      <section className="border-b border-black/5 bg-brand-offwhite">
-        <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black sm:text-3xl">
-            How a Garage Clean-Out Works
-          </h2>
-          <ol className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {timelineSteps.map((step, i) => (
-              <li key={step.title} className="rounded-xl border border-black/10 bg-white p-6">
-                <span className="flex h-8 w-8 items-center justify-center rounded-full bg-brand-orange text-sm font-bold text-white">
-                  {i + 1}
-                </span>
-                <h3 className="mt-4 font-bold text-brand-black">{step.title}</h3>
-                <p className="mt-2 text-sm text-brand-gray">{step.body}</p>
-              </li>
-            ))}
-          </ol>
-        </div>
-      </section>
+      <ProcessSteps heading="How a Garage Clean-Out Works" steps={timelineSteps} />
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-        <h2 className="text-2xl font-extrabold text-brand-black">
-          What a Garage Clean-Out Includes
-        </h2>
-        <p className="mt-4 leading-relaxed text-brand-charcoal">{includesText}</p>
-      </section>
+      <PillList
+        heading="What a Garage Clean-Out Includes"
+        intro={includesIntro}
+        items={includesItems}
+        bg="white"
+      />
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">Load-Based Pricing</h2>
-          <p className="mt-4 leading-relaxed text-brand-charcoal">{pricingText}</p>
-        </div>
-      </section>
+      <Section bg="offwhite">
+        <h2 className="text-2xl font-extrabold text-brand-black">Load-Based Pricing</h2>
+        <p className="mt-4 leading-relaxed text-brand-charcoal">{pricingText}</p>
+      </Section>
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section bg="white">
         <Callout title="Hazardous waste needs a different route" variant="warning">
           {hazardText}
         </Callout>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">What to Expect</h2>
-          <p className="mt-4 leading-relaxed text-brand-charcoal">{expectText}</p>
-        </div>
-      </section>
+      <Section bg="offwhite">
+        <h2 className="text-2xl font-extrabold text-brand-black">What to Expect</h2>
+        <p className="mt-4 leading-relaxed text-brand-charcoal">{expectText}</p>
+      </Section>
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section bg="white">
         <h2 className="text-2xl font-extrabold text-brand-black">What Our Customers Say</h2>
         <div className="mt-6">
           <ReviewSlot contextKey="service:garage-cleanout" label="Garage Clean-Out" />
         </div>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <p className="leading-relaxed text-brand-charcoal">
-            Old fridge or washer in there? See{" "}
-            <Link
-              href="/services/appliance-removal"
-              className="font-semibold text-brand-orange hover:underline"
-            >
-              Appliance Removal
-            </Link>
-            . Just furniture?{" "}
-            <Link
-              href="/services/furniture-removal"
-              className="font-semibold text-brand-orange hover:underline"
-            >
-              Furniture Removal
-            </Link>
-            . Whole property?{" "}
-            <Link
-              href="/services/junk-removal"
-              className="font-semibold text-brand-orange hover:underline"
-            >
-              Junk Removal
-            </Link>
-            .
-          </p>
-          <p className="mt-4 leading-relaxed text-brand-charcoal">
-            We serve Santa Monica, Culver City, Beverly Hills, and eight other Los Angeles
-            communities — see our full list of{" "}
-            <Link href="/locations" className="font-semibold text-brand-orange hover:underline">
-              service areas
-            </Link>
-            .
-          </p>
-        </div>
-      </section>
+      <Section bg="offwhite">
+        <p className="leading-relaxed text-brand-charcoal">
+          Old fridge or washer in there? See{" "}
+          <Link
+            href="/services/appliance-removal"
+            className="font-semibold text-brand-orange hover:underline"
+          >
+            Appliance Removal
+          </Link>
+          . Just furniture?{" "}
+          <Link
+            href="/services/furniture-removal"
+            className="font-semibold text-brand-orange hover:underline"
+          >
+            Furniture Removal
+          </Link>
+          . Whole property?{" "}
+          <Link
+            href="/services/junk-removal"
+            className="font-semibold text-brand-orange hover:underline"
+          >
+            Junk Removal
+          </Link>
+          .
+        </p>
+        <p className="mt-4 leading-relaxed text-brand-charcoal">
+          We serve Santa Monica, Culver City, Beverly Hills, and eight other Los Angeles
+          communities — see our full list of{" "}
+          <Link href="/locations" className="font-semibold text-brand-orange hover:underline">
+            service areas
+          </Link>
+          .
+        </p>
+      </Section>
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section bg="white">
         <h2 className="text-2xl font-extrabold text-brand-black">Frequently Asked Questions</h2>
         <div className="mt-6">
           <FAQAccordion faqs={faqs} />
@@ -243,7 +236,7 @@ export default function GarageCleanoutPage() {
             LA County Sanitation Districts HHW
           </a>
         </p>
-      </section>
+      </Section>
 
       <ServicesGrid heading="Explore All Our Services" />
 

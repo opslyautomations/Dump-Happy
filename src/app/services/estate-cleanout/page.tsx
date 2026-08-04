@@ -14,6 +14,11 @@ import { ReviewSlot } from "@/components/ReviewSlot";
 import { CTABand } from "@/components/CTABand";
 import { ServicesGrid } from "@/components/ServicesGrid";
 import { QuoteForm } from "@/components/QuoteForm";
+import { Hero } from "@/components/page-sections/Hero";
+import { Section } from "@/components/page-sections/Section";
+import { FramedPhoto } from "@/components/page-sections/FramedPhoto";
+import { Callout } from "@/components/Callout";
+import { JOB_PHOTOS } from "@/lib/data/job-photos";
 
 const SERVICE_NAME = "Estate/Property Clean-Out";
 const PATH = "/services/estate-cleanout";
@@ -86,28 +91,33 @@ export default function EstateCleanoutPage() {
         ]}
       />
 
-      <section className="bg-brand-black">
-        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-4 py-14 sm:px-6 lg:grid-cols-5 lg:px-8 lg:py-20">
-          <div className="lg:col-span-3">
-            <h1 className="text-3xl font-extrabold text-white sm:text-4xl">
-              Estate &amp; Property Clean-Out Services in Los Angeles
-            </h1>
-            <p className="mt-5 text-lg leading-relaxed text-white/80">
-              Clearing a family home is rarely just a job — it usually comes with a loss, a
-              deadline, or both. Dump Happy handles estate and property clean-outs across Los
-              Angeles at your pace and on your terms: we empty the whole house, protect anything
-              that matters, route usable belongings to donation, and dispose of the rest legally.
-              Whether you&apos;re an executor with a probate timeline, a family downsizing a
-              parent, or a realtor prepping a listing, we take the physical weight off you.
-            </p>
-          </div>
-          <div className="lg:col-span-2">
-            <QuoteForm compact defaultService="estate-cleanout" />
-          </div>
-        </div>
-      </section>
+      <Hero
+        h1={
+          <>Estate &amp; Property Clean-Out Services in Los Angeles</>
+        }
+        intro={
+          <>
+            Clearing a family home is rarely just a job — it usually comes with a loss, a
+            deadline, or both. Dump Happy handles estate and property clean-outs across Los
+            Angeles at your pace and on your terms: we empty the whole house, protect anything
+            that matters, route usable belongings to donation, and dispose of the rest legally.
+            Whether you&apos;re an executor with a probate timeline, a family downsizing a
+            parent, or a realtor prepping a listing, we take the physical weight off you.
+          </>
+        }
+        asideMedia={
+          <FramedPhoto
+            photo={{
+              ...JOB_PHOTOS.furniture,
+              alt: "Furnishings cleared during a Los Angeles estate clean-out",
+            }}
+            rotate
+          />
+        }
+        aside={<QuoteForm compact variant="card" defaultService="estate-cleanout" />}
+      />
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section bg="white">
         <h2 className="text-2xl font-extrabold text-brand-black">
           How an Estate Clean-Out Works
         </h2>
@@ -118,65 +128,58 @@ export default function EstateCleanoutPage() {
           by room, sort for donation and recycling, and leave it broom-clean and ready for sale,
           handoff, or the next chapter.
         </p>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">What We Handle</h2>
-          <p className="mt-4 leading-relaxed text-brand-charcoal">
-            Whole-home contents — furniture, appliances, mattresses, garage and yard, decades of
-            accumulation — in a single coordinated job rather than a dozen separate pickups.
-          </p>
-        </div>
-      </section>
-
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-        <h2 className="text-2xl font-extrabold text-brand-black">Protecting What Matters</h2>
+      <Section bg="offwhite">
+        <h2 className="text-2xl font-extrabold text-brand-black">What We Handle</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
+          Whole-home contents — furniture, appliances, mattresses, garage and yard, decades of
+          accumulation — in a single coordinated job rather than a dozen separate pickups.
+        </p>
+      </Section>
+
+      <Section bg="white">
+        <Callout title="Protecting What Matters" variant="info">
           Estate jobs turn up things people don&apos;t expect — cash, jewelry, deeds, old photos,
           military records. We work carefully around personal items and hand anything of apparent
           value or importance to you rather than making the call ourselves. Nothing sentimental
           gets tossed on our say-so.
+        </Callout>
+      </Section>
+
+      <Section bg="offwhite">
+        <h2 className="text-2xl font-extrabold text-brand-black">Donation First</h2>
+        <p className="mt-4 leading-relaxed text-brand-charcoal">
+          Usable furniture, clothing, and household goods are routed to local charities so a
+          lifetime of belongings does some good instead of filling a landfill; metals and
+          e-waste go to recyclers; only the rest is disposed of.
         </p>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">Donation First</h2>
-          <p className="mt-4 leading-relaxed text-brand-charcoal">
-            Usable furniture, clothing, and household goods are routed to local charities so a
-            lifetime of belongings does some good instead of filling a landfill; metals and
-            e-waste go to recyclers; only the rest is disposed of.
-          </p>
-        </div>
-      </section>
-
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section bg="white">
         <h2 className="text-2xl font-extrabold text-brand-black">Who We Work With</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           Executors and estate attorneys on probate timelines, realtors prepping listings, and
           families managing a move to assisted living or an out-of-state relative&apos;s home.
           Tell us the deadline and we&apos;ll build the job around it.
         </p>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">What Our Clients Say</h2>
-          <div className="mt-6">
-            <ReviewSlot contextKey="service:estate-cleanout" label={SERVICE_NAME} />
-          </div>
+      <Section bg="offwhite">
+        <h2 className="text-2xl font-extrabold text-brand-black">What Our Clients Say</h2>
+        <div className="mt-6">
+          <ReviewSlot contextKey="service:estate-cleanout" label={SERVICE_NAME} />
         </div>
-      </section>
+      </Section>
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section bg="white">
         <h2 className="text-2xl font-extrabold text-brand-black">Frequently Asked Questions</h2>
         <div className="mt-6">
           <FAQAccordion faqs={faqs} />
         </div>
-      </section>
+      </Section>
 
-      <section className="mx-auto max-w-4xl px-4 pb-14 sm:px-6 lg:px-8">
+      <Section bg="white">
         <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-brand-gray">
           <span className="font-semibold text-brand-black">Related services:</span>
           <Link href="/services/furniture-removal" className="text-brand-orange hover:underline">
@@ -206,7 +209,7 @@ export default function EstateCleanoutPage() {
           </Link>
           .
         </div>
-      </section>
+      </Section>
 
       <ServicesGrid heading="Explore Our Other Services" />
 

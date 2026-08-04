@@ -14,6 +14,12 @@ import { ReviewSlot } from "@/components/ReviewSlot";
 import { CTABand } from "@/components/CTABand";
 import { ServicesGrid } from "@/components/ServicesGrid";
 import { Callout } from "@/components/Callout";
+import { Hero } from "@/components/page-sections/Hero";
+import { Section } from "@/components/page-sections/Section";
+import { FramedPhoto } from "@/components/page-sections/FramedPhoto";
+import { PillList } from "@/components/page-sections/PillList";
+import { JOB_PHOTOS } from "@/lib/data/job-photos";
+import { QuoteForm } from "@/components/QuoteForm";
 
 export const metadata: Metadata = buildMetadata({
   title: "Mattress Removal in Los Angeles | Dump Happy",
@@ -39,8 +45,6 @@ const catchHeading = `"There's a free drop-off — so why hire you?" (The Catch)
 const catchText = `Two reasons. First, those free County drop-offs are for residents dropping off their own mattress — commercial haulers are barred from using them — and getting a king-size to a center means a truck or SUV you probably don't have. Second, if you leave it on the curb or in an alley instead, that's illegal dumping under California Penal Code 374.3, with LA County fines up to $10,000 — and illegally dumped mattresses are such a problem the recycling program spends millions a year cleaning them off streets. Dump Happy does the lift and the legal routing for a set, load-based price. If you can haul your own and drop it free, genuinely do — we'll even tell you where.`;
 
 const illegalDumpingReinforcement = `Leaving a mattress on a sidewalk, alley, or curb outside of a scheduled, approved pickup is illegal dumping under California Penal Code 374.3 — the same law that covers furniture and bags of junk. LA County fines run up to $10,000, on top of possible cleanup costs. A booked mattress removal is the simple way to avoid it entirely.`;
-
-const whatWeTake = `Mattresses (all sizes, twin through California king) · box springs · foundations · futons · bed frames (as furniture). Stained or older mattresses are fine.`;
 
 const faqs: FaqItem[] = [
   {
@@ -98,86 +102,92 @@ export default function MattressRemovalPage() {
 
       <Breadcrumbs items={breadcrumbItems} />
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-extrabold text-brand-black sm:text-4xl">
-            Mattress Removal in Los Angeles — Off Your Floor, Into California&apos;s
-            Recycling Stream
-          </h1>
-          <p className="mt-5 leading-relaxed text-brand-charcoal">{intro}</p>
-        </div>
-      </section>
+      <Hero
+        h1="Mattress Removal in Los Angeles — Off Your Floor, Into California's Recycling Stream"
+        intro={<p>{intro}</p>}
+        asideMedia={
+          <FramedPhoto
+            photo={{
+              ...JOB_PHOTOS.mattress,
+              alt: "Dump Happy truck loaded with mattresses for a mattress removal job in Los Angeles",
+            }}
+          />
+        }
+        aside={<QuoteForm compact variant="glass" defaultService="mattress-removal" />}
+      />
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section>
         <h2 className="text-2xl font-extrabold text-brand-black">{recyclingHeading}</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">{recyclingText}</p>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">{catchHeading}</h2>
-          <p className="mt-4 leading-relaxed text-brand-charcoal">{catchText}</p>
-        </div>
-      </section>
+      <Section bg="offwhite">
+        <h2 className="text-2xl font-extrabold text-brand-black">{catchHeading}</h2>
+        <p className="mt-4 leading-relaxed text-brand-charcoal">{catchText}</p>
+      </Section>
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section>
         <Callout title="Illegal dumping applies to mattresses too" variant="warning">
           {illegalDumpingReinforcement}
         </Callout>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">What We Take</h2>
-          <p className="mt-4 leading-relaxed text-brand-charcoal">{whatWeTake}</p>
-        </div>
-      </section>
+      <PillList
+        heading="What We Take"
+        intro="Stained or older mattresses are fine."
+        items={[
+          "Mattresses (all sizes, twin through California king)",
+          "Box springs",
+          "Foundations",
+          "Futons",
+          "Bed frames (as furniture)",
+        ]}
+        bg="offwhite"
+      />
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section>
         <h2 className="text-2xl font-extrabold text-brand-black">What Our Customers Say</h2>
         <div className="mt-6">
           <ReviewSlot contextKey="service:mattress-removal" label="Mattress Removal" />
         </div>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <p className="leading-relaxed text-brand-charcoal">
-            Replacing the whole bedroom set? See{" "}
-            <Link
-              href="/services/furniture-removal"
-              className="font-semibold text-brand-orange hover:underline"
-            >
-              Furniture Removal
-            </Link>
-            . Full move-out or estate?{" "}
-            <Link
-              href="/services/garage-cleanout"
-              className="font-semibold text-brand-orange hover:underline"
-            >
-              Garage Clean-Out
-            </Link>{" "}
-            /{" "}
-            <Link
-              href="/services/junk-removal"
-              className="font-semibold text-brand-orange hover:underline"
-            >
-              Junk Removal
-            </Link>
-            .
-          </p>
-          <p className="mt-4 leading-relaxed text-brand-charcoal">
-            We serve Santa Monica, Culver City, Beverly Hills, and eight other Los Angeles
-            communities — see our full list of{" "}
-            <Link href="/locations" className="font-semibold text-brand-orange hover:underline">
-              service areas
-            </Link>
-            .
-          </p>
-        </div>
-      </section>
+      <Section bg="offwhite">
+        <p className="leading-relaxed text-brand-charcoal">
+          Replacing the whole bedroom set? See{" "}
+          <Link
+            href="/services/furniture-removal"
+            className="font-semibold text-brand-orange hover:underline"
+          >
+            Furniture Removal
+          </Link>
+          . Full move-out or estate?{" "}
+          <Link
+            href="/services/garage-cleanout"
+            className="font-semibold text-brand-orange hover:underline"
+          >
+            Garage Clean-Out
+          </Link>{" "}
+          /{" "}
+          <Link
+            href="/services/junk-removal"
+            className="font-semibold text-brand-orange hover:underline"
+          >
+            Junk Removal
+          </Link>
+          .
+        </p>
+        <p className="mt-4 leading-relaxed text-brand-charcoal">
+          We serve Santa Monica, Culver City, Beverly Hills, and eight other Los Angeles
+          communities — see our full list of{" "}
+          <Link href="/locations" className="font-semibold text-brand-orange hover:underline">
+            service areas
+          </Link>
+          .
+        </p>
+      </Section>
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section>
         <h2 className="text-2xl font-extrabold text-brand-black">Frequently Asked Questions</h2>
         <div className="mt-6">
           <FAQAccordion faqs={faqs} />
@@ -202,7 +212,7 @@ export default function MattressRemovalPage() {
             Bye Bye Mattress (California)
           </a>
         </p>
-      </section>
+      </Section>
 
       <ServicesGrid heading="Explore All Our Services" />
 

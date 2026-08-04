@@ -15,6 +15,11 @@ import { CTABand } from "@/components/CTABand";
 import { ServicesGrid } from "@/components/ServicesGrid";
 import { QuoteForm } from "@/components/QuoteForm";
 import { Callout } from "@/components/Callout";
+import { Hero } from "@/components/page-sections/Hero";
+import { Section } from "@/components/page-sections/Section";
+import { PhotoStrip } from "@/components/page-sections/PhotoStrip";
+import { ImageTextSplit } from "@/components/page-sections/ImageTextSplit";
+import { JOB_PHOTOS } from "@/lib/data/job-photos";
 
 const SERVICE_NAME = "Construction Debris Removal";
 const PATH = "/services/construction-debris-removal";
@@ -87,98 +92,98 @@ export default function ConstructionDebrisRemovalPage() {
         ]}
       />
 
-      <section className="bg-brand-black">
-        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-4 py-14 sm:px-6 lg:grid-cols-5 lg:px-8 lg:py-20">
-          <div className="lg:col-span-3">
-            <h1 className="text-3xl font-extrabold text-white sm:text-4xl">
-              Construction &amp; Demolition Debris Removal in Los Angeles
-            </h1>
-            <p className="mt-5 text-lg leading-relaxed text-white/80">
-              Remodels and demolitions generate more debris than anyone plans for, and in LA where
-              it goes is regulated. Dump Happy hauls construction and demolition (C&amp;D) debris
-              for contractors, remodelers, and homeowners across Los Angeles — drywall, lumber,
-              flooring, concrete, tile, fixtures — and routes it to certified recycling facilities
-              so it&apos;s handled correctly. Load-based pricing, fast turnarounds between phases,
-              and clean job sites without a dumpster parked out front for a week.
-            </p>
-          </div>
-          <div className="lg:col-span-2">
-            <QuoteForm compact defaultService="construction-debris-removal" />
-          </div>
-        </div>
-      </section>
+      <Hero
+        h1={
+          <>Construction &amp; Demolition Debris Removal in Los Angeles</>
+        }
+        intro={
+          <>
+            Remodels and demolitions generate more debris than anyone plans for, and in LA where
+            it goes is regulated. Dump Happy hauls construction and demolition (C&amp;D) debris
+            for contractors, remodelers, and homeowners across Los Angeles — drywall, lumber,
+            flooring, concrete, tile, fixtures — and routes it to certified recycling facilities
+            so it&apos;s handled correctly. Load-based pricing, fast turnarounds between phases,
+            and clean job sites without a dumpster parked out front for a week.
+          </>
+        }
+        media={<PhotoStrip photos={[JOB_PHOTOS.debris, JOB_PHOTOS.tip, JOB_PHOTOS.truck]} />}
+        aside={
+          <QuoteForm compact variant="card" defaultService="construction-debris-removal" />
+        }
+      />
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section>
         <h2 className="text-2xl font-extrabold text-brand-black">C&amp;D Debris We Take</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           Drywall, lumber and wood, flooring and carpet, tile, roofing, concrete and masonry,
           brick, cabinets and fixtures, windows, and general remodel debris.
         </p>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">
-            The Part That Affects Your Permit — LA&apos;s Recycling Requirement
-          </h2>
-          <div className="mt-4">
-            <Callout
-              title="LA County &amp; CalGreen recycling requirements"
-              variant="info"
-            >
-              Los Angeles County&apos;s Construction &amp; Demolition ordinance requires the
-              majority of C&amp;D debris to be recycled — as of the August 2024 update,{" "}
-              <strong>70% of mixed C&amp;D and 100% of soil debris</strong>, verified through
-              third-party-certified facilities — and CalGreen requires at least{" "}
-              <strong>65% diversion</strong> on permitted projects. On many jobs, proof of proper
-              C&amp;D recycling is tied to your{" "}
-              <strong>final building inspection and Certificate of Occupancy.</strong> Dump Happy
-              routes your debris to certified processors, which is also often cheaper, since
-              permitted haulers can qualify for facility rebates.
-            </Callout>
-          </div>
+      <Section bg="offwhite">
+        <h2 className="text-2xl font-extrabold text-brand-black">
+          The Part That Affects Your Permit — LA&apos;s Recycling Requirement
+        </h2>
+        <div className="mt-4">
+          <Callout
+            title="LA County &amp; CalGreen recycling requirements"
+            variant="info"
+          >
+            Los Angeles County&apos;s Construction &amp; Demolition ordinance requires the
+            majority of C&amp;D debris to be recycled — as of the August 2024 update,{" "}
+            <strong>70% of mixed C&amp;D and 100% of soil debris</strong>, verified through
+            third-party-certified facilities — and CalGreen requires at least{" "}
+            <strong>65% diversion</strong> on permitted projects. On many jobs, proof of proper
+            C&amp;D recycling is tied to your{" "}
+            <strong>final building inspection and Certificate of Occupancy.</strong> Dump Happy
+            routes your debris to certified processors, which is also often cheaper, since
+            permitted haulers can qualify for facility rebates.
+          </Callout>
         </div>
-      </section>
+      </Section>
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section>
         <h2 className="text-2xl font-extrabold text-brand-black">Load-Based Pricing</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           Priced by truck volume — a bathroom gut is a lower tier; a full demo runs toward full
           load — quoted before we haul, with fast pickups between phases so debris isn&apos;t
           piling up on site.
         </p>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">What We Can&apos;t Take</h2>
-          <p className="mt-4 leading-relaxed text-brand-charcoal">
-            Household hazardous waste and materials like asbestos, wet paint, and solvents
-            can&apos;t ride in a standard truck — those need specialized handling. Flag them and
-            we&apos;ll point you to the right route.
-          </p>
-        </div>
-      </section>
+      <ImageTextSplit
+        heading="What We Can't Take"
+        image={{
+          ...JOB_PHOTOS.tip,
+          alt: "Dump Happy trailer tipping a load of debris at a certified recycling and disposal facility",
+        }}
+        imageSide="right"
+        bg="offwhite"
+      >
+        <p>
+          Household hazardous waste and materials like asbestos, wet paint, and solvents
+          can&apos;t ride in a standard truck — those need specialized handling. Flag them and
+          we&apos;ll point you to the right route.
+        </p>
+      </ImageTextSplit>
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section>
         <h2 className="text-2xl font-extrabold text-brand-black">What Our Clients Say</h2>
         <div className="mt-6">
           <ReviewSlot contextKey="service:construction-debris-removal" label={SERVICE_NAME} />
         </div>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">
-            Frequently Asked Questions
-          </h2>
-          <div className="mt-6">
-            <FAQAccordion faqs={faqs} />
-          </div>
+      <Section bg="offwhite">
+        <h2 className="text-2xl font-extrabold text-brand-black">
+          Frequently Asked Questions
+        </h2>
+        <div className="mt-6">
+          <FAQAccordion faqs={faqs} />
         </div>
-      </section>
+      </Section>
 
-      <section className="mx-auto max-w-4xl px-4 pb-14 sm:px-6 lg:px-8">
+      <Section>
         <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-brand-gray">
           <span className="font-semibold text-brand-black">Related services:</span>
           <Link href="/services/junk-removal" className="text-brand-orange hover:underline">
@@ -220,7 +225,7 @@ export default function ConstructionDebrisRemovalPage() {
             CalRecycle C&amp;D Diversion Guide
           </a>
         </p>
-      </section>
+      </Section>
 
       <ServicesGrid heading="Explore Our Other Services" />
 

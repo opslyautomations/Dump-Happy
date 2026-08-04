@@ -15,6 +15,8 @@ import { CTABand } from "@/components/CTABand";
 import { ServicesGrid } from "@/components/ServicesGrid";
 import { QuoteForm } from "@/components/QuoteForm";
 import { Callout } from "@/components/Callout";
+import { Hero } from "@/components/page-sections/Hero";
+import { Section } from "@/components/page-sections/Section";
 
 const SERVICE_NAME = "Hoarding Clean-Out";
 const PATH = "/services/hoarding-cleanout";
@@ -87,28 +89,23 @@ export default function HoardingCleanoutPage() {
         ]}
       />
 
-      <section className="bg-brand-black">
-        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-4 py-14 sm:px-6 lg:grid-cols-5 lg:px-8 lg:py-20">
-          <div className="lg:col-span-3">
-            <h1 className="text-3xl font-extrabold text-white sm:text-4xl">
-              Hoarding Clean-Out Services in Los Angeles
-            </h1>
-            <p className="mt-5 text-lg leading-relaxed text-white/80">
-              Reaching out about a hoarding situation — for yourself or someone you love — takes
-              courage, and Dump Happy treats it that way. Hoarding is a recognized mental-health
-              condition, not a character flaw, and our crews clear these homes across Los Angeles
-              without judgment, at a pace that respects the person, protecting what matters to
-              them. We handle the volume and the heavy lifting so a family, landlord, or executor
-              isn&apos;t facing an overwhelming space alone.
-            </p>
-          </div>
-          <div className="lg:col-span-2">
-            <QuoteForm compact defaultService="hoarding-cleanout" />
-          </div>
-        </div>
-      </section>
+      <Hero
+        background={{ type: "pattern", tone: "orange" }}
+        h1="Hoarding Clean-Out Services in Los Angeles"
+        intro={
+          <p>
+            Reaching out about a hoarding situation — for yourself or someone you love — takes
+            courage, and Dump Happy treats it that way. Hoarding is a recognized mental-health
+            condition, not a character flaw, and our crews clear these homes across Los Angeles
+            without judgment, at a pace that respects the person, protecting what matters to
+            them. We handle the volume and the heavy lifting so a family, landlord, or executor
+            isn&apos;t facing an overwhelming space alone.
+          </p>
+        }
+        aside={<QuoteForm compact variant="card" defaultService="hoarding-cleanout" />}
+      />
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section bg="white">
         <h2 className="text-2xl font-extrabold text-brand-black">Our Promise</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           No judgment. No rushing your decisions. We don&apos;t force anything into the truck. We
@@ -116,73 +113,67 @@ export default function HoardingCleanoutPage() {
           help — to make the home safe and functional again while keeping the person&apos;s
           dignity at the center.
         </p>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">How We Work</h2>
-          <p className="mt-4 leading-relaxed text-brand-charcoal">
-            A private walkthrough to understand the space, spot immediate safety hazards, and
-            agree on goals — usually clearing pathways, and making the kitchen, bathroom, and
-            exits usable first. We sort as we go, set aside anything you identify as important,
-            and clear the rest by the load, room by room, at a pace you&apos;re comfortable with.
-          </p>
-        </div>
-      </section>
+      <Section bg="offwhite">
+        <h2 className="text-2xl font-extrabold text-brand-black">How We Work</h2>
+        <p className="mt-4 leading-relaxed text-brand-charcoal">
+          A private walkthrough to understand the space, spot immediate safety hazards, and
+          agree on goals — usually clearing pathways, and making the kitchen, bathroom, and
+          exits usable first. We sort as we go, set aside anything you identify as important,
+          and clear the rest by the load, room by room, at a pace you&apos;re comfortable with.
+        </p>
+      </Section>
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section bg="white">
         <h2 className="text-2xl font-extrabold text-brand-black">Protecting Keepsakes</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           People with hoarding disorder often have real attachments to specific items. We slow
           down for that — flagging photos, documents, heirlooms, and anything you&apos;ve told us
           to protect — so nothing irreplaceable is lost in the process.
         </p>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">
-            Safety and Honesty About Biohazards
-          </h2>
-          <div className="mt-4">
-            <Callout title="Our approach to biohazards" variant="info">
-              Long-term situations can involve mold, pests, spoiled food, or animal waste. Dump
-              Happy handles the clutter and volume removal; for genuine biohazard contamination
-              that needs licensed remediation, we&apos;ll tell you plainly and help coordinate the
-              right specialist rather than pretending it&apos;s a simple haul-out. Your safety and
-              a properly restored home come first.
-            </Callout>
-          </div>
+      <Section bg="offwhite">
+        <h2 className="text-2xl font-extrabold text-brand-black">
+          Safety and Honesty About Biohazards
+        </h2>
+        <div className="mt-4">
+          <Callout title="Our approach to biohazards" variant="info">
+            Long-term situations can involve mold, pests, spoiled food, or animal waste. Dump
+            Happy handles the clutter and volume removal; for genuine biohazard contamination
+            that needs licensed remediation, we&apos;ll tell you plainly and help coordinate the
+            right specialist rather than pretending it&apos;s a simple haul-out. Your safety and
+            a properly restored home come first.
+          </Callout>
         </div>
-      </section>
+      </Section>
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section bg="white">
         <h2 className="text-2xl font-extrabold text-brand-black">Discretion</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           Unmarked, low-profile service. What happens in the home stays private — important when
           neighbors, tenants, or extended family are a concern.
         </p>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">What Our Clients Say</h2>
-          <div className="mt-6">
-            <ReviewSlot contextKey="service:hoarding-cleanout" label={SERVICE_NAME} />
-          </div>
+      <Section bg="offwhite">
+        <h2 className="text-2xl font-extrabold text-brand-black">What Our Clients Say</h2>
+        <div className="mt-6">
+          <ReviewSlot contextKey="service:hoarding-cleanout" label={SERVICE_NAME} />
         </div>
-      </section>
+      </Section>
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section bg="white">
         <h2 className="text-2xl font-extrabold text-brand-black">
           Frequently Asked Questions
         </h2>
         <div className="mt-6">
           <FAQAccordion faqs={faqs} />
         </div>
-      </section>
+      </Section>
 
-      <section className="mx-auto max-w-4xl px-4 pb-14 sm:px-6 lg:px-8">
+      <Section bg="white">
         <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-brand-gray">
           <span className="font-semibold text-brand-black">Related services:</span>
           <Link href="/services/junk-removal" className="text-brand-orange hover:underline">
@@ -205,7 +196,7 @@ export default function HoardingCleanoutPage() {
           </Link>
           .
         </div>
-      </section>
+      </Section>
 
       <ServicesGrid heading="Explore Our Other Services" />
 

@@ -15,6 +15,10 @@ import { CTABand } from "@/components/CTABand";
 import { ServicesGrid } from "@/components/ServicesGrid";
 import { QuoteForm } from "@/components/QuoteForm";
 import { Callout } from "@/components/Callout";
+import { Hero } from "@/components/page-sections/Hero";
+import { Section } from "@/components/page-sections/Section";
+import { ImageTextSplit } from "@/components/page-sections/ImageTextSplit";
+import { JOB_PHOTOS } from "@/lib/data/job-photos";
 
 const SERVICE_NAME = "Commercial Junk Removal";
 const PATH = "/services/commercial-junk-removal";
@@ -87,48 +91,45 @@ export default function CommercialJunkRemovalPage() {
         ]}
       />
 
-      <section className="bg-brand-black">
-        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-4 py-14 sm:px-6 lg:grid-cols-5 lg:px-8 lg:py-20">
-          <div className="lg:col-span-3">
-            <h1 className="text-3xl font-extrabold text-white sm:text-4xl">
-              Commercial &amp; Office Junk Removal in Los Angeles
-            </h1>
-            <p className="mt-5 text-lg leading-relaxed text-white/80">
-              When a business clears out — an office downsizing, a retail space turning over, a
-              property manager resetting a unit — it needs to happen fast, cleanly, and around
-              operating hours. Dump Happy handles commercial junk removal across Los Angeles:
-              office furniture, cubicles, retail fixtures, and general clear-outs, with
-              electronics routed to certified recyclers. We schedule around your business,
-              coordinate with building management, and get the space ready for whatever&apos;s
-              next.
-            </p>
-          </div>
-          <div className="lg:col-span-2">
-            <QuoteForm compact defaultService="commercial-junk-removal" />
-          </div>
-        </div>
-      </section>
+      <Hero
+        background={{ type: "pattern", tone: "charcoal" }}
+        h1={
+          <>
+            Commercial &amp; Office Junk Removal in Los Angeles
+          </>
+        }
+        intro={
+          <>
+            When a business clears out — an office downsizing, a retail space turning over, a
+            property manager resetting a unit — it needs to happen fast, cleanly, and around
+            operating hours. Dump Happy handles commercial junk removal across Los Angeles:
+            office furniture, cubicles, retail fixtures, and general clear-outs, with
+            electronics routed to certified recyclers. We schedule around your business,
+            coordinate with building management, and get the space ready for whatever&apos;s
+            next.
+          </>
+        }
+        aside={<QuoteForm compact variant="card" defaultService="commercial-junk-removal" />}
+      />
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section>
         <h2 className="text-2xl font-extrabold text-brand-black">Who We Serve</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           Offices and coworking spaces, retail and restaurants, property managers and landlords,
           and contractors handling tenant improvements — one-time clear-outs or recurring service.
         </p>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">What We Clear</h2>
-          <p className="mt-4 leading-relaxed text-brand-charcoal">
-            Office furniture and cubicles, desks and chairs, filing cabinets, retail shelving and
-            fixtures, breakroom appliances, and general commercial junk — from a single suite to a
-            full floor.
-          </p>
-        </div>
-      </section>
+      <Section bg="offwhite">
+        <h2 className="text-2xl font-extrabold text-brand-black">What We Clear</h2>
+        <p className="mt-4 leading-relaxed text-brand-charcoal">
+          Office furniture and cubicles, desks and chairs, filing cabinets, retail shelving and
+          fixtures, breakroom appliances, and general commercial junk — from a single suite to a
+          full floor.
+        </p>
+      </Section>
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section>
         <h2 className="text-2xl font-extrabold text-brand-black">
           Electronics and Data — The Honest Version
         </h2>
@@ -146,39 +147,41 @@ export default function CommercialJunkRemovalPage() {
             obligations.
           </Callout>
         </div>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">Logistics</h2>
-          <p className="mt-4 leading-relaxed text-brand-charcoal">
-            After-hours and weekend scheduling so we&apos;re not disrupting your business,
-            certificate of insurance (COI) for building management on request, and recurring
-            pickups for ongoing turnover. Tell us the building&apos;s rules and we&apos;ll work
-            within them.
-          </p>
-        </div>
-      </section>
+      <ImageTextSplit
+        heading="Logistics"
+        image={{
+          ...JOB_PHOTOS.furniture,
+          alt: "Trailer loaded with furniture during an office or commercial clear-out in Los Angeles",
+        }}
+        imageSide="left"
+      >
+        <p>
+          After-hours and weekend scheduling so we&apos;re not disrupting your business,
+          certificate of insurance (COI) for building management on request, and recurring
+          pickups for ongoing turnover. Tell us the building&apos;s rules and we&apos;ll work
+          within them.
+        </p>
+      </ImageTextSplit>
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section>
         <h2 className="text-2xl font-extrabold text-brand-black">What Our Clients Say</h2>
         <div className="mt-6">
           <ReviewSlot contextKey="service:commercial-junk-removal" label={SERVICE_NAME} />
         </div>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">
-            Frequently Asked Questions
-          </h2>
-          <div className="mt-6">
-            <FAQAccordion faqs={faqs} />
-          </div>
+      <Section bg="offwhite">
+        <h2 className="text-2xl font-extrabold text-brand-black">
+          Frequently Asked Questions
+        </h2>
+        <div className="mt-6">
+          <FAQAccordion faqs={faqs} />
         </div>
-      </section>
+      </Section>
 
-      <section className="mx-auto max-w-4xl px-4 pb-14 sm:px-6 lg:px-8">
+      <Section>
         <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-brand-gray">
           <span className="font-semibold text-brand-black">Related services:</span>
           <Link href="/services/junk-removal" className="text-brand-orange hover:underline">
@@ -211,7 +214,7 @@ export default function CommercialJunkRemovalPage() {
           </Link>
           .
         </div>
-      </section>
+      </Section>
 
       <ServicesGrid heading="Explore Our Other Services" />
 

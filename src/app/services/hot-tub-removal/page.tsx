@@ -14,6 +14,9 @@ import { ReviewSlot } from "@/components/ReviewSlot";
 import { CTABand } from "@/components/CTABand";
 import { ServicesGrid } from "@/components/ServicesGrid";
 import { QuoteForm } from "@/components/QuoteForm";
+import { Hero } from "@/components/page-sections/Hero";
+import { Section } from "@/components/page-sections/Section";
+import { PullQuoteStat } from "@/components/page-sections/PullQuoteStat";
 
 const SERVICE_NAME = "Hot Tub Removal";
 const PATH = "/services/hot-tub-removal";
@@ -86,27 +89,22 @@ export default function HotTubRemovalPage() {
         ]}
       />
 
-      <section className="bg-brand-black">
-        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-4 py-14 sm:px-6 lg:grid-cols-5 lg:px-8 lg:py-20">
-          <div className="lg:col-span-3">
-            <h1 className="text-3xl font-extrabold text-white sm:text-4xl">
-              Hot Tub &amp; Spa Removal in Los Angeles
-            </h1>
-            <p className="mt-5 text-lg leading-relaxed text-white/80">
-              A dead hot tub is one of the heaviest, most awkward things you can try to get rid
-              of — often over a thousand pounds when it still holds water, plumbed in, wired to a
-              breaker, and far too big to fit through a gate in one piece. Dump Happy handles the
-              whole removal across LA: we drain it, disconnect it, cut the shell down to haulable
-              sections, and take every piece away, leaving your yard or deck clear.
-            </p>
-          </div>
-          <div className="lg:col-span-2">
-            <QuoteForm compact defaultService="hot-tub-removal" />
-          </div>
-        </div>
-      </section>
+      <Hero
+        background={{ type: "pattern", tone: "orange" }}
+        h1="Hot Tub & Spa Removal in Los Angeles"
+        intro={
+          <p>
+            A dead hot tub is one of the heaviest, most awkward things you can try to get rid of
+            — often over a thousand pounds when it still holds water, plumbed in, wired to a
+            breaker, and far too big to fit through a gate in one piece. Dump Happy handles the
+            whole removal across LA: we drain it, disconnect it, cut the shell down to haulable
+            sections, and take every piece away, leaving your yard or deck clear.
+          </p>
+        }
+        aside={<QuoteForm compact variant="accent" defaultService="hot-tub-removal" />}
+      />
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section bg="white">
         <h2 className="text-2xl font-extrabold text-brand-black">Why It&apos;s Not a DIY Job</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           Empty, a hot tub still runs several hundred pounds, and the shell is rigid acrylic and
@@ -114,69 +112,56 @@ export default function HotTubRemovalPage() {
           plumbing connections, and the risks are real — shock, leaks, and back injuries. Hiring it
           out is about the equipment and the safety, not just the muscle.
         </p>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">How We Remove It</h2>
-          <p className="mt-4 leading-relaxed text-brand-charcoal">
-            We shut off power at the GFCI breaker and confirm it&apos;s dead, drain the water
-            safely (away from your foundation and storm drains), cap the plumbing, then cut the
-            shell into manageable sections and haul everything out — typically a two-to-four-hour
-            job for a standard above-ground unit.
-          </p>
-        </div>
-      </section>
+      <PullQuoteStat stat="2–4 hrs" label="Typical job time" bg="offwhite">
+        We shut off power at the GFCI breaker and confirm it&apos;s dead, drain the water safely
+        (away from your foundation and storm drains), cap the plumbing, then cut the shell into
+        manageable sections and haul everything out — typically a two-to-four-hour job for a
+        standard above-ground unit.
+      </PullQuoteStat>
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-        <h2 className="text-2xl font-extrabold text-brand-black">
-          Above-Ground vs. In-Ground
-        </h2>
+      <Section bg="white">
+        <h2 className="text-2xl font-extrabold text-brand-black">Above-Ground vs. In-Ground</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           Freestanding above-ground spas are the most straightforward. In-ground and
           deck-integrated units take more — cutting around the surround, working with the
           structure, and sometimes concrete — so they&apos;re a bigger job; we&apos;ll scope it at
           the quote.
         </p>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">Access and Decks</h2>
-          <p className="mt-4 leading-relaxed text-brand-charcoal">
-            Tight side yards, elevated decks, stairs, and narrow gates all shape the job. Tell us
-            the setup so we bring the right crew and tools. Note: removal covers the tub and its
-            debris, not rebuilding a deck the tub was set into.
-          </p>
-        </div>
-      </section>
+      <Section bg="offwhite">
+        <h2 className="text-2xl font-extrabold text-brand-black">Access and Decks</h2>
+        <p className="mt-4 leading-relaxed text-brand-charcoal">
+          Tight side yards, elevated decks, stairs, and narrow gates all shape the job. Tell us
+          the setup so we bring the right crew and tools. Note: removal covers the tub and its
+          debris, not rebuilding a deck the tub was set into.
+        </p>
+      </Section>
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section bg="white">
         <h2 className="text-2xl font-extrabold text-brand-black">Where the Pieces Go</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           We don&apos;t just landfill it — the acrylic/fiberglass shell goes to a
           construction-and-demolition facility, the pump and motor to metal recycling, and the
           wood frame to wood-waste recycling.
         </p>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">What Our Clients Say</h2>
-          <div className="mt-6">
-            <ReviewSlot contextKey="service:hot-tub-removal" label={SERVICE_NAME} />
-          </div>
+      <Section bg="offwhite">
+        <h2 className="text-2xl font-extrabold text-brand-black">What Our Clients Say</h2>
+        <div className="mt-6">
+          <ReviewSlot contextKey="service:hot-tub-removal" label={SERVICE_NAME} />
         </div>
-      </section>
+      </Section>
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-        <h2 className="text-2xl font-extrabold text-brand-black">
-          Frequently Asked Questions
-        </h2>
+      <Section bg="white">
+        <h2 className="text-2xl font-extrabold text-brand-black">Frequently Asked Questions</h2>
         <div className="mt-6">
           <FAQAccordion faqs={faqs} />
         </div>
-      </section>
+      </Section>
 
       <section className="mx-auto max-w-4xl px-4 pb-14 sm:px-6 lg:px-8">
         <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-brand-gray">

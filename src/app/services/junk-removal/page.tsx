@@ -15,6 +15,10 @@ import { CTABand } from "@/components/CTABand";
 import { ServicesGrid } from "@/components/ServicesGrid";
 import { QuoteForm } from "@/components/QuoteForm";
 import { Callout } from "@/components/Callout";
+import { Hero } from "@/components/page-sections/Hero";
+import { Section } from "@/components/page-sections/Section";
+import { ProcessSteps } from "@/components/page-sections/ProcessSteps";
+import { JOB_PHOTOS } from "@/lib/data/job-photos";
 
 export const metadata: Metadata = buildMetadata({
   title: "Junk Removal in Los Angeles | Dump Happy Hauling",
@@ -122,87 +126,64 @@ export default function JunkRemovalPage() {
 
       <Breadcrumbs items={breadcrumbItems} />
 
-      <section className="bg-brand-black">
-        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-4 py-14 sm:px-6 lg:grid-cols-5 lg:items-start lg:px-8 lg:py-20">
-          <div className="lg:col-span-3">
-            <h1 className="text-3xl font-extrabold leading-tight text-white sm:text-4xl">
-              Junk Removal in Los Angeles — We Do the Lifting, You Reclaim the Space
-            </h1>
-            <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/80">{intro}</p>
-          </div>
-          <div className="lg:col-span-2">
-            <QuoteForm compact defaultService="junk-removal" />
-          </div>
-        </div>
-      </section>
+      <Hero
+        h1="Junk Removal in Los Angeles — We Do the Lifting, You Reclaim the Space"
+        intro={intro}
+        aside={<QuoteForm compact variant="glass" defaultService="junk-removal" />}
+        background={{
+          type: "photo",
+          src: JOB_PHOTOS.truck.src,
+          alt: "Dump Happy truck and dump trailer parked on a Los Angeles street for a junk removal job",
+          width: JOB_PHOTOS.truck.width,
+          height: JOB_PHOTOS.truck.height,
+          focal: "center 30%",
+        }}
+      />
 
-      <section className="border-b border-black/5 bg-brand-offwhite">
-        <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black sm:text-3xl">
-            How Junk Removal Works
-          </h2>
-          <ol className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-3">
-            {steps.map((step, i) => (
-              <li key={step.title} className="rounded-xl border border-black/10 bg-white p-6">
-                <span className="flex h-8 w-8 items-center justify-center rounded-full bg-brand-orange text-sm font-bold text-white">
-                  {i + 1}
-                </span>
-                <h3 className="mt-4 font-bold text-brand-black">{step.title}</h3>
-                <p className="mt-2 text-sm text-brand-gray">{step.body}</p>
-              </li>
-            ))}
-          </ol>
-        </div>
-      </section>
+      <ProcessSteps heading="How Junk Removal Works" steps={steps} />
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section>
         <h2 className="text-2xl font-extrabold text-brand-black">{chargedHeading}</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">{pricingExplainer}</p>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto grid max-w-4xl grid-cols-1 gap-8 px-4 py-14 sm:grid-cols-2 sm:px-6 lg:px-8">
-          <div>
-            <h2 className="text-2xl font-extrabold text-brand-black">What We Take</h2>
-            <p className="mt-4 leading-relaxed text-brand-charcoal">{whatWeTake}</p>
-          </div>
-          <div>
-            <h2 className="text-2xl font-extrabold text-brand-black">{cantTakeHeading}</h2>
-            <p className="mt-4 leading-relaxed text-brand-charcoal">{whatWeCant}</p>
-          </div>
+      <Section bg="offwhite" columns={2}>
+        <div>
+          <h2 className="text-2xl font-extrabold text-brand-black">What We Take</h2>
+          <p className="mt-4 leading-relaxed text-brand-charcoal">{whatWeTake}</p>
         </div>
-      </section>
+        <div>
+          <h2 className="text-2xl font-extrabold text-brand-black">{cantTakeHeading}</h2>
+          <p className="mt-4 leading-relaxed text-brand-charcoal">{whatWeCant}</p>
+        </div>
+      </Section>
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section>
         <h2 className="text-2xl font-extrabold text-brand-black">
           Where Your Junk Actually Goes
         </h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">{whereItGoes}</p>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <Callout title="Illegal dumping is a crime" variant="warning">
-            {illegalDumpingText}
-          </Callout>
-        </div>
-      </section>
+      <Section bg="offwhite">
+        <Callout title="Illegal dumping is a crime" variant="warning">
+          {illegalDumpingText}
+        </Callout>
+      </Section>
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section>
         <h2 className="text-2xl font-extrabold text-brand-black">Why Dump Happy</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">{whyDumpHappy}</p>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">What Our Customers Say</h2>
-          <div className="mt-6">
-            <ReviewSlot contextKey="service:junk-removal" label="Junk Removal" />
-          </div>
+      <Section bg="offwhite">
+        <h2 className="text-2xl font-extrabold text-brand-black">What Our Customers Say</h2>
+        <div className="mt-6">
+          <ReviewSlot contextKey="service:junk-removal" label="Junk Removal" />
         </div>
-      </section>
+      </Section>
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section>
         <p className="leading-relaxed text-brand-charcoal">
           Just one couch or fridge? See{" "}
           <Link
@@ -235,29 +216,27 @@ export default function JunkRemovalPage() {
           </Link>
           .
         </p>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">
-            Frequently Asked Questions
-          </h2>
-          <div className="mt-6">
-            <FAQAccordion faqs={faqs} />
-          </div>
-          <p className="mt-6 text-sm text-brand-gray">
-            Learn more:{" "}
-            <a
-              href="https://cleanla.lacounty.gov/illegal-dumping/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-brand-orange hover:underline"
-            >
-              LA County illegal-dumping ordinance &amp; penalties
-            </a>
-          </p>
+      <Section bg="offwhite">
+        <h2 className="text-2xl font-extrabold text-brand-black">
+          Frequently Asked Questions
+        </h2>
+        <div className="mt-6">
+          <FAQAccordion faqs={faqs} />
         </div>
-      </section>
+        <p className="mt-6 text-sm text-brand-gray">
+          Learn more:{" "}
+          <a
+            href="https://cleanla.lacounty.gov/illegal-dumping/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-brand-orange hover:underline"
+          >
+            LA County illegal-dumping ordinance &amp; penalties
+          </a>
+        </p>
+      </Section>
 
       <ServicesGrid heading="Explore All Our Services" />
 

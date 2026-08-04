@@ -15,6 +15,11 @@ import { CTABand } from "@/components/CTABand";
 import { ServicesGrid } from "@/components/ServicesGrid";
 import { QuoteForm } from "@/components/QuoteForm";
 import { Callout } from "@/components/Callout";
+import { Hero } from "@/components/page-sections/Hero";
+import { Section } from "@/components/page-sections/Section";
+import { PillList } from "@/components/page-sections/PillList";
+import { BeforeAfterTiles } from "@/components/page-sections/BeforeAfterTiles";
+import { JOB_PHOTOS } from "@/lib/data/job-photos";
 
 const SERVICE_NAME = "Yard/Green Waste Removal";
 const PATH = "/services/yard-waste-removal";
@@ -87,55 +92,59 @@ export default function YardWasteRemovalPage() {
         ]}
       />
 
-      <section className="bg-brand-black">
-        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-4 py-14 sm:px-6 lg:grid-cols-5 lg:px-8 lg:py-20">
-          <div className="lg:col-span-3">
-            <h1 className="text-3xl font-extrabold text-white sm:text-4xl">
-              Yard &amp; Green Waste Removal in Los Angeles
-            </h1>
-            <p className="mt-5 text-lg leading-relaxed text-white/80">
-              A weekend of yard work, a tree that came down, or a long-overdue overgrowth
-              clear-out leaves piles the green bin can&apos;t touch. Dump Happy hauls yard and
-              green waste across Los Angeles — branches, trimmings, leaves, sod, brush, and storm
-              debris — and takes it to organics facilities so it&apos;s composted or mulched, not
-              dumped. You skip the dozen bin cycles and the trips to the dump; we clear it in one
-              visit.
-            </p>
-          </div>
-          <div className="lg:col-span-2">
-            <QuoteForm compact defaultService="yard-waste-removal" />
-          </div>
+      <Hero
+        background={{
+          type: "photo",
+          src: JOB_PHOTOS.branches.src,
+          alt: "Dump Happy crew member loading tree branches and yard waste into a truck bed",
+          width: JOB_PHOTOS.branches.width,
+          height: JOB_PHOTOS.branches.height,
+        }}
+        h1={<>Yard &amp; Green Waste Removal in Los Angeles</>}
+        intro={
+          <p>
+            A weekend of yard work, a tree that came down, or a long-overdue overgrowth
+            clear-out leaves piles the green bin can&apos;t touch. Dump Happy hauls yard and
+            green waste across Los Angeles — branches, trimmings, leaves, sod, brush, and storm
+            debris — and takes it to organics facilities so it&apos;s composted or mulched, not
+            dumped. You skip the dozen bin cycles and the trips to the dump; we clear it in one
+            visit.
+          </p>
+        }
+        aside={<QuoteForm compact variant="card" defaultService="yard-waste-removal" />}
+      />
+
+      <PillList
+        heading="Green Waste We Take"
+        items={[
+          "Tree branches and limbs",
+          "Hedge and shrub trimmings",
+          "Leaves and grass",
+          "Brush and weeds",
+          "Sod and small stumps",
+          "Palm fronds",
+          "Storm and overgrowth debris",
+        ]}
+      />
+
+      <Section bg="offwhite">
+        <h2 className="text-2xl font-extrabold text-brand-black">
+          Handled Right — and Documented
+        </h2>
+        <div className="mt-4">
+          <Callout title="SB 1383 &amp; organics diversion" variant="info">
+            California&apos;s <strong>SB 1383</strong> requires organic waste (including yard
+            trimmings) to be diverted from landfills — the state is targeting a 75% cut in
+            organic disposal, and non-compliance penalties can reach{" "}
+            <strong>$10,000 a day.</strong> Dump Happy takes your green waste to{" "}
+            <strong>authorized organics facilities</strong> where it&apos;s composted or turned
+            into mulch, and, for landscapers and businesses who self-haul, we keep the kind of
+            records SB 1383 expects rather than sending organics to a landfill.
+          </Callout>
         </div>
-      </section>
+      </Section>
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-        <h2 className="text-2xl font-extrabold text-brand-black">Green Waste We Take</h2>
-        <p className="mt-4 leading-relaxed text-brand-charcoal">
-          Tree branches and limbs, hedge and shrub trimmings, leaves and grass, brush and weeds,
-          sod and small stumps, palm fronds, and general storm and overgrowth debris.
-        </p>
-      </section>
-
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">
-            Handled Right — and Documented
-          </h2>
-          <div className="mt-4">
-            <Callout title="SB 1383 &amp; organics diversion" variant="info">
-              California&apos;s <strong>SB 1383</strong> requires organic waste (including yard
-              trimmings) to be diverted from landfills — the state is targeting a 75% cut in
-              organic disposal, and non-compliance penalties can reach{" "}
-              <strong>$10,000 a day.</strong> Dump Happy takes your green waste to{" "}
-              <strong>authorized organics facilities</strong> where it&apos;s composted or turned
-              into mulch, and, for landscapers and businesses who self-haul, we keep the kind of
-              records SB 1383 expects rather than sending organics to a landfill.
-            </Callout>
-          </div>
-        </div>
-      </section>
-
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section>
         <h2 className="text-2xl font-extrabold text-brand-black">What We Can&apos;t Mix In</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           Green waste stays green — <strong>dirt, rock, concrete, and construction debris
@@ -149,40 +158,43 @@ export default function YardWasteRemovalPage() {
           service instead, and household hazardous waste (pesticides, chemicals) needs a County
           drop-off. Keeping the loads separate is what keeps the organics recyclable.
         </p>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">
-            Storm and Overgrowth Cleanup
-          </h2>
-          <p className="mt-4 leading-relaxed text-brand-charcoal">
-            Downed limbs after a windstorm, an overgrown yard before a sale, a rental&apos;s
-            neglected back lot — we clear it fast, including hard-to-reach piles, and haul it all
-            in one go.
-          </p>
-        </div>
-      </section>
+      <BeforeAfterTiles
+        heading="A Real Yard Clean-Out"
+        before={{ ...JOB_PHOTOS.yardBefore }}
+        after={{ ...JOB_PHOTOS.yardAfter }}
+        bg="offwhite"
+      />
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section>
+        <h2 className="text-2xl font-extrabold text-brand-black">
+          Storm and Overgrowth Cleanup
+        </h2>
+        <p className="mt-4 leading-relaxed text-brand-charcoal">
+          Downed limbs after a windstorm, an overgrown yard before a sale, a rental&apos;s
+          neglected back lot — we clear it fast, including hard-to-reach piles, and haul it all
+          in one go.
+        </p>
+      </Section>
+
+      <Section bg="offwhite">
         <h2 className="text-2xl font-extrabold text-brand-black">What Our Clients Say</h2>
         <div className="mt-6">
           <ReviewSlot contextKey="service:yard-waste-removal" label={SERVICE_NAME} />
         </div>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">
-            Frequently Asked Questions
-          </h2>
-          <div className="mt-6">
-            <FAQAccordion faqs={faqs} />
-          </div>
+      <Section>
+        <h2 className="text-2xl font-extrabold text-brand-black">
+          Frequently Asked Questions
+        </h2>
+        <div className="mt-6">
+          <FAQAccordion faqs={faqs} />
         </div>
-      </section>
+      </Section>
 
-      <section className="mx-auto max-w-4xl px-4 pb-14 sm:px-6 lg:px-8">
+      <Section bg="offwhite">
         <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-brand-gray">
           <span className="font-semibold text-brand-black">Related services:</span>
           <Link href="/services/junk-removal" className="text-brand-orange hover:underline">
@@ -231,7 +243,7 @@ export default function YardWasteRemovalPage() {
             LA Sanitation Organics
           </a>
         </p>
-      </section>
+      </Section>
 
       <ServicesGrid heading="Explore Our Other Services" />
 

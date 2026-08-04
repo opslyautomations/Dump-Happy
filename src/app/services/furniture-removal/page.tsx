@@ -13,6 +13,13 @@ import { FAQAccordion } from "@/components/FAQAccordion";
 import { ReviewSlot } from "@/components/ReviewSlot";
 import { CTABand } from "@/components/CTABand";
 import { ServicesGrid } from "@/components/ServicesGrid";
+import { Hero } from "@/components/page-sections/Hero";
+import { Section } from "@/components/page-sections/Section";
+import { FramedPhoto } from "@/components/page-sections/FramedPhoto";
+import { ImageTextSplit } from "@/components/page-sections/ImageTextSplit";
+import { PillList } from "@/components/page-sections/PillList";
+import { JOB_PHOTOS } from "@/lib/data/job-photos";
+import { QuoteForm } from "@/components/QuoteForm";
 
 export const metadata: Metadata = buildMetadata({
   title: "Furniture Removal in Los Angeles | Dump Happy",
@@ -109,76 +116,58 @@ export default function FurnitureRemovalPage() {
 
       <Breadcrumbs items={breadcrumbItems} />
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-        <h1 className="text-3xl font-extrabold text-brand-black sm:text-4xl">
-          Furniture Removal in Los Angeles — From One Couch to a Whole House
-        </h1>
-        <p className="mt-5 leading-relaxed text-brand-charcoal">{intro}</p>
-        <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+      <Hero
+        h1="Furniture Removal in Los Angeles — From One Couch to a Whole House"
+        intro={<p>{intro}</p>}
+        asideMedia={
+          <FramedPhoto
+            photo={{ ...JOB_PHOTOS.furniture, alt: "Bulky furniture loaded for haul-away in Los Angeles" }}
+            accent
+          />
+        }
+        aside={<QuoteForm compact variant="card" defaultService="furniture-removal" />}
+      />
+
+      <PillList heading="Furniture We Haul" items={furnitureChips} />
+      <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <p className="mt-4 text-sm text-brand-gray">
+          Mattresses are handled separately — see{" "}
           <Link
-            href="/contact"
-            className="flex min-h-12 items-center justify-center rounded-md bg-brand-orange px-8 text-sm font-bold text-white hover:bg-brand-orange-dark"
+            href="/services/mattress-removal"
+            className="font-semibold text-brand-orange hover:underline"
           >
-            Get a Free Quote
+            Mattress Removal
           </Link>
-        </div>
-      </section>
+          .
+        </p>
+      </div>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black sm:text-3xl">
-            Furniture We Haul
-          </h2>
-          <div className="mt-6 flex flex-wrap gap-3">
-            {furnitureChips.map((chip) => (
-              <span
-                key={chip}
-                className="rounded-full border border-brand-orange/30 bg-white px-4 py-2 text-sm font-semibold text-brand-black"
-              >
-                {chip}
-              </span>
-            ))}
-          </div>
-          <p className="mt-4 text-sm text-brand-gray">
-            Mattresses are handled separately — see{" "}
-            <Link
-              href="/services/mattress-removal"
-              className="font-semibold text-brand-orange hover:underline"
-            >
-              Mattress Removal
-            </Link>
-            .
-          </p>
-        </div>
-      </section>
-
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section bg="offwhite">
         <h2 className="text-2xl font-extrabold text-brand-black">{cityPickupHeading}</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">{cityPickupText}</p>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">Donation First</h2>
-          <p className="mt-4 leading-relaxed text-brand-charcoal">{donationText}</p>
+      <Section>
+        <h2 className="text-2xl font-extrabold text-brand-black">Donation First</h2>
+        <p className="mt-4 leading-relaxed text-brand-charcoal">{donationText}</p>
+      </Section>
+
+      <ImageTextSplit
+        heading="In-Home vs. Curbside"
+        image={{ ...JOB_PHOTOS.truck, alt: "Dump Happy truck ready for a furniture haul-away in Los Angeles" }}
+        imageSide="left"
+      >
+        <p>{inHomeCurbsideText}</p>
+      </ImageTextSplit>
+
+      <Section bg="offwhite">
+        <h2 className="text-2xl font-extrabold text-brand-black">What Our Customers Say</h2>
+        <div className="mt-6">
+          <ReviewSlot contextKey="service:furniture-removal" label="Furniture Removal" />
         </div>
-      </section>
+      </Section>
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-        <h2 className="text-2xl font-extrabold text-brand-black">In-Home vs. Curbside</h2>
-        <p className="mt-4 leading-relaxed text-brand-charcoal">{inHomeCurbsideText}</p>
-      </section>
-
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">What Our Customers Say</h2>
-          <div className="mt-6">
-            <ReviewSlot contextKey="service:furniture-removal" label="Furniture Removal" />
-          </div>
-        </div>
-      </section>
-
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+      <Section>
         <p className="leading-relaxed text-brand-charcoal">
           Getting rid of the bed too? See{" "}
           <Link
@@ -211,18 +200,16 @@ export default function FurnitureRemovalPage() {
           </Link>
           .
         </p>
-      </section>
+      </Section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">
-            Frequently Asked Questions
-          </h2>
-          <div className="mt-6">
-            <FAQAccordion faqs={faqs} />
-          </div>
+      <Section bg="offwhite">
+        <h2 className="text-2xl font-extrabold text-brand-black">
+          Frequently Asked Questions
+        </h2>
+        <div className="mt-6">
+          <FAQAccordion faqs={faqs} />
         </div>
-      </section>
+      </Section>
 
       <ServicesGrid heading="Explore All Our Services" />
 
