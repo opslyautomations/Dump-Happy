@@ -52,8 +52,19 @@ export default function HomePage() {
     <>
       <JsonLd data={organizationJsonLd()} />
 
-      <section className="bg-brand-black">
-        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-4 py-16 sm:px-6 lg:grid-cols-5 lg:items-start lg:px-8 lg:py-24">
+      <section className="relative overflow-hidden bg-brand-black">
+        <div className="absolute inset-0">
+          <Image
+            src="/hero-truck.png"
+            alt="Dump Happy crew member loading a junk-removal truck at sunset"
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover opacity-40"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-brand-black via-brand-black/80 to-brand-black/30" />
+        </div>
+        <div className="relative mx-auto grid max-w-7xl grid-cols-1 gap-10 px-4 py-16 sm:px-6 lg:grid-cols-5 lg:items-start lg:px-8 lg:py-24">
           <div className="lg:col-span-3">
             <p className="text-sm font-bold uppercase tracking-wide text-brand-orange">
               Los Angeles Junk Removal &amp; Clean-Outs
