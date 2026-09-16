@@ -35,7 +35,7 @@ export function QuoteForm({
         data-cookie-consent="true"
         data-cookie-consent-provider="auto"
         title="Junk Removal Form - Copy"
-        style={{ width: "100%", maxWidth: "480px", height: "959px", border: "none", borderRadius: "8px", display: "block", margin: "0 auto" }}
+        style={{ width: "100%", height: "959px", border: "none", borderRadius: "8px", display: "block" }}
       />
       <Script src="https://api.opslyautomations.com/js/form_embed.js" strategy="afterInteractive" />
     </div>
