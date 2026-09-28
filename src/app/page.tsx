@@ -169,21 +169,6 @@ export default function HomePage() {
                 <p className="text-sm font-semibold text-brand-ink">{LOCATIONS.length} LA neighborhoods</p>
               </div>
             )}
-            <div className="animate-float absolute bottom-4 left-8 flex items-center gap-3 rounded-2xl bg-white p-3 pr-5 shadow-xl ring-1 ring-black/5">
-              <div className="relative h-14 w-14 overflow-hidden rounded-xl">
-                <Image
-                  src="/IMG_7384.jpg"
-                  alt="Empty, swept garage after a Dump Happy clean-out"
-                  fill
-                  sizes="56px"
-                  className="object-cover"
-                />
-              </div>
-              <div>
-                <p className="text-sm font-semibold text-brand-ink">Broom-clean finish</p>
-                <p className="text-xs text-brand-slate">on every single job</p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
