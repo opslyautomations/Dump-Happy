@@ -120,7 +120,7 @@ export default function YardWasteRemovalPage() {
       />
 
       <Section bg="offwhite">
-        <h2 className="text-2xl font-extrabold text-brand-black">
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">
           Handled Right — and Documented
         </h2>
         <div className="mt-4">
@@ -137,7 +137,7 @@ export default function YardWasteRemovalPage() {
       </Section>
 
       <Section>
-        <h2 className="text-2xl font-extrabold text-brand-black">What We Can&apos;t Mix In</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">What We Can&apos;t Mix In</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           Green waste stays green — <strong>dirt, rock, concrete, and construction debris
           aren&apos;t organics</strong> and go through our{" "}
@@ -153,7 +153,7 @@ export default function YardWasteRemovalPage() {
       </Section>
 
       <Section bg="offwhite">
-        <h2 className="text-2xl font-extrabold text-brand-black">
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">
           Storm and Overgrowth Cleanup
         </h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
@@ -164,14 +164,14 @@ export default function YardWasteRemovalPage() {
       </Section>
 
       <Section>
-        <h2 className="text-2xl font-extrabold text-brand-black">What Our Clients Say</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">What Our Clients Say</h2>
         <div className="mt-6">
           <ReviewSlot contextKey="service:yard-waste-removal" label={SERVICE_NAME} />
         </div>
       </Section>
 
       <Section bg="offwhite">
-        <h2 className="text-2xl font-extrabold text-brand-black">
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">
           Frequently Asked Questions
         </h2>
         <div className="mt-6">

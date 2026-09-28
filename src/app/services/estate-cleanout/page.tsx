@@ -107,7 +107,7 @@ export default function EstateCleanoutPage() {
       />
 
       <Section bg="white">
-        <h2 className="text-2xl font-extrabold text-brand-black">
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">
           How an Estate Clean-Out Works
         </h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
@@ -120,7 +120,7 @@ export default function EstateCleanoutPage() {
       </Section>
 
       <Section bg="offwhite">
-        <h2 className="text-2xl font-extrabold text-brand-black">What We Handle</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">What We Handle</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           Whole-home contents — furniture, appliances, mattresses, garage and yard, decades of
           accumulation — in a single coordinated job rather than a dozen separate pickups.
@@ -137,7 +137,7 @@ export default function EstateCleanoutPage() {
       </Section>
 
       <Section bg="offwhite">
-        <h2 className="text-2xl font-extrabold text-brand-black">Donation First</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">Donation First</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           Usable furniture, clothing, and household goods are routed to local charities so a
           lifetime of belongings does some good instead of filling a landfill; metals and
@@ -146,7 +146,7 @@ export default function EstateCleanoutPage() {
       </Section>
 
       <Section bg="white">
-        <h2 className="text-2xl font-extrabold text-brand-black">Who We Work With</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">Who We Work With</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           Executors and estate attorneys on probate timelines, realtors prepping listings, and
           families managing a move to assisted living or an out-of-state relative&apos;s home.
@@ -155,14 +155,14 @@ export default function EstateCleanoutPage() {
       </Section>
 
       <Section bg="offwhite">
-        <h2 className="text-2xl font-extrabold text-brand-black">What Our Clients Say</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">What Our Clients Say</h2>
         <div className="mt-6">
           <ReviewSlot contextKey="service:estate-cleanout" label={SERVICE_NAME} />
         </div>
       </Section>
 
       <Section bg="white">
-        <h2 className="text-2xl font-extrabold text-brand-black">Frequently Asked Questions</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">Frequently Asked Questions</h2>
         <div className="mt-6">
           <FAQAccordion faqs={faqs} />
         </div>

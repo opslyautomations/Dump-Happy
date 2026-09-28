@@ -75,7 +75,7 @@ export default async function BlogPostPage({
         <span className="text-xs font-bold uppercase tracking-wide text-brand-orange">
           {post.category}
         </span>
-        <h1 className="mt-2 text-3xl font-extrabold text-brand-black sm:text-4xl">
+        <h1 className="mt-2 text-3xl font-bold tracking-tight text-brand-ink sm:text-4xl">
           {post.title}
         </h1>
         <time dateTime={post.datePublished} className="mt-3 block text-sm text-brand-gray">

@@ -12,7 +12,7 @@ export function PillList({
   return (
     <section className={bg === "offwhite" ? "bg-brand-offwhite" : ""}>
       <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-        <h2 className="text-2xl font-extrabold text-brand-black">{heading}</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">{heading}</h2>
         {intro && <p className="mt-4 leading-relaxed text-brand-charcoal">{intro}</p>}
         <div className="mt-6 flex flex-wrap gap-2">
           {items.map((item) => (

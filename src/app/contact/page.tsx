@@ -29,7 +29,7 @@ export default function ContactPage() {
       <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-2">
           <div>
-            <h1 className="text-3xl font-extrabold text-brand-black sm:text-4xl">
+            <h1 className="text-4xl font-bold tracking-tight text-brand-ink sm:text-5xl">
               Get a Free Quote
             </h1>
             <p className="mt-4 leading-relaxed text-brand-gray">
@@ -39,27 +39,27 @@ export default function ContactPage() {
 
             <dl className="mt-10 space-y-6">
               <div>
-                <dt className="text-sm font-bold uppercase tracking-wide text-brand-orange">Phone</dt>
+                <dt className="text-sm font-semibold uppercase tracking-widest text-brand-orange-dark">Phone</dt>
                 <dd className="mt-1">
-                  <a href={`tel:${SITE.phoneRaw}`} className="text-lg font-semibold text-brand-black hover:text-brand-orange">
+                  <a href={`tel:${SITE.phoneRaw}`} className="text-lg font-semibold text-brand-ink hover:text-brand-orange">
                     {SITE.phoneDisplay}
                   </a>
                 </dd>
               </div>
               <div>
-                <dt className="text-sm font-bold uppercase tracking-wide text-brand-orange">Email</dt>
-                {/* NEEDS: business email — not yet supplied by Jason */}
-                <dd className="mt-1 text-brand-charcoal">
-                  Email coming soon — call or text {SITE.phoneDisplay} in the meantime.
+                <dt className="text-sm font-semibold uppercase tracking-widest text-brand-orange-dark">Email</dt>
+                <dd className="mt-1">
+                  <a href={`mailto:${SITE.email}`} className="text-lg font-semibold text-brand-ink hover:text-brand-orange">
+                    {SITE.email}
+                  </a>
                 </dd>
               </div>
               <div>
-                <dt className="text-sm font-bold uppercase tracking-wide text-brand-orange">Hours</dt>
-                {/* NEEDS: business hours — not yet supplied by Jason */}
-                <dd className="mt-1 text-brand-charcoal">[NEEDS: hours]</dd>
+                <dt className="text-sm font-semibold uppercase tracking-widest text-brand-orange-dark">Hours</dt>
+                <dd className="mt-1 text-lg font-semibold text-brand-ink">{SITE.hoursDisplay}</dd>
               </div>
               <div>
-                <dt className="text-sm font-bold uppercase tracking-wide text-brand-orange">Service Area</dt>
+                <dt className="text-sm font-semibold uppercase tracking-widest text-brand-orange-dark">Service Area</dt>
                 <dd className="mt-1 text-brand-charcoal">
                   {SITE.addressNote} — serving all of Los Angeles County,
                   centered on the Westside, South Bay, and Central LA.

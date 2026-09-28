@@ -111,7 +111,7 @@ export default function CommercialJunkRemovalPage() {
       />
 
       <Section>
-        <h2 className="text-2xl font-extrabold text-brand-black">Who We Serve</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">Who We Serve</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           Offices and coworking spaces, retail and restaurants, property managers and landlords,
           and contractors handling tenant improvements — one-time clear-outs or recurring service.
@@ -119,7 +119,7 @@ export default function CommercialJunkRemovalPage() {
       </Section>
 
       <Section bg="offwhite">
-        <h2 className="text-2xl font-extrabold text-brand-black">What We Clear</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">What We Clear</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           Office furniture and cubicles, desks and chairs, filing cabinets, retail shelving and
           fixtures, breakroom appliances, and general commercial junk — from a single suite to a
@@ -128,7 +128,7 @@ export default function CommercialJunkRemovalPage() {
       </Section>
 
       <Section>
-        <h2 className="text-2xl font-extrabold text-brand-black">
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">
           Electronics and Data — The Honest Version
         </h2>
         <div className="mt-4">
@@ -148,7 +148,7 @@ export default function CommercialJunkRemovalPage() {
       </Section>
 
       <Section bg="offwhite">
-        <h2 className="text-2xl font-extrabold text-brand-black">Logistics</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">Logistics</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           After-hours and weekend scheduling so we&apos;re not disrupting your business,
           certificate of insurance (COI) for building management on request, and recurring
@@ -158,14 +158,14 @@ export default function CommercialJunkRemovalPage() {
       </Section>
 
       <Section>
-        <h2 className="text-2xl font-extrabold text-brand-black">What Our Clients Say</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">What Our Clients Say</h2>
         <div className="mt-6">
           <ReviewSlot contextKey="service:commercial-junk-removal" label={SERVICE_NAME} />
         </div>
       </Section>
 
       <Section bg="offwhite">
-        <h2 className="text-2xl font-extrabold text-brand-black">
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">
           Frequently Asked Questions
         </h2>
         <div className="mt-6">

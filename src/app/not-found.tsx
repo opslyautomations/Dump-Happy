@@ -11,7 +11,7 @@ export default function NotFound() {
   return (
     <div className="mx-auto flex max-w-2xl flex-col items-center px-4 py-24 text-center sm:px-6">
       <p className="text-sm font-bold uppercase tracking-wide text-brand-orange">404</p>
-      <h1 className="mt-3 text-3xl font-extrabold text-brand-black sm:text-4xl">
+      <h1 className="mt-3 text-3xl font-bold tracking-tight text-brand-ink sm:text-4xl">
         This page got hauled away.
       </h1>
       <p className="mt-4 text-brand-gray">
@@ -21,13 +21,13 @@ export default function NotFound() {
       <div className="mt-8 flex flex-col gap-3 sm:flex-row">
         <Link
           href="/"
-          className="flex min-h-12 items-center justify-center rounded-md bg-brand-black px-8 text-sm font-bold text-white hover:bg-brand-charcoal"
+          className="flex min-h-12 items-center justify-center rounded-lg bg-brand-orange px-8 text-sm font-semibold text-white shadow-md shadow-brand-orange/25 hover:bg-brand-orange-dark"
         >
           Back to Home
         </Link>
         <a
           href={`tel:${SITE.phoneRaw}`}
-          className="flex min-h-12 items-center justify-center rounded-md border border-black/15 px-8 text-sm font-bold text-brand-black hover:border-brand-orange hover:text-brand-orange"
+          className="flex min-h-12 items-center justify-center rounded-lg border border-black/15 px-8 text-sm font-semibold text-brand-black hover:border-brand-orange hover:text-brand-orange"
         >
           Call {SITE.phoneDisplay}
         </a>

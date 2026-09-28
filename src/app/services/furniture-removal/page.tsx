@@ -135,22 +135,22 @@ export default function FurnitureRemovalPage() {
       </div>
 
       <Section bg="offwhite">
-        <h2 className="text-2xl font-extrabold text-brand-black">{cityPickupHeading}</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">{cityPickupHeading}</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">{cityPickupText}</p>
       </Section>
 
       <Section>
-        <h2 className="text-2xl font-extrabold text-brand-black">Donation First</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">Donation First</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">{donationText}</p>
       </Section>
 
       <Section bg="offwhite">
-        <h2 className="text-2xl font-extrabold text-brand-black">In-Home vs. Curbside</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">In-Home vs. Curbside</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">{inHomeCurbsideText}</p>
       </Section>
 
       <Section>
-        <h2 className="text-2xl font-extrabold text-brand-black">What Our Customers Say</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">What Our Customers Say</h2>
         <div className="mt-6">
           <ReviewSlot contextKey="service:furniture-removal" label="Furniture Removal" />
         </div>
@@ -192,7 +192,7 @@ export default function FurnitureRemovalPage() {
       </Section>
 
       <Section>
-        <h2 className="text-2xl font-extrabold text-brand-black">
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">
           Frequently Asked Questions
         </h2>
         <div className="mt-6">

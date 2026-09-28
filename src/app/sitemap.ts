@@ -3,6 +3,8 @@ import { SITE } from "@/lib/data/site";
 import { SERVICES } from "@/lib/data/services";
 import { LOCATIONS } from "@/lib/data/locations";
 import { BLOG_POSTS } from "@/lib/data/blog";
+import { PROMO } from "@/lib/data/promo";
+import { LOCATION_PHOTOS } from "@/lib/data/location-photos";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [
@@ -15,6 +17,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.url}/services`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE.url}/locations`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE.url}/blog`, changeFrequency: "weekly", priority: 0.6 },
+    ...(PROMO.active
+      ? ([{ url: `${SITE.url}/specials`, changeFrequency: "weekly", priority: 0.7 }] as const)
+      : []),
   ];
 
   const serviceRoutes: MetadataRoute.Sitemap = SERVICES.map((s) => ({
@@ -27,6 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${SITE.url}/locations/${l.slug}`,
     changeFrequency: "monthly",
     priority: 0.9,
+    ...(LOCATION_PHOTOS[l.slug] ? { images: [`${SITE.url}${LOCATION_PHOTOS[l.slug].src}`] } : {}),
   }));
 
   const blogRoutes: MetadataRoute.Sitemap = BLOG_POSTS.map((p) => ({

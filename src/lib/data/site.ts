@@ -5,10 +5,11 @@ export const SITE = {
   url: "https://dumphappy.com",
   phoneDisplay: "(424) 356-4141",
   phoneRaw: "+14243564141",
-  // NEEDS: business email — not supplied yet. Do not invent a placeholder;
-  // `email` stays null until Jason confirms a real address. UI/schema code
-  // must check for null and omit the email rather than fabricate one.
-  email: null as string | null,
+  email: "support@dumphappy.com" as string | null,
+  hoursDisplay: "10am – 8pm, 7 days a week",
+  hoursShort: "Open daily 10am–8pm",
+  // schema.org openingHoursSpecification (24h clock)
+  hours: { opens: "10:00", closes: "20:00" },
   owner: "Jason",
   gbpUrl: "https://share.google/Yp8URbBxAymgKWgo1",
   addressNote: "Mobile business — no storefront (service-area business)",

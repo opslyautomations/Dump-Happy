@@ -110,7 +110,7 @@ export default function ConstructionDebrisRemovalPage() {
       />
 
       <Section>
-        <h2 className="text-2xl font-extrabold text-brand-black">C&amp;D Debris We Take</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">C&amp;D Debris We Take</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           Drywall, lumber and wood, flooring and carpet, tile, roofing, concrete and masonry,
           brick, cabinets and fixtures, windows, and general remodel debris.
@@ -118,7 +118,7 @@ export default function ConstructionDebrisRemovalPage() {
       </Section>
 
       <Section bg="offwhite">
-        <h2 className="text-2xl font-extrabold text-brand-black">
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">
           The Part That Affects Your Permit — LA&apos;s Recycling Requirement
         </h2>
         <div className="mt-4">
@@ -140,7 +140,7 @@ export default function ConstructionDebrisRemovalPage() {
       </Section>
 
       <Section>
-        <h2 className="text-2xl font-extrabold text-brand-black">Load-Based Pricing</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">Load-Based Pricing</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           Priced by truck volume — a bathroom gut is a lower tier; a full demo runs toward full
           load — quoted before we haul, with fast pickups between phases so debris isn&apos;t
@@ -149,7 +149,7 @@ export default function ConstructionDebrisRemovalPage() {
       </Section>
 
       <Section bg="offwhite">
-        <h2 className="text-2xl font-extrabold text-brand-black">What We Can&apos;t Take</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">What We Can&apos;t Take</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           Household hazardous waste and materials like asbestos, wet paint, and solvents
           can&apos;t ride in a standard truck — those need specialized handling. Flag them and
@@ -158,14 +158,14 @@ export default function ConstructionDebrisRemovalPage() {
       </Section>
 
       <Section>
-        <h2 className="text-2xl font-extrabold text-brand-black">What Our Clients Say</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">What Our Clients Say</h2>
         <div className="mt-6">
           <ReviewSlot contextKey="service:construction-debris-removal" label={SERVICE_NAME} />
         </div>
       </Section>
 
       <Section bg="offwhite">
-        <h2 className="text-2xl font-extrabold text-brand-black">
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">
           Frequently Asked Questions
         </h2>
         <div className="mt-6">

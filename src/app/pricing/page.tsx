@@ -24,7 +24,7 @@ export default function PricingPage() {
       <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Pricing", path: "/pricing" }]} />
 
       <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-        <h1 className="text-3xl font-extrabold text-brand-black sm:text-4xl">
+        <h1 className="text-3xl font-bold tracking-tight text-brand-ink sm:text-4xl">
           Junk Removal Pricing in Los Angeles
         </h1>
         <p className="mt-5 leading-relaxed text-brand-gray">
@@ -38,7 +38,7 @@ export default function PricingPage() {
 
       <section className="bg-brand-offwhite">
         <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">Load Tiers</h2>
+          <h2 className="text-2xl font-bold tracking-tight text-brand-ink">Load Tiers</h2>
           <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
             {PRICING_TIERS.map((tier) => (
               <div key={tier.key} className="rounded-xl border border-black/10 bg-white p-6">

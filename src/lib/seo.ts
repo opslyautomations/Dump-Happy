@@ -80,6 +80,22 @@ export function localBusinessJsonLd(opts: {
     url: SITE.url,
     image: `${SITE.url}/opengraph-image`,
     priceRange: "$$",
+    openingHoursSpecification: [
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday",
+        ],
+        opens: SITE.hours.opens,
+        closes: SITE.hours.closes,
+      },
+    ],
     areaServed: opts.areaServed,
     address: {
       "@type": "PostalAddress",
@@ -171,6 +187,42 @@ export function blogPostingJsonLd(opts: {
       "@type": "Organization",
       name: SITE.name,
       logo: { "@type": "ImageObject", url: `${SITE.url}/opengraph-image` },
+    },
+  };
+}
+
+export function imageObjectJsonLd(photo: {
+  src: string;
+  alt: string;
+  title: string;
+  caption: string;
+  width: number;
+  height: number;
+  lat: number;
+  lon: number;
+  credit: { author: string; license: string; licenseUrl: string | null; sourceUrl: string };
+}) {
+  const creditText = `Photo: ${photo.credit.author} / ${photo.credit.license} via Wikimedia Commons`;
+  return {
+    "@context": "https://schema.org",
+    "@type": "ImageObject",
+    contentUrl: `${SITE.url}${photo.src}`,
+    url: `${SITE.url}${photo.src}`,
+    name: photo.title,
+    caption: photo.caption,
+    description: photo.alt,
+    width: photo.width,
+    height: photo.height,
+    encodingFormat: "image/jpeg",
+    creator: { "@type": "Person", name: photo.credit.author },
+    creditText,
+    copyrightNotice: creditText,
+    license: photo.credit.licenseUrl ?? photo.credit.sourceUrl,
+    acquireLicensePage: photo.credit.sourceUrl,
+    contentLocation: {
+      "@type": "Place",
+      name: photo.caption,
+      geo: { "@type": "GeoCoordinates", latitude: photo.lat, longitude: photo.lon },
     },
   };
 }

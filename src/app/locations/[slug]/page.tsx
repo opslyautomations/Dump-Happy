@@ -4,11 +4,13 @@ import { notFound } from "next/navigation";
 import { LOCATIONS } from "@/lib/data/locations";
 import { LOCATIONS_CONTENT, getLocationContent } from "@/lib/data/locations-content";
 import { getLocationPresentation } from "@/lib/data/locations-presentation";
+import { getLocationPhoto } from "@/lib/data/location-photos";
 import {
   buildMetadata,
   localBusinessJsonLd,
   faqPageJsonLd,
   breadcrumbJsonLd,
+  imageObjectJsonLd,
 } from "@/lib/seo";
 import { JsonLd } from "@/components/JsonLd";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -20,6 +22,7 @@ import { QuoteForm } from "@/components/QuoteForm";
 import { Hero } from "@/components/page-sections/Hero";
 import { Section } from "@/components/page-sections/Section";
 import { LocalServiceCard } from "@/components/page-sections/LocalServiceCard";
+import { LocationPhoto } from "@/components/page-sections/LocationPhoto";
 
 export function generateStaticParams() {
   return LOCATIONS.map((l) => ({ slug: l.slug }));
@@ -50,6 +53,7 @@ export default async function LocationPage({
   if (!content) notFound();
 
   const presentation = getLocationPresentation(content.slug);
+  const photo = getLocationPhoto(content.slug);
 
   const path = `/locations/${content.slug}`;
   const nearbyLocations = content.nearby
@@ -62,6 +66,7 @@ export default async function LocationPage({
         data={[
           localBusinessJsonLd({ areaServed: content.areaServedSchema }),
           faqPageJsonLd(content.faqs),
+          ...(photo ? [imageObjectJsonLd(photo)] : []),
           breadcrumbJsonLd([
             { name: "Home", path: "/" },
             { name: "Service Areas", path: "/locations" },
@@ -85,20 +90,22 @@ export default async function LocationPage({
         aside={<QuoteForm compact variant={presentation.formVariant} defaultCity={content.slug} />}
       />
 
+      {photo && <LocationPhoto photo={photo} name={content.name} />}
+
       <Section bg="white">
-        <h2 className="text-2xl font-extrabold text-brand-black">{content.localAngleHeading}</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">{content.localAngleHeading}</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">{content.localAngle}</p>
       </Section>
 
       <Section bg="offwhite">
-        <h2 className="text-2xl font-extrabold text-brand-black">
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">
           Neighborhoods &amp; Areas We Serve
         </h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">{content.neighborhoods}</p>
       </Section>
 
       <Section bg="white">
-        <h2 className="text-2xl font-extrabold text-brand-black">
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">
           Services Available in {content.name}
         </h2>
         {presentation.cardStyle === "row" ? (
@@ -131,7 +138,7 @@ export default async function LocationPage({
       </Section>
 
       <Section bg="offwhite">
-        <h2 className="text-2xl font-extrabold text-brand-black">
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">
           What {content.name} Customers Say
         </h2>
         <div className="mt-6">
@@ -140,7 +147,7 @@ export default async function LocationPage({
       </Section>
 
       <Section bg="white">
-        <h2 className="text-2xl font-extrabold text-brand-black">
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">
           Frequently Asked Questions — {content.name}
         </h2>
         <div className="mt-6">

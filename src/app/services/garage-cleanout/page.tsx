@@ -146,7 +146,7 @@ export default function GarageCleanoutPage() {
       />
 
       <Section bg="offwhite">
-        <h2 className="text-2xl font-extrabold text-brand-black">Load-Based Pricing</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">Load-Based Pricing</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">{pricingText}</p>
       </Section>
 
@@ -157,12 +157,12 @@ export default function GarageCleanoutPage() {
       </Section>
 
       <Section bg="offwhite">
-        <h2 className="text-2xl font-extrabold text-brand-black">What to Expect</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">What to Expect</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">{expectText}</p>
       </Section>
 
       <Section bg="white">
-        <h2 className="text-2xl font-extrabold text-brand-black">What Our Customers Say</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">What Our Customers Say</h2>
         <div className="mt-6">
           <ReviewSlot contextKey="service:garage-cleanout" label="Garage Clean-Out" />
         </div>
@@ -204,7 +204,7 @@ export default function GarageCleanoutPage() {
       </Section>
 
       <Section bg="white">
-        <h2 className="text-2xl font-extrabold text-brand-black">Frequently Asked Questions</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">Frequently Asked Questions</h2>
         <div className="mt-6">
           <FAQAccordion faqs={faqs} />
         </div>

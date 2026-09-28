@@ -105,7 +105,7 @@ export default function HotTubRemovalPage() {
       />
 
       <Section bg="white">
-        <h2 className="text-2xl font-extrabold text-brand-black">Why It&apos;s Not a DIY Job</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">Why It&apos;s Not a DIY Job</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           Empty, a hot tub still runs several hundred pounds, and the shell is rigid acrylic and
           fiberglass that has to be cut apart to move. Add live electrical at the breaker and
@@ -122,7 +122,7 @@ export default function HotTubRemovalPage() {
       </PullQuoteStat>
 
       <Section bg="white">
-        <h2 className="text-2xl font-extrabold text-brand-black">Above-Ground vs. In-Ground</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">Above-Ground vs. In-Ground</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           Freestanding above-ground spas are the most straightforward. In-ground and
           deck-integrated units take more — cutting around the surround, working with the
@@ -132,7 +132,7 @@ export default function HotTubRemovalPage() {
       </Section>
 
       <Section bg="offwhite">
-        <h2 className="text-2xl font-extrabold text-brand-black">Access and Decks</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">Access and Decks</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           Tight side yards, elevated decks, stairs, and narrow gates all shape the job. Tell us
           the setup so we bring the right crew and tools. Note: removal covers the tub and its
@@ -141,7 +141,7 @@ export default function HotTubRemovalPage() {
       </Section>
 
       <Section bg="white">
-        <h2 className="text-2xl font-extrabold text-brand-black">Where the Pieces Go</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">Where the Pieces Go</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           We don&apos;t just landfill it — the acrylic/fiberglass shell goes to a
           construction-and-demolition facility, the pump and motor to metal recycling, and the
@@ -150,14 +150,14 @@ export default function HotTubRemovalPage() {
       </Section>
 
       <Section bg="offwhite">
-        <h2 className="text-2xl font-extrabold text-brand-black">What Our Clients Say</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">What Our Clients Say</h2>
         <div className="mt-6">
           <ReviewSlot contextKey="service:hot-tub-removal" label={SERVICE_NAME} />
         </div>
       </Section>
 
       <Section bg="white">
-        <h2 className="text-2xl font-extrabold text-brand-black">Frequently Asked Questions</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">Frequently Asked Questions</h2>
         <div className="mt-6">
           <FAQAccordion faqs={faqs} />
         </div>

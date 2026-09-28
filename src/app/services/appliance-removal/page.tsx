@@ -127,7 +127,7 @@ export default function ApplianceRemovalPage() {
       />
 
       <Section>
-        <h2 className="text-2xl font-extrabold text-brand-black">{regulationHeading}</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">{regulationHeading}</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">{regulationText}</p>
       </Section>
 
@@ -140,12 +140,12 @@ export default function ApplianceRemovalPage() {
       </Section>
 
       <Section bg="offwhite">
-        <h2 className="text-2xl font-extrabold text-brand-black">How It Works</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">How It Works</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">{howItWorksText}</p>
       </Section>
 
       <Section>
-        <h2 className="text-2xl font-extrabold text-brand-black">What Our Customers Say</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">What Our Customers Say</h2>
         <div className="mt-6">
           <ReviewSlot contextKey="service:appliance-removal" label="Appliance Removal" />
         </div>
@@ -180,7 +180,7 @@ export default function ApplianceRemovalPage() {
       </Section>
 
       <Section>
-        <h2 className="text-2xl font-extrabold text-brand-black">Frequently Asked Questions</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">Frequently Asked Questions</h2>
         <div className="mt-6">
           <FAQAccordion faqs={faqs} />
         </div>

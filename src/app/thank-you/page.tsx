@@ -16,7 +16,7 @@ export default function ThankYouPage() {
           <path d="M20 6L9 17l-5-5" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       </div>
-      <h1 className="mt-6 text-3xl font-extrabold text-brand-black">Thanks — we got it!</h1>
+      <h1 className="mt-6 text-3xl font-bold tracking-tight text-brand-ink">Thanks — we got it!</h1>
       <p className="mt-4 text-brand-gray">
         Your quote request is in. We&apos;ll reach out shortly by phone or text. Need it
         faster? Call us directly at{" "}
@@ -27,7 +27,7 @@ export default function ThankYouPage() {
       </p>
       <Link
         href="/"
-        className="mt-8 flex min-h-12 items-center justify-center rounded-md bg-brand-black px-8 text-sm font-bold text-white hover:bg-brand-charcoal"
+        className="mt-8 flex min-h-12 items-center justify-center rounded-lg bg-brand-orange px-8 text-sm font-semibold text-white shadow-md shadow-brand-orange/25 hover:bg-brand-orange-dark"
       >
         Back to Home
       </Link>

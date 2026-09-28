@@ -11,6 +11,9 @@
   --color-brand-charcoal: #232323;
   --color-brand-gray: #6b6b6b;
   --color-brand-offwhite: #f7f5f2;
+  --color-brand-pale: #fff3eb;
+  --color-brand-ink: #1c1917;
+  --color-brand-slate: #57534e;
 }
 
 @theme inline {
@@ -25,6 +28,14 @@
   --color-brand-charcoal: var(--color-brand-charcoal);
   --color-brand-gray: var(--color-brand-gray);
   --color-brand-offwhite: var(--color-brand-offwhite);
+  --color-brand-pale: var(--color-brand-pale);
+  --color-brand-ink: var(--color-brand-ink);
+  --color-brand-slate: var(--color-brand-slate);
+
+  --animate-rise: rise 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-float-delayed: float 6s ease-in-out 1.5s infinite;
+  --animate-slow-zoom: slow-zoom 18s ease-out both;
 }
 
 body {
@@ -53,5 +64,70 @@ html {
   to {
     opacity: 1;
     transform: translateY(0) scale(1);
+  }
+}
+
+/* hero entrance — stagger via style={{ "--delay": "80ms" }} */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-rise {
+  animation-delay: var(--delay, 0ms);
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes slow-zoom {
+  from {
+    transform: scale(1.08);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* scroll reveal — RevealObserver adds .reveal-ready to <html> once JS runs,
+   so content stays visible without JS */
+.reveal-ready [data-reveal] {
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+.reveal-ready [data-reveal].is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .reveal-ready [data-reveal] {
+    opacity: 1;
+    transform: none;
   }
 }

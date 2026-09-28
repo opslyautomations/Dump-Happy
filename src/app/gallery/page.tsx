@@ -25,7 +25,7 @@ export default function GalleryPage() {
       <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Gallery", path: "/gallery" }]} />
 
       <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
-        <h1 className="text-3xl font-extrabold text-brand-black sm:text-4xl">
+        <h1 className="text-3xl font-bold tracking-tight text-brand-ink sm:text-4xl">
           Before &amp; After Gallery
         </h1>
         <p className="mt-4 max-w-2xl leading-relaxed text-brand-gray">
@@ -36,7 +36,7 @@ export default function GalleryPage() {
 
       <section className="bg-brand-offwhite">
         <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">Before &amp; After</h2>
+          <h2 className="text-2xl font-bold tracking-tight text-brand-ink">Before &amp; After</h2>
           <div className="mt-8 grid grid-cols-1 gap-10 lg:grid-cols-2">
             {BEFORE_AFTER_PAIRS.map((pair) => (
               <div key={pair.key} className="rounded-xl bg-white p-5 shadow-sm">
@@ -76,7 +76,7 @@ export default function GalleryPage() {
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
-        <h2 className="text-2xl font-extrabold text-brand-black">Recent Jobs</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">Recent Jobs</h2>
         <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3">
           {GALLERY_PHOTOS.map((photo) => (
             <figure key={photo.src} className="overflow-hidden rounded-xl bg-brand-offwhite">

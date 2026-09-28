@@ -135,23 +135,23 @@ export default function JunkRemovalPage() {
       <ProcessSteps heading="How Junk Removal Works" steps={steps} />
 
       <Section>
-        <h2 className="text-2xl font-extrabold text-brand-black">{chargedHeading}</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">{chargedHeading}</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">{pricingExplainer}</p>
       </Section>
 
       <Section bg="offwhite" columns={2}>
         <div>
-          <h2 className="text-2xl font-extrabold text-brand-black">What We Take</h2>
+          <h2 className="text-2xl font-bold tracking-tight text-brand-ink">What We Take</h2>
           <p className="mt-4 leading-relaxed text-brand-charcoal">{whatWeTake}</p>
         </div>
         <div>
-          <h2 className="text-2xl font-extrabold text-brand-black">{cantTakeHeading}</h2>
+          <h2 className="text-2xl font-bold tracking-tight text-brand-ink">{cantTakeHeading}</h2>
           <p className="mt-4 leading-relaxed text-brand-charcoal">{whatWeCant}</p>
         </div>
       </Section>
 
       <Section>
-        <h2 className="text-2xl font-extrabold text-brand-black">
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">
           Where Your Junk Actually Goes
         </h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">{whereItGoes}</p>
@@ -164,12 +164,12 @@ export default function JunkRemovalPage() {
       </Section>
 
       <Section>
-        <h2 className="text-2xl font-extrabold text-brand-black">Why Dump Happy</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">Why Dump Happy</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">{whyDumpHappy}</p>
       </Section>
 
       <Section bg="offwhite">
-        <h2 className="text-2xl font-extrabold text-brand-black">What Our Customers Say</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">What Our Customers Say</h2>
         <div className="mt-6">
           <ReviewSlot contextKey="service:junk-removal" label="Junk Removal" />
         </div>
@@ -211,7 +211,7 @@ export default function JunkRemovalPage() {
       </Section>
 
       <Section bg="offwhite">
-        <h2 className="text-2xl font-extrabold text-brand-black">
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">
           Frequently Asked Questions
         </h2>
         <div className="mt-6">

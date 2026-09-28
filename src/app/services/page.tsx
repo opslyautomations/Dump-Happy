@@ -25,7 +25,7 @@ export default function ServicesIndexPage() {
       <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Services", path: "/services" }]} />
 
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
-        <h1 className="text-3xl font-extrabold text-brand-black sm:text-4xl">
+        <h1 className="text-3xl font-bold tracking-tight text-brand-ink sm:text-4xl">
           Junk Removal Services in Los Angeles
         </h1>
         <p className="mt-4 max-w-2xl text-brand-gray">

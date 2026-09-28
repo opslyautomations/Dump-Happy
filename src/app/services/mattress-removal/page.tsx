@@ -108,12 +108,12 @@ export default function MattressRemovalPage() {
       />
 
       <Section>
-        <h2 className="text-2xl font-extrabold text-brand-black">{recyclingHeading}</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">{recyclingHeading}</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">{recyclingText}</p>
       </Section>
 
       <Section bg="offwhite">
-        <h2 className="text-2xl font-extrabold text-brand-black">{catchHeading}</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">{catchHeading}</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">{catchText}</p>
       </Section>
 
@@ -137,7 +137,7 @@ export default function MattressRemovalPage() {
       />
 
       <Section>
-        <h2 className="text-2xl font-extrabold text-brand-black">What Our Customers Say</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">What Our Customers Say</h2>
         <div className="mt-6">
           <ReviewSlot contextKey="service:mattress-removal" label="Mattress Removal" />
         </div>
@@ -179,7 +179,7 @@ export default function MattressRemovalPage() {
       </Section>
 
       <Section>
-        <h2 className="text-2xl font-extrabold text-brand-black">Frequently Asked Questions</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">Frequently Asked Questions</h2>
         <div className="mt-6">
           <FAQAccordion faqs={faqs} />
         </div>

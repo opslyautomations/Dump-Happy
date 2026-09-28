@@ -174,7 +174,7 @@ export function PromoPopup() {
             <span className="text-xl font-semibold text-brand-gray line-through">
               {PROMO.regularPrice}
             </span>
-            <span className="text-4xl font-extrabold text-brand-black">{PROMO.salePrice}</span>
+            <span className="text-4xl font-bold tracking-tight text-brand-ink">{PROMO.salePrice}</span>
           </div>
           <p id="promo-popup-desc" className="mt-3 text-sm leading-relaxed text-brand-gray">
             Mattress removal is normally {PROMO.regularPrice}. Call and mention promo code{" "}

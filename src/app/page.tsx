@@ -1,15 +1,33 @@
+import type { CSSProperties } from "react";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { SITE } from "@/lib/data/site";
-import { buildMetadata, organizationJsonLd } from "@/lib/seo";
+import { LOCATIONS } from "@/lib/data/locations";
+import { getAggregateRating } from "@/lib/data/reviews";
+import { buildMetadata, localBusinessJsonLd, organizationJsonLd } from "@/lib/seo";
 import { JsonLd } from "@/components/JsonLd";
 import { QuoteForm } from "@/components/QuoteForm";
 import { ServicesGrid } from "@/components/ServicesGrid";
 import { LocationsGrid } from "@/components/LocationsGrid";
 import { ReviewSlot } from "@/components/ReviewSlot";
 import { CTABand } from "@/components/CTABand";
-import { Callout } from "@/components/Callout";
+import { Reveal } from "@/components/Reveal";
+import { ProcessSteps } from "@/components/page-sections/ProcessSteps";
+import {
+  ArrowRightIcon,
+  CheckCircleIcon,
+  CheckIcon,
+  ClockIcon,
+  MailIcon,
+  MapPinIcon,
+  PhoneIcon,
+  RecycleIcon,
+  ShieldIcon,
+  SparkleIcon,
+  StarIcon,
+  TagIcon,
+} from "@/components/Icons";
 import { GALLERY_PHOTOS } from "@/lib/data/gallery";
 
 const RECENT_WORK_PREVIEW = GALLERY_PHOTOS.slice(0, 4);
@@ -17,168 +35,357 @@ const RECENT_WORK_PREVIEW = GALLERY_PHOTOS.slice(0, 4);
 export const metadata: Metadata = buildMetadata({
   title: "Junk Removal in Los Angeles | Dump Happy",
   description:
-    "Fast, upfront, load-based junk removal across Los Angeles — homes, garages, estates, and job sites. No hidden fees, legal disposal. Get a free quote today.",
+    "Fast, upfront, load-based junk removal across Los Angeles — homes, garages, estates, and job sites. No hidden fees, legal disposal. Open daily 10am–8pm. Get a free quote today.",
   path: "/",
 });
 
-const trustPoints = [
-  "Locally owned & operated",
-  "Upfront, load-based pricing",
-  "On-time, every time",
-  "Legal disposal, always",
+const heroTrust = ["Locally owned & operated", "No hidden fees", "Open 7 days, 10am–8pm"];
+
+const trustStrip = [
+  { icon: TagIcon, text: "Upfront, load-based pricing — the quote never moves" },
+  { icon: ClockIcon, text: "Open 7 days a week, 10am to 8pm" },
+  { icon: RecycleIcon, text: "Donation-first, then recycling, then legal disposal" },
+  { icon: MapPinIcon, text: "Locally owned across the Westside, South Bay & Central LA" },
 ];
 
-const whyPoints = [
+const steps = [
   {
-    title: "No hidden fees",
-    body: "You get a firm, load-based quote before we lift a finger. If the job turns out smaller than expected, you pay the lower tier — never the other way around.",
+    title: "Tell us what's going",
+    body: "Call, text, or send photos through the quote form. You get a firm, load-based price before we lift a finger.",
   },
   {
     title: "We do the lifting",
-    body: "Stairs, garages, tight hallways, upper floors — our crew handles the heavy work so you don't strain your back or borrow a truck.",
+    body: "Stairs, garages, tight hallways, upper floors — our crew carries it all out and loads the truck.",
   },
   {
-    title: "Donation-first",
-    body: "Usable furniture, appliances, and household goods are routed to donation before anything is recycled or disposed of.",
-  },
-  {
-    title: "Legal disposal, no exceptions",
-    body: "Illegal dumping is a crime in California under Penal Code 374.3 — with fines up to $10,000 in LA County. We sort, recycle, and dispose of everything the right way, every time.",
+    title: "Enjoy the space",
+    body: "We sweep up, then route your load to donation, recycling, or legal disposal. You just relax.",
   },
 ];
 
+const whyPoints = [
+  "No hidden fees — if the job's smaller than expected, you pay the lower tier",
+  "Usable furniture and goods are routed to donation before anything is dumped",
+  "Illegal dumping carries fines up to $10,000 in LA County — we dispose of everything legally, every time",
+  "A local, owner-run crew that shows up on time and treats your home with care",
+];
+
 export default function HomePage() {
+  const rating = getAggregateRating();
+
   return (
     <>
-      <JsonLd data={organizationJsonLd()} />
+      <JsonLd data={[organizationJsonLd(), localBusinessJsonLd({ aggregateRating: rating })]} />
 
-      <section className="relative overflow-hidden bg-brand-black">
-        <div className="absolute inset-0">
-          <Image
-            src="/hero-truck.png"
-            alt="Dump Happy crew member loading a junk-removal truck at sunset"
-            fill
-            priority
-            sizes="100vw"
-            className="object-cover opacity-40"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-brand-black via-brand-black/80 to-brand-black/30" />
-        </div>
-        <div className="relative mx-auto grid max-w-7xl grid-cols-1 gap-10 px-4 py-16 sm:px-6 lg:grid-cols-5 lg:items-start lg:px-8 lg:py-24">
-          <div className="lg:col-span-3">
-            <p className="text-sm font-bold uppercase tracking-wide text-brand-orange">
-              Los Angeles Junk Removal &amp; Clean-Outs
+      {/* Hero */}
+      <section className="relative overflow-hidden">
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute -right-40 top-10 h-[28rem] w-[28rem] rounded-full bg-brand-orange-light opacity-30 blur-3xl"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute -left-40 bottom-0 h-[22rem] w-[22rem] rounded-full bg-brand-pale opacity-80 blur-3xl"
+        />
+        <div className="relative mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-4 pb-20 pt-10 sm:px-6 lg:grid-cols-[1.05fr_1fr] lg:gap-16 lg:pb-24 lg:pt-16">
+          <div>
+            <p
+              className="animate-rise inline-flex items-center gap-2 rounded-full bg-white px-4 py-1.5 text-sm font-semibold text-brand-orange-dark shadow-sm ring-1 ring-brand-orange/25"
+              style={{ "--delay": "0ms" } as CSSProperties}
+            >
+              <SparkleIcon size={16} />
+              Los Angeles junk removal &amp; clean-outs
             </p>
-            <h1 className="mt-3 text-4xl font-extrabold leading-tight text-white sm:text-5xl">
-              Fast, Reliable Junk Removal — Happy Dumping!
+            <h1
+              className="animate-rise mt-6 text-4xl font-bold leading-[1.1] tracking-tight text-brand-ink sm:text-5xl lg:text-6xl"
+              style={{ "--delay": "80ms" } as CSSProperties}
+            >
+              Fast, reliable junk removal.{" "}
+              <span className="text-brand-orange">Happy dumping!</span>
             </h1>
-            <p className="mt-6 max-w-xl text-lg text-white/80">
+            <p
+              className="animate-rise mt-6 max-w-xl text-lg text-brand-slate"
+              style={{ "--delay": "160ms" } as CSSProperties}
+            >
               Dump Happy clears junk, furniture, appliances, and full
-              properties across the Westside, South Bay, and Central LA.
-              Upfront load-based pricing, no hidden fees, and legal disposal
-              on every job.
+              properties across the Westside, South Bay, and Central LA —
+              with upfront load-based pricing and legal disposal on every job.
             </p>
-            <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+            <div
+              className="animate-rise mt-8 flex flex-col gap-4 sm:flex-row sm:items-center"
+              style={{ "--delay": "240ms" } as CSSProperties}
+            >
               <Link
-                href="/contact"
-                className="flex min-h-12 items-center justify-center rounded-md bg-brand-orange px-8 text-sm font-bold text-white hover:bg-brand-orange-dark"
+                href="#quote"
+                className="group inline-flex min-h-[52px] items-center justify-center gap-2 rounded-xl bg-brand-orange px-8 py-3.5 text-lg font-semibold text-white shadow-lg shadow-brand-orange/25 transition duration-300 hover:-translate-y-0.5 hover:bg-brand-orange-dark hover:shadow-xl hover:shadow-brand-orange/30"
               >
                 Get a Free Quote
+                <ArrowRightIcon size={18} className="transition group-hover:translate-x-1" />
               </Link>
               <a
                 href={`tel:${SITE.phoneRaw}`}
-                className="flex min-h-12 items-center justify-center rounded-md border border-white/30 px-8 text-sm font-bold text-white hover:border-brand-orange hover:text-brand-orange"
+                className="inline-flex min-h-[52px] items-center justify-center gap-2 rounded-xl border border-black/15 bg-white/70 px-6 py-3.5 font-semibold text-brand-ink transition hover:bg-white"
               >
-                Call {SITE.phoneDisplay}
+                <PhoneIcon size={18} />
+                {SITE.phoneDisplay}
               </a>
             </div>
+            <ul
+              className="animate-rise mt-8 flex flex-wrap gap-x-6 gap-y-2"
+              style={{ "--delay": "320ms" } as CSSProperties}
+            >
+              {heroTrust.map((t) => (
+                <li key={t} className="flex items-center gap-2 text-sm font-medium text-brand-ink">
+                  <CheckCircleIcon size={18} className="text-brand-orange" />
+                  {t}
+                </li>
+              ))}
+            </ul>
           </div>
-          <div className="lg:col-span-2">
-            <QuoteForm />
+
+          <div className="relative mx-auto w-full max-w-xl lg:max-w-none">
+            <div className="relative aspect-[4/3] overflow-hidden rounded-3xl shadow-2xl shadow-black/20">
+              <Image
+                src="/hero-truck.png"
+                alt="Dump Happy crew member loading a junk-removal truck at sunset"
+                fill
+                loading="eager"
+                fetchPriority="high"
+                sizes="(min-width: 1024px) 45vw, 100vw"
+                className="animate-slow-zoom object-cover"
+              />
+            </div>
+            <div className="animate-float absolute -bottom-8 -left-2 flex items-center gap-3 rounded-2xl bg-white p-3 pr-5 shadow-xl ring-1 ring-black/5 sm:-left-8">
+              <div className="relative h-14 w-14 overflow-hidden rounded-xl">
+                <Image
+                  src="/IMG_7384.jpg"
+                  alt="Empty, swept garage after a Dump Happy clean-out"
+                  fill
+                  sizes="56px"
+                  className="object-cover"
+                />
+              </div>
+              <div>
+                <p className="text-sm font-semibold text-brand-ink">Broom-clean finish</p>
+                <p className="text-xs text-brand-slate">on every single job</p>
+              </div>
+            </div>
+            {rating ? (
+              <div className="animate-float-delayed absolute -right-2 -top-5 flex items-center gap-2 rounded-2xl bg-white px-4 py-3 shadow-xl ring-1 ring-black/5 sm:-right-6">
+                <StarIcon size={18} className="text-brand-orange" />
+                <p className="text-sm font-semibold text-brand-ink">
+                  {rating.ratingValue.toFixed(1)} on Google
+                </p>
+              </div>
+            ) : (
+              <div className="animate-float-delayed absolute -right-2 -top-5 flex items-center gap-2 rounded-2xl bg-white px-4 py-3 shadow-xl ring-1 ring-black/5 sm:-right-6">
+                <MapPinIcon size={18} className="text-brand-orange" />
+                <p className="text-sm font-semibold text-brand-ink">{LOCATIONS.length} LA neighborhoods</p>
+              </div>
+            )}
           </div>
         </div>
       </section>
 
-      <section className="border-b border-black/5 bg-brand-offwhite">
-        <div className="mx-auto grid max-w-7xl grid-cols-2 gap-4 px-4 py-8 text-center sm:grid-cols-4 sm:px-6 lg:px-8">
-          {trustPoints.map((point) => (
-            <p key={point} className="text-sm font-semibold text-brand-black">
-              {point}
-            </p>
+      {/* Trust strip */}
+      <section className="border-y border-black/5 bg-white/70 backdrop-blur">
+        <div className="mx-auto grid max-w-6xl grid-cols-1 gap-4 px-4 py-8 sm:grid-cols-2 sm:px-6 lg:grid-cols-4">
+          {trustStrip.map(({ icon: Icon, text }, i) => (
+            <Reveal key={text} delay={i * 80}>
+              <div className="flex items-start gap-2 text-sm font-medium text-brand-ink">
+                <Icon size={18} className="mt-0.5 shrink-0 text-brand-orange" />
+                {text}
+              </div>
+            </Reveal>
           ))}
         </div>
       </section>
 
-      <ServicesGrid />
+      <ProcessSteps heading="A cleared-out space in three simple steps" steps={steps} bg="white" />
 
+      <ServicesGrid
+        heading="Whatever needs to go, we haul it"
+        subheading="From a single couch to a full estate — here's what Dump Happy clears most across Los Angeles."
+        featured
+      />
+
+      {/* Why Dump Happy */}
+      <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:py-20">
+        <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-16">
+          <Reveal>
+            <div className="relative mx-auto aspect-[4/5] max-w-md overflow-hidden rounded-3xl shadow-xl lg:max-w-none">
+              <Image
+                src="/team-photo.webp"
+                alt="The Dump Happy team in matching Dump Happy junk removal shirts"
+                fill
+                sizes="(min-width: 1024px) 50vw, 100vw"
+                className="object-cover object-top"
+              />
+            </div>
+          </Reveal>
+          <Reveal delay={120}>
+            <p className="text-sm font-semibold uppercase tracking-widest text-brand-orange-dark">Why Dump Happy</p>
+            <h2 className="mt-3 text-3xl font-bold tracking-tight text-brand-ink sm:text-4xl">
+              We dump. You relax.
+            </h2>
+            <p className="mt-5 text-lg text-brand-slate">
+              Dump Happy is locally owned and run by {SITE.owner} and a crew
+              who take pride in doing the heavy lifting right — honest
+              quotes, careful hauling, and a clean space left behind.
+            </p>
+            <ul className="mt-6 space-y-3">
+              {whyPoints.map((p) => (
+                <li key={p} className="flex items-start gap-3 text-brand-ink">
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-pale">
+                    <CheckIcon size={14} className="text-brand-orange-dark" />
+                  </span>
+                  {p}
+                </li>
+              ))}
+            </ul>
+            <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
+              <Link
+                href="#quote"
+                className="inline-flex min-h-[52px] items-center justify-center gap-2 rounded-xl bg-brand-orange px-8 py-3.5 text-lg font-semibold text-white shadow-lg shadow-brand-orange/25 transition duration-300 hover:-translate-y-0.5 hover:bg-brand-orange-dark"
+              >
+                Get a Free Quote
+              </Link>
+              <Link href="/about" className="inline-flex items-center gap-1 font-semibold text-brand-orange-dark hover:text-brand-ink">
+                Read our story <ArrowRightIcon size={16} />
+              </Link>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* Recent work */}
       <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black sm:text-3xl">Why Dump Happy</h2>
-          <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2">
-            {whyPoints.slice(0, 3).map((p) => (
-              <div key={p.title} className="rounded-xl bg-white p-6">
-                <h3 className="font-bold text-brand-black">{p.title}</h3>
-                <p className="mt-2 text-sm text-brand-gray">{p.body}</p>
-              </div>
+        <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:py-20">
+          <Reveal>
+            <p className="text-center text-sm font-semibold uppercase tracking-widest text-brand-orange-dark">Recent work</p>
+            <h2 className="mt-3 text-center text-3xl font-bold tracking-tight text-brand-ink sm:text-4xl">
+              Real jobs across Los Angeles
+            </h2>
+          </Reveal>
+          <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
+            {RECENT_WORK_PREVIEW.map((photo, i) => (
+              <Reveal key={photo.src} delay={i * 80}>
+                <Link
+                  href="/gallery"
+                  className="group block overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-black/5"
+                >
+                  <Image
+                    src={photo.src}
+                    alt={photo.alt}
+                    width={photo.width}
+                    height={photo.height}
+                    sizes="(min-width: 640px) 25vw, 50vw"
+                    className="aspect-square w-full object-cover transition duration-700 group-hover:scale-105"
+                  />
+                </Link>
+              </Reveal>
             ))}
           </div>
-          <div className="mt-6">
-            <Callout title="Legal disposal, no exceptions">
-              {whyPoints[3].body}
-            </Callout>
+          <div className="mt-8 text-center">
+            <Link href="/gallery" className="inline-flex items-center gap-1 font-semibold text-brand-orange-dark hover:text-brand-ink">
+              View the full gallery <ArrowRightIcon size={16} />
+            </Link>
           </div>
         </div>
       </section>
 
-      <LocationsGrid />
+      <LocationsGrid heading="Where we haul" />
 
-      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-        <div className="flex flex-wrap items-end justify-between gap-4">
-          <h2 className="text-2xl font-extrabold text-brand-black sm:text-3xl">Recent Work</h2>
-          <Link href="/gallery" className="text-sm font-semibold text-brand-orange hover:underline">
-            View full gallery →
+      {/* Reviews */}
+      <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
+        <Reveal>
+          <h2 className="text-center text-3xl font-bold tracking-tight text-brand-ink sm:text-4xl">
+            What customers are saying
+          </h2>
+        </Reveal>
+        <Reveal delay={100} className="mt-10">
+          <ReviewSlot contextKey="general" label="Dump Happy" limit={3} />
+        </Reveal>
+        <div className="mt-8 text-center">
+          <Link href="/reviews" className="inline-flex items-center gap-1 font-semibold text-brand-orange-dark hover:text-brand-ink">
+            Read more reviews <ArrowRightIcon size={16} />
           </Link>
         </div>
-        <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
-          {RECENT_WORK_PREVIEW.map((photo) => (
-            <Link
-              key={photo.src}
-              href="/gallery"
-              className="block overflow-hidden rounded-xl bg-brand-offwhite"
-            >
-              <Image
-                src={photo.src}
-                alt={photo.alt}
-                width={photo.width}
-                height={photo.height}
-                sizes="(min-width: 640px) 25vw, 50vw"
-                className="aspect-square w-full object-cover transition hover:scale-105"
-              />
-            </Link>
-          ))}
-        </div>
       </section>
 
-      <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-          <div className="flex flex-wrap items-end justify-between gap-4">
-            <h2 className="text-2xl font-extrabold text-brand-black sm:text-3xl">
-              What Our Customers Say
+      {/* Quote */}
+      <section id="quote" className="scroll-mt-24 bg-brand-pale/60">
+        <div className="mx-auto grid max-w-6xl grid-cols-1 gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:gap-16 lg:py-20">
+          <Reveal>
+            <p className="text-sm font-semibold uppercase tracking-widest text-brand-orange-dark">Free quote</p>
+            <h2 className="mt-3 text-3xl font-bold tracking-tight text-brand-ink sm:text-4xl">
+              Tell us what&apos;s going. We&apos;ll give you a firm price.
             </h2>
-            <Link href="/reviews" className="text-sm font-semibold text-brand-orange hover:underline">
-              Read all reviews →
-            </Link>
-          </div>
-          <div className="mt-8">
-            <ReviewSlot contextKey="general" label="Dump Happy" limit={3} />
-          </div>
+            <p className="mt-5 text-lg text-brand-slate">
+              No obligation, no hidden fees. Fill out the form or reach us
+              directly — we answer fast.
+            </p>
+            <ul className="mt-8 space-y-4">
+              <li>
+                <a href={`tel:${SITE.phoneRaw}`} className="group flex items-center gap-4">
+                  <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-white text-brand-orange shadow-sm ring-1 ring-black/5">
+                    <PhoneIcon size={20} />
+                  </span>
+                  <span>
+                    <span className="block text-sm text-brand-slate">Call or text</span>
+                    <span className="block text-lg font-semibold text-brand-ink group-hover:text-brand-orange-dark">
+                      {SITE.phoneDisplay}
+                    </span>
+                  </span>
+                </a>
+              </li>
+              {SITE.email ? (
+                <li>
+                  <a href={`mailto:${SITE.email}`} className="group flex items-center gap-4">
+                    <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-white text-brand-orange shadow-sm ring-1 ring-black/5">
+                      <MailIcon size={20} />
+                    </span>
+                    <span>
+                      <span className="block text-sm text-brand-slate">Email</span>
+                      <span className="block text-lg font-semibold text-brand-ink group-hover:text-brand-orange-dark">
+                        {SITE.email}
+                      </span>
+                    </span>
+                  </a>
+                </li>
+              ) : null}
+              <li className="flex items-center gap-4">
+                <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-white text-brand-orange shadow-sm ring-1 ring-black/5">
+                  <ClockIcon size={20} />
+                </span>
+                <span>
+                  <span className="block text-sm text-brand-slate">Hours</span>
+                  <span className="block text-lg font-semibold text-brand-ink">{SITE.hoursDisplay}</span>
+                </span>
+              </li>
+              <li className="flex items-center gap-4">
+                <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-white text-brand-orange shadow-sm ring-1 ring-black/5">
+                  <ShieldIcon size={20} />
+                </span>
+                <span>
+                  <span className="block text-sm text-brand-slate">Every job</span>
+                  <span className="block text-lg font-semibold text-brand-ink">Legal, responsible disposal</span>
+                </span>
+              </li>
+            </ul>
+          </Reveal>
+          <Reveal delay={120}>
+            <QuoteForm />
+          </Reveal>
         </div>
       </section>
 
-      <CTABand
-        heading="Get Your Free Quote Today"
-        subtext="Upfront load-based pricing. No hidden fees. Fast, friendly service across Los Angeles."
-      />
+      <div className="pt-16">
+        <CTABand
+          heading="Ready to reclaim your space?"
+          subtext="Upfront load-based pricing. No hidden fees. Fast, friendly service across Los Angeles."
+        />
+      </div>
     </>
   );
 }

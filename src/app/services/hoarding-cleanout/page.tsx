@@ -106,7 +106,7 @@ export default function HoardingCleanoutPage() {
       />
 
       <Section bg="white">
-        <h2 className="text-2xl font-extrabold text-brand-black">Our Promise</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">Our Promise</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           No judgment. No rushing your decisions. We don&apos;t force anything into the truck. We
           work <em>with</em> you — or with the family member or professional you&apos;ve asked to
@@ -116,7 +116,7 @@ export default function HoardingCleanoutPage() {
       </Section>
 
       <Section bg="offwhite">
-        <h2 className="text-2xl font-extrabold text-brand-black">How We Work</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">How We Work</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           A private walkthrough to understand the space, spot immediate safety hazards, and
           agree on goals — usually clearing pathways, and making the kitchen, bathroom, and
@@ -126,7 +126,7 @@ export default function HoardingCleanoutPage() {
       </Section>
 
       <Section bg="white">
-        <h2 className="text-2xl font-extrabold text-brand-black">Protecting Keepsakes</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">Protecting Keepsakes</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           People with hoarding disorder often have real attachments to specific items. We slow
           down for that — flagging photos, documents, heirlooms, and anything you&apos;ve told us
@@ -135,7 +135,7 @@ export default function HoardingCleanoutPage() {
       </Section>
 
       <Section bg="offwhite">
-        <h2 className="text-2xl font-extrabold text-brand-black">
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">
           Safety and Honesty About Biohazards
         </h2>
         <div className="mt-4">
@@ -150,7 +150,7 @@ export default function HoardingCleanoutPage() {
       </Section>
 
       <Section bg="white">
-        <h2 className="text-2xl font-extrabold text-brand-black">Discretion</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">Discretion</h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           Unmarked, low-profile service. What happens in the home stays private — important when
           neighbors, tenants, or extended family are a concern.
@@ -158,14 +158,14 @@ export default function HoardingCleanoutPage() {
       </Section>
 
       <Section bg="offwhite">
-        <h2 className="text-2xl font-extrabold text-brand-black">What Our Clients Say</h2>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">What Our Clients Say</h2>
         <div className="mt-6">
           <ReviewSlot contextKey="service:hoarding-cleanout" label={SERVICE_NAME} />
         </div>
       </Section>
 
       <Section bg="white">
-        <h2 className="text-2xl font-extrabold text-brand-black">
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">
           Frequently Asked Questions
         </h2>
         <div className="mt-6">

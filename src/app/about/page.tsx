@@ -27,12 +27,17 @@ export default function AboutPage() {
       />
       <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "About", path: "/about" }]} />
 
-      <section className="bg-brand-black">
-        <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-extrabold text-white sm:text-4xl">
+      <section className="relative overflow-hidden">
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute -right-40 -top-20 h-[26rem] w-[26rem] rounded-full bg-brand-orange-light opacity-25 blur-3xl"
+        />
+        <div className="relative mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:py-20">
+          <p className="text-sm font-semibold uppercase tracking-widest text-brand-orange-dark">Our story</p>
+          <h1 className="animate-rise mt-3 text-4xl font-bold tracking-tight text-brand-ink sm:text-5xl">
             About Dump Happy
           </h1>
-          <p className="mt-5 text-lg leading-relaxed text-white/80">
+          <p className="mt-5 text-lg leading-relaxed text-brand-slate">
             Dump Happy makes junk removal and clean-outs simple, affordable,
             and stress-free. Based in Los Angeles and serving the Westside,
             South Bay, and Central LA, we provide reliable junk removal,
@@ -45,7 +50,7 @@ export default function AboutPage() {
       <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-5 lg:items-center">
           <div className="lg:col-span-3">
-            <h2 className="text-2xl font-extrabold text-brand-black">Our Story</h2>
+            <h2 className="text-2xl font-bold tracking-tight text-brand-ink">Our Story</h2>
             <p className="mt-4 leading-relaxed text-brand-charcoal">
               Whether you&apos;re clearing a garage, tackling a renovation, managing
               an estate clean-out, or removing construction debris, Jason and the
@@ -70,7 +75,7 @@ export default function AboutPage() {
 
       <section className="bg-brand-offwhite">
         <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-brand-black">
+          <h2 className="text-2xl font-bold tracking-tight text-brand-ink">
             What Sets Us Apart
           </h2>
           <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-3">
@@ -110,7 +115,7 @@ export default function AboutPage() {
       </section>
 
       <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-        <h2 className="text-2xl font-extrabold text-brand-black">
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">
           Our Commitment to Southern California
         </h2>
         <p className="mt-4 leading-relaxed text-brand-charcoal">

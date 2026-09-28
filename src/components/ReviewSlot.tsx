@@ -27,7 +27,7 @@ export function ReviewSlot({
 
   if (reviews.length === 0) {
     return (
-      <div className="rounded-xl border border-dashed border-brand-gray/40 bg-brand-offwhite p-6 text-sm text-brand-gray">
+      <div className="rounded-2xl border border-dashed border-brand-gray/40 bg-brand-offwhite p-6 text-sm text-brand-gray">
         Real {label} reviews from our Google Business Profile are being added here.{" "}
         <a href={SITE.gbpUrl} target="_blank" rel="noopener noreferrer" className="font-semibold text-brand-orange hover:underline">
           See our reviews on Google
@@ -44,7 +44,7 @@ export function ReviewSlot({
   return (
     <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {reviews.map((r, i) => (
-        <figure key={i} className="rounded-xl border border-black/5 bg-white p-6 shadow-sm">
+        <figure key={i} className="rounded-2xl border border-black/10 bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
           <Stars rating={r.rating} />
           <blockquote className="mt-3 text-sm text-brand-charcoal">&ldquo;{r.text}&rdquo;</blockquote>
           <figcaption className="mt-4 text-sm font-semibold text-brand-black">

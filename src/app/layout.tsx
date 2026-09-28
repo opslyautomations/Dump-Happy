@@ -5,6 +5,7 @@ import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 import { JsonLd } from "@/components/JsonLd";
 import { PromoPopup } from "@/components/PromoPopup";
+import { RevealObserver } from "@/components/RevealObserver";
 import { organizationJsonLd, websiteJsonLd } from "@/lib/seo";
 import { SITE } from "@/lib/data/site";
 
@@ -48,12 +49,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} h-full antialiased`}>
-      <body className="flex min-h-full flex-col bg-white text-brand-black">
+      <body className="flex min-h-full flex-col bg-white text-brand-ink">
         <JsonLd data={[organizationJsonLd(), websiteJsonLd()]} />
         <Nav />
         <main className="flex-1">{children}</main>
         <Footer />
         <PromoPopup />
+        <RevealObserver />
       </body>
     </html>
   );

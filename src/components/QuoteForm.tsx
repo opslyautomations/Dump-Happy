@@ -11,13 +11,13 @@ export function QuoteForm({
 }) {
   const outerClass =
     variant === "glass"
-      ? "bg-white/95 ring-1 ring-white/50 backdrop-blur-sm"
+      ? "bg-white/95 ring-1 ring-black/5 backdrop-blur-sm"
       : variant === "accent"
-        ? "bg-white ring-4 ring-brand-orange/30 ring-offset-4 ring-offset-brand-black"
+        ? "bg-white ring-4 ring-brand-orange/30 ring-offset-4 ring-offset-white"
         : "bg-white";
 
   return (
-    <div className={`flex flex-col rounded-2xl ${outerClass} ${compact ? "p-5" : "p-6 sm:p-8"} shadow-lg`}>
+    <div className={`flex flex-col rounded-2xl ${outerClass} ${compact ? "p-5" : "p-6 sm:p-8"} shadow-xl shadow-black/5`}>
       <iframe
         src="https://api.opslyautomations.com/widget/form/rOmRiW4RqH7y6tfv9QDo"
         id="inline-rOmRiW4RqH7y6tfv9QDo"
