@@ -77,17 +77,28 @@ export default function HomePage() {
     <>
       <JsonLd data={[organizationJsonLd(), localBusinessJsonLd({ aggregateRating: rating })]} />
 
-      {/* Hero */}
-      <section className="relative overflow-hidden">
+      {/* Hero — full-screen background photo behind a light gradient */}
+      <section className="relative isolate flex min-h-[calc(100svh-4.5rem)] items-center overflow-hidden">
+        <Image
+          src="/hero-truck.png"
+          alt="Dump Happy crew member loading a junk-removal truck at sunset"
+          fill
+          loading="eager"
+          fetchPriority="high"
+          sizes="100vw"
+          className="animate-slow-zoom -z-20 object-cover object-[70%_center]"
+        />
+        {/* keeps the headline readable while the photo shows through on the right */}
         <div
           aria-hidden="true"
-          className="pointer-events-none absolute -right-40 top-10 h-[28rem] w-[28rem] rounded-full bg-brand-orange-light opacity-30 blur-3xl"
+          className="absolute inset-0 -z-10 bg-white/80 lg:bg-transparent lg:bg-gradient-to-r lg:from-white lg:via-white/85 lg:to-white/25"
         />
         <div
           aria-hidden="true"
-          className="pointer-events-none absolute -left-40 bottom-0 h-[22rem] w-[22rem] rounded-full bg-brand-pale opacity-80 blur-3xl"
+          className="absolute inset-x-0 bottom-0 -z-10 h-32 bg-gradient-to-t from-white to-transparent"
         />
-        <div className="relative mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-4 pb-20 pt-10 sm:px-6 lg:grid-cols-[1.05fr_1fr] lg:gap-16 lg:pb-24 lg:pt-16">
+
+        <div className="relative mx-auto grid w-full max-w-7xl grid-cols-1 items-center gap-12 px-4 py-16 sm:px-6 lg:grid-cols-[1.1fr_1fr] lg:py-24">
           <div>
             <p
               className="animate-rise inline-flex items-center gap-2 rounded-full bg-white px-4 py-1.5 text-sm font-semibold text-brand-orange-dark shadow-sm ring-1 ring-brand-orange/25"
@@ -104,7 +115,7 @@ export default function HomePage() {
               <span className="text-brand-orange">Happy dumping!</span>
             </h1>
             <p
-              className="animate-rise mt-6 max-w-xl text-lg text-brand-slate"
+              className="animate-rise mt-6 max-w-xl text-lg text-brand-charcoal"
               style={{ "--delay": "160ms" } as CSSProperties}
             >
               Dump Happy clears junk, furniture, appliances, and full
@@ -124,7 +135,7 @@ export default function HomePage() {
               </Link>
               <a
                 href={`tel:${SITE.phoneRaw}`}
-                className="inline-flex min-h-[52px] items-center justify-center gap-2 rounded-xl border border-black/15 bg-white/70 px-6 py-3.5 font-semibold text-brand-ink transition hover:bg-white"
+                className="inline-flex min-h-[52px] items-center justify-center gap-2 rounded-xl border border-black/15 bg-white/80 px-6 py-3.5 font-semibold text-brand-ink backdrop-blur transition hover:bg-white"
               >
                 <PhoneIcon size={18} />
                 {SITE.phoneDisplay}
@@ -143,19 +154,22 @@ export default function HomePage() {
             </ul>
           </div>
 
-          <div className="relative mx-auto w-full max-w-xl lg:max-w-none">
-            <div className="relative aspect-[4/3] overflow-hidden rounded-3xl shadow-2xl shadow-black/20">
-              <Image
-                src="/hero-truck.png"
-                alt="Dump Happy crew member loading a junk-removal truck at sunset"
-                fill
-                loading="eager"
-                fetchPriority="high"
-                sizes="(min-width: 1024px) 45vw, 100vw"
-                className="animate-slow-zoom object-cover"
-              />
-            </div>
-            <div className="animate-float absolute -bottom-8 -left-2 flex items-center gap-3 rounded-2xl bg-white p-3 pr-5 shadow-xl ring-1 ring-black/5 sm:-left-8">
+          {/* floating badges over the photo */}
+          <div className="relative hidden h-full min-h-[22rem] lg:block">
+            {rating ? (
+              <div className="animate-float-delayed absolute right-0 top-4 flex items-center gap-2 rounded-2xl bg-white px-4 py-3 shadow-xl ring-1 ring-black/5">
+                <StarIcon size={18} className="text-brand-orange" />
+                <p className="text-sm font-semibold text-brand-ink">
+                  {rating.ratingValue.toFixed(1)} on Google
+                </p>
+              </div>
+            ) : (
+              <div className="animate-float-delayed absolute right-0 top-4 flex items-center gap-2 rounded-2xl bg-white px-4 py-3 shadow-xl ring-1 ring-black/5">
+                <MapPinIcon size={18} className="text-brand-orange" />
+                <p className="text-sm font-semibold text-brand-ink">{LOCATIONS.length} LA neighborhoods</p>
+              </div>
+            )}
+            <div className="animate-float absolute bottom-4 left-8 flex items-center gap-3 rounded-2xl bg-white p-3 pr-5 shadow-xl ring-1 ring-black/5">
               <div className="relative h-14 w-14 overflow-hidden rounded-xl">
                 <Image
                   src="/IMG_7384.jpg"
@@ -170,19 +184,6 @@ export default function HomePage() {
                 <p className="text-xs text-brand-slate">on every single job</p>
               </div>
             </div>
-            {rating ? (
-              <div className="animate-float-delayed absolute -right-2 -top-5 flex items-center gap-2 rounded-2xl bg-white px-4 py-3 shadow-xl ring-1 ring-black/5 sm:-right-6">
-                <StarIcon size={18} className="text-brand-orange" />
-                <p className="text-sm font-semibold text-brand-ink">
-                  {rating.ratingValue.toFixed(1)} on Google
-                </p>
-              </div>
-            ) : (
-              <div className="animate-float-delayed absolute -right-2 -top-5 flex items-center gap-2 rounded-2xl bg-white px-4 py-3 shadow-xl ring-1 ring-black/5 sm:-right-6">
-                <MapPinIcon size={18} className="text-brand-orange" />
-                <p className="text-sm font-semibold text-brand-ink">{LOCATIONS.length} LA neighborhoods</p>
-              </div>
-            )}
           </div>
         </div>
       </section>

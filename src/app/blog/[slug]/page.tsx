@@ -5,11 +5,12 @@ import { notFound } from "next/navigation";
 import { BLOG_POSTS, getBlogPostBySlug } from "@/lib/data/blog";
 import { BLOG_BODIES } from "@/content/blog-posts";
 import { formatDate } from "@/lib/date";
-import { buildMetadata, breadcrumbJsonLd, blogPostingJsonLd } from "@/lib/seo";
+import { buildMetadata, breadcrumbJsonLd, blogPostingJsonLd, faqPageJsonLd } from "@/lib/seo";
 import { SITE } from "@/lib/data/site";
 import { JsonLd } from "@/components/JsonLd";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CTABand } from "@/components/CTABand";
+import { FAQAccordion } from "@/components/FAQAccordion";
 
 export function generateStaticParams() {
   return BLOG_POSTS.map((p) => ({ slug: p.slug }));
@@ -61,6 +62,7 @@ export default async function BlogPostPage({
             { name: "Blog", path: "/blog" },
             { name: post.title, path },
           ]),
+          ...(post.faqs?.length ? [faqPageJsonLd(post.faqs)] : []),
         ]}
       />
       <Breadcrumbs
@@ -95,6 +97,15 @@ export default async function BlogPostPage({
         <div className="prose-content mt-10 space-y-5 leading-relaxed text-brand-charcoal [&_a]:font-semibold [&_a]:text-brand-orange [&_a:hover]:underline [&_h2]:mt-10 [&_h2]:text-2xl [&_h2]:font-extrabold [&_h2]:text-brand-black [&_h3]:mt-6 [&_h3]:text-xl [&_h3]:font-bold [&_h3]:text-brand-black [&_ul]:list-disc [&_ul]:pl-6 [&_ol]:list-decimal [&_ol]:pl-6">
           {Body ? <Body /> : <p>Content coming soon.</p>}
         </div>
+
+        {post.faqs?.length ? (
+          <section className="mt-14">
+            <h2 className="text-2xl font-bold tracking-tight text-brand-ink">Frequently Asked Questions</h2>
+            <div className="mt-6">
+              <FAQAccordion faqs={post.faqs} />
+            </div>
+          </section>
+        ) : null}
       </article>
 
       {primaryService && (

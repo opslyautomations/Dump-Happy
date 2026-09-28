@@ -18,6 +18,16 @@ import JunkRemovalSantaMonicaApartmentMoveout from "./junk-removal-santa-monica-
 import EstateCleanoutBeverlyHillsBrentwood from "./estate-cleanout-beverly-hills-brentwood";
 import ApartmentJunkRemovalKoreatownWeho from "./apartment-junk-removal-koreatown-weho";
 import GarageCleanoutWestchesterLax from "./garage-cleanout-westchester-lax";
+import MattressRemovalCostLosAngeles from "./mattress-removal-cost-los-angeles";
+import FreeMattressPickupLosAngeles from "./free-mattress-pickup-los-angeles";
+import BedBugMattressDisposal from "./bed-bug-mattress-disposal";
+import LeavingFurnitureOnCurbFreeSign from "./leaving-furniture-on-curb-free-sign";
+import SomeoneDumpedJunkOnMyProperty from "./someone-dumped-junk-on-my-property";
+import TenantLeftBelongingsCalifornia from "./tenant-left-belongings-california";
+import TvDisposalLosAngeles from "./tv-disposal-los-angeles";
+import CouchRemovalLosAngeles from "./couch-removal-los-angeles";
+import DonateFurnitureLosAngeles from "./donate-furniture-los-angeles";
+import HowToChooseJunkRemovalCompany from "./how-to-choose-junk-removal-company";
 
 export const BLOG_BODIES: Record<string, ComponentType> = {
   "junk-removal-cost-los-angeles": JunkRemovalCostLosAngeles,
@@ -38,4 +48,14 @@ export const BLOG_BODIES: Record<string, ComponentType> = {
   "estate-cleanout-beverly-hills-brentwood": EstateCleanoutBeverlyHillsBrentwood,
   "apartment-junk-removal-koreatown-weho": ApartmentJunkRemovalKoreatownWeho,
   "garage-cleanout-westchester-lax": GarageCleanoutWestchesterLax,
+  "mattress-removal-cost-los-angeles": MattressRemovalCostLosAngeles,
+  "free-mattress-pickup-los-angeles": FreeMattressPickupLosAngeles,
+  "bed-bug-mattress-disposal": BedBugMattressDisposal,
+  "leaving-furniture-on-curb-free-sign": LeavingFurnitureOnCurbFreeSign,
+  "someone-dumped-junk-on-my-property": SomeoneDumpedJunkOnMyProperty,
+  "tenant-left-belongings-california": TenantLeftBelongingsCalifornia,
+  "tv-disposal-los-angeles": TvDisposalLosAngeles,
+  "couch-removal-los-angeles": CouchRemovalLosAngeles,
+  "donate-furniture-los-angeles": DonateFurnitureLosAngeles,
+  "how-to-choose-junk-removal-company": HowToChooseJunkRemovalCompany,
 };

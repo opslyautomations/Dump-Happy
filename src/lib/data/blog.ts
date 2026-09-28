@@ -1,3 +1,5 @@
+import type { FaqItem } from "@/lib/seo";
+
 export interface BlogPostMeta {
   slug: string;
   title: string;
@@ -11,6 +13,8 @@ export interface BlogPostMeta {
   relatedServices: string[];
   relatedLocations: string[];
   imageAlt: string;
+  // Rendered as an on-page FAQ section plus FAQPage structured data.
+  faqs?: FaqItem[];
 }
 
 export const BLOG_POSTS: BlogPostMeta[] = [
@@ -283,6 +287,326 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedServices: ["garage-cleanout"],
     relatedLocations: ["westchester"],
     imageAlt: "Single-family home garage near LAX in Westchester, Los Angeles",
+  },
+  {
+    slug: "mattress-removal-cost-los-angeles",
+    title: "How Much Does Mattress Removal Cost in Los Angeles?",
+    metaTitle: "Mattress Removal Cost in Los Angeles (2026) | Dump Happy",
+    metaDescription:
+      "What mattress removal actually costs in LA, what changes the price, and when a free option makes more sense than paying a hauler.",
+    targetKeyword: "mattress removal cost los angeles",
+    category: "Pricing",
+    summary: "Mattress removal pricing, free vs paid options; links Mattress Removal + Pricing.",
+    datePublished: "2026-09-28",
+    dateModified: "2026-09-28",
+    relatedServices: ["mattress-removal"],
+    relatedLocations: [],
+    imageAlt: "Queen mattress and box spring loaded into a junk removal truck in Los Angeles",
+    faqs: [
+      {
+        question: "How much does it cost to get a mattress picked up in Los Angeles?",
+        answer:
+          "Dump Happy's pickups start at $289 for a small load, which covers a mattress plus a few other items, like a box spring and bed frame. The price covers the crew carrying it out, the haul, and routing it to a mattress recycler.",
+      },
+      {
+        question: "Is there a way to get rid of a mattress for free in LA?",
+        answer:
+          "Yes. City of LA homes served by LA Sanitation can schedule a free bulky item pickup through MyLA311 or by calling 311. California retailers must also offer to take your old mattress back free when they deliver a new one, and LA County has free residential drop-off sites through the Bye Bye Mattress program.",
+      },
+      {
+        question: "Does a box spring cost extra?",
+        answer:
+          "With load-based pricing you pay for the space your items take up, not per piece. A mattress, box spring, and frame usually fit in the same small load.",
+      },
+    ],
+  },
+  {
+    slug: "free-mattress-pickup-los-angeles",
+    title: "Free Mattress Pickup in Los Angeles: Every Option Compared",
+    metaTitle: "Free Mattress Pickup in Los Angeles: 4 Options | Dump Happy",
+    metaDescription:
+      "LA Sanitation bulky item pickup, retailer take-back, Bye Bye Mattress drop-offs, or a paid hauler — here's how each free and paid mattress option in LA works.",
+    targetKeyword: "free mattress pickup los angeles",
+    category: "Guides",
+    summary: "Compares LASAN bulky pickup, retailer take-back, drop-off, paid hauling.",
+    datePublished: "2026-09-28",
+    dateModified: "2026-09-28",
+    relatedServices: ["mattress-removal"],
+    relatedLocations: [],
+    imageAlt: "Old mattress waiting for a scheduled pickup outside a Los Angeles home",
+    faqs: [
+      {
+        question: "Does LA Sanitation pick up mattresses for free?",
+        answer:
+          "Yes, for homes that LA Sanitation serves. Schedule a bulky item pickup through MyLA311, the MyLA311 app, or by calling 311 at least one business day before your regular trash day. Mattresses and box springs are accepted.",
+      },
+      {
+        question: "Will the store take my old mattress when they deliver a new one?",
+        answer:
+          "In California, retailers must offer to take back your used mattress at no charge when they deliver a new one. Retailers that ship through a common carrier must offer to arrange a pickup within 30 days. They can refuse a mattress that's contaminated, for example with bed bugs.",
+      },
+      {
+        question: "I live in an apartment building. Can I use the city's bulky item pickup?",
+        answer:
+          "Larger apartment buildings are usually served by a private franchised hauler instead of LA Sanitation, so ask your property manager how bulky items are handled. If that option is slow or unavailable, a paid junk removal pickup is the fastest legal alternative.",
+      },
+    ],
+  },
+  {
+    slug: "bed-bug-mattress-disposal",
+    title: "How to Get Rid of a Mattress With Bed Bugs (Without Spreading Them)",
+    metaTitle: "How to Dispose of a Mattress With Bed Bugs | Dump Happy",
+    metaDescription:
+      "A bed bug mattress can't just go on the curb or to a donation center. Here's how to wrap it, label it, and get it out of your home without spreading the infestation.",
+    targetKeyword: "dispose of mattress with bed bugs",
+    category: "Disposal Rules",
+    summary: "Safe bed bug mattress disposal steps; links Mattress Removal.",
+    datePublished: "2026-09-28",
+    dateModified: "2026-09-28",
+    relatedServices: ["mattress-removal"],
+    relatedLocations: [],
+    imageAlt: "Mattress sealed in plastic and labeled for bed bug disposal",
+    faqs: [
+      {
+        question: "Can I donate a mattress that had bed bugs?",
+        answer:
+          "No. Donation centers won't take an infested mattress, and passing one on spreads the problem to another household. It should be sealed, labeled, and sent to disposal or recycling.",
+      },
+      {
+        question: "Can I leave a bed bug mattress on the curb?",
+        answer:
+          "Not unless it's set out for a scheduled pickup. An unscheduled mattress on the curb can be treated as illegal dumping, and people often take curbside mattresses home, which spreads bed bugs to new homes.",
+      },
+      {
+        question: "Will a mattress retailer take back a mattress with bed bugs?",
+        answer:
+          "Usually not. California's take-back rule lets retailers refuse a used mattress that's contaminated and a health or safety risk. Tell whoever picks it up about the bed bugs in advance.",
+      },
+    ],
+  },
+  {
+    slug: "leaving-furniture-on-curb-free-sign",
+    title: "Can You Leave Furniture on the Curb With a “Free” Sign in LA?",
+    metaTitle: "Is Leaving Furniture on the Curb With a Free Sign Legal? | Dump Happy",
+    metaDescription:
+      "A “free” sign doesn't make curbside furniture legal. Here's where the line falls under California Penal Code 374.3, and how to give things away the legal way in LA.",
+    targetKeyword: "leaving furniture on curb free sign",
+    category: "Disposal Rules",
+    summary: "Curb 'free' sign legality under PC 374.3; legal alternatives; links Furniture Removal.",
+    datePublished: "2026-09-28",
+    dateModified: "2026-09-28",
+    relatedServices: ["furniture-removal", "junk-removal"],
+    relatedLocations: [],
+    imageAlt: "Couch on a Los Angeles sidewalk with a handwritten free sign",
+    faqs: [
+      {
+        question: "Is it illegal to put free stuff on the curb in California?",
+        answer:
+          "Often, yes. California Penal Code 374.3 makes it unlawful to dump waste matter on any part of a road's right-of-way, which includes the sidewalk and parkway. A “free” sign doesn't change that if the item is left behind and becomes trash. Keeping items on your own property, like a driveway or front yard, is a different situation.",
+      },
+      {
+        question: "What's the fine for leaving junk on the curb in California?",
+        answer:
+          "Under Penal Code 374.3, a first conviction carries a mandatory fine of $250 to $1,000, rising to $750 to $3,000 for a third conviction. Each day the item stays out counts as a separate violation. Commercial quantities, meaning one cubic yard or more, are a misdemeanor with higher fines.",
+      },
+      {
+        question: "How can I give away furniture legally?",
+        answer:
+          "List it online and keep it on your own property until someone picks it up. You can also schedule a donation pickup, or book a bulky item or junk removal pickup for anything that doesn't find a taker.",
+      },
+    ],
+  },
+  {
+    slug: "someone-dumped-junk-on-my-property",
+    title: "Someone Dumped Junk on My Property or Street — What Now?",
+    metaTitle: "Someone Dumped Junk on My Property in LA: What to Do | Dump Happy",
+    metaDescription:
+      "Found a couch in your alley or debris on your lot? How to report illegal dumping in LA, who's responsible for cleanup, and how to keep it from happening again.",
+    targetKeyword: "report illegal dumping los angeles",
+    category: "Disposal Rules",
+    summary: "Reporting dumping (MyLA311/311, LA County), property owner cleanup, prevention.",
+    datePublished: "2026-09-28",
+    dateModified: "2026-09-28",
+    relatedServices: ["junk-removal"],
+    relatedLocations: [],
+    imageAlt: "Illegally dumped mattress and debris in a Los Angeles alley",
+    faqs: [
+      {
+        question: "How do I report illegal dumping in Los Angeles?",
+        answer:
+          "In the City of Los Angeles, report it through MyLA311, the MyLA311 app, or by calling 311. Include the exact location and a photo if you can. Unincorporated LA County has its own reporting through LA County Public Works, and cities like Santa Monica and Culver City run their own services.",
+      },
+      {
+        question: "Who has to clean up junk dumped on my private property?",
+        answer:
+          "Generally the property owner. Cities clean up the public right-of-way, but debris on private land is usually the owner's responsibility, even if someone else dumped it. Leaving it there can lead to code enforcement notices.",
+      },
+      {
+        question: "What should I do if I see someone dumping?",
+        answer:
+          "Don't confront them. Note the time, location, vehicle description, and license plate if you can do so safely, then report it. That information is what makes enforcement possible.",
+      },
+    ],
+  },
+  {
+    slug: "tenant-left-belongings-california",
+    title: "Tenant Left Belongings Behind? California's Abandoned Property Rules",
+    metaTitle: "Tenant Left Stuff Behind in California: Landlord Rules | Dump Happy",
+    metaDescription:
+      "California Civil Code 1980–1991 sets the notice and timing rules for belongings a tenant leaves behind. Here's the process, the $700 threshold, and when you can clear it out.",
+    targetKeyword: "tenant abandoned property california",
+    category: "Guides",
+    summary: "Civil Code 1983/1984/1988 notice, 15/18 days, $700; property manager clean-outs.",
+    datePublished: "2026-09-28",
+    dateModified: "2026-09-28",
+    relatedServices: ["junk-removal", "estate-cleanout"],
+    relatedLocations: [],
+    imageAlt: "Furniture and boxes left behind in an empty rental apartment in Los Angeles",
+    faqs: [
+      {
+        question: "How long does a California landlord have to keep a former tenant's belongings?",
+        answer:
+          "After the tenant vacates, the landlord gives written notice describing the property and a deadline to claim it. The deadline must be at least 15 days after the notice is personally delivered, or at least 18 days after it's mailed (Civil Code 1983).",
+      },
+      {
+        question: "Can a landlord throw away property a tenant left behind?",
+        answer:
+          "After the notice period passes without a claim, if the landlord reasonably believes the total resale value is under $700, the landlord may keep or dispose of it (Civil Code 1988). If it's worth more, it has to be sold at a public sale after published notice.",
+      },
+      {
+        question: "Can a junk removal company clear out a unit after the notice period?",
+        answer:
+          "Yes. Once you're legally clear to dispose of the property, a hauler can empty the unit in one visit, donate what's usable, and recycle or legally dispose of the rest. This article is general information, not legal advice. Confirm your situation with an attorney if you're unsure.",
+      },
+    ],
+  },
+  {
+    slug: "tv-disposal-los-angeles",
+    title: "How to Dispose of an Old TV in Los Angeles",
+    metaTitle: "TV Disposal in Los Angeles: Where Old TVs Go | Dump Happy",
+    metaDescription:
+      "Old TVs can't go in the trash in California. Here are the legal ways to get rid of a flat-screen or tube TV in LA — free e-waste pickup, drop-offs, and hauling.",
+    targetKeyword: "tv disposal los angeles",
+    category: "Disposal Rules",
+    summary: "E-waste rules for TVs; LASAN e-waste pickup, S.A.F.E. centers; links Junk Removal.",
+    datePublished: "2026-09-28",
+    dateModified: "2026-09-28",
+    relatedServices: ["junk-removal", "commercial-junk-removal"],
+    relatedLocations: [],
+    imageAlt: "Old flat-screen and tube televisions set aside for e-waste recycling",
+    faqs: [
+      {
+        question: "Can I throw a TV in the trash in California?",
+        answer:
+          "No. TVs and monitors are treated as hazardous electronic waste in California because they can contain lead, mercury, and other toxic materials. They have to go to an e-waste collector or recycler, not your trash bin.",
+      },
+      {
+        question: "Does LA Sanitation pick up old TVs?",
+        answer:
+          "Yes. LA Sanitation offers free curbside pickup of large electronics like TVs, computers, and monitors for homes it serves, scheduled through MyLA311 or 311. It's a separate request from a regular bulky item pickup.",
+      },
+      {
+        question: "Will a junk removal company take a TV?",
+        answer:
+          "Most will, including Dump Happy. It's handy when the TV is one of several items leaving, or when it's mounted or upstairs. The TV goes to an e-waste recycler, never a landfill.",
+      },
+    ],
+  },
+  {
+    slug: "couch-removal-los-angeles",
+    title: "How to Get Rid of an Old Couch in Los Angeles",
+    metaTitle: "Couch Removal & Sofa Disposal in Los Angeles | Dump Happy",
+    metaDescription:
+      "Sell it, donate it, schedule a bulky pickup, or have it hauled — how to get rid of a couch, sectional, or sleeper sofa in LA, and what each option really takes.",
+    targetKeyword: "couch removal los angeles",
+    category: "Guides",
+    summary: "Couch disposal options and prep; links Furniture Removal.",
+    datePublished: "2026-09-28",
+    dateModified: "2026-09-28",
+    relatedServices: ["furniture-removal"],
+    relatedLocations: [],
+    imageAlt: "Crew carrying an old sectional sofa out of a Los Angeles apartment",
+    faqs: [
+      {
+        question: "What's the easiest way to get rid of a couch in LA?",
+        answer:
+          "If it's in good shape, a donation pickup or a quick online listing works. If it's worn or you're short on time, a City of LA bulky item pickup is free for eligible homes, and a junk removal crew is fastest when stairs or tight hallways are involved.",
+      },
+      {
+        question: "Will donation centers take a used couch?",
+        answer:
+          "Some will, if it's clean and free of stains, tears, pet damage, and odors. Many turn down upholstered furniture in less-than-great shape, so send photos and ask before you haul it over.",
+      },
+      {
+        question: "How much does couch removal cost?",
+        answer:
+          "Dump Happy's pricing is based on load size, starting at $289 for a small load, and a single couch usually fits in that tier. Adding other items to the same pickup is usually cheaper than booking separate jobs.",
+      },
+    ],
+  },
+  {
+    slug: "donate-furniture-los-angeles",
+    title: "Where to Donate Furniture in Los Angeles (and What Gets Turned Away)",
+    metaTitle: "Where to Donate Furniture in Los Angeles | Dump Happy",
+    metaDescription:
+      "How furniture donation works in LA, what charities and ReStores usually refuse, and how to handle the pieces that don't make the cut.",
+    targetKeyword: "donate furniture los angeles",
+    category: "Guides",
+    summary: "Donation acceptance criteria, safety-recalled items, tax receipts; links Furniture Removal.",
+    datePublished: "2026-09-28",
+    dateModified: "2026-09-28",
+    relatedServices: ["furniture-removal", "estate-cleanout"],
+    relatedLocations: [],
+    imageAlt: "Gently used dresser and chairs ready for donation in Los Angeles",
+    faqs: [
+      {
+        question: "What furniture can't be donated?",
+        answer:
+          "Most donation centers turn down pieces with stains, tears, pet damage, strong odors, broken parts, or water damage. Many also refuse mattresses, and baby items like drop-side cribs that don't meet current federal safety standards can't be resold.",
+      },
+      {
+        question: "Can I get a tax deduction for donated furniture?",
+        answer:
+          "Donations to a qualified charity can be deductible if you itemize. The IRS generally requires household items to be in good used condition or better. Ask the charity for a receipt and talk to a tax professional about your situation.",
+      },
+      {
+        question: "Will someone pick up my furniture donation?",
+        answer:
+          "Some organizations offer free donation pickup, but schedules can fill up weeks out. A junk removal crew can take donatable and non-donatable items in one trip and drop the usable pieces off at donation for you.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-choose-junk-removal-company",
+    title: "How to Choose a Junk Removal Company in LA: 8 Questions to Ask",
+    metaTitle: "How to Choose a Junk Removal Company in LA | Dump Happy",
+    metaDescription:
+      "Pricing, insurance, where your stuff actually goes — 8 questions to ask before hiring a junk removal company in Los Angeles, plus the red flags to watch for.",
+    targetKeyword: "how to choose a junk removal company",
+    category: "Guides",
+    summary: "Hiring checklist and red flags; ties to legal disposal; links Pricing + Junk Removal.",
+    datePublished: "2026-09-28",
+    dateModified: "2026-09-28",
+    relatedServices: ["junk-removal"],
+    relatedLocations: [],
+    imageAlt: "Branded junk removal truck and crew arriving for a job in Los Angeles",
+    faqs: [
+      {
+        question: "What should I ask a junk removal company before hiring?",
+        answer:
+          "Ask how they price (by volume or by item), whether the quote is firm before loading, whether they're insured, where items go after pickup, and what they won't take. A good company answers all of these clearly without hedging.",
+      },
+      {
+        question: "What are red flags when hiring a junk hauler?",
+        answer:
+          "An unmarked truck, cash-only payment, a price that's far below everyone else's, no reviews or business address, and vague answers about where your items end up. Low-ball haulers are the ones most likely to dump illegally.",
+      },
+      {
+        question: "Is it worth paying more for a licensed, insured hauler?",
+        answer:
+          "Usually, yes. Insurance protects you if someone is hurt or your property is damaged during the job, and a legitimate hauler builds legal disposal fees into the price instead of cutting corners that can come back to you.",
+      },
+    ],
   },
 ];
 
