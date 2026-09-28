@@ -24,7 +24,7 @@ const PATH = "/services/hoarding-cleanout";
 export const metadata: Metadata = buildMetadata({
   title: "Hoarding Clean-Out Services in Los Angeles | Dump Happy",
   description:
-    "Discreet, compassionate hoarding clean-outs in Los Angeles — no judgment, your pace, keepsakes protected. We coordinate specialists when needed. Free private quote.",
+    "Discreet, compassionate hoarding clean-outs in Los Angeles — no judgment, your pace, keepsakes protected. Get a free, private quote.",
   path: PATH,
 });
 

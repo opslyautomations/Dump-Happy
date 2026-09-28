@@ -24,7 +24,7 @@ const PATH = "/services/construction-debris-removal";
 export const metadata: Metadata = buildMetadata({
   title: "Construction Debris Removal in Los Angeles | Dump Happy",
   description:
-    "Construction and demolition debris hauled across LA — drywall, wood, concrete, remodel debris — routed to certified recyclers. Load-based pricing. Free quote today.",
+    "Construction debris hauled across LA — drywall, wood, concrete, and remodel debris, routed to certified recyclers. Load-based pricing, free quote.",
   path: PATH,
 });
 
@@ -69,7 +69,7 @@ export default function ConstructionDebrisRemovalPage() {
           serviceJsonLd({
             name: SERVICE_NAME,
             description:
-              "Construction and demolition debris removal across Los Angeles, routed to certified recycling facilities to support LA County and CalGreen diversion requirements.",
+              "Construction debris removal across Los Angeles, routed to certified recyclers to meet LA County and CalGreen diversion requirements.",
             path: PATH,
           }),
           faqPageJsonLd(faqs),

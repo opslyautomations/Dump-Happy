@@ -22,7 +22,7 @@ import { ProcessSteps } from "@/components/page-sections/ProcessSteps";
 export const metadata: Metadata = buildMetadata({
   title: "Junk Removal in Los Angeles | Dump Happy Hauling",
   description:
-    "Fast, full-service junk removal across Los Angeles. We do the lifting, load-based pricing, same-week pickup, and legal disposal. Free quote — call Dump Happy today.",
+    "Full-service junk removal across Los Angeles. We do the lifting, with load-based pricing, same-week pickup, and legal disposal. Get a free quote.",
   path: "/services/junk-removal",
 });
 

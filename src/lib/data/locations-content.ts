@@ -31,7 +31,7 @@ export const LOCATIONS_CONTENT: Record<string, LocationContent> = {
     areaServedSchema: "Santa Monica, CA",
     metaTitle: "Junk Removal in Santa Monica, CA | Dump Happy",
     metaDescription:
-      "Junk removal and clean-outs in Santa Monica, CA — apartment turnovers, downsizing, and renovation debris hauled fast, load-based pricing. Get a free quote today.",
+      "Junk removal in Santa Monica — apartment turnovers, downsizing, and renovation debris hauled fast. Load-based pricing, free quote.",
     h1: "Junk Removal in Santa Monica, CA",
     localLead:
       "Santa Monica packs high-value single-family blocks and one of the Westside's densest rental markets into a few coastal square miles — which means junk piles up fast and is a genuine pain to move out. Dump Happy hauls it from anywhere in the city: a walk-up apartment off Pico, a Sunset Park garage, a North of Montana remodel. You point, we carry, and we work around Santa Monica's permit-parking and tight-street reality.",
@@ -65,7 +65,7 @@ export const LOCATIONS_CONTENT: Record<string, LocationContent> = {
     areaServedSchema: "Culver City, CA",
     metaTitle: "Junk Removal in Culver City, CA | Dump Happy",
     metaDescription:
-      "Junk removal in Culver City, CA — office clear-outs, condo turnovers, and renovation debris hauled with load-based pricing. Free quote from Dump Happy today.",
+      "Junk removal in Culver City — office clear-outs, condo turnovers, and renovation debris hauled with load-based pricing. Get a free quote.",
     h1: "Junk Removal in Culver City, CA",
     localLead:
       "Culver City has changed fast, and clear-outs have changed with it. Between the studios, the tech offices, and a wave of condo and home renovation, Dump Happy stays busy hauling everything from a decommissioned office suite to a Fox Hills condo's worth of old furniture. Commercial or residential, we quote it by the load and clear it out clean.",
@@ -98,7 +98,7 @@ export const LOCATIONS_CONTENT: Record<string, LocationContent> = {
     areaServedSchema: "Beverly Hills, CA",
     metaTitle: "Junk Removal in Beverly Hills, CA | Dump Happy",
     metaDescription:
-      "Discreet junk removal and estate clean-outs in Beverly Hills, CA — large homes handled with care, load-based pricing, legal disposal. Free quote from Dump Happy.",
+      "Discreet junk removal and estate clean-outs in Beverly Hills — large homes handled with care. Load-based pricing, legal disposal, free quote.",
     h1: "Junk Removal & Estate Clean-Outs in Beverly Hills, CA",
     localLead:
       "Beverly Hills jobs are rarely one couch — they're a full estate, a decades-lived-in home being downsized, or a mansion mid-renovation. Dump Happy handles large-home clear-outs across the Flats and the canyons with care for the property and discretion for the household, hauling and disposing of everything legally, with donation prioritized for what's still valuable.",
@@ -132,7 +132,7 @@ export const LOCATIONS_CONTENT: Record<string, LocationContent> = {
     areaServedSchema: "West Hollywood, CA",
     metaTitle: "Junk Removal in West Hollywood, CA | Dump Happy",
     metaDescription:
-      "Junk removal in West Hollywood, CA — apartment and condo turnovers, small-load pickups from tight buildings, load-based pricing. Free quote from Dump Happy today.",
+      "Junk removal in West Hollywood — apartment and condo turnovers and small-load pickups from tight buildings. Load-based pricing, free quote.",
     h1: "Junk Removal in West Hollywood, CA",
     localLead:
       "WeHo is dense, vertical, and short on parking — which makes hauling anything bulkier than a trash bag a real problem. Dump Happy clears apartments and condos across West Hollywood, from a single dresser out of a Norma Triangle walk-up to a full unit turnover off the Strip, and we do the stairs and the loading so you don't have to circle the block with a mattress.",
@@ -165,7 +165,7 @@ export const LOCATIONS_CONTENT: Record<string, LocationContent> = {
     areaServedSchema: "Marina del Rey, CA",
     metaTitle: "Junk Removal in Marina del Rey, CA | Dump Happy",
     metaDescription:
-      "Junk removal in Marina del Rey, CA — HOA-friendly condo clear-outs and apartment turnovers, load-based pricing, legal disposal. Free quote from Dump Happy today.",
+      "Junk removal in Marina del Rey — HOA-friendly condo clear-outs and apartment turnovers. Load-based pricing, legal disposal, free quote.",
     h1: "Junk Removal in Marina del Rey, CA",
     localLead:
       "Marina del Rey is condos, apartments, and boat slips — not garages and yards — so the clear-outs here run through elevators, shared corridors, and HOA rules. Dump Happy handles that: condo turnovers, downsizing, and unit clear-outs done cleanly and on the building's terms, from the harbor towers to the Silver Strand.",
@@ -198,7 +198,7 @@ export const LOCATIONS_CONTENT: Record<string, LocationContent> = {
     areaServedSchema: "Venice, Los Angeles, CA",
     metaTitle: "Junk Removal in Venice, CA | Dump Happy",
     metaDescription:
-      "Junk removal in Venice, CA — hauling from canal homes, walk-streets, and tight lots, plus rental turnovers. Load-based pricing. Get a free quote from Dump Happy today.",
+      "Junk removal in Venice, CA — hauling from canal homes, walk-streets, and tight lots, plus rental turnovers. Load-based pricing, free quote.",
     h1: "Junk Removal in Venice, CA",
     localLead:
       "Venice is the Westside's trickiest place to haul out of — walk-streets a truck can't reach, canal homes with footbridge-only access, and lots packed tight against each other. Dump Happy knows the workarounds: we clear Abbot Kinney bungalows, Oakwood rentals, and canal-side homes, carrying loads the distance when the truck can't get to the door.",
@@ -231,7 +231,7 @@ export const LOCATIONS_CONTENT: Record<string, LocationContent> = {
     areaServedSchema: "Sawtelle, Los Angeles, CA",
     metaTitle: "Junk Removal in Sawtelle, CA | Dump Happy",
     metaDescription:
-      "Junk removal in Sawtelle (Little Osaka), West LA — apartment and small-business clear-outs from a dense, tight-parking corridor. Free quote from Dump Happy today.",
+      "Junk removal in Sawtelle (Little Osaka), West LA — apartment and small-business clear-outs on a tight-parking corridor. Get a free quote.",
     h1: "Junk Removal in Sawtelle (Little Osaka), West LA",
     localLead:
       "Sawtelle — the stretch of West LA known as Sawtelle Japantown, or \"Little Osaka\" — is a packed corridor of restaurants, small shops, and apartments where a truck can't idle long and parking is a fight. Dump Happy clears apartments and small businesses along and around Sawtelle Boulevard, working fast and tight so we're not blocking the block.",
@@ -264,7 +264,7 @@ export const LOCATIONS_CONTENT: Record<string, LocationContent> = {
     areaServedSchema: "Brentwood, Los Angeles, CA",
     metaTitle: "Junk Removal in Brentwood, CA | Dump Happy",
     metaDescription:
-      "Junk removal and estate clean-outs in Brentwood, Los Angeles — large homes and canyon properties handled with care, load-based pricing. Free quote from Dump Happy.",
+      "Junk removal and estate clean-outs in Brentwood — large homes and canyon properties handled with care. Load-based pricing, free quote.",
     h1: "Junk Removal & Estate Clean-Outs in Brentwood, Los Angeles",
     localLead:
       "Brentwood clear-outs mean large homes — hillside properties up Mandeville Canyon, family homes in Brentwood Glen, estates being downsized or sold. Dump Happy handles the scale and the access, hauling full-property loads with care for the home and routing usable furnishings to donation.",
@@ -297,7 +297,7 @@ export const LOCATIONS_CONTENT: Record<string, LocationContent> = {
     areaServedSchema: "Westchester, Los Angeles, CA",
     metaTitle: "Junk Removal in Westchester, CA | Dump Happy",
     metaDescription:
-      "Junk removal in Westchester, CA near LAX — garage clean-outs, estate jobs, and LMU move-outs, load-based pricing, legal disposal. Free quote from Dump Happy today.",
+      "Junk removal in Westchester near LAX — garage clean-outs, estate jobs, and LMU move-outs. Load-based pricing, legal disposal, free quote.",
     h1: "Junk Removal in Westchester, CA",
     localLead:
       "Westchester is the Westside's suburb — single-family homes with real garages, families who've filled them over the years, and LMU rentals that turn over every spring. Dump Happy clears the classic Westchester jobs: a two-car garage you can't park in, a family downsizing, a student place emptied at move-out.",
@@ -331,7 +331,7 @@ export const LOCATIONS_CONTENT: Record<string, LocationContent> = {
     areaServedSchema: "Mid-City, Los Angeles, CA",
     metaTitle: "Junk Removal in Mid-City, LA | Dump Happy",
     metaDescription:
-      "Junk removal in Mid-City, Los Angeles — older-home clear-outs, renovation debris, and residential turnovers, load-based pricing. Free quote from Dump Happy today.",
+      "Junk removal in Mid-City, Los Angeles — older-home clear-outs, renovation debris, and rental turnovers. Load-based pricing, free quote.",
     h1: "Junk Removal in Mid-City, Los Angeles",
     localLead:
       "Mid-City sits in the middle of it all — older Los Angeles homes and duplexes along the Venice, Pico, and La Brea corridors, many being renovated or turned over. Dump Happy clears these central-LA properties of decades of accumulation, remodel debris, and old furnishings, quoted by the load and hauled out legally.",
@@ -365,7 +365,7 @@ export const LOCATIONS_CONTENT: Record<string, LocationContent> = {
     areaServedSchema: "Koreatown, Los Angeles, CA",
     metaTitle: "Junk Removal in Koreatown, LA | Dump Happy",
     metaDescription:
-      "Junk removal in Koreatown, Los Angeles — apartment turnovers and small-load pickups from LA's densest neighborhood, load-based pricing. Free quote from Dump Happy.",
+      "Junk removal in Koreatown, LA — apartment turnovers and small-load pickups from high-rise buildings. Load-based pricing, free quote.",
     h1: "Junk Removal in Koreatown, Los Angeles",
     localLead:
       "Koreatown is the densest neighborhood in Los Angeles — high-rise apartments, older multi-units, and almost no garages or yards. The junk problem here is getting a mattress or a couch out of a packed building with an elevator and no place to park a truck. Dump Happy does exactly that: apartment clear-outs and small-load pickups, worked around the building and the block.",

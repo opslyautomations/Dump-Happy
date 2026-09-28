@@ -24,7 +24,7 @@ const PATH = "/services/estate-cleanout";
 export const metadata: Metadata = buildMetadata({
   title: "Estate Clean-Out Services in Los Angeles | Dump Happy",
   description:
-    "Compassionate estate and property clean-outs in Los Angeles — whole homes cleared with care, valuables protected, donation-first. Free, no-pressure quote today.",
+    "Compassionate estate clean-outs in Los Angeles — whole homes cleared with care, valuables protected, donation-first. Free, no-pressure quote.",
   path: PATH,
 });
 

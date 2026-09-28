@@ -35,7 +35,7 @@ const RECENT_WORK_PREVIEW = GALLERY_PHOTOS.slice(0, 4);
 export const metadata: Metadata = buildMetadata({
   title: "Junk Removal in Los Angeles | Dump Happy",
   description:
-    "Fast, upfront, load-based junk removal across Los Angeles — homes, garages, estates, and job sites. No hidden fees, legal disposal. Open daily 10am–8pm. Get a free quote today.",
+    "Fast, load-based junk removal across Los Angeles — homes, garages, estates, and job sites. No hidden fees, legal disposal. Open daily 10am–8pm.",
   path: "/",
 });
 

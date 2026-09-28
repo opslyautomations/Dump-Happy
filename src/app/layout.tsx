@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: `%s | ${SITE.name}`,
   },
   description:
-    "Locally owned junk removal and clean-out company serving Los Angeles' Westside, South Bay, and Central LA. Fast, load-based pricing, legal disposal, no hidden fees.",
+    "Locally owned junk removal and clean-outs across LA's Westside, South Bay, and Central LA. Load-based pricing, legal disposal, no hidden fees.",
   applicationName: SITE.name,
   icons: {
     icon: "/favicon.ico",

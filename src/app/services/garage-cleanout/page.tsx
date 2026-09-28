@@ -23,7 +23,7 @@ import { PillList } from "@/components/page-sections/PillList";
 export const metadata: Metadata = buildMetadata({
   title: "Garage Clean-Out in Los Angeles | Dump Happy",
   description:
-    "Reclaim your garage. Dump Happy clears clutter, debris, and old appliances across LA — load-based pricing and legal hazardous-waste sorting. Free quote today.",
+    "Reclaim your garage. Dump Happy clears clutter, debris, and old appliances across LA with load-based pricing and legal disposal. Free quote.",
   path: "/services/garage-cleanout",
 });
 

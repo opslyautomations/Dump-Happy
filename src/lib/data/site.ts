@@ -2,7 +2,8 @@ export const SITE = {
   name: "Dump Happy",
   tagline: "Fast. Reliable. Happy Dumping!",
   domain: "dumphappy.com",
-  url: "https://dumphappy.com",
+  // Must match the primary domain in Vercel (apex redirects to www) so canonicals don't point at a redirect.
+  url: "https://www.dumphappy.com",
   phoneDisplay: "(424) 356-4141",
   phoneRaw: "+14243564141",
   email: "support@dumphappy.com" as string | null,

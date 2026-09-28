@@ -25,7 +25,7 @@ const PATH = "/services/yard-waste-removal";
 export const metadata: Metadata = buildMetadata({
   title: "Yard & Green Waste Removal in Los Angeles | Dump Happy",
   description:
-    "Yard and green waste removal in LA — branches, trimmings, sod, and storm debris hauled to organics facilities, not landfilled. Load-based pricing. Free quote today.",
+    "Yard waste removal in LA — branches, trimmings, sod, and storm debris hauled to organics facilities, not landfills. Load-based pricing, free quote.",
   path: PATH,
 });
 

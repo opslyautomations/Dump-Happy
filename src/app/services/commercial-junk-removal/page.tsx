@@ -24,7 +24,7 @@ const PATH = "/services/commercial-junk-removal";
 export const metadata: Metadata = buildMetadata({
   title: "Commercial Junk Removal in Los Angeles | Dump Happy",
   description:
-    "Office and commercial junk removal in LA — furniture, cubicles, and clear-outs, with e-waste routed to certified recyclers. After-hours available. Free quote today.",
+    "Office and commercial junk removal in LA — furniture, cubicles, and clear-outs, with e-waste sent to certified recyclers. After-hours available.",
   path: PATH,
 });
 

@@ -83,7 +83,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "How to Dispose of a Mattress in California",
     metaTitle: "Mattress Disposal Rules in California | Dump Happy",
     metaDescription:
-      "California recycles old mattresses through the Bye Bye Mattress program, with free drop-offs across LA County. How the program works, and when to hire it out.",
+      "California recycles old mattresses through Bye Bye Mattress, with free drop-offs across LA County. How it works, and when to hire it out.",
     targetKeyword: "mattress disposal california",
     category: "Disposal Rules",
     summary: "Bye Bye Mattress program, free drop-offs, why hire out; links Mattress Removal.",
@@ -98,7 +98,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "Refrigerator Disposal Rules in California",
     metaTitle: "Refrigerator Disposal Rules in CA | Dump Happy",
     metaDescription:
-      "Old fridges hold refrigerant that federal and California law require to be recovered before disposal. Here's what's required, and how rebate programs can help.",
+      "Old fridges hold refrigerant that must be recovered before disposal under federal and California law. What's required, and how rebates help.",
     targetKeyword: "refrigerator disposal california",
     category: "Disposal Rules",
     summary: "EPA 608 refrigerant recovery, rebates; links Appliance Removal.",
@@ -188,7 +188,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "Junk Removal vs. Dumpster Rental: Which Is Cheaper?",
     metaTitle: "Junk Removal vs Dumpster Rental | Dump Happy",
     metaDescription:
-      "Not sure whether to book a junk hauler or rent a dumpster for your project? Here's an honest, side-by-side breakdown of when each option makes more sense.",
+      "Junk hauler or dumpster rental? An honest side-by-side breakdown of cost, effort, and when each option makes more sense for your project.",
     targetKeyword: "junk removal vs dumpster rental",
     category: "Guides",
     summary: "When each wins; links Junk Removal + Construction Debris.",
@@ -357,7 +357,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "How to Get Rid of a Mattress With Bed Bugs (Without Spreading Them)",
     metaTitle: "How to Dispose of a Mattress With Bed Bugs | Dump Happy",
     metaDescription:
-      "A bed bug mattress can't just go on the curb or to a donation center. Here's how to wrap it, label it, and get it out of your home without spreading the infestation.",
+      "A bed bug mattress can't go on the curb or to donation. How to seal it, label it, and get it out of your home without spreading the infestation.",
     targetKeyword: "dispose of mattress with bed bugs",
     category: "Disposal Rules",
     summary: "Safe bed bug mattress disposal steps; links Mattress Removal.",
@@ -389,7 +389,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "Can You Leave Furniture on the Curb With a “Free” Sign in LA?",
     metaTitle: "Is Leaving Furniture on the Curb With a Free Sign Legal? | Dump Happy",
     metaDescription:
-      "A “free” sign doesn't make curbside furniture legal. Here's where the line falls under California Penal Code 374.3, and how to give things away the legal way in LA.",
+      "A “free” sign doesn't make curbside furniture legal. What California Penal Code 374.3 says, the fines, and how to give things away legally in LA.",
     targetKeyword: "leaving furniture on curb free sign",
     category: "Disposal Rules",
     summary: "Curb 'free' sign legality under PC 374.3; legal alternatives; links Furniture Removal.",
@@ -421,7 +421,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "Someone Dumped Junk on My Property or Street — What Now?",
     metaTitle: "Someone Dumped Junk on My Property in LA: What to Do | Dump Happy",
     metaDescription:
-      "Found a couch in your alley or debris on your lot? How to report illegal dumping in LA, who's responsible for cleanup, and how to keep it from happening again.",
+      "Found a couch in your alley or debris on your lot? How to report illegal dumping in LA, who handles cleanup, and how to prevent it.",
     targetKeyword: "report illegal dumping los angeles",
     category: "Disposal Rules",
     summary: "Reporting dumping (MyLA311/311, LA County), property owner cleanup, prevention.",
@@ -453,7 +453,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "Tenant Left Belongings Behind? California's Abandoned Property Rules",
     metaTitle: "Tenant Left Stuff Behind in California: Landlord Rules | Dump Happy",
     metaDescription:
-      "California Civil Code 1980–1991 sets the notice and timing rules for belongings a tenant leaves behind. Here's the process, the $700 threshold, and when you can clear it out.",
+      "Tenant left belongings behind? California's notice rules, the 15/18-day deadlines, the $700 threshold, and when a landlord can clear the unit.",
     targetKeyword: "tenant abandoned property california",
     category: "Guides",
     summary: "Civil Code 1983/1984/1988 notice, 15/18 days, $700; property manager clean-outs.",

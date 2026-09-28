@@ -35,7 +35,7 @@ from PIL.TiffImagePlugin import IFDRational
 ROOT = Path(__file__).resolve().parents[2]
 OUT_DIR = ROOT / "public" / "locations"
 TS_OUT = ROOT / "src" / "lib" / "data" / "location-photos.ts"
-SITE_URL = "https://dumphappy.com"
+SITE_URL = "https://www.dumphappy.com"
 UA = {"User-Agent": "DumpHappySiteBuilder/1.0 (https://dumphappy.com; support@dumphappy.com)"}
 WIDTH, HEIGHT = 1600, 900
 
