@@ -9,13 +9,14 @@ export default function GreenWasteRemovalCostLosAngelesBody() {
         goes up to $899 for a full truckload, with the price set before loading begins.
       </p>
       <p>
-        Below is what each load size means for yard waste, what moves the price up or down, and
-        how a paid haul compares with the free and DIY options.
+        Call (424) 356-4141 or <Link href="/contact">get a free quote</Link> for{" "}
+        <Link href="/services/yard-waste-removal">yard waste removal</Link>. Below is what each
+        load size means for yard waste, what&apos;s included, and what moves the price up or down.
       </p>
 
       <h2>How is green waste removal priced?</h2>
       <p>
-        Most junk and green waste haulers price by volume. You pay for the space your branches,
+        Dump Happy prices by volume. You pay for the space your branches,
         trimmings, and brush take up in the truck, not per bag or per branch. A loose pile of
         palm fronds and a tight stack of cut limbs can weigh very different amounts, but the
         quote is based on how much room they take.
@@ -95,40 +96,31 @@ export default function GreenWasteRemovalCostLosAngelesBody() {
         </li>
       </ul>
 
-      <h2>Is green waste removal cheaper than doing it yourself?</h2>
+      <h2>What&apos;s included in the green waste removal price?</h2>
       <p>
-        Sometimes. The free and low-cost options are real, but each has limits. Here&apos;s how
-        they compare:
+        One price covers the whole job, so there&apos;s nothing to rent, cut, or bundle:
       </p>
       <ul>
         <li>
-          <strong>Your green bin:</strong> no extra cost, but limited to what fits with the lid
-          closed each week. A large pile can take many weeks.
+          <strong>Loading:</strong> our crew carries debris from backyards, side yards, and slopes.
         </li>
         <li>
-          <strong>Extra green bin from your city:</strong> many cities, including LA Sanitation,
-          offer additional bin capacity for an added charge. It helps with steady overflow, not a
-          one-time pile.
+          <strong>Hauling:</strong> everything leaves in one trip, no matter how many bins&apos;
+          worth it would be.
         </li>
         <li>
-          <strong>City brush collection:</strong> LA Sanitation offers eligible households one
-          free brush collection a year, with bundling and size limits.
+          <strong>Disposal:</strong> delivery to an organics facility for compost or mulch, with
+          facility fees built in.
         </li>
         <li>
-          <strong>Self-haul:</strong> you pay facility fees and need a truck, tarps, and an
-          afternoon or more. Truck rental and fuel add up quickly.
-        </li>
-        <li>
-          <strong>Hiring a hauler:</strong> costs more up front, but one visit clears it with no
-          cutting, bundling, or lifting.
+          <strong>Cleanup:</strong> we sweep up the spot where the pile sat.
         </li>
       </ul>
       <p>
-        If your pile fits a few green bin cycles, use the bin. If it would take months, or it
-        includes heavy limbs and sod, a paid haul usually costs less once you count your time.
-        For more ways to handle overflow, see{" "}
+        For heavy limbs, sod, or a pile that has taken over the yard, one Dump Happy haul is the
+        fastest way to a clean property. For more on big piles, see{" "}
         <Link href="/blog/too-much-yard-waste-for-green-bin-los-angeles">
-          what to do when you have too much yard waste for the green bin
+          how to get rid of yard waste in LA
         </Link>
         .
       </p>
@@ -148,7 +140,7 @@ export default function GreenWasteRemovalCostLosAngelesBody() {
 
       <h2>Are there hidden fees in green waste removal?</h2>
       <p>
-        There shouldn&apos;t be. A reputable green waste hauler gives you a firm price based on
+        Not with Dump Happy. We give you a firm price based on
         the load size before anything goes in the truck. Disposal fees at the organics facility
         are already built in. Be cautious of quotes that sound too cheap to cover legal disposal.
         Those are the haulers most likely to dump illegally, and{" "}
@@ -171,7 +163,8 @@ export default function GreenWasteRemovalCostLosAngelesBody() {
         across the Westside, South Bay, and Central LA, from{" "}
         <Link href="/locations/westchester">Westchester</Link> to{" "}
         <Link href="/locations/brentwood">Brentwood</Link>. Hours are 10am to 8pm, seven days a
-        week. Call (424) 356-4141 for a quote.
+        week. Call (424) 356-4141 or <Link href="/contact">get a free quote</Link>, and see every
+        tier on our <Link href="/pricing">pricing page</Link>.
       </p>
       <p>
         If you manage properties or run a landscaping crew, see{" "}

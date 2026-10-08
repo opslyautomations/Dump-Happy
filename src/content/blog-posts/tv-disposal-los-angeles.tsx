@@ -4,68 +4,78 @@ export default function TvDisposalLosAngelesBody() {
   return (
     <>
       <p>
-        Upgrading to a new TV is the fun part. Figuring out what to do with the old one, whether
-        it&apos;s a 65-inch flat-screen with a cracked panel or the tube TV that&apos;s been in the
-        garage since 2004, is where people get stuck. In California, the one thing you can&apos;t
-        do is put it in the trash.
+        The easiest way to dispose of an old TV in Los Angeles is to book Dump Happy: we take it
+        down, carry it out, and send it to a certified e-waste recycler, starting at $289. Flat-screen
+        or heavy tube TV, wall-mounted or in the garage, it never goes in the trash or a landfill.
+      </p>
+      <p>
+        Call (424) 356-4141 or <Link href="/contact">get a free quote</Link>. We&apos;re open 10am
+        to 8pm, seven days a week.
       </p>
 
-      <h2>Why TVs can&apos;t go in the trash in California</h2>
+      <h2>Why can&apos;t TVs go in the trash in California?</h2>
       <p>
         TVs and computer monitors are regulated as hazardous electronic waste in California. Older
         tube (CRT) TVs contain leaded glass, and many flat-screens contain mercury in their
-        backlights, plus circuit boards with metals that shouldn&apos;t end up in a landfill. The
-        state requires them to go to an e-waste collector or recycler, where they&apos;re taken
+        backlights, plus circuit boards with metals that shouldn&apos;t end up in a landfill.
+      </p>
+      <p>
+        The state requires them to go to an e-waste collector or recycler, where they&apos;re taken
         apart and the materials recovered. That&apos;s also why you pay a small electronic waste
         recycling fee when you buy a new screen in California: it funds that recycling system.
       </p>
 
-      <h2>Option 1: LA Sanitation&apos;s free e-waste pickup</h2>
+      <h2>How does TV disposal with Dump Happy work?</h2>
+      <ol>
+        <li>
+          <strong>Get a quote.</strong> Tell us the size, the type, and where it is.
+        </li>
+        <li>
+          <strong>We carry it out.</strong> Including wall-mounted screens and heavy tube TVs up and
+          down stairs.
+        </li>
+        <li>
+          <strong>We route it to certified e-waste recycling.</strong> You don&apos;t need to
+          transport a fragile screen anywhere yourself.
+        </li>
+      </ol>
       <p>
-        If your home is serviced by LA Sanitation, the city offers free curbside pickup of large
-        electronics like TVs, computers, and monitors. Schedule it through{" "}
-        <a href="https://myla311.lacity.gov/" target="_blank" rel="noopener noreferrer">
-          MyLA311
-        </a>{" "}
-        or by calling 311. E-waste pickup is its own request, separate from a regular bulky item
-        pickup, so if you&apos;re also getting rid of a couch or mattress, you&apos;ll need both.
+        TVs are part of our regular <Link href="/services/junk-removal">junk removal</Link>{" "}
+        service. See <Link href="/pricing">pricing</Link> for load tiers.
       </p>
 
-      <h2>Option 2: Drop it off at an e-waste collection site</h2>
+      <h2>Do you take old tube TVs?</h2>
       <p>
-        LA Sanitation&apos;s S.A.F.E. (Solvents, Automotive, Flammables, Electronics) centers accept
-        household electronics from residents, along with paint, batteries, and other household
-        hazardous waste. LA County also holds periodic household hazardous and e-waste collection
-        events. Check hours and accepted items before you go, and transport the TV upright and
-        padded. A cracked screen can leak hazardous material and cut your hands.
+        Yes. Tube (CRT) TVs are heavy, awkward, and full of leaded glass, which makes them the TVs
+        people most often get stuck with. Our crew carries them out and sends them to certified
+        e-waste recycling like any other screen.
       </p>
 
-      <h2>Option 3: Retailer or manufacturer take-back</h2>
+      <h2>What about a cracked or broken screen?</h2>
       <p>
-        Some electronics retailers and manufacturers run take-back or recycling programs, and some
-        will haul away your old TV when they deliver a new one. Policies, size limits, and fees vary
-        and change, so ask at checkout, before the delivery crew leaves with an empty truck.
+        We take those too. A cracked screen can leak hazardous material and cut your hands, so
+        leave it where it is and let the crew handle it. Mention the damage when you book.
       </p>
 
-      <h2>Option 4: Sell or donate a working TV</h2>
-      <p>
-        A working flat-screen that&apos;s only a few years old may be worth listing online. Many
-        charities have stopped accepting TVs, especially older tube models, so call before you
-        haul one over. Tube TVs are almost never resellable today; treat them as e-waste.
-      </p>
-
-      <h2>Option 5: Have it hauled with everything else</h2>
+      <h2>What else can go in the same pickup?</h2>
       <p>
         TVs are rarely the only thing leaving. They usually come out during a garage clean-out, a
-        move, an estate clean-out, or an office refresh, along with the entertainment center, old
-        speakers, and a box of cables. Dump Happy takes TVs as part of any{" "}
-        <Link href="/services/junk-removal">junk removal</Link> pickup, including wall-mounted
-        screens and heavy tube TVs up and down stairs, and routes them to e-waste recycling, never
-        a landfill.
+        move, an estate clean-out, or an office refresh, along with:
       </p>
+      <ul>
+        <li>Entertainment centers and TV stands</li>
+        <li>Speakers, receivers, and game consoles</li>
+        <li>Computers, monitors, and printers</li>
+        <li>Boxes of cables and old remotes</li>
+        <li>Couches and other furniture (see <Link href="/blog/couch-removal-los-angeles">couch removal in LA</Link>)</li>
+      </ul>
       <p>
-        For businesses clearing out monitors and computers, data security matters as much as
-        disposal. See our guide to{" "}
+        One pickup covers all of it, and you pay by load size, not per item.
+      </p>
+
+      <h2>Do you handle office electronics?</h2>
+      <p>
+        Yes. For businesses clearing out monitors and computers, see our guide to{" "}
         <Link href="/blog/office-cleanout-ewaste-california">
           office clean-outs and e-waste rules in California
         </Link>{" "}
@@ -73,32 +83,21 @@ export default function TvDisposalLosAngelesBody() {
         service.
       </p>
 
-      <h2>Don&apos;t leave it on the curb</h2>
+      <h2>Can I leave an old TV on the curb?</h2>
       <p>
-        A TV on the sidewalk with no pickup scheduled is illegal dumping under California Penal
-        Code 374.3, and scavengers often break the screens to pull out copper, leaving the hazardous
-        parts behind. If it&apos;s going to the curb, make sure there&apos;s a scheduled city pickup
-        behind it. See{" "}
+        No. A TV on the sidewalk can count as illegal dumping under California Penal Code 374.3, and
+        scavengers often break the screens to pull out copper, leaving the hazardous parts behind.
+        See{" "}
         <Link href="/blog/leaving-furniture-on-curb-free-sign">our post on curbside items and the law</Link>
         .
       </p>
 
-      <h2>Quick answer</h2>
-      <ul>
-        <li>
-          <strong>Just the TV, city-serviced home:</strong> schedule free e-waste pickup via MyLA311.
-        </li>
-        <li>
-          <strong>You can transport it:</strong> drop it at a S.A.F.E. center or collection event.
-        </li>
-        <li>
-          <strong>Buying a new one:</strong> ask the retailer about haul-away.
-        </li>
-        <li>
-          <strong>TV plus other junk, stairs, or a deadline:</strong>{" "}
-          <Link href="/contact">get a quote</Link> and we&apos;ll take it all in one trip.
-        </li>
-      </ul>
+      <h2>Book TV disposal in Los Angeles</h2>
+      <p>
+        Call (424) 356-4141 or <Link href="/contact">get a free quote</Link>. We serve the
+        Westside, South Bay, and Central LA, with same-day or next-day pickup when the schedule
+        allows.
+      </p>
     </>
   );
 }

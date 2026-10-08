@@ -4,15 +4,15 @@ export default function GreenWasteHaulingLosAngelesBody() {
   return (
     <>
       <p>
-        Green waste hauling is the loading and transport of yard debris (branches, trimmings,
-        palm fronds, brush, sod, and leaves) from a property to an organics facility, where
-        it&apos;s composted or turned into mulch. In Los Angeles it&apos;s used by homeowners
-        after big yard projects, landscapers with more debris than their truck can handle, and
-        property managers clearing grounds on a schedule.
+        For green waste hauling in Los Angeles, book Dump Happy: our crew loads branches,
+        trimmings, palm fronds, brush, sod, and leaves from anywhere on the property and delivers
+        them to an organics facility for compost or mulch, from $289 a load.
       </p>
       <p>
-        Each group needs something a little different from a green waste hauling service. Here&apos;s
-        how it works for each one, and what to ask before you book.
+        We haul for homeowners after big yard projects, landscapers with more debris than their
+        truck can handle, and property managers clearing grounds. Call (424) 356-4141 or{" "}
+        <Link href="/contact">get a free quote</Link>, and see every load tier on our{" "}
+        <Link href="/pricing">pricing page</Link>.
       </p>
 
       <h2>What does a green waste hauling service actually do?</h2>
@@ -29,21 +29,19 @@ export default function GreenWasteHaulingLosAngelesBody() {
         <li>Sweeping or raking the pickup area when the load is out</li>
       </ul>
       <p>
-        Hauling is different from tree service. A hauler takes away debris that&apos;s already
-        been cut. If a tree still needs to come down, hire an arborist or tree crew first, then
-        book the haul.
+        Hauling is different from tree service: a tree crew handles the cutting; once it&apos;s on
+        the ground, we haul it.
       </p>
 
       <h2>Green waste hauling for homeowners</h2>
       <p>
         Most homeowners need green waste hauling once or twice a year, after a project that
-        produced far more than one green bin can hold. Common examples are a big tree trim, a
+        produced far more yard debris than usual. Common examples are a big tree trim, a
         weekend of clearing an overgrown hedge line, or tearing out a lawn for drought-tolerant
         landscaping.
       </p>
       <p>
-        The main advantage over curbside programs is that nothing has to be cut to size,
-        bundled, or dragged to the street. If the pile is in the backyard, the crew carries it
+        With Dump Happy, nothing has to be cut to size, bundled, or dragged to the street. If the pile is in the backyard, the crew carries it
         out from there. For a complete look at homeowner options, see our{" "}
         <Link href="/blog/green-waste-removal-los-angeles">
           complete guide to green waste removal in Los Angeles
@@ -53,9 +51,9 @@ export default function GreenWasteHaulingLosAngelesBody() {
 
       <h2>Landscaper green waste disposal: when to hand it off</h2>
       <p>
-        Landscapers and gardening crews generate green waste every day, and most self-haul it.
-        That works until a job produces more debris than the truck can hold, or a dump run
-        takes the crew off billable work for half a day.
+        Landscapers and gardening crews generate green waste every day. When a job produces more
+        debris than the truck can hold, or a facility run would take the crew off billable work
+        for half a day, hand the haul to Dump Happy.
       </p>
       <p>Situations where landscapers commonly hand off the haul:</p>
       <ul>
@@ -66,10 +64,10 @@ export default function GreenWasteHaulingLosAngelesBody() {
       </ul>
       <p>
         California&apos;s organics rules also put recordkeeping expectations on landscapers who
-        self-haul organic waste. Our{" "}
+        transport their own organic waste. Our{" "}
         <Link href="/blog/sb-1383-yard-waste-los-angeles">SB 1383 yard waste guide</Link>{" "}
-        explains the law. A hauler that routes material to authorized organics facilities and
-        keeps clean records takes that off your plate.
+        explains the law. When we haul it, we route the material to organics facilities so you
+        can stay on the next job.
       </p>
 
       <h2>Green waste hauling for property managers and HOAs</h2>
@@ -81,36 +79,38 @@ export default function GreenWasteHaulingLosAngelesBody() {
       </p>
       <p>
         The things that matter most here are predictable pricing, a crew that shows up in the
-        agreed window, and clear records of where the organics went. Recurring service makes it
-        easier to keep common areas clear between landscape visits.
+        agreed window, and confidence the organics went to the right place. Ask us about booking
+        regular pickups to keep common areas clear between landscape visits.
       </p>
 
-      <h2>Green waste hauling vs. renting a dumpster: which is better?</h2>
-      <p>
-        Both get yard debris off the property, but they suit different jobs.
-      </p>
+      <h2>Why is a hauling crew better than a dumpster for yard waste?</h2>
       <ul>
         <li>
-          <strong>Hauling service:</strong> the crew does the loading, nothing sits in your
-          driveway, and you pay for the space your debris uses. Best when the debris is already
-          cut and piled.
+          <strong>We do the loading.</strong> With a dumpster, you lift every branch yourself.
         </li>
         <li>
-          <strong>Dumpster rental:</strong> you do all the loading, the bin stays for days, and
-          it may need a permit if it sits on the street. Best for long projects where debris
-          builds up slowly.
+          <strong>Nothing sits in your driveway.</strong> A dumpster stays for days and may need a
+          permit if it sits on the street.
+        </li>
+        <li>
+          <strong>You pay only for the space you use.</strong> Our price is set by how much of the
+          truck your debris fills.
+        </li>
+        <li>
+          <strong>The organics stay clean.</strong> Dirt or trash tossed into a dumpster of
+          trimmings can keep the load from qualifying as clean green waste. We keep materials
+          separate.
         </li>
       </ul>
       <p>
-        For a general comparison, see{" "}
+        For more, see{" "}
         <Link href="/blog/junk-removal-vs-dumpster-rental">junk removal vs. dumpster rental</Link>
-        . One extra point for yard waste: if you mix dirt or trash into a dumpster full of
-        trimmings, the load may not qualify as clean green waste at the facility.
+        .
       </p>
 
       <h2>How much does green waste hauling cost?</h2>
       <p>
-        Green waste hauling is usually priced by volume. At Dump Happy, a small load starts at
+        Dump Happy prices green waste hauling by volume. With us, a small load starts at
         $289, a quarter load at $389, a half load at $569, a 3/4 load at $739, and a full
         truckload at $899. You get the price before loading starts.
       </p>
@@ -122,27 +122,27 @@ export default function GreenWasteHaulingLosAngelesBody() {
         or see the full <Link href="/pricing">pricing page</Link>.
       </p>
 
-      <h2>What should you ask a green waste hauler before booking?</h2>
+      <h2>What can you expect when you book Dump Happy?</h2>
       <ol>
         <li>
-          <strong>Where does the green waste go?</strong> The answer should be an organics,
+          <strong>A firm quote before loading.</strong> Send a photo and we price it by truck
+          space.
+        </li>
+        <li>
+          <strong>Flexible timing.</strong> We work 10am to 8pm, seven days a week, with same-day
+          or next-day pickup when the schedule allows.
+        </li>
+        <li>
+          <strong>Hard-to-reach piles handled.</strong> Mention slopes, stairs, and narrow side
+          yards up front so we plan the carry.
+        </li>
+        <li>
+          <strong>Dirt, rock, and concrete kept separate.</strong> We haul them as their own load
+          so they don&apos;t contaminate the organics.
+        </li>
+        <li>
+          <strong>Organics delivered for composting.</strong> Green waste goes to an organics,
           composting, or mulch facility.
-        </li>
-        <li>
-          <strong>Is the price firm before loading?</strong> Volume-based quotes should be set
-          before the crew starts.
-        </li>
-        <li>
-          <strong>Do you take dirt, rock, or concrete?</strong> A good hauler handles them as a
-          separate load so they don&apos;t contaminate the organics.
-        </li>
-        <li>
-          <strong>Can you reach the pile?</strong> Mention slopes, stairs, and narrow side yards
-          up front.
-        </li>
-        <li>
-          <strong>Are you insured?</strong> Hauling heavy limbs across a property carries real
-          risk.
         </li>
       </ol>
 
@@ -157,8 +157,8 @@ export default function GreenWasteHaulingLosAngelesBody() {
         <Link href="/services/construction-debris-removal">construction debris removal</Link>.
       </p>
       <p>
-        We&apos;re open 10am to 8pm, seven days a week. Call (424) 356-4141 or send a photo of the
-        pile for a quote.
+        We&apos;re open 10am to 8pm, seven days a week. Call (424) 356-4141 or{" "}
+        <Link href="/contact">get a free quote</Link> with a photo of the pile.
       </p>
     </>
   );

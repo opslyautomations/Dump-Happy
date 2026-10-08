@@ -33,7 +33,7 @@ const breadcrumbItems = [
   { name: "Garage Clean-Out", path: "/services/garage-cleanout" },
 ];
 
-const intro = `The garage is where everything without a home ends up: broken furniture, dead appliances, paint cans, boxes you haven't opened since the last move. Dump Happy clears the whole thing in a visit — sorting what's donatable, recycling what we can, safely setting aside what has to go to a hazardous-waste facility, and hauling the rest — so you get a garage you can actually park in or use. Homeowners, landlords, and property managers across LA book us for turnovers, downsizing, and "we just need it gone."`;
+const intro = `The garage is where everything without a home ends up: broken furniture, dead appliances, paint cans, boxes you haven't opened since the last move. Dump Happy clears the whole thing in a visit — sorting what's donatable, recycling what we can, setting aside hazardous materials, and hauling the rest — so you get a garage you can actually park in or use. Homeowners, landlords, and property managers across LA book us for turnovers, downsizing, and "we just need it gone."`;
 
 const timelineSteps = [
   {
@@ -69,7 +69,7 @@ const includesItems = [
 
 const pricingText = `Priced by how much fills the truck — a light one-corner clear-out sits at a lower tier; a packed two-car garage runs toward full load. Quoted up front, and if it's less than expected, you pay less.`;
 
-const hazardText = `Garages hide the exact things that can't go in a junk truck. Household hazardous waste — paint, motor oil, solvents, pesticides, pool chemicals, car batteries — plus e-waste like old TVs and monitors are banned from regular trash and from standard transfer stations, and it's actually illegal to transport more than 15 gallons or 125 pounds of hazardous waste in your personal vehicle. LA County runs free household-hazardous-waste and e-waste collection for exactly these items. Dump Happy sorts them out of your load, hauls everything we legally can, and points you to the nearest County HHW route for the rest — so the whole job stays legal and nothing gets quietly (and illegally) tossed on a curb.`;
+const hazardText = `Garages hide a few things that can't go in a junk truck: household hazardous waste like paint, motor oil, solvents, pesticides, pool chemicals, and car batteries. Hazardous materials need to go to a household hazardous waste drop-off; we'll haul everything else. We sort those items out of your load as we work, and everything else — including old TVs, monitors, and other e-waste, which we send to certified recyclers — leaves with us, so the whole job stays legal and nothing gets tossed on a curb.`;
 
 const expectText = `Most single garages are a same-visit job; packed or multi-bay spaces may run longer. You don't need to pre-sort — sorting is what we do — though pulling anything you want to keep aside first speeds things up.`;
 
@@ -87,12 +87,12 @@ const faqs: FaqItem[] = [
   {
     question: "What can't you take out of my garage?",
     answer:
-      "Household hazardous waste — paint, motor oil, solvents, pesticides, pool chemicals, and car batteries — plus some e-waste, which are banned from regular trash and transfer stations. We separate these from your load and direct you to LA County's free hazardous-waste collection; we never toss them illegally.",
+      "Household hazardous waste — paint, motor oil, solvents, pesticides, pool chemicals, and car batteries. Hazardous materials need to go to a household hazardous waste drop-off; we'll haul everything else, and we set those items aside rather than ever tossing them illegally.",
   },
   {
-    question: "What do I do with old paint and chemicals?",
+    question: "Do you take old TVs, computers, and other e-waste?",
     answer:
-      "Take them to an LA County household-hazardous-waste collection site or event, which is free — liquid paint, solvents, oil, pesticides, and batteries all qualify. Note it's illegal to carry more than 15 gallons or 125 pounds of hazardous waste in your own vehicle, so keep loads small or ask us where the nearest site is.",
+      "Yes. E-waste can't go in regular trash in California, so we pull it out of your garage with everything else and send it to certified e-waste recyclers. Mention it when you book so it's included in your quote.",
   },
   {
     question: "Do I have to sort everything before you come?",
@@ -208,26 +208,6 @@ export default function GarageCleanoutPage() {
         <div className="mt-6">
           <FAQAccordion faqs={faqs} />
         </div>
-        <p className="mt-6 text-sm text-brand-gray">
-          Learn more:{" "}
-          <a
-            href="https://cleanla.lacounty.gov/hhw/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-brand-orange hover:underline"
-          >
-            LA County Household Hazardous &amp; E-Waste
-          </a>{" "}
-          ·{" "}
-          <a
-            href="https://www.lacsd.org/services/solid-waste/household-hazardous-waste-collection"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-brand-orange hover:underline"
-          >
-            LA County Sanitation Districts HHW
-          </a>
-        </p>
       </Section>
 
       <ServicesGrid heading="Explore All Our Services" />

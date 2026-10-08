@@ -7,9 +7,9 @@ import { CTABand } from "@/components/CTABand";
 import { Section } from "@/components/page-sections/Section";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Junk Removal FAQ: Cost & Free Pickup in LA | Dump Happy",
+  title: "Junk Removal FAQ: Cost & Pickup in LA | Dump Happy",
   description:
-    "Straight answers on junk removal in Los Angeles: what it costs, free bulky item pickup, furniture and mattress disposal, and when to hire a hauler.",
+    "Straight answers on junk removal in Los Angeles: what it costs, how to book a bulky item pickup, furniture disposal, and when to hire Dump Happy.",
   path: "/faq",
 });
 
@@ -34,43 +34,31 @@ const FAQ_GROUPS: { heading: string; items: FaqEntry[] }[] = [
       {
         question: "What is the cheapest way to remove junk?",
         answer:
-          "The cheapest way to remove junk in Los Angeles is LA Sanitation's free bulky item pickup, booked through MyLA311 or 311, combined with donating, selling, or giving away usable items. Self-hauling, renting a dumpster, and hiring a junk removal crew cost more in dollars but save time, lifting, and truck rental.",
-        guide: { href: "/blog/cheapest-way-to-get-rid-of-junk-los-angeles", label: "The cheapest ways to get rid of junk in LA" },
+          "The cheapest way to remove junk is to book one Dump Happy pickup for everything at once. You pay for truck space, not per item, so combining your junk into a single visit at the right load tier costs less than multiple trips. Pricing starts at $289 and includes labor, hauling, and disposal.",
+        guide: { href: "/blog/cheapest-way-to-get-rid-of-junk-los-angeles", label: "How to keep junk removal costs down" },
       },
     ],
   },
   {
-    heading: "Free junk and bulky item pickup",
+    heading: "Junk and bulky item pickup",
     items: [
       {
         question: "Where can I get free junk pick-up in Los Angeles?",
         answer:
-          "City of LA residents get free bulky item pickup from LA Sanitation, scheduled through MyLA311 or 311 at least one business day before trash day. Other free options include charity donation pickups, retailer take-back when new furniture or a mattress is delivered, and free S.A.F.E. centers for hazardous waste and electronics. Santa Monica, Culver City, Beverly Hills, and West Hollywood run their own programs.",
-        guide: { href: "/blog/free-junk-pickup-los-angeles", label: "Free junk pick-up in Los Angeles" },
+          "Dump Happy gives free junk removal quotes across the Westside, South Bay, and Central LA. Call (424) 356-4141 or request a quote online, and you'll know the exact price before anything is loaded. Pickup itself starts at $289 and covers carrying items out of any room, hauling, and legal disposal.",
+        guide: { href: "/blog/free-junk-pickup-los-angeles", label: "Junk pick-up in Los Angeles: costs and booking" },
       },
       {
         question: "Are junk removal services free?",
         answer:
-          "Private junk removal services are not free, because the company pays for labor, trucks, fuel, and disposal fees. City bulky item programs, like LA Sanitation's, are free to residents because they're funded through utility bills. Be cautious of private haulers offering free removal, since some recover costs by dumping illegally.",
-        guide: { href: "/blog/free-junk-pickup-los-angeles", label: "Free vs. paid junk removal in LA" },
-      },
-      {
-        question: "Where to dispose bulky items for free?",
-        answer:
-          "In the City of Los Angeles, the free way to dispose of bulky items is LA Sanitation's bulky item pickup, requested through MyLA311, 311, or 1-800-773-2489. Usable furniture can go to charities that offer free donation pickup, and electronics and hazardous items go to free LA County S.A.F.E. centers.",
-        guide: { href: "/blog/bulky-item-pickup-los-angeles", label: "LA bulky item pickup guide" },
-      },
-      {
-        question: "Does LA charge for bulky items pickup?",
-        answer:
-          "No. The City of Los Angeles doesn't charge per pickup for bulky items. For homes LA Sanitation serves directly, it's covered by refuse fees on the utility bill, and apartment buildings with five or more units fund it through a Multi-Family Bulky Item Fee on the LADWP bill.",
-        guide: { href: "/blog/bulky-item-pickup-los-angeles", label: "What LA bulky item pickup costs and covers" },
+          "Professional junk removal isn't free, because it covers a crew, a truck, and legal disposal fees. Dump Happy's quotes are free, and pickup starts at $289. Be wary of anyone offering free removal: if a hauler dumps your items illegally, you can still face fines under California Penal Code 374.3.",
+        guide: { href: "/blog/free-junk-pickup-los-angeles", label: "What junk pickup really costs" },
       },
       {
         question: "How to schedule bulky items pickup in Los Angeles?",
         answer:
-          "Submit a request through the MyLA311 app or website, call 311, or call LA Sanitation at 1-800-773-2489 at least one business day before your regular trash day. List the items you're setting out, then place them at the curb for collection on your trash day.",
-        guide: { href: "/blog/bulky-item-pickup-los-angeles", label: "Step-by-step: scheduling LA bulky item pickup" },
+          "Call Dump Happy at (424) 356-4141 or request a free quote online. Tell us what you have and where it is, and we'll give you a price and a pickup time, often same-day or next-day when the schedule allows. Our crew carries bulky items out of any room, so there's nothing to drag to the curb.",
+        guide: { href: "/blog/bulky-item-pickup-los-angeles", label: "Booking a bulky item pickup in LA" },
       },
     ],
   },
@@ -80,13 +68,13 @@ const FAQ_GROUPS: { heading: string; items: FaqEntry[] }[] = [
       {
         question: "How can I dispose of furniture in Los Angeles?",
         answer:
-          "Sell or donate furniture in good condition, schedule a free LA Sanitation bulky item pickup for worn pieces, self-haul to a drop-off facility, or hire a furniture removal service to carry it out of your home. Never leave furniture on the curb without a scheduled pickup; under California Penal Code 374.3, that's illegal dumping.",
-        guide: { href: "/blog/furniture-disposal-los-angeles", label: "Every legal way to dispose of furniture in LA" },
+          "Book Dump Happy's furniture removal. We carry couches, dressers, tables, and bed frames out of any room, donate pieces that are still usable, and dispose of the rest legally. Pricing starts at $289. Never leave furniture on the curb; under California Penal Code 374.3, that's illegal dumping.",
+        guide: { href: "/blog/furniture-disposal-los-angeles", label: "Furniture disposal in Los Angeles" },
       },
       {
         question: "How to get rid of large furniture boxes?",
         answer:
-          "Remove the foam and plastic, cut or fold the cardboard flat, and put it in your blue recycling bin. In Los Angeles, extra flattened cardboard can be tied into bundles and set next to the bin. After a big move, schedule LA Sanitation's Move In/Move Out pickup or have a hauler take the boxes along with your old furniture.",
+          "Have Dump Happy haul them. We take large furniture boxes, moving boxes, foam, and packing material in the same trip as your old furniture, so there's no cutting, bundling, or overflowing bins. Pricing is by truck space, starting at $289.",
         guide: { href: "/blog/how-to-get-rid-of-large-furniture-boxes", label: "Getting rid of large furniture and moving boxes" },
       },
     ],
@@ -97,14 +85,14 @@ const FAQ_GROUPS: { heading: string; items: FaqEntry[] }[] = [
       {
         question: "What is the best junk removal service in Los Angeles?",
         answer:
-          "The best junk removal service in Los Angeles is one that posts its prices, gives a firm quote before loading, is insured, disposes of items legally, has genuine reviews, and serves your neighborhood on your schedule. Dump Happy is a locally owned option for the Westside, South Bay, and Central LA, with posted prices from $289 and service 7 days a week.",
-        guide: { href: "/blog/best-junk-removal-service-los-angeles", label: "How to find the best junk removal service in LA" },
+          "Dump Happy is a locally owned junk removal company serving LA's Westside, South Bay, and Central LA, open 10am to 8pm, 7 days a week. We post our prices (from $289), give a firm quote before loading, donate and recycle what we can, and dispose of everything else legally.",
+        guide: { href: "/blog/best-junk-removal-service-los-angeles", label: "Choosing a junk removal service in LA" },
       },
       {
         question: "When should I hire junk removal?",
         answer:
-          "Hire junk removal when the job needs more than one trip, involves heavy items or stairs, has a move-out or closing deadline, or would cost you more in time, truck rental, and dump fees than a crew would. For a single item that qualifies for free city bulky pickup, handling it yourself is usually the better deal.",
-        guide: { href: "/blog/when-to-hire-junk-removal", label: "When to hire junk removal: 9 signs" },
+          "Hire junk removal when you have heavy or bulky items, stairs, more than one carload, a move-out or closing deadline, or simply no time to deal with it. Dump Happy handles the lifting, loading, hauling, and disposal in one visit, starting at $289.",
+        guide: { href: "/blog/when-to-hire-junk-removal", label: "When to hire junk removal" },
       },
     ],
   },
@@ -132,8 +120,8 @@ export default function FaqPage() {
           Junk Removal Questions, Answered
         </h1>
         <p className="mt-4 max-w-2xl leading-relaxed text-brand-gray">
-          Straight answers to the questions Angelenos ask most about junk removal cost, free
-          bulky item pickup, and getting rid of furniture, from the Dump Happy crew.
+          Straight answers to the questions Angelenos ask most about junk removal cost, bulky
+          item pickup, and getting rid of furniture, from the Dump Happy crew.
         </p>
         <nav aria-label="FAQ topics" className="mt-6 flex flex-wrap gap-2">
           {FAQ_GROUPS.map((g) => (

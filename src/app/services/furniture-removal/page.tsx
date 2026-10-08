@@ -31,7 +31,7 @@ const breadcrumbItems = [
   { name: "Furniture Removal", path: "/services/furniture-removal" },
 ];
 
-const intro = `An old sectional doesn't fit in a sedan, and it won't fit down the stairs by yourself either. Dump Happy removes furniture of every size from anywhere in your home or building across Los Angeles — living room, third-floor walk-up, storage unit, curb. We lift it, protect your doorways and floors on the way out, and route it to donation whenever it's still usable. You get the space back without the strained back or the trip to a drop-off that may not even accept it.`;
+const intro = `An old sectional doesn't fit in a sedan, and it won't fit down the stairs by yourself either. Dump Happy removes furniture of every size from anywhere in your home or building across Los Angeles — living room, third-floor walk-up, storage unit, curb. We lift it, protect your doorways and floors on the way out, and route it to donation whenever it's still usable. You get the space back without the strained back, the borrowed truck, or the hassle.`;
 
 const furnitureChips = [
   "Couches",
@@ -49,11 +49,11 @@ const furnitureChips = [
   "Bed frames",
 ];
 
-const cityPickupHeading = `The honest part: LA offers free bulky pickup. Here's when to pay us instead.`;
+const includedHeading = `What's Included When You Book Furniture Removal`;
 
-const cityPickupText = `The City of LA's Bureau of Sanitation does offer free scheduled bulky-item pickup for furniture — and if you can wait for the appointment, drag the piece to the curb yourself, and it's a standard item, that's a fine option. Dump Happy is worth it when you need it gone this week not next, when it's upstairs or inside (city pickup is curbside-only), when there are several pieces or a full room, when it needs disassembly, or when you simply don't want to move a 90-pound sleeper sofa down a staircase. We say this out loud because a hauler that hides the free option isn't one you should trust with the paid one.`;
+const includedText = `Everything from the room to the truck. Our crew carries each piece out of wherever it sits — upstairs bedrooms, back rooms, third-floor walk-ups, garages, storage units — and handles the doorways, the stairs, and any disassembly needed to get it out cleanly. We protect your floors and frames on the way out, load it, and take care of donation, recycling, and disposal. Pricing is by load, starting at $289 for a small load, with a firm quote before we lift anything. Same-day or next-day pickup is often available when the schedule allows.`;
 
-const donationText = `Furniture in good shape gets a second home instead of a landfill — LA has strong reuse channels through organizations like Habitat for Humanity ReStore and St. Vincent de Paul. We prioritize donation for clean, working pieces; recycle wood and metal where we can; and dispose of the rest responsibly. One caveat we're upfront about: most donation centers won't accept mattresses on hygiene grounds, which is why those go through a different route.`;
+const donationText = `Furniture in good shape gets a second home instead of a landfill. We prioritize donation for clean, working pieces; recycle wood and metal where we can; and dispose of the rest responsibly. Mattresses go a different route — we take them to California mattress recyclers — so mention one when you book and we'll haul it on the same trip.`;
 
 const inHomeCurbsideText = `Point-and-done from any room, or set it at the curb for a quick grab — your call. Either way it's load-based pricing (single item up to full load), quoted before we lift.`;
 
@@ -61,12 +61,12 @@ const faqs: FaqItem[] = [
   {
     question: "Can you take furniture from inside my home, not just the curb?",
     answer:
-      "Yes — that's the main reason to hire us over the city's curbside program. We remove couches, dressers, and tables from upstairs bedrooms, back rooms, basements, and tight hallways. You don't move a thing; the crew handles the lifting, the doorways, and the stairs.",
+      "Yes. We remove couches, dressers, and tables from upstairs bedrooms, back rooms, basements, and tight hallways. You don't move a thing; the crew handles the lifting, the doorways, and the stairs.",
   },
   {
     question: "How much does it cost to remove a couch in LA?",
     answer:
-      "It's priced by truck space, not per item, so a single couch falls in the single-item or small-load tier and a full living room costs more. You get a firm quote up front from a photo or walkthrough. If you only have one standard piece and can wait, the city's free bulky pickup may be cheaper — we'll tell you honestly.",
+      "It's priced by truck space, not per item, so a single couch typically falls in the small-load tier, starting at $289, and a full living room costs more. You get a firm quote up front from a photo or walkthrough.",
   },
   {
     question: "Do you take sectionals and sleeper sofas?",
@@ -76,7 +76,7 @@ const faqs: FaqItem[] = [
   {
     question: "Will my old furniture be donated?",
     answer:
-      "Whenever it's clean and usable, yes — LA has good reuse channels and we route serviceable pieces to donation first. Worn, broken, or stained items that can't be donated are recycled where possible and otherwise disposed of responsibly.",
+      "Whenever it's clean and usable, yes — we route serviceable pieces to donation first. Worn, broken, or stained items that can't be donated are recycled where possible and otherwise disposed of responsibly.",
   },
   {
     question: "Can you take my mattress with the bed frame?",
@@ -135,8 +135,8 @@ export default function FurnitureRemovalPage() {
       </div>
 
       <Section bg="offwhite">
-        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">{cityPickupHeading}</h2>
-        <p className="mt-4 leading-relaxed text-brand-charcoal">{cityPickupText}</p>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">{includedHeading}</h2>
+        <p className="mt-4 leading-relaxed text-brand-charcoal">{includedText}</p>
       </Section>
 
       <Section>

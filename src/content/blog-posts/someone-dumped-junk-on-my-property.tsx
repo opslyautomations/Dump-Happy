@@ -4,94 +4,84 @@ export default function SomeoneDumpedJunkOnMyPropertyBody() {
   return (
     <>
       <p>
-        You walk out to your car and there it is: a stained mattress against your fence, a pile of
-        drywall in the alley, or a broken sectional in front of your rental property that nobody on
-        the block will admit to. Illegal dumping is one of the most common complaints in Los
-        Angeles, and when it lands on your property or street, it becomes your problem fast. Here
-        is how to handle it.
+        If someone dumped junk on your property in Los Angeles, the fastest fix is to book Dump
+        Happy: we haul away dumped mattresses, furniture, construction debris, and trash, often
+        same-day or next-day when the schedule allows, from $289.
+      </p>
+      <p>
+        Call (424) 356-4141 or <Link href="/contact">get a free quote</Link> for{" "}
+        <Link href="/services/junk-removal">junk removal</Link>, and see every load tier on our{" "}
+        <Link href="/pricing">pricing page</Link>. Here&apos;s what to know before the crew
+        arrives.
       </p>
 
-      <h2>Step 1: Figure out where it is</h2>
-      <p>What you do next depends on whose land the junk is on:</p>
+      <h2>Who has to clean up junk dumped on my property?</h2>
+      <p>
+        Generally, you do. When junk is dumped on private property, such as your yard, driveway,
+        private alley, or a vacant lot you own, cleanup usually falls to the owner, even though
+        you didn&apos;t put it there. Leaving it can lead to code enforcement notices.
+      </p>
+      <p>
+        That&apos;s frustrating, but the fix is simple. One call and our crew loads it from
+        wherever it was left and hauls it away.
+      </p>
+
+      <h2>Why shouldn&apos;t you let dumped junk sit?</h2>
       <ul>
-        <li>
-          <strong>Public right-of-way</strong> (the street, sidewalk, parkway, or a public alley):
-          the city is generally responsible for cleanup once it&apos;s reported.
-        </li>
-        <li>
-          <strong>Your private property</strong> (your yard, driveway, private alley, or a vacant
-          lot you own): cleanup generally falls to you as the owner, even though you didn&apos;t
-          put it there.
-        </li>
+        <li>Dumped piles attract more dumping. The longer it stays, the more the spot looks like fair game.</li>
+        <li>Mattresses, food waste, and bags draw rodents and pests.</li>
+        <li>Neighbors and tenants complain, and code enforcement may follow.</li>
       </ul>
 
-      <h2>Step 2: Report it</h2>
+      <h2>Can I just move it to the curb?</h2>
       <p>
-        In the City of Los Angeles, report illegal dumping through{" "}
-        <a href="https://myla311.lacity.gov/" target="_blank" rel="noopener noreferrer">
-          MyLA311
-        </a>{" "}
-        (online or in the app) or by calling 311. Give the exact address or cross streets, describe
-        what was dumped, and attach a photo. Public-right-of-way reports go to LA Sanitation for
-        pickup.
-      </p>
-      <p>
-        Outside city limits the process varies. Unincorporated areas are handled by LA County (see{" "}
-        <a href="https://cleanla.lacounty.gov/illegal-dumping/" target="_blank" rel="noopener noreferrer">
-          LA County&apos;s illegal dumping page
-        </a>
-        ), and cities like Santa Monica, Culver City, Beverly Hills, and West Hollywood run their
-        own services. Search your city&apos;s name plus “report illegal dumping.”
-      </p>
-      <p>
-        Even when the junk is on your private property, a report is worth filing. It creates a
-        record, helps the city spot dumping hot spots, and supports any enforcement if the dumper
-        is identified.
+        No. Dragging someone else&apos;s junk from your yard to the parkway puts <em>you</em> in
+        the position of the person dumping it. Illegal dumping is prosecuted under California
+        Penal Code 374.3, and dumping large amounts is a misdemeanor. Read more in{" "}
+        <Link href="/blog/illegal-dumping-los-angeles">our guide to illegal dumping in LA</Link>.
+        Leave it where it is and let us haul it straight from there.
       </p>
 
-      <h2>Step 3: If you saw it happen, document it safely</h2>
+      <h2>What dumped items can Dump Happy remove?</h2>
+      <ul>
+        <li>Mattresses and box springs</li>
+        <li>Couches, chairs, dressers, and other furniture</li>
+        <li>Appliances and electronics</li>
+        <li>
+          Drywall, lumber, tile, and other{" "}
+          <Link href="/services/construction-debris-removal">construction debris</Link>
+        </li>
+        <li>Bags of trash and general junk</li>
+      </ul>
       <p>
-        Don&apos;t confront anyone. If you can do it safely, note the time, a description of the
-        vehicle, and the license plate, and keep any doorbell or security camera footage.
-        That&apos;s the evidence that makes enforcement possible. Illegal dumping is prosecuted
-        under California Penal Code 374.3, and dumping large amounts is a misdemeanor.
-      </p>
-
-      <h2>Step 4: Get it cleaned up</h2>
-      <p>
-        If it&apos;s on public property and you&apos;ve reported it, the city will schedule a
-        pickup. If it&apos;s on your property, don&apos;t let it sit. Dumped piles attract more
-        dumping, rodents, and code enforcement complaints, and the longer it stays, the more it
-        signals that the spot is fair game.
-      </p>
-      <p>
-        One caution: don&apos;t just drag it to the curb. Moving someone else&apos;s junk from your
-        yard to the parkway without a scheduled pickup puts <em>you</em> in the position of the
-        person dumping it. Either schedule a bulky item pickup (if your home is serviced by LA
-        Sanitation) or have it hauled. Our{" "}
-        <Link href="/services/junk-removal">junk removal crew</Link> can clear dumped items the same
-        way we clear anything else, including construction debris, which bulky item programs
-        often won&apos;t take. See{" "}
-        <Link href="/services/construction-debris-removal">construction debris removal</Link>.
+        We donate what&apos;s usable, recycle what we can, and dispose of the rest properly.
       </p>
 
       <h3>Watch out for hazardous materials</h3>
       <p>
-        Paint cans, chemicals, car batteries, and anything leaking or unidentified shouldn&apos;t be
-        handled like regular junk. Leave them alone and mention them in your report. Our post on{" "}
+        Paint cans, chemicals, car batteries, and anything leaking or unidentified shouldn&apos;t
+        be handled like regular junk. Hazardous materials need to go to a household hazardous
+        waste drop-off; we&apos;ll haul everything else. Our post on{" "}
         <Link href="/blog/what-junk-haulers-cant-take">what junk haulers can and can&apos;t take</Link>{" "}
-        explains where household hazardous waste goes.
+        has more detail.
       </p>
 
-      <h2>Step 5: Make your property a harder target</h2>
+      <h2>If you saw it happen, should you document it?</h2>
+      <p>
+        Yes, if you can do it safely. Don&apos;t confront anyone. Note the time, a description of
+        the vehicle, and the license plate, and keep any doorbell or security camera footage.
+        Take photos of the pile before we haul it.
+      </p>
+
+      <h2>How do you make your property a harder target?</h2>
       <p>Dumpers look for spots that are dark, hidden, and already messy. A few things help:</p>
       <ul>
         <li>Clear dumped items quickly; piles attract more piles.</li>
         <li>Add lighting and a visible camera to alleys, side yards, and vacant lots.</li>
         <li>Fence or gate open areas where a truck can pull in unseen.</li>
         <li>
-          If you manage rentals, give tenants an easy legal option at move-out, so the leftover
-          couch doesn&apos;t end up out back.
+          If you manage rentals, give tenants an easy legal option at move-out, like booking a
+          haul, so the leftover couch doesn&apos;t end up out back.
         </li>
       </ul>
       <p>
@@ -100,8 +90,14 @@ export default function SomeoneDumpedJunkOnMyPropertyBody() {
         <Link href="/blog/tenant-left-belongings-california">
           California&apos;s abandoned property rules for landlords
         </Link>
-        . If you just need a pile gone, <Link href="/contact">get a quote</Link> and we&apos;ll
-        take care of it.
+        .
+      </p>
+
+      <h2>Get the pile gone today</h2>
+      <p>
+        Dump Happy serves the Westside, South Bay, and Central LA, open 10am to 8pm, seven days a
+        week. Call (424) 356-4141 or <Link href="/contact">get a free quote</Link> with a photo of
+        the pile, and we&apos;ll take care of it.
       </p>
     </>
   );

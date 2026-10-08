@@ -4,129 +4,91 @@ export default function BoxSpringBedFrameDisposalLosAngelesBody() {
   return (
     <>
       <p>
-        For box spring disposal in Los Angeles, treat it like a mattress: it&apos;s covered by
-        California&apos;s mattress recycling program, so you can use retailer take-back, a free Bye
-        Bye Mattress drop-off site, or a city bulky item pickup. Bed frames and headboards are
-        different. They&apos;re furniture, so they go through bulky item pickup, donation, scrap
-        metal recycling, or a junk removal service.
+        The simplest way to handle box spring disposal in Los Angeles is to book Dump Happy: we
+        carry out the box spring, bed frame, headboard, and mattress in one visit, from $289 for a
+        small load. Box springs go to a California mattress recycler, and frames are donated or
+        recycled where we can.
       </p>
       <p>
-        Here&apos;s how to get rid of each piece of a bed, including futons, and how to clear the
-        whole set in one trip.
+        Call <a href="tel:+14243564141">(424) 356-4141</a> or{" "}
+        <Link href="/contact">get a free quote</Link>. We&apos;re open 10am to 8pm, seven days a
+        week.
       </p>
 
       <h2>How do I get rid of a box spring in Los Angeles?</h2>
       <p>
-        Box springs and foundations fall under California&apos;s mattress recycling law, the same
-        as mattresses. That gives you four main options:
-      </p>
-      <ol>
-        <li>
-          <strong>Retailer take-back:</strong> California retailers must offer to take back your
-          used box spring at no charge when they deliver a new mattress or box spring.
-        </li>
-        <li>
-          <strong>Bye Bye Mattress drop-off:</strong> participating LA County sites accept box
-          springs from residents for free. Find current sites on{" "}
-          <a
-            href="https://byebyemattress.com/california/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            the Bye Bye Mattress California page
-          </a>
-          .
-        </li>
-        <li>
-          <strong>LA Sanitation bulky item pickup:</strong> schedule it through MyLA311 or by
-          calling 311 at least one business day before your trash day.
-        </li>
-        <li>
-          <strong>Junk removal:</strong> a crew carries it out and routes it to a recycler.
-        </li>
-      </ol>
-      <p>
-        A box spring&apos;s wooden frame, steel, and fabric are separated at the recycler. We cover
-        that process in{" "}
+        Book a pickup and we handle it. Box springs and foundations fall under California&apos;s
+        mattress recycling law, the same as mattresses, so they belong in the recycling stream, not
+        the trash. Our crew carries the box spring out and routes it to a mattress recycler, where
+        the wooden frame, steel, and fabric are separated. We cover that process in{" "}
         <Link href="/blog/mattress-recycling-los-angeles">mattress recycling in Los Angeles</Link>.
       </p>
 
       <h2>Can a box spring go in the trash or a dumpster?</h2>
       <p>
-        Not in your regular trash bin. Box springs are bulky items, and they belong in the
-        mattress recycling stream. Leaving one on the curb without a scheduled pickup is illegal
-        dumping under California Penal Code 374.3, with LA County fines up to $10,000.
+        No. Box springs are bulky items that don&apos;t belong in your regular trash bin, and
+        they&apos;re meant to be recycled. Leaving one abandoned on the curb is illegal dumping
+        under California Penal Code 374.3, with LA County fines up to $10,000. A booked pickup
+        avoids both problems.
       </p>
 
       <h2>How do I get rid of a bed frame?</h2>
       <p>
-        Bed frame removal depends on what the frame is made of and what shape it&apos;s in:
+        Add it to the same pickup. Here&apos;s how we handle each kind:
       </p>
       <ul>
         <li>
-          <strong>Metal frames:</strong> recyclable as scrap metal. Many scrap yards accept them,
-          and they break down into flat pieces that fit in a car.
+          <strong>Metal frames:</strong> recycled as metal where we can.
         </li>
         <li>
-          <strong>Solid wood frames in good condition:</strong> often donatable. See our guide to{" "}
-          <Link href="/blog/donate-furniture-los-angeles">donating furniture in Los Angeles</Link>.
+          <strong>Solid wood frames in good condition:</strong> we donate usable pieces when
+          possible. See{" "}
+          <Link href="/blog/donate-furniture-los-angeles">
+            how we handle furniture donation in Los Angeles
+          </Link>
+          .
         </li>
         <li>
-          <strong>Particleboard, broken, or heavily worn frames:</strong> usually not donatable;
-          schedule a bulky item pickup or include them in a haul-away.
+          <strong>Particleboard, broken, or worn frames:</strong> hauled away and disposed of
+          responsibly.
         </li>
         <li>
           <strong>Headboards and footboards:</strong> handled the same way as the frame.
         </li>
       </ul>
-      <p>
-        Bed frames aren&apos;t part of the mattress recycling program, so drop-off sites for
-        mattresses won&apos;t necessarily take them. Call before you bring one.
-      </p>
 
       <h2>What about futon disposal?</h2>
       <p>
-        A futon has two parts that are handled separately. The futon mattress is covered by
-        California&apos;s mattress recycling law, so retailer take-back and mattress drop-off sites
-        apply. The futon frame, whether metal or wood, is furniture and goes the same route as a
-        bed frame: scrap metal, donation if it&apos;s in good shape, a bulky item pickup, or a
-        junk removal service.
+        A futon has two parts, and we take both. The futon mattress is covered by
+        California&apos;s mattress recycling law, so it goes to a mattress recycler. The frame,
+        metal or wood, is furniture and is handled like a bed frame: donated if it&apos;s in good
+        shape, recycled where possible, or disposed of properly.
       </p>
 
-      <h2>Box spring, bed frame, and futon disposal compared</h2>
+      <h2>How we handle each piece</h2>
       <table>
         <thead>
           <tr>
             <th>Item</th>
-            <th>Mattress recycling program?</th>
-            <th>Best free option</th>
-            <th>Donatable?</th>
+            <th>Where Dump Happy sends it</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>Box spring or foundation</td>
-            <td>Yes</td>
-            <td>Retailer take-back or drop-off site</td>
-            <td>Rarely</td>
+            <td>California mattress recycler</td>
           </tr>
           <tr>
             <td>Futon mattress</td>
-            <td>Yes</td>
-            <td>Retailer take-back or drop-off site</td>
-            <td>Rarely</td>
+            <td>California mattress recycler</td>
           </tr>
           <tr>
             <td>Metal bed or futon frame</td>
-            <td>No</td>
-            <td>Scrap metal recycling or bulky item pickup</td>
-            <td>Sometimes</td>
+            <td>Metal recycling where possible</td>
           </tr>
           <tr>
             <td>Wood bed frame or headboard</td>
-            <td>No</td>
-            <td>Donation or bulky item pickup</td>
-            <td>If solid and in good shape</td>
+            <td>Donation if solid and in good shape; otherwise disposed of responsibly</td>
           </tr>
         </tbody>
       </table>
@@ -136,23 +98,14 @@ export default function BoxSpringBedFrameDisposalLosAngelesBody() {
         Not always. Many newer mattresses, especially foam and hybrid models, are designed to sit
         on a platform bed or slatted frame rather than a traditional box spring. If you&apos;re
         switching to one of those, your old box spring may have no use, and it&apos;s worth
-        getting rid of it at the same time as the mattress.
-      </p>
-      <p>
-        That timing matters. If you&apos;re buying from a California retailer, ask for take-back of
-        both the old mattress and the old box spring when the new mattress is delivered. Retailers
-        must offer free take-back at delivery; confirm at checkout that the box spring is included,
-        and handling both in one visit saves you a separate trip to a drop-off site later. If you&apos;re keeping a
-        platform frame but tossing an old metal rail frame, plan for that piece separately, since
-        it isn&apos;t covered by the mattress program.
+        clearing it in the same pickup as the mattress and the old frame.
       </p>
 
       <h2>Should I take apart the bed frame before pickup?</h2>
       <p>
-        If you can do it safely, yes. A disassembled frame is easier to carry, takes up less room
-        in the truck, and is quicker for a crew to load. Keep the bolts in a bag if you&apos;re
-        donating it. If the frame is stuck, rusted, or you don&apos;t have the tools, leave it as
-        is; a junk removal crew can handle it.
+        If you can do it safely, it helps: a disassembled frame is quicker to carry and load. If
+        the frame is stuck, rusted, or you don&apos;t have the tools, leave it as is. Our crew can
+        handle it.
       </p>
 
       <h2>How much does it cost to haul away a box spring and bed frame?</h2>
@@ -168,29 +121,25 @@ export default function BoxSpringBedFrameDisposalLosAngelesBody() {
         .
       </p>
 
-      <h2>Clearing the whole bed in one trip</h2>
+      <h2>Clear the whole bed in one trip</h2>
       <p>
-        The free options often split a bed set across different places: the box spring to a
-        recycling site, the frame to a scrap yard or donation center, the mattress back to the
-        store. If you&apos;d rather have it all gone in one visit, Dump Happy handles{" "}
+        Dump Happy handles{" "}
         <Link href="/services/mattress-removal">mattress removal in Los Angeles</Link> along with
         the box spring, frame, and headboard, and{" "}
         <Link href="/services/furniture-removal">furniture removal</Link> for the rest of the room.
         We serve the Westside, South Bay, and Central LA, including{" "}
         <Link href="/locations/brentwood">Brentwood</Link> and{" "}
-        <Link href="/locations/westchester">Westchester</Link>, open 10am to 8pm daily. Call
-        (424) 356-4141.
-      </p>
-      <p>
-        Need it gone quickly? Compare{" "}
-        <Link href="/blog/mattress-pickup-los-angeles">
-          same-day and scheduled mattress pickup options
-        </Link>
-        , or see{" "}
+        <Link href="/locations/westchester">Westchester</Link>. Need it gone quickly? See{" "}
+        <Link href="/blog/mattress-pickup-los-angeles">same-day and scheduled mattress pickup</Link>{" "}
+        or{" "}
         <Link href="/blog/how-to-get-rid-of-a-mattress-los-angeles">
-          all 7 legal ways to get rid of a mattress in LA
+          how to get rid of a mattress in LA
         </Link>
         .
+      </p>
+      <p>
+        Call <a href="tel:+14243564141">(424) 356-4141</a> or{" "}
+        <Link href="/contact">get a free quote</Link> today.
       </p>
     </>
   );

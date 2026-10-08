@@ -4,34 +4,33 @@ export default function RefrigeratorDisposalCaliforniaBody() {
   return (
     <>
       <p>
-        A dead refrigerator seems like it should be simple to get rid of — it&apos;s just a big box
-        of metal, right? Refrigerator disposal in California is actually one of the more tightly
-        regulated categories of junk removal, because of what&apos;s sealed inside the compressor
-        system, not what&apos;s sitting on the shelves.
+        In California, an old refrigerator has to have its refrigerant recovered by a certified
+        technician before it&apos;s scrapped or disposed of. The easiest way to handle that in Los
+        Angeles is to book Dump Happy: we haul the fridge out and make sure the refrigerant is
+        recovered properly and the metal is recycled, starting at $289.
+      </p>
+      <p>
+        Call (424) 356-4141 or <Link href="/contact">get a free quote</Link>. We&apos;re open 10am
+        to 8pm, seven days a week.
       </p>
 
-      <h2>Why refrigerant recovery is federally required</h2>
-      <p>
-        This requirement exists regardless of how the appliance is being retired — whether it&apos;s
-        being scrapped for parts, crushed at a recycling facility, or sent to a landfill, the
-        refrigerant has to come out first, by someone certified to remove it safely. There&apos;s no
-        version of appliance disposal that skips this step legally, which is part of why a fridge
-        can&apos;t simply be treated like any other bulky item once it&apos;s no longer running.
-      </p>
+      <h2>Why is refrigerant recovery required?</h2>
       <p>
         Federal Clean Air Act Section 608 requires a certified technician to recover refrigerant
         from fridges, freezers, and AC units before they&apos;re scrapped, crushed, or landfilled.
-        The refrigerant inside these units isn&apos;t something that can just be vented off or
-        ignored — it has to be captured by someone certified to do it, every time, regardless of
-        how old or clearly broken the appliance is.
+        The refrigerant can&apos;t be vented off or ignored. It has to be captured every time,
+        regardless of how old or clearly broken the appliance is.
+      </p>
+      <p>
+        There&apos;s no version of refrigerator disposal that skips this step legally, which is
+        why a fridge can&apos;t be treated like any other bulky item once it stops running.
       </p>
 
-      <h2>How California enforces it</h2>
+      <h2>How does California enforce refrigerator disposal rules?</h2>
       <p>
-        California&apos;s Air Resources Board, CARB, enforces this requirement at the state level,
-        and California&apos;s Department of Toxic Substances Control runs a Certified Appliance
-        Recycler, or CAR, program specifically for facilities that handle this kind of equipment
-        correctly. Full detail on both sides of this is available through{" "}
+        California&apos;s Air Resources Board (CARB) enforces refrigerant rules at the state level,
+        and the Department of Toxic Substances Control runs a Certified Appliance Recycler (CAR)
+        program for facilities that handle this equipment. Full detail is available through{" "}
         <a
           href="https://www.epa.gov/section608/stationary-refrigeration-safe-disposal-requirements"
           target="_blank"
@@ -53,75 +52,67 @@ export default function RefrigeratorDisposalCaliforniaBody() {
       <h3>It&apos;s not just refrigerators</h3>
       <p>
         The same refrigerant recovery requirement applies to freezers and window or portable AC
-        units, since they all rely on the same kind of sealed compressor system. If you&apos;re
-        clearing out a garage or a rental unit with an old chest freezer or a window AC unit
-        that&apos;s given out, treat it the same way you&apos;d treat a dead fridge rather than
-        assuming it&apos;s a simpler case.
+        units, since they rely on the same kind of sealed compressor system. An old chest freezer
+        in the garage or a dead window AC in a rental gets the same handling as a fridge.
       </p>
 
-      <h2>Why standard transfer stations reject unrecovered units</h2>
+      <h2>How does Dump Happy handle refrigerator disposal?</h2>
+      <ol>
+        <li>
+          <strong>We carry it out</strong> from the kitchen, garage, or basement, including up and
+          down stairs.
+        </li>
+        <li>
+          <strong>We make sure the refrigerant is recovered properly</strong> by certified
+          professionals, as federal and state law require.
+        </li>
+        <li>
+          <strong>The metal gets recycled.</strong> A fridge holds well over a hundred pounds of
+          recoverable steel, so it&apos;s recycled rather than buried.
+        </li>
+      </ol>
       <p>
-        This is why you can&apos;t just haul a dead fridge to a standard transfer station and drop
-        it off like a couch — standard transfer stations reject unrecovered refrigerant units
-        outright. Without documented refrigerant recovery, the appliance simply isn&apos;t
-        accepted, full stop. That leaves a lot of people with a dead fridge and no obvious legal way
-        to get rid of it on their own, which is exactly the gap a certified appliance hauler is
-        built to fill.
-      </p>
-      <p>
-        Once refrigerant is properly recovered, the rest of the unit is genuinely valuable scrap —
-        a fridge holds well over a hundred pounds of recoverable steel, which is why proper
-        recycling channels exist for the metal shell once the compressor system has been handled
-        safely.
+        You don&apos;t have to figure out who&apos;s certified or where the unit can legally go.
+        See our <Link href="/services/appliance-removal">appliance removal service</Link> for
+        details.
       </p>
 
-      <h2>A common mistake homeowners make</h2>
+      <h2>How much does refrigerator removal cost?</h2>
       <p>
-        The most common misstep isn&apos;t malicious — it&apos;s assuming a fridge can be treated
-        like any other piece of bulky junk once it stops running. People will sometimes attempt to
-        haul it to a transfer station themselves, only to be turned away because there&apos;s no
-        documentation that refrigerant was recovered. At that point, the fridge has to go
-        somewhere with proper certification anyway, which means the DIY trip ends up being a
-        wasted step rather than a shortcut.
+        Dump Happy prices by load size. A single fridge typically fits in our small load tier,
+        starting at $289, with labor, hauling, and disposal included. Adding a washer, dryer, or
+        other items to the same pickup is usually cheaper than booking separately. See{" "}
+        <Link href="/pricing">pricing</Link> for every tier.
+      </p>
+
+      <h2>What if I&apos;m getting rid of more than one appliance?</h2>
+      <p>
+        Kitchen remodels, rental turnovers, and estate clean-outs often involve several appliances
+        at once: a fridge alongside a washer, dryer, dishwasher, or stove. Only the
+        refrigerant-holding units carry the recovery requirement, but mention all of them when you
+        book so we can plan the right handling for each. We take them all in one trip.
       </p>
 
       <h2>What if the fridge still works?</h2>
       <p>
-        Not every old fridge needs to go through the disposal pathway. If it still runs, is a
-        secondary unit (like a garage backup), and falls roughly in the 10 to 30 cubic foot range,
-        utility rebate programs will often haul it away for free and pay you a small rebate for
-        the trouble. Retailers like Home Depot, Lowe&apos;s, and Best Buy also often take the old
-        unit off your hands on delivery of a new one, which is worth checking before you assume a
-        working fridge has to be scrapped.
+        We take working fridges too. Just let us know when you book. Whether it&apos;s running or
+        not, we haul it out and make sure it&apos;s handled the right way.
       </p>
 
-      <h3>What this means if you&apos;re clearing out multiple appliances</h3>
+      <h2>Can I leave an old fridge on the curb?</h2>
       <p>
-        Kitchen remodels, rental turnovers, and estate clean-outs often involve more than one
-        appliance at once — an old fridge alongside a washer, dryer, or dishwasher. Only the
-        refrigerant-holding units carry this specific requirement, but it&apos;s worth mentioning
-        all of them when you request a pickup so the right handling is arranged for each one from
-        the start, rather than sorting it out piece by piece on the day of.
+        No. Besides counting as illegal dumping under California Penal Code 374.3, a fridge left
+        outside is a safety hazard, especially for kids. Read more in{" "}
+        <Link href="/blog/illegal-dumping-los-angeles">our illegal dumping overview</Link>.
       </p>
 
-      <h2>Getting a dead fridge handled the right way</h2>
+      <h2>Book refrigerator removal in Los Angeles</h2>
       <p>
-        For a fridge, freezer, or AC unit that&apos;s actually done, the safest path is a hauler
-        that already works with certified recovery facilities, so you&apos;re not the one trying
-        to find a compliant drop-off point. Our{" "}
-        <Link href="/services/appliance-removal">appliance removal service</Link> is built around
-        exactly this — refrigerant-compliant pickup that doesn&apos;t leave you guessing about
-        whether the unit was disposed of legally.
-      </p>
-
-      <h2>Why the metal recovery matters too</h2>
-      <p>
-        Once refrigerant has been safely recovered, the steel shell of a fridge is genuinely
-        worthwhile to recycle rather than landfill — a single unit holds well over a hundred
-        pounds of recoverable steel. That&apos;s a meaningful amount of material that a proper
-        appliance recycling process captures and a standard landfill trip would simply bury. It&apos;s
-        one more reason the two-step process — certified refrigerant recovery, then metal recycling
-        — matters more than it might seem for what looks like just &quot;an old fridge.&quot;
+        Call (424) 356-4141 or <Link href="/contact">get a free quote</Link>. We serve the
+        Westside, South Bay, and Central LA, with same-day or next-day pickup when the schedule
+        allows. Curious where everything else goes? Read{" "}
+        <Link href="/blog/what-happens-to-junk-after-pickup">what happens to junk after pickup</Link>
+        .
       </p>
     </>
   );

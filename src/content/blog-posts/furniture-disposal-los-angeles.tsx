@@ -4,219 +4,182 @@ export default function FurnitureDisposalLosAngelesBody() {
   return (
     <>
       <p>
-        You can dispose of furniture in Los Angeles legally by selling or donating pieces in good
-        condition, scheduling a free LA Sanitation bulky item pickup for worn pieces, hauling it to
-        a drop-off facility yourself, or paying a furniture removal company to carry it out. What
-        you can&apos;t do is leave it on the curb, sidewalk, or alley without a scheduled pickup.
+        The easiest legal way to dispose of furniture in Los Angeles is to book Dump Happy: our
+        crew carries it out of any room, donates what&apos;s usable, and recycles or legally
+        disposes of the rest, starting at $289. You don&apos;t lift anything, and nothing ends up
+        on the curb.
       </p>
       <p>
-        The right route depends mostly on two things: what condition the piece is in, and how much
-        effort and waiting you&apos;re willing to trade for a lower cost. This guide sorts furniture
-        disposal in Los Angeles by both.
+        Call (424) 356-4141 or <Link href="/contact">get a free quote</Link>. We&apos;re open 10am
+        to 8pm, seven days a week, with same-day or next-day pickup when the schedule allows.
       </p>
 
       <h2>How can I dispose of furniture in Los Angeles?</h2>
-      <p>There are five legal options, and most people end up using two of them:</p>
+      <p>Booking a furniture removal pickup with Dump Happy takes three steps:</p>
       <ol>
         <li>
-          <strong>Sell it</strong> through a marketplace listing, if it&apos;s clean and in demand.
+          <strong>Get a quote.</strong> Call or send photos through our{" "}
+          <Link href="/contact">quote form</Link>. Tell us about stairs, elevators, or tight
+          hallways.
         </li>
         <li>
-          <strong>Donate it</strong> to a charity, resale store, or furniture bank.
+          <strong>Approve the price.</strong> The crew confirms the load size on-site before
+          anything gets loaded, so you know the price up front.
         </li>
         <li>
-          <strong>Schedule a city bulky item pickup</strong> if LA Sanitation collects your trash.
-        </li>
-        <li>
-          <strong>Self-haul it</strong> to a transfer station or drop-off facility in a truck or
-          van.
-        </li>
-        <li>
-          <strong>Hire a furniture removal service</strong> to carry it out and handle donation,
-          recycling, and disposal.
+          <strong>We carry it out.</strong> From the bedroom, the garage, the third floor, or the
+          backyard. Then we sort it for donation, recycling, or legal disposal.
         </li>
       </ol>
       <p>
-        A typical move-out produces two piles: furniture someone else will want, and furniture no
-        one will. The first pile goes to sale or donation. The second goes to the city, the
-        transfer station, or a hauler.
+        You don&apos;t need to move anything to the curb, disassemble it, or figure out where each
+        piece should go. See our <Link href="/services/furniture-removal">furniture removal service</Link>{" "}
+        for the full details.
       </p>
 
-      <h2>Which option fits your furniture&apos;s condition?</h2>
-
-      <h3>Good condition: sell or donate first</h3>
+      <h2>What happens to furniture in good condition?</h2>
       <p>
-        Solid wood dressers, dining tables, bookcases, and clean name-brand sofas are the pieces
-        most likely to find a second home. List them with measurements and photos and keep them
-        inside until someone picks up. For charities, send photos ahead; acceptance policies vary by
-        location. Our guide on{" "}
+        Solid wood dressers, dining tables, bookcases, and clean sofas are the pieces most likely
+        to find a second home. When we pick them up, usable pieces get routed to donation, so you
+        don&apos;t have to list them, answer messages, or wait on a charity. Read more about{" "}
         <Link href="/blog/donate-furniture-los-angeles">
-          where to donate furniture in LA and what gets turned away
-        </Link>{" "}
-        covers that in detail.
+          how our furniture donation pickup works
+        </Link>
+        .
       </p>
 
-      <h3>Worn or broken: bulky item pickup or a hauler</h3>
+      <h2>What about worn, broken, or stained furniture?</h2>
       <p>
-        Wobbly chairs, swollen particleboard, missing drawers, and scratched laminate rarely sell
-        and usually get declined by charities. Skip the listing and go straight to a city bulky item
-        pickup or a haul-away. Waiting weeks for a buyer who never comes is the most common way a
-        simple disposal turns into a move-out problem.
+        Wobbly chairs, swollen particleboard, missing drawers, and stained upholstery are just as
+        easy for us to take. Anything that can&apos;t be donated gets recycled where the materials
+        allow, like metal frames and solid wood, and the rest is disposed of legally.
       </p>
-
-      <h3>Upholstered and stained pieces</h3>
       <p>
-        Couches, recliners, and armchairs with stains, tears, pet damage, or smoke odor are the
-        hardest to rehome. Donation centers inspect upholstery closely and turn these away often.
-        If there&apos;s any chance of bed bugs, don&apos;t sell, donate, or curb the piece; wrap it
-        in plastic and tell whoever collects it. For sofas specifically, see{" "}
+        If there&apos;s any chance of bed bugs, wrap the piece in plastic and tell us when you book.
+        For sofas specifically, see{" "}
         <Link href="/blog/couch-removal-los-angeles">how to get rid of an old couch in LA</Link>.
       </p>
 
-      <h2>How do I dispose of specific furniture types?</h2>
+      <h2>What furniture do you take?</h2>
       <ul>
         <li>
-          <strong>Dressers and chests:</strong> remove the drawers before moving them. Solid wood
-          sells or donates well; particleboard with water damage goes to bulky pickup or a hauler.
+          <strong>Dressers and chests:</strong> leave the drawers in; we&apos;ll handle them.
         </li>
         <li>
-          <strong>Tables:</strong> take the legs off. Glass tops should be wrapped or taped so they
-          don&apos;t shatter in transit.
+          <strong>Tables:</strong> dining tables, glass-top tables, desks, and coffee tables.
         </li>
         <li>
-          <strong>Office chairs:</strong> working chairs from known brands often sell. Broken ones
-          are bulky items; gas cylinders and metal bases are recyclable through a hauler.
+          <strong>Office chairs and desks:</strong> including metal bases and filing cabinets.
         </li>
         <li>
-          <strong>Sectionals and sleeper sofas:</strong> unclip sections and tie sleeper mechanisms
-          shut. These are heavy and awkward, and usually need two or more people on stairs.
+          <strong>Sectionals and sleeper sofas:</strong> heavy and awkward, and exactly what a
+          crew is for, especially on stairs.
         </li>
         <li>
-          <strong>Bed frames and box springs:</strong> covered in our{" "}
+          <strong>Bed frames and box springs:</strong> see our{" "}
           <Link href="/blog/box-spring-bed-frame-disposal-los-angeles">
             box spring and bed frame disposal guide
           </Link>
           .
         </li>
+        <li>
+          <strong>Patio furniture, bookcases, armoires, and entertainment centers.</strong>
+        </li>
       </ul>
 
-      <h2>Does LA Sanitation pick up furniture?</h2>
+      <h2>How much does furniture disposal cost in Los Angeles?</h2>
       <p>
-        Yes. Homes that get trash service from LA Sanitation can request a free bulky item pickup,
-        and furniture such as couches, tables, and chairs is accepted. You request it at least one
-        business day before your regular trash day, then set the furniture at the curb that day.
+        Dump Happy prices furniture removal by how much of the truck your items fill, not by piece.
+        Labor, hauling, and disposal are included.
       </p>
-      <p>
-        The catch is that you have to get it to the curb yourself, and in larger apartment buildings your property manager may handle the booking or tell you where to set items out. Cities like Santa Monica, Culver City, and
-        Beverly Hills run their own sanitation services with their own rules. For step-by-step
-        scheduling details, see our{" "}
-        <Link href="/blog/bulky-item-pickup-los-angeles">bulky item pickup guide for LA</Link>.
-      </p>
-
-      <h2>Can I self-haul furniture to a dump?</h2>
-      <p>
-        You can, if you have a truck or van and a helper. Transfer stations and landfills in LA
-        County generally accept furniture from residents, usually for a fee based on weight or load
-        size. Hours, fees, and residency rules differ by facility, so check before you load up.
-        Factor in gas, a truck rental if you don&apos;t own one, and the time it takes to wait in
-        line.
-      </p>
-
-      <h2>When does paid furniture removal make sense?</h2>
-      <p>
-        A furniture removal crew is worth it when there are stairs, a deadline, heavy or oversized
-        pieces, or several items leaving at once. The crew carries everything out from any room,
-        and you don&apos;t need a truck or a free trash day.
-      </p>
-      <p>
-        Dump Happy prices furniture removal by load size, not by piece. A small load starts at
-        $289, a quarter load at $389, and a half load at $569, with larger tiers on our{" "}
-        <Link href="/pricing">pricing page</Link>. Usable pieces are routed to donation, and the
-        rest is recycled or disposed of legally. See our{" "}
-        <Link href="/services/furniture-removal">furniture removal service</Link> for details.
-      </p>
-
-      <h2>Furniture disposal options compared</h2>
       <table>
         <thead>
           <tr>
-            <th>Option</th>
-            <th>Cost</th>
-            <th>Effort</th>
-            <th>Speed</th>
+            <th>Load size</th>
+            <th>Price</th>
+            <th>Typical furniture</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Sell</td>
-            <td>Free, may earn cash</td>
-            <td>Listing, messages, showings</td>
-            <td>Days to weeks</td>
-          </tr>
-          <tr>
-            <td>Donate</td>
-            <td>Free</td>
-            <td>Photos, drop-off or booked pickup</td>
-            <td>Days to weeks</td>
-          </tr>
-          <tr>
-            <td>City bulky pickup</td>
-            <td>Free</td>
-            <td>You carry it to the curb</td>
-            <td>Your next trash day</td>
-          </tr>
-          <tr>
-            <td>Self-haul</td>
-            <td>Facility fee plus vehicle</td>
-            <td>Load, drive, unload</td>
-            <td>Whenever you can go</td>
-          </tr>
-          <tr>
-            <td>Paid removal</td>
+            <td>Small load</td>
             <td>From $289</td>
-            <td>None; crew carries it out</td>
-            <td>Same-day or next-day when available</td>
+            <td>A handful of items, like a couch or a dresser</td>
+          </tr>
+          <tr>
+            <td>Quarter load</td>
+            <td>From $389</td>
+            <td>A small room&apos;s worth of furniture</td>
+          </tr>
+          <tr>
+            <td>Half load</td>
+            <td>From $569</td>
+            <td>A couple of rooms cleared out</td>
+          </tr>
+          <tr>
+            <td>3/4 load</td>
+            <td>From $739</td>
+            <td>A large multi-room clear-out</td>
+          </tr>
+          <tr>
+            <td>Full load (16ft trailer)</td>
+            <td>From $899</td>
+            <td>Whole-property clean-outs and major jobs</td>
           </tr>
         </tbody>
       </table>
+      <p>
+        See all tiers on our <Link href="/pricing">pricing page</Link>. Adding a few more pieces
+        to the same pickup is usually cheaper than booking separate trips.
+      </p>
 
       <h2>Can I leave furniture on the curb in LA?</h2>
       <p>
-        Only when it&apos;s set out for a scheduled bulky item pickup. Unscheduled furniture on the
-        sidewalk or parkway counts as illegal dumping under California Penal Code 374.3, even with a
-        &quot;free&quot; sign on it. Read{" "}
+        No. Leaving furniture on the sidewalk or parkway can count as illegal dumping under
+        California Penal Code 374.3, even with a &quot;free&quot; sign on it, and each day it
+        stays out can be a separate violation. Read{" "}
         <Link href="/blog/leaving-furniture-on-curb-free-sign">
           why a &quot;free&quot; sign doesn&apos;t make curbside furniture legal
-        </Link>{" "}
-        before you try it.
+        </Link>
+        . Booking a pickup keeps it off the curb entirely.
       </p>
 
-      <h2>How to choose</h2>
+      <h2>When should I book furniture removal?</h2>
       <ul>
         <li>
-          <strong>Good condition, no deadline:</strong> sell or donate.
+          <strong>Moving out:</strong> book a few days before your move-out date so the unit is
+          empty for the walkthrough.
         </li>
         <li>
-          <strong>Worn, one or two pieces, city-serviced home:</strong> book a bulky item pickup.
+          <strong>New furniture arriving:</strong> schedule the old pieces to leave the same week.
         </li>
         <li>
-          <strong>Truck and helper available:</strong> self-haul.
+          <strong>Stairs or heavy pieces:</strong> let our crew do the carrying.
         </li>
         <li>
-          <strong>Stairs, a move-out date, or a room&apos;s worth of furniture:</strong> hire a
-          crew.
+          <strong>A whole room or house:</strong> see our{" "}
+          <Link href="/services/estate-cleanout">estate clean-out service</Link>.
         </li>
       </ul>
       <p>
-        Trying to keep costs down? Compare routes in{" "}
+        Wondering what you&apos;ll really pay? Read{" "}
         <Link href="/blog/cheapest-way-to-get-rid-of-junk-los-angeles">
           the cheapest way to get rid of junk in LA
         </Link>{" "}
         and{" "}
-        <Link href="/blog/free-junk-pickup-los-angeles">free junk pickup options in Los Angeles</Link>
-        . If you&apos;re in <Link href="/locations/west-hollywood">West Hollywood</Link> or{" "}
-        <Link href="/locations/mid-city">Mid-City</Link>, Dump Happy serves both, open 10am to 8pm,
-        seven days a week. Call (424) 356-4141 or <Link href="/contact">get a quote</Link>.
+        <Link href="/blog/free-junk-pickup-los-angeles">
+          what junk pickup really costs in Los Angeles
+        </Link>
+        .
+      </p>
+
+      <h2>Book furniture disposal in Los Angeles</h2>
+      <p>
+        Dump Happy serves the Westside, South Bay, and Central LA, including{" "}
+        <Link href="/locations/west-hollywood">West Hollywood</Link> and{" "}
+        <Link href="/locations/mid-city">Mid-City</Link>, 10am to 8pm, seven days a week. Call
+        (424) 356-4141 or <Link href="/contact">get a free quote</Link> and we&apos;ll take it
+        from there.
       </p>
     </>
   );

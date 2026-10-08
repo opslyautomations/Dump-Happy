@@ -4,106 +4,112 @@ export default function FreeMattressPickupLosAngelesBody() {
   return (
     <>
       <p>
-        Searching for “free mattress pickup” in Los Angeles turns up a confusing mix of city
-        programs, recycling sites, and haulers. The good news is that most Angelenos really do
-        have at least one free, legal way to get rid of a mattress. The trick is knowing which one
-        fits your building, your schedule, and how much lifting you can do.
+        If you&apos;re searching for free mattress pickup in Los Angeles, what you most likely want
+        is a mattress gone without hassle. Dump Happy does that: our crew carries it out of any
+        room, hauls it away, and recycles it, starting at $289 for a small load with a firm price
+        before we lift anything.
+      </p>
+      <p>
+        Call <a href="tel:+14243564141">(424) 356-4141</a> or{" "}
+        <Link href="/contact">get a free quote</Link>. The quote is free and there&apos;s no
+        obligation.
       </p>
 
-      <h2>Option 1: LA Sanitation bulky item pickup</h2>
+      <h2>What does mattress pickup in Los Angeles cost?</h2>
       <p>
-        If your home gets trash service from LA Sanitation, the City of Los Angeles picks up bulky
-        items — mattresses and box springs included — at no extra charge. You schedule it through
-        MyLA311 (online or in the app) or by calling 311, and the request needs to be in at least
-        one business day before your regular collection day. Items are collected on your trash day.
+        Dump Happy prices by how much truck space your items take up, not per piece. A mattress
+        pickup usually fits in our small load tier:
       </p>
+      <ul>
+        <li>
+          <strong>Small load:</strong> from $289 (typically a mattress, box spring, and frame)
+        </li>
+        <li>
+          <strong>Quarter load:</strong> from $389
+        </li>
+        <li>
+          <strong>Half load:</strong> from $569
+        </li>
+        <li>
+          <strong>3/4 load:</strong> from $739
+        </li>
+        <li>
+          <strong>Full load (16ft trailer):</strong> from $899
+        </li>
+      </ul>
       <p>
-        <strong>Best for:</strong> houses and small buildings the city services, when you can get
-        the mattress to the curb yourself and can wait for your pickup day.
-      </p>
-      <p>
-        <strong>Watch out for:</strong> putting the mattress out without a scheduled pickup. A
-        mattress on the parkway with no request behind it isn&apos;t a pickup; it&apos;s illegal
-        dumping. Also, if you live in a larger apartment building, check with your property manager first: in the City of LA these buildings still get LA Sanitation bulky pickup, but the manager may handle the booking. And if you
-        live in Santa Monica, Culver City, Beverly Hills, or West Hollywood, those cities run their
-        own sanitation services with their own rules.
-      </p>
-
-      <h2>Option 2: Retailer take-back when you buy a new one</h2>
-      <p>
-        California law requires mattress retailers to offer free take-back of your used mattress
-        or box spring when they deliver a new one. That applies even to online retailers that ship
-        through a common carrier; they must offer to arrange a pickup within 30 days of delivery.
-        Retailers can still charge for delivering the <em>new</em> mattress; it&apos;s the
-        old-mattress pickup that has to be free.
-      </p>
-      <p>
-        <strong>Best for:</strong> anyone buying a replacement. Ask at checkout, and have the old
-        mattress stripped and ready when the delivery crew arrives.
-      </p>
-      <p>
-        <strong>Watch out for:</strong> contamination. Retailers can refuse a mattress that&apos;s
-        soiled or infested and poses a health or safety risk. If bed bugs are involved, read{" "}
-        <Link href="/blog/bed-bug-mattress-disposal">our bed bug mattress disposal guide</Link>{" "}
-        first.
-      </p>
-
-      <h2>Option 3: A Bye Bye Mattress drop-off site</h2>
-      <p>
-        California&apos;s statewide recycling program, Bye Bye Mattress, funds free residential
-        drop-off locations across LA County, paid for by the recycling fee added to every mattress
-        sold in the state. Current sites are listed on{" "}
-        <a href="https://byebyemattress.com/california/" target="_blank" rel="noopener noreferrer">
-          Bye Bye Mattress&apos;s California page
-        </a>
-        . For more on how the program works, see our{" "}
-        <Link href="/blog/mattress-disposal-california">California mattress disposal guide</Link>.
-      </p>
-      <p>
-        <strong>Best for:</strong> people with a truck, van, or roof rack and a second pair of
-        hands.
-      </p>
-      <p>
-        <strong>Watch out for:</strong> the logistics. A queen mattress is awkward and floppy, and
-        a king won&apos;t fit in most cars. The drop-offs are for residents, not commercial
-        haulers.
-      </p>
-
-      <h2>Option 4: Pay for a pickup</h2>
-      <p>
-        None of the free options come to your bedroom. If the mattress is upstairs, you have more
-        than one, you&apos;re clearing a frame and other furniture at the same time, or you&apos;re
-        up against a move-out date, a paid pickup is usually the practical choice. Dump Happy&apos;s{" "}
-        <Link href="/services/mattress-removal">mattress removal</Link> starts with our small-load
-        tier. We carry it out, haul it, and route it to a mattress recycler. The numbers are broken
-        down in{" "}
+        See our <Link href="/pricing">pricing page</Link> or the deeper breakdown in{" "}
         <Link href="/blog/mattress-removal-cost-los-angeles">what mattress removal costs in LA</Link>
         .
       </p>
 
-      <h2>Which option should you pick?</h2>
+      <h2>What&apos;s included in the price?</h2>
       <ul>
-        <li>
-          <strong>Buying a new mattress?</strong> Use retailer take-back.
-        </li>
-        <li>
-          <strong>City-serviced house, not in a hurry?</strong> Schedule a bulky item pickup.
-        </li>
-        <li>
-          <strong>Have a truck and a helper?</strong> Drop it off yourself.
-        </li>
-        <li>
-          <strong>Stairs, multiple items, or a deadline?</strong> Book a pickup and have it done in
-          one visit.
-        </li>
+        <li>Carrying the mattress out of the bedroom, down any stairs</li>
+        <li>Loading and hauling</li>
+        <li>Routing it to a California mattress recycler</li>
+        <li>Room for a box spring, frame, and other items in the same load</li>
       </ul>
       <p>
-        Whichever route you choose, the one option that&apos;s never free is leaving it on the curb
-        and hoping it disappears. See{" "}
+        Stairs and walk-ups don&apos;t add to the price. Carrying it out is part of the job.
+      </p>
+
+      <h2>How do I book a mattress pickup?</h2>
+      <ol>
+        <li>
+          Call <a href="tel:+14243564141">(424) 356-4141</a> or{" "}
+          <Link href="/contact">request a free quote online</Link>.
+        </li>
+        <li>Send a photo and tell us the floor, elevator access, and parking.</li>
+        <li>Get a firm price and pick a time.</li>
+        <li>Our crew arrives, carries everything out, and takes it away.</li>
+      </ol>
+      <p>
+        We&apos;re open 10am to 8pm, seven days a week, with same-day or next-day pickup when the
+        schedule allows. Compare timing in our{" "}
+        <Link href="/blog/mattress-pickup-los-angeles">mattress pickup in Los Angeles</Link> guide.
+      </p>
+
+      <h2>How can I keep the cost down?</h2>
+      <ul>
+        <li>
+          <strong>Bundle everything at once.</strong> A frame, nightstand, or a few bags can ride
+          in the same load instead of a separate job later.
+        </li>
+        <li>
+          <strong>Send clear photos.</strong> An accurate count means an accurate quote.
+        </li>
+        <li>
+          <strong>Group several mattresses.</strong> Property managers clearing multiple units save
+          by booking one pickup instead of several.
+        </li>
+      </ul>
+
+      <h2>What if the mattress has bed bugs?</h2>
+      <p>
+        We can still take it. Seal it in plastic, label it, and tell us when you book. Read{" "}
+        <Link href="/blog/bed-bug-mattress-disposal">our bed bug mattress disposal guide</Link>{" "}
+        first.
+      </p>
+
+      <h2>Can I just leave it on the curb?</h2>
+      <p>
+        No. A mattress abandoned on a curb, sidewalk, or alley is illegal dumping under California
+        Penal Code 374.3, with LA County fines up to $10,000. See{" "}
         <Link href="/blog/leaving-furniture-on-curb-free-sign">
           why a “free” sign doesn&apos;t make curbside furniture legal
         </Link>
         .
+      </p>
+
+      <h2>Book your mattress pickup</h2>
+      <p>
+        Dump Happy&apos;s{" "}
+        <Link href="/services/mattress-removal">mattress removal service</Link> covers the
+        Westside, South Bay, and Central LA. For how California handles mattresses, see our{" "}
+        <Link href="/blog/mattress-disposal-california">California mattress disposal guide</Link>.
+        Ready? Call <a href="tel:+14243564141">(424) 356-4141</a> or{" "}
+        <Link href="/contact">get a free quote</Link>.
       </p>
     </>
   );

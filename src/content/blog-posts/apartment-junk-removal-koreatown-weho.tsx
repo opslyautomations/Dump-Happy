@@ -4,14 +4,20 @@ export default function ApartmentJunkRemovalKoreatownWehoBody() {
   return (
     <>
       <p>
-        Junk removal in Koreatown and West Hollywood doesn&apos;t look like junk removal in most of
-        the rest of Los Angeles. Both neighborhoods are built almost entirely around apartment and
-        condo living rather than single-family homes, and that changes the actual mechanics of the
-        job — elevators instead of driveways, hallways instead of garages, and loads that are
-        usually smaller but logistically trickier than a house clean-out.
+        For apartment junk removal in Koreatown or West Hollywood, book Dump Happy: we carry
+        couches, mattresses, and appliances out of your unit, down the stairs or elevator, and
+        haul them away, with single-item and small loads from $289.
+      </p>
+      <p>
+        Call (424) 356-4141 or <Link href="/contact">get a free quote</Link> for{" "}
+        <Link href="/services/junk-removal">junk removal</Link> or{" "}
+        <Link href="/services/furniture-removal">furniture removal</Link>, and see every tier on
+        our <Link href="/pricing">pricing page</Link>. Both neighborhoods are built around
+        apartment and condo living, which means elevators instead of driveways, hallways instead
+        of garages, and loads that are smaller but logistically trickier than a house clean-out.
       </p>
 
-      <h2>Koreatown: density and a curbside dumping problem</h2>
+      <h2>Why is apartment junk removal in Koreatown different?</h2>
       <p>
         Koreatown has the highest population density in Los Angeles, and it shows in the housing
         stock — wall-to-wall apartments and multi-unit buildings with a heavy renter population and
@@ -22,14 +28,14 @@ export default function ApartmentJunkRemovalKoreatownWehoBody() {
       </p>
       <p>
         That reality is part of why curbside dumping is a common, and illegal, problem in
-        Koreatown. Without a garage or driveway to stage items, and without an easy legal disposal
-        option on hand, some residents resort to leaving furniture in alleys or on curbs — exactly
+        Koreatown. Without a garage or driveway to stage items, some residents resort to leaving
+        furniture in alleys or on curbs, which is exactly
         the kind of dumping that California Penal Code 374.3 addresses, with fines running up to
-        $10,000 in LA County. A legal hauling option that can pick items up directly from inside a
-        unit removes the temptation to leave something on the curb in the first place.
+        $10,000 in LA County. Booking Dump Happy to pick items up directly from inside your unit
+        removes the temptation to leave something on the curb in the first place.
       </p>
 
-      <h2>West Hollywood: tight buildings, small loads, frequent turnover</h2>
+      <h2>What makes West Hollywood apartment jobs tricky?</h2>
       <p>
         West Hollywood tells a related but different story. Housing here is overwhelmingly
         apartment and condo living, much of it rent-stabilized with frequent tenant turnover, in
@@ -39,7 +45,7 @@ export default function ApartmentJunkRemovalKoreatownWehoBody() {
         buildings themselves.
       </p>
 
-      <h2>How apartment jobs differ from single-family work</h2>
+      <h2>How do apartment jobs differ from single-family work?</h2>
       <h3>Elevators and tight corridors change the timeline</h3>
       <p>
         A single-family garage clean-out is mostly a matter of volume — how much stuff, how many
@@ -57,7 +63,7 @@ export default function ApartmentJunkRemovalKoreatownWehoBody() {
         item itself might look similar.
       </p>
 
-      <h2>Rent stabilization adds its own wrinkle in WeHo</h2>
+      <h2>How does rent stabilization affect WeHo move-outs?</h2>
       <p>
         West Hollywood&apos;s rent-stabilized housing stock means many units turn over between
         long-term tenants who&apos;ve accumulated years of belongings and a new tenant moving in on
@@ -67,7 +73,7 @@ export default function ApartmentJunkRemovalKoreatownWehoBody() {
         spot.
       </p>
 
-      <h2>What to check before booking in either neighborhood</h2>
+      <h2>What should you check before booking?</h2>
       <p>
         A few quick questions before scheduling save time on pickup day: is there street parking
         near the building or a loading zone the crew can use, does the building have a freight
@@ -77,12 +83,11 @@ export default function ApartmentJunkRemovalKoreatownWehoBody() {
         pickup and one that runs long.
       </p>
 
-      <h2>What this means for booking a hauler</h2>
+      <h2>Can Dump Happy handle a single item from an apartment?</h2>
       <p>
-        If you live in a high-rise or a walk-up in either neighborhood, the practical questions are
-        different from a homeowner&apos;s: can the crew navigate the building, is there a loading
-        zone or freight elevator to use, and can they handle a small, single-item load without
-        treating it like a minimum full-truck job. Our{" "}
+        Yes. If you live in a high-rise or a walk-up in either neighborhood, our crew navigates the
+        building, uses the loading zone or freight elevator, and prices a single item as a small
+        load, not a full truck. Our{" "}
         <Link href="/services/junk-removal">junk removal service</Link> is built to flex across
         exactly that range, from a single piece of furniture to a full unit clear-out.
       </p>
@@ -96,7 +101,13 @@ export default function ApartmentJunkRemovalKoreatownWehoBody() {
         Dense apartment living doesn&apos;t make junk removal optional — if anything, it makes
         having a legal, reliable pickup option more important, since there&apos;s rarely anywhere on
         the property to just let things pile up. Getting one item or a whole unit hauled out
-        properly beats leaving it in a hallway or, worse, on the curb.
+        properly beats leaving it in a hallway or, worse, on the curb. Call (424) 356-4141, 10am
+        to 8pm, seven days a week, or <Link href="/contact">get a free quote</Link>. Moving out?
+        See our{" "}
+        <Link href="/blog/junk-removal-santa-monica-apartment-moveout">
+          apartment move-out guide
+        </Link>
+        .
       </p>
     </>
   );

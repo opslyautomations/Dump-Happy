@@ -32,11 +32,11 @@ const breadcrumbItems = [
   { name: "Appliance Removal", path: "/services/appliance-removal" },
 ];
 
-const intro = `A dead refrigerator is heavier, more awkward, and more regulated than almost anything else in your home. Dump Happy removes fridges, freezers, washers, dryers, water heaters, and AC units across Los Angeles — and, just as important, gets them to facilities that handle them the way state and federal law require. That matters more than people realize: you can't legally toss a refrigerant appliance at a standard transfer station, and doing it wrong is on the last person in the disposal chain. With us, it's one call, one crew, one legal invoice.`;
+const intro = `A dead refrigerator is heavier, more awkward, and more regulated than almost anything else in your home. Dump Happy removes fridges, freezers, washers, dryers, water heaters, and AC units across Los Angeles — and, just as important, gets them to facilities that handle them the way state and federal law require. That matters more than people realize: a refrigerant appliance can't legally be thrown out as ordinary trash, and doing it wrong is on the last person in the disposal chain. With us, it's one call, one crew, one legal invoice.`;
 
 const regulationHeading = "Why Appliances Aren't Ordinary Junk (The Part Most Haulers Skip)";
 
-const regulationText = `Refrigerators, freezers, window AC units, and heat pumps contain refrigerant that, under Section 608 of the federal Clean Air Act, must be recovered by a certified technician before the unit is scrapped, crushed, or landfilled. In California, the Air Resources Board (CARB) enforces recovery, and appliance recyclers operate under the state's Certified Appliance Recycler framework through DTSC. Southern California transfer stations reject refrigerant units on sight unless the refrigerant has been recovered and the unit is tagged. This is why the old garage fridge is not a "throw it in the truck" item — and why hiring a hauler who routes it correctly protects you.`;
+const regulationText = `Refrigerators, freezers, window AC units, and heat pumps contain refrigerant that, under Section 608 of the federal Clean Air Act, must be recovered by a certified technician before the unit is scrapped, crushed, or landfilled. In California, the Air Resources Board (CARB) enforces recovery, and appliance recyclers operate under the state's Certified Appliance Recycler framework through DTSC. Disposal facilities won't accept a refrigerant unit unless the refrigerant has been recovered and the unit is tagged. This is why the old garage fridge is not a "throw it in the truck" item — and why hiring a hauler who routes it correctly protects you.`;
 
 const applianceChips = [
   "Refrigerators & freezers",
@@ -50,9 +50,9 @@ const applianceChips = [
   "Small kitchen appliances",
 ];
 
-const rebateHeading = "Honest Alternative — You Might Get Paid Instead";
+const includedHeading = "What's Included When You Book Appliance Removal";
 
-const rebateText = `If your fridge still runs, is a secondary unit, and is roughly 10–30 cubic feet, SoCal utilities have long run a recycling program that hauls it away free and pays a small rebate — and retailers like Home Depot, Lowe's, and Best Buy will usually take your old unit when they deliver a new one. If either fits your situation, that's the cheaper path and we'll say so. Dump Happy is the right call for dead units, multiple appliances, units in hard spots (garage, upstairs, side yard), or a clear-out where the appliance is one of many items — one crew, one trip, done legally.`;
+const includedText = `Disconnection, the carry-out, and legal disposal in one visit. Our crew unhooks what's safe to unhook, moves the appliance out of the kitchen, laundry closet, garage, upstairs, or side yard, and loads it — so you avoid the strain and the floor damage. Refrigerant units go to certified recovery and the metal goes to recyclers. Working units that still have life in them may be donated. Pricing is by load, starting at $289 for a small load, with a firm quote before we start. Call (424) 356-4141 or request a free quote.`;
 
 const howItWorksText = `Photo or walkthrough → firm load-based quote (a single fridge is a single-item pickup; several appliances or an appliance-heavy clear-out scales up the tier) → we disconnect and haul (please have units emptied and defrosted where possible) → refrigerant units routed to certified recovery, metal to recyclers.`;
 
@@ -60,7 +60,7 @@ const faqs: FaqItem[] = [
   {
     question: "Is it legal to just throw away a refrigerator?",
     answer:
-      "Not as ordinary trash. Federal law (Clean Air Act Section 608) requires the refrigerant to be recovered by a certified technician before a fridge, freezer, or AC unit is scrapped, and California adds its own enforcement through CARB. Standard transfer stations turn away refrigerant units that aren't recovered and tagged. We route them the legal way.",
+      "Not as ordinary trash. Federal law (Clean Air Act Section 608) requires the refrigerant to be recovered by a certified technician before a fridge, freezer, or AC unit is scrapped, and California adds its own enforcement through CARB. Disposal facilities turn away refrigerant units that aren't recovered and tagged. We route them the legal way.",
   },
   {
     question: "Do you take refrigerators and freezers?",
@@ -73,9 +73,9 @@ const faqs: FaqItem[] = [
       "Empty the appliance and, for fridges and freezers, defrost it if you can and wipe out standing water. Unplug it ahead of time. If it's plumbed or hard-wired — a dishwasher, some water heaters — let us know so we bring the right tools to disconnect it safely.",
   },
   {
-    question: "Can I get money for my old fridge instead of paying?",
+    question: "Can you take an appliance from upstairs or a tight laundry closet?",
     answer:
-      "Possibly. If it still runs, is a secondary unit, and is about 10–30 cubic feet, SoCal utility recycling programs will haul it free and pay a small rebate, and retailers often take the old unit on delivery of a new one. If that fits, it's cheaper than hiring us and we'll tell you.",
+      "Yes. We remove appliances from wherever they sit — upstairs units, stacked laundry closets, basements, garages, and side yards. Our crew handles the disconnection, the stairs, and the doorways, and we protect your floors on the way out.",
   },
   {
     question: "Do you remove washers, dryers, and water heaters?",
@@ -134,8 +134,8 @@ export default function ApplianceRemovalPage() {
       <PillList heading="Appliances We Remove" items={applianceChips} bg="offwhite" />
 
       <Section>
-        <Callout title={rebateHeading} variant="info">
-          {rebateText}
+        <Callout title={includedHeading} variant="info">
+          {includedText}
         </Callout>
       </Section>
 

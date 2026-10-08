@@ -179,8 +179,8 @@ export function PromoPopup() {
           <p id="promo-popup-desc" className="mt-3 text-sm leading-relaxed text-brand-gray">
             Mattress removal is normally {PROMO.regularPrice}. Call and mention promo code{" "}
             <strong className="font-bold text-brand-black">{PROMO.code}</strong> to take{" "}
-            {PROMO.percentOff}% off — {PROMO.salePrice} out the door, hauled and recycled
-            through California&apos;s Bye Bye Mattress program.
+            {PROMO.percentOff}% off — {PROMO.salePrice} out the door, carried out of any room
+            and routed to a California mattress recycler.
           </p>
 
           <a

@@ -4,14 +4,19 @@ export default function EstateCleanoutBeverlyHillsBrentwoodBody() {
   return (
     <>
       <p>
-        Estate clean-outs in Beverly Hills and Brentwood run on a different scale than almost
-        anywhere else in Los Angeles. These are neighborhoods built around large estates and
-        high-value homes, and clearing one out isn&apos;t a weekend project — it&apos;s a
-        coordinated undertaking that touches realtors, estate managers, executors, and often a
-        family navigating grief and logistics at the same time.
+        For an estate clean-out in Beverly Hills or Brentwood, book Dump Happy: our crew plans
+        around large homes, canyon access, and the discretion these jobs call for, then sorts,
+        donates, and hauls everything in a coordinated visit. Loads start at $289, and a full 16ft
+        trailer is $899.
+      </p>
+      <p>
+        Call (424) 356-4141 or <Link href="/contact">get a free quote</Link> for an{" "}
+        <Link href="/services/estate-cleanout">estate clean-out</Link>, and see every tier on our{" "}
+        <Link href="/pricing">pricing page</Link>. These jobs often involve realtors, estate
+        managers, executors, and a family navigating grief and logistics at the same time.
       </p>
 
-      <h2>Scale changes everything about the job</h2>
+      <h2>Why are estate clean-outs in Beverly Hills different?</h2>
       <p>
         Beverly Hills housing skews heavily toward large estates and high-value properties, and the
         clean-out work that follows reflects that scale — full-property clean-outs, downsizing
@@ -22,7 +27,7 @@ export default function EstateCleanoutBeverlyHillsBrentwoodBody() {
         gets executed.
       </p>
 
-      <h2>Hillside access and long driveways</h2>
+      <h2>How do hillside access and long driveways change the job?</h2>
       <p>
         Canyon and hillside properties in Brentwood in particular come with logistics that flatland
         neighborhoods don&apos;t. Long driveways, narrow canyon roads, and gated hillside access
@@ -32,7 +37,7 @@ export default function EstateCleanoutBeverlyHillsBrentwoodBody() {
         worked out in advance.
       </p>
 
-      <h2>Discretion and careful handling</h2>
+      <h2>How are fine furnishings and privacy handled?</h2>
       <h3>Fine furnishings deserve a different process</h3>
       <p>
         Estates in this price range often contain furnishings, art, and fixtures worth handling
@@ -48,7 +53,7 @@ export default function EstateCleanoutBeverlyHillsBrentwoodBody() {
         on the property matters as much as the physical work itself.
       </p>
 
-      <h2>Setting valuables aside before anything else moves</h2>
+      <h2>What should the family set aside first?</h2>
       <p>
         Before any general hauling begins, estates in this category typically need a first pass
         dedicated entirely to identifying what shouldn&apos;t leave the property in a truck at all
@@ -59,12 +64,12 @@ export default function EstateCleanoutBeverlyHillsBrentwoodBody() {
         the family from a mistake that can&apos;t be undone later.
       </p>
 
-      <h2>Coordinating with the people managing the estate</h2>
+      <h2>Who coordinates with the people managing the estate?</h2>
       <p>
         These jobs rarely involve just one decision-maker. Realtors need the property staged or
         emptied on a listing timeline. Estate managers oversee day-to-day logistics on larger
-        properties. Executors are often balancing a clean-out against probate deadlines. A clean-out
-        crew that can work alongside all three, rather than expecting one point of contact to
+        properties. Executors are often balancing a clean-out against probate deadlines. Our crew
+        works alongside all three, rather than expecting one point of contact to
         coordinate everything alone, keeps a complicated situation from becoming a bottleneck.
       </p>
       <p>
@@ -74,17 +79,17 @@ export default function EstateCleanoutBeverlyHillsBrentwoodBody() {
         hauling begins.
       </p>
 
-      <h2>Planning access before the crew arrives</h2>
+      <h2>How do you plan access before the crew arrives?</h2>
       <p>
         On a canyon property or a gated estate, the single most useful thing a family can do ahead
-        of time is walk through the access logistics with whoever&apos;s coordinating the job:
+        of time is walk through the access logistics with us:
         gate codes, driveway width, whether a larger truck can actually turn around on site, and
         whether any part of the property requires equipment to be carried in rather than driven
         up. Sorting this out before the scheduled day, rather than discovering a blocked driveway or
         a gate code nobody has, keeps a large job from losing time to avoidable surprises.
       </p>
 
-      <h2>What this looks like in practice</h2>
+      <h2>What does a Dump Happy estate clean-out look like?</h2>
       <p>
         Our <Link href="/services/estate-cleanout">estate clean-out service</Link> is built to
         handle exactly this combination — property scale, hillside and gated access, and the
@@ -100,7 +105,8 @@ export default function EstateCleanoutBeverlyHillsBrentwoodBody() {
         access plan and timeline sorted before the crew arrives makes the entire process go far
         more smoothly than treating it like a standard clear-out. Reach out early enough that
         realtors, estate managers, and the family all have a chance to weigh in on scheduling
-        before a listing date or probate deadline forces the timeline instead.
+        before a listing date or probate deadline forces the timeline instead. Call (424)
+        356-4141, 10am to 8pm, seven days a week, or <Link href="/contact">get a free quote</Link>.
       </p>
     </>
   );

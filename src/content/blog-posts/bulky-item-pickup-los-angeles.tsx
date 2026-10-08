@@ -4,214 +4,178 @@ export default function BulkyItemPickupLosAngelesBody() {
   return (
     <>
       <p>
-        To schedule a bulky item pickup in Los Angeles, submit a request through the MyLA311 app or
-        website, call 311, or call LA Sanitation at 1-800-773-2489 at least one business day before
-        your regular trash day, then set the items at the curb for collection on that trash day.
-        There&apos;s no extra charge for City of LA residents.
+        To book a bulky item pickup in Los Angeles, call Dump Happy at (424) 356-4141 or{" "}
+        <Link href="/contact">request a free quote</Link> online with a few photos. Our crew
+        carries couches, mattresses, appliances, and other large items out of any room and hauls
+        them away, starting at $289 for a small load.
       </p>
       <p>
-        This guide walks through the scheduling steps, who is and isn&apos;t eligible, what the city
-        won&apos;t take, and where else to take bulky items for free when the city pickup
-        doesn&apos;t fit.
+        You don&apos;t have to drag anything to the curb or wait for a set collection day. This
+        guide covers how scheduling works, what we pick up, what it costs, and what happens to
+        your items after they leave.
+      </p>
+      <p>
+        <strong>Ready now?</strong> Call (424) 356-4141 (open 10am to 8pm, seven days a week) or{" "}
+        <Link href="/contact">get a free quote</Link>.
       </p>
 
-      <h2>How to schedule bulky items pickup in Los Angeles</h2>
-      <p>
-        LA Sanitation (LASAN) runs the City of Los Angeles bulky item pickup program. Here&apos;s
-        the process from start to finish:
-      </p>
+      <h2>How to schedule bulky items pickup in Los Angeles?</h2>
+      <p>Booking a bulky item pickup with Dump Happy takes a few minutes:</p>
       <ol>
         <li>
-          <strong>Confirm you&apos;re in the City of LA.</strong> Santa Monica, Culver City,
-          Beverly Hills, West Hollywood, and other separate cities have their own programs. LA
-          City&apos;s 311 system won&apos;t cover them.
+          <strong>Tell us what&apos;s going.</strong> Call (424) 356-4141 or use our{" "}
+          <Link href="/contact">quote form</Link>. A quick list, like &quot;one sofa, one mattress,
+          two chairs,&quot; or a few photos is all we need.
         </li>
         <li>
-          <strong>Make a list of what&apos;s going out.</strong> Write down each item, such as
-          &quot;one sofa, one mattress, two chairs.&quot; The city uses this to send the right
-          truck.
+          <strong>Mention access.</strong> Let us know about stairs, elevators, a long carry, or
+          tight parking so the right crew shows up.
         </li>
         <li>
-          <strong>Submit the request.</strong> Use the{" "}
-          <a href="https://myla311.lacity.gov/" target="_blank" rel="noopener noreferrer">
-            MyLA311
-          </a>{" "}
-          app or website, dial 311 from inside the city, or call LASAN&apos;s 24-hour Customer
-          Care Center at 1-800-773-2489.
+          <strong>Get your price.</strong> We place the job in a load tier and give you a firm
+          price before anything is lifted.
         </li>
         <li>
-          <strong>Request it at least one business day ahead.</strong> The request must be in at
-          least one business day before your regular collection day.
+          <strong>Pick a time.</strong> We&apos;re open 10am to 8pm, seven days a week, with
+          same-day or next-day pickup when the schedule allows.
         </li>
         <li>
-          <strong>Save your service request number.</strong> Note the confirmed date and any
-          placement instructions you&apos;re given.
-        </li>
-        <li>
-          <strong>Set items out for your trash day.</strong> Put them at the curb where the truck
-          can reach them, without blocking the sidewalk, driveways, or your bins. Follow any timing
-          in your confirmation, and don&apos;t put items out days early.
+          <strong>We do the rest.</strong> The crew carries everything out, loads it, and sweeps
+          up the spot where it sat.
         </li>
       </ol>
+
+      <h2>What bulky items does Dump Happy pick up?</h2>
+      <p>If it&apos;s too big for the trash can, we can usually take it. Common pickups include:</p>
+      <ul>
+        <li>
+          <strong>Furniture:</strong> sofas, sectionals, recliners, dressers, armoires, tables,
+          desks, and bed frames. See{" "}
+          <Link href="/services/furniture-removal">furniture removal</Link>.
+        </li>
+        <li>
+          <strong>Mattresses and box springs</strong>, including{" "}
+          <Link href="/services/mattress-removal">mattress removal</Link> for any size.
+        </li>
+        <li>
+          <strong>Appliances:</strong> refrigerators, washers, dryers, stoves, and water heaters.
+          See <Link href="/services/appliance-removal">appliance removal</Link>.
+        </li>
+        <li>
+          <strong>Electronics:</strong> TVs, computers, and monitors.
+        </li>
+        <li>
+          <strong>Exercise equipment:</strong> treadmills, ellipticals, and weight benches.
+        </li>
+        <li>
+          <strong>Everything else:</strong> carpet, doors, toilets, moving boxes, and the general
+          clutter around them, all in the same trip.
+        </li>
+      </ul>
       <p>
-        LASAN describes the service as unlimited, so there&apos;s no fixed cap on the number of
-        items or requests. Listing everything accurately is still important, because items not on
-        the request may be left behind.
+        Hazardous materials like paint, chemicals, and fuel need to go to a household hazardous
+        waste drop-off; we&apos;ll haul everything else. More detail is in{" "}
+        <Link href="/blog/what-junk-haulers-cant-take">what junk haulers can&apos;t take</Link>.
       </p>
 
-      <h2>Does LA charge for bulky items pickup?</h2>
+      <h2>Do you carry bulky items from inside the house and down stairs?</h2>
       <p>
-        No, the City of Los Angeles doesn&apos;t charge a per-pickup fee for bulky items. For homes
-        LASAN services directly, the cost is covered by the refuse fees on your utility bill, so
-        each scheduled pickup comes at no extra charge.
+        Yes. Bulky item pickup with Dump Happy is full-service. The crew carries items from
+        wherever they are: an upstairs bedroom, a third-floor walk-up, a back unit, the garage,
+        or the backyard. You don&apos;t need to move anything to the curb first.
       </p>
       <p>
-        Larger apartment buildings (generally five or more units) get regular trash service from a
-        private recycLA hauler, not LASAN. The city still collects bulky items from those
-        buildings, funded by a separate Multi-Family Bulky Item Fee on LADWP bills. Residents
-        schedule through MyLA311 or LASAN&apos;s Customer Care Center the same way. If you&apos;re
-        unsure who serves your building, ask your property manager.
+        We protect doorframes and railings on the way out and handle disassembly when a piece
+        won&apos;t fit through the door in one piece. Tell us about stairs when you book so we can
+        plan the carry. For a single big piece, see{" "}
+        <Link href="/blog/couch-removal-los-angeles">how to get rid of an old couch in LA</Link>.
       </p>
 
-      <h2>Who is eligible for LA bulky item pickup?</h2>
+      <h2>How much does bulky item pickup cost in Los Angeles?</h2>
+      <p>
+        Dump Happy prices by how much truck space your items fill, not by the hour. Labor,
+        loading, hauling, and disposal are included.
+      </p>
       <table>
         <thead>
           <tr>
-            <th>Where you live</th>
-            <th>Who picks up bulky items</th>
-            <th>How to request</th>
+            <th>Load size</th>
+            <th>Starting price</th>
+            <th>Typical bulky item pickup</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>House or small building in the City of LA</td>
-            <td>LA Sanitation</td>
-            <td>MyLA311, 311, or 1-800-773-2489</td>
+            <td>Small load</td>
+            <td>$289</td>
+            <td>One to a few large items, like a couch or mattress set</td>
           </tr>
           <tr>
-            <td>Apartment building (5+ units) in the City of LA</td>
-            <td>LA Sanitation (fee on LADWP bill)</td>
-            <td>MyLA311 or 1-800-773-2489</td>
+            <td>Quarter load</td>
+            <td>$389</td>
+            <td>A room&apos;s worth of furniture</td>
           </tr>
           <tr>
-            <td>Santa Monica, Culver City, Beverly Hills, West Hollywood</td>
-            <td>That city or its hauler</td>
-            <td>Check with your city</td>
+            <td>Half load</td>
+            <td>$569</td>
+            <td>Several rooms or a garage corner</td>
           </tr>
           <tr>
-            <td>Unincorporated LA County</td>
-            <td>Your franchise hauler</td>
-            <td>Call your hauler</td>
+            <td>3/4 load</td>
+            <td>$739</td>
+            <td>A packed garage or move-out</td>
+          </tr>
+          <tr>
+            <td>Full load (16ft trailer)</td>
+            <td>$899</td>
+            <td>A whole-home clean-out</td>
           </tr>
         </tbody>
       </table>
-
-      <h2>What LA bulky item pickup won&apos;t take</h2>
       <p>
-        The program accepts furniture, mattresses and box springs, doors, rolled and tied carpet,
-        toilets, appliances, and electronic waste. It doesn&apos;t cover:
-      </p>
-      <ul>
-        <li>
-          <strong>Household hazardous waste</strong> such as paint, motor oil, chemicals, and
-          batteries.
-        </li>
-        <li>
-          <strong>Fluorescent tubes and bulbs.</strong>
-        </li>
-        <li>
-          <strong>Construction and remodeling debris</strong> such as concrete, drywall, and
-          tile.
-        </li>
-        <li>
-          <strong>Cardboard</strong>, which goes through LASAN&apos;s separate Move In/Move Out
-          service. See our guide on{" "}
-          <Link href="/blog/how-to-get-rid-of-large-furniture-boxes">
-            getting rid of large furniture boxes
-          </Link>
-          .
-        </li>
-      </ul>
-      <p>
-        When in doubt, describe the item when you make the request and let LASAN confirm it.
-      </p>
-
-      <h2>Where to dispose bulky items for free?</h2>
-      <p>
-        Beyond curbside pickup, these are the main free ways to dispose of bulky items in LA:
-      </p>
-      <ul>
-        <li>
-          <strong>City bulky item drop-off events.</strong> The City of LA has held free bulky item
-          drop-off events for residents. Check{" "}
-          <a href="https://lacity.gov/" target="_blank" rel="noopener noreferrer">
-            lacity.gov
-          </a>{" "}
-          or your council district for upcoming dates.
-        </li>
-        <li>
-          <strong>S.A.F.E. centers.</strong> Free weekend drop-off for e-waste and household
-          hazardous waste, with a 15-gallon or 125-pound limit on hazardous materials per trip.
-        </li>
-        <li>
-          <strong>Bye Bye Mattress sites.</strong> Free mattress and box spring drop-off across LA
-          County.
-        </li>
-        <li>
-          <strong>Donation centers.</strong> Clean, working furniture and appliances can often be
-          donated. See{" "}
-          <Link href="/blog/donate-furniture-los-angeles">where to donate furniture in LA</Link>.
-        </li>
-        <li>
-          <strong>Retailer take-back.</strong> Required for mattresses in California when a new
-          one is delivered, and common for appliances.
-        </li>
-      </ul>
-      <p>
-        For a wider list, including scrap metal and donation pickups, read{" "}
-        <Link href="/blog/free-junk-pickup-los-angeles">
-          where to get free junk pick-up in Los Angeles
+        Because you pay for space, adding a few more items to the same visit often costs little
+        or nothing extra. Full details are on our <Link href="/pricing">pricing page</Link> and in{" "}
+        <Link href="/blog/junk-removal-cost-los-angeles">
+          how much junk removal costs in Los Angeles
         </Link>
         .
       </p>
 
-      <h2>Common bulky item pickup mistakes</h2>
+      <h2>What happens to bulky items after pickup?</h2>
+      <p>We handle disposal for you and keep as much out of the landfill as we can:</p>
       <ul>
-        <li>
-          <strong>Setting items out without a request.</strong> Unscheduled items on the sidewalk
-          are treated as illegal dumping. See{" "}
-          <Link href="/blog/leaving-furniture-on-curb-free-sign">
-            why a &quot;free&quot; sign doesn&apos;t make it legal
-          </Link>
-          .
-        </li>
-        <li>
-          <strong>Requesting too late.</strong> Miss the one-business-day cutoff and the pickup
-          slides to the following week.
-        </li>
-        <li>
-          <strong>Mixing in non-accepted items.</strong> Paint cans or bags of drywall can leave
-          you with a partial pile still at the curb.
-        </li>
+        <li>Usable furniture and household goods are donated.</li>
+        <li>Mattresses and box springs go to California mattress recyclers.</li>
+        <li>TVs and electronics go to certified e-waste recyclers.</li>
+        <li>Refrigerators and AC units have their refrigerant properly recovered.</li>
+        <li>Whatever&apos;s left goes to licensed facilities.</li>
       </ul>
-
-      <h2>When the city pickup isn&apos;t the right fit</h2>
       <p>
-        City bulky item pickup is a good deal if you can move everything to the curb and wait for
-        trash day. It&apos;s harder when the couch is on the third floor, the items are in a
-        garage with no curb access, or you&apos;re out of the unit by Friday.
+        Read more in{" "}
+        <Link href="/blog/what-happens-to-junk-after-pickup">what happens to junk after pickup</Link>
+        .
       </p>
+
+      <h2>Why not just leave bulky items on the curb?</h2>
       <p>
-        That&apos;s where a hauler fits in. Dump Happy&apos;s crew carries items out from any room
-        and loads them, with same-day or next-day pickup when the schedule allows. Pricing is by
-        load size, starting at $289 for a small load; see our{" "}
-        <Link href="/pricing">pricing page</Link> or{" "}
-        <Link href="/blog/couch-removal-los-angeles">how to get rid of an old couch in LA</Link>.
-        Learn more about <Link href="/services/junk-removal">junk removal</Link> and{" "}
-        <Link href="/services/furniture-removal">furniture removal</Link>, or see our{" "}
+        Leaving furniture or appliances on the sidewalk without a scheduled pickup is illegal
+        dumping under California Penal Code 374.3, and a &quot;free&quot; sign doesn&apos;t change
+        that. See{" "}
+        <Link href="/blog/leaving-furniture-on-curb-free-sign">
+          why a &quot;free&quot; sign doesn&apos;t make it legal
+        </Link>{" "}
+        and our <Link href="/blog/illegal-dumping-los-angeles">illegal dumping overview</Link>. A
+        booked pickup with a licensed hauler means the items are gone and handled properly.
+      </p>
+
+      <h2>Book your bulky item pickup</h2>
+      <p>
+        Dump Happy serves the Westside, South Bay, and Central LA, including{" "}
         <Link href="/locations/koreatown">Koreatown</Link> and{" "}
-        <Link href="/locations/sawtelle">Sawtelle</Link> pages. Dump Happy is open 10am to 8pm,
-        seven days a week, at (424) 356-4141.
+        <Link href="/locations/sawtelle">Sawtelle</Link>. Learn more about our{" "}
+        <Link href="/services/junk-removal">junk removal service</Link>, then call (424) 356-4141
+        or <Link href="/contact">get a free quote</Link>. We&apos;re open 10am to 8pm, seven days a
+        week.
       </p>
     </>
   );

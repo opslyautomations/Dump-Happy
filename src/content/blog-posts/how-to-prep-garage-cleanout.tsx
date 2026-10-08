@@ -4,14 +4,18 @@ export default function HowToPrepGarageCleanoutBody() {
   return (
     <>
       <p>
-        Garages have a way of quietly filling up over years, one box and one &quot;I&apos;ll deal
-        with it later&quot; item at a time. When it&apos;s finally time to reclaim the space,
-        knowing a few garage clean-out tips ahead of the crew&apos;s arrival makes the whole thing
-        faster and gets you a more accurate quote — without requiring you to pre-sort the entire
-        garage yourself.
+        The best garage clean-out tip is the simplest: set aside what you&apos;re keeping, snap a
+        few photos, and book Dump Happy. Our crew does the sorting, hauling, and disposal in one
+        visit, from $289.
+      </p>
+      <p>
+        Call (424) 356-4141 or <Link href="/contact">get a free quote</Link> for a{" "}
+        <Link href="/services/garage-cleanout">garage clean-out</Link>, and see load tiers on our{" "}
+        <Link href="/pricing">pricing page</Link>. A little prep makes the job faster and the
+        quote more accurate, without pre-sorting the entire garage yourself.
       </p>
 
-      <h2>Set aside anything you&apos;re keeping</h2>
+      <h2>What should you do first? Set aside anything you&apos;re keeping</h2>
       <p>
         Before anything else, do a quick pass and physically move aside — into the house, a
         different corner, or even just a marked pile — anything you know you want to keep. Tools
@@ -20,16 +24,15 @@ export default function HowToPrepGarageCleanoutBody() {
         any ambiguity about what&apos;s coming out and what&apos;s staying.
       </p>
 
-      <h2>Note anything hazardous for separate handling</h2>
+      <h2>What about paint, oil, and chemicals?</h2>
       <p>
         Garages are the most common place in a home for old paint cans, motor oil, solvents, and
-        pool chemicals to accumulate for years. These items can&apos;t legally go into a standard
-        junk load, so it helps enormously if you can flag them ahead of time rather than have the
-        crew discover them mid-job. You don&apos;t need to dispose of them yourself — just point
-        them out so they can be set aside and handled through the correct channel.
+        pool chemicals to accumulate. These can&apos;t go into a standard junk load, so set them
+        to one side before the crew arrives. Hazardous materials need to go to a household
+        hazardous waste drop-off; we&apos;ll haul everything else.
       </p>
 
-      <h2>Clear a path, not the whole garage</h2>
+      <h2>Do you need to empty the garage first?</h2>
       <p>
         You don&apos;t need to empty anything before we arrive. What genuinely helps is making sure
         there&apos;s a clear walking path from the garage to the driveway or street — moving a bike
@@ -47,7 +50,7 @@ export default function HowToPrepGarageCleanoutBody() {
         through quickly.
       </p>
 
-      <h2>Take photos before you call</h2>
+      <h2>Why take photos before you call?</h2>
       <p>
         A few phone photos of the garage — wide shots showing how full it is, plus close-ups of any
         large or unusual items like appliances or furniture — go a long way toward getting an
@@ -65,13 +68,14 @@ export default function HowToPrepGarageCleanoutBody() {
         surprise on arrival.
       </p>
 
-      <h2>You don&apos;t need to fully sort it yourself</h2>
+      <h2>Do you need to sort everything yourself?</h2>
       <p>
         This is worth repeating: sorting into donate, recycle, and dispose categories is part of
         the service, not a prerequisite for booking it. Plenty of people put off a garage
         clean-out for months because the idea of organizing everything first feels overwhelming.
-        You don&apos;t have to. Set aside your keepers, flag the hazardous stuff, clear a walking
-        path, and let the crew handle the rest.
+        You don&apos;t have to. Set aside your keepers, move the hazardous stuff aside, clear a
+        walking path, and let our crew handle the rest. Usable items are donated and recyclables
+        are recycled.
       </p>
 
       <h3>What about appliances stored in the garage?</h3>
@@ -90,10 +94,10 @@ export default function HowToPrepGarageCleanoutBody() {
         normal, and it&apos;s exactly the situation this service exists for.
       </p>
 
-      <h2>A simple order to work through</h2>
+      <h2>What&apos;s the simple order to work through?</h2>
       <ol>
         <li>Walk through and pull aside anything you&apos;re keeping.</li>
-        <li>Flag anything hazardous — old paint, chemicals, batteries — without moving it yourself.</li>
+        <li>Set hazardous items like old paint, chemicals, and batteries to one side.</li>
         <li>Clear a walking path from the garage to the driveway or street.</li>
         <li>Take a few photos and send them along when you request a quote.</li>
         <li>Let the crew handle the sorting, hauling, and disposal on the day of.</li>
@@ -101,7 +105,13 @@ export default function HowToPrepGarageCleanoutBody() {
       <p>
         That&apos;s the whole list. It takes most people under half an hour, and it&apos;s the
         difference between a clean-out that goes smoothly and one that stalls out over
-        obstacles that could have been cleared ahead of time.
+        obstacles that could have been cleared ahead of time. When you&apos;re ready, call (424)
+        356-4141, 10am to 8pm, seven days a week, or <Link href="/contact">get a free quote</Link>.
+        For a local example, see our{" "}
+        <Link href="/blog/garage-cleanout-westchester-lax">
+          garage clean-out guide for Westchester
+        </Link>
+        .
       </p>
     </>
   );

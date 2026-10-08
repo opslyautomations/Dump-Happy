@@ -4,13 +4,19 @@ export default function HowHotTubRemovalWorksBody() {
   return (
     <>
       <p>
-        A dead hot tub sitting in a backyard looks like a straightforward hauling job. It isn&apos;t.
-        The hot tub removal process involves electrical, plumbing, and weight risks that make it
-        one of the worst candidates for a DIY weekend project — here&apos;s exactly how it&apos;s
-        supposed to be done, step by step.
+        The hot tub removal process has five steps: shut off and verify power, drain the water,
+        cap the plumbing, cut the shell into sections, and haul it out. The easy way to get it
+        done is to book Dump Happy: our crew handles every step and the disposal, with a firm
+        quote before we start.
+      </p>
+      <p>
+        Call (424) 356-4141 or <Link href="/contact">get a free quote</Link> for{" "}
+        <Link href="/services/hot-tub-removal">hot tub removal</Link>, and see every tier on our{" "}
+        <Link href="/pricing">pricing page</Link>. Here&apos;s how each step works and why
+        it&apos;s not a DIY weekend project.
       </p>
 
-      <h2>Step 1: Shut off power and verify it&apos;s dead</h2>
+      <h2>Step 1: How is the power shut off safely?</h2>
       <p>
         The first step, every time, is shutting off power at the GFCI breaker and actually
         verifying the unit is dead before anyone touches it. Hot tubs run on dedicated circuits
@@ -18,7 +24,7 @@ export default function HowHotTubRemovalWorksBody() {
         is the single most dangerous mistake someone can make trying to handle this themselves.
       </p>
 
-      <h2>Step 2: Drain the water safely</h2>
+      <h2>Step 2: Where does the water go?</h2>
       <p>
         Once power is confirmed off, the water gets drained away from the foundation and storm
         drains — not just dumped wherever&apos;s convenient. Hundreds of gallons of water running
@@ -26,13 +32,13 @@ export default function HowHotTubRemovalWorksBody() {
         problems, so the drainage path matters as much as the draining itself.
       </p>
 
-      <h2>Step 3: Cap the plumbing</h2>
+      <h2>Step 3: Why cap the plumbing?</h2>
       <p>
         With the water gone, the plumbing connections get capped off. This prevents any residual
         water or debris from creating a mess during the cutting and hauling steps that come next.
       </p>
 
-      <h2>Step 4: Cut the shell into manageable sections</h2>
+      <h2>Step 4: Why does the shell have to be cut?</h2>
       <p>
         This is the step most people don&apos;t anticipate: a hot tub almost never fits through a
         gate whole. The shell has to be cut into manageable sections on-site, which requires the
@@ -40,7 +46,7 @@ export default function HowHotTubRemovalWorksBody() {
         deck it&apos;s sitting on.
       </p>
 
-      <h2>Step 5: Haul it out</h2>
+      <h2>Step 5: How much does a hot tub weigh to haul out?</h2>
       <p>
         Even empty, a hot tub still weighs several hundred pounds, split across an acrylic or
         fiberglass shell, a heavy pump and motor assembly, and often a wood frame underneath. None
@@ -58,7 +64,7 @@ export default function HowHotTubRemovalWorksBody() {
         side yard.
       </p>
 
-      <h2>Above-ground vs. in-ground and deck-integrated units</h2>
+      <h2>How long does hot tub removal take?</h2>
       <p>
         A standard above-ground unit typically takes about 2 to 4 hours from start to finish
         following this process. In-ground or deck-integrated units take longer, since the deck or
@@ -77,16 +83,16 @@ export default function HowHotTubRemovalWorksBody() {
         above-ground teardown.
       </p>
 
-      <h2>Where the parts actually go afterward</h2>
+      <h2>Where do the parts go afterward?</h2>
       <p>
-        A properly removed hot tub doesn&apos;t all go to one place. The acrylic or fiberglass
+        When Dump Happy removes a hot tub, it doesn&apos;t all go to one place. The acrylic or fiberglass
         shell heads to a construction-and-demolition facility. The pump and motor go to metal
         recycling. The wood frame, where present, goes to wood-waste recycling. That three-way
         split is part of why this isn&apos;t a simple &quot;haul it to the dump&quot; job even
         after it&apos;s out of the yard.
       </p>
 
-      <h2>Why this isn&apos;t a DIY project</h2>
+      <h2>Why isn&apos;t hot tub removal a DIY project?</h2>
       <p>
         Between the electrical risk of an improperly verified GFCI shutoff, the weight of a wet or
         even empty shell, and the specialized cutting required to get it through a standard gate,
@@ -102,14 +108,16 @@ export default function HowHotTubRemovalWorksBody() {
         bundled into the same visit so the whole backyard gets handled at once.
       </p>
 
-      <h2>The bottom line on doing it yourself</h2>
+      <h2>What&apos;s the bottom line?</h2>
       <p>
         Every individual step in this process — shutting off power, draining water, capping
         plumbing, cutting the shell, hauling the pieces — is manageable for a trained crew with the
         right tools. Attempted alone, each one carries its own risk: an unverified electrical
         shutoff, water draining somewhere it shouldn&apos;t, an improperly cut shell edge, or a
         multi-hundred-pound section carried by one or two people through a narrow gate. None of
-        those risks are worth taking to avoid a scheduled pickup.
+        those risks are worth taking to avoid a scheduled pickup. Call Dump Happy at (424)
+        356-4141, 10am to 8pm, seven days a week, or <Link href="/contact">get a free quote</Link>{" "}
+        with a photo of the tub and the path to the street.
       </p>
     </>
   );

@@ -38,7 +38,7 @@ const faqs: FaqItem[] = [
   {
     question: "What yard waste do you take?",
     answer:
-      "Branches and limbs, hedge and shrub trimmings, leaves and grass, brush, weeds, sod, small stumps, palm fronds, and storm debris. If it grew in your yard and won't fit in the green bin, we can almost certainly haul it.",
+      "Branches and limbs, hedge and shrub trimmings, leaves and grass, brush, weeds, sod, small stumps, palm fronds, and storm debris. If it grew in your yard, we can almost certainly haul it.",
   },
   {
     question: "Do you take dirt, rock, or concrete with the yard waste?",
@@ -58,7 +58,7 @@ const faqs: FaqItem[] = [
   {
     question: "Do you serve landscapers who need to offload green waste?",
     answer:
-      "Yes. Landscapers and gardeners self-hauling organics have SB 1383 recordkeeping expectations, and we route material to authorized facilities and can keep the documentation clean. Set up recurring service if you need regular offloading.",
+      "Yes. Organics haulers have SB 1383 recordkeeping expectations, so we route material to authorized facilities and can keep the documentation clean. Set up recurring service if you need regular offloading.",
   },
   {
     question: "How is yard waste removal priced?",
@@ -71,7 +71,7 @@ const GREEN_WASTE_GUIDES = [
   { href: "/blog/green-waste-removal-los-angeles", label: "Green waste removal in Los Angeles: the complete guide" },
   { href: "/blog/green-waste-hauling-los-angeles", label: "Green waste hauling for homeowners, landscapers, and property managers" },
   { href: "/blog/green-waste-removal-cost-los-angeles", label: "How much green waste removal costs in LA" },
-  { href: "/blog/too-much-yard-waste-for-green-bin-los-angeles", label: "Too much yard waste for the green bin? Branches, palm fronds, and overflow" },
+  { href: "/blog/too-much-yard-waste-for-green-bin-los-angeles", label: "Too much yard waste? Branches, palm fronds, and big piles hauled" },
   { href: "/blog/sb-1383-yard-waste-los-angeles", label: "SB 1383 and your yard waste" },
 ];
 
@@ -110,11 +110,10 @@ export default function YardWasteRemovalPage() {
           <p>
             Dump Happy handles green waste removal and green waste hauling across Los
             Angeles, starting at $289. A weekend of yard work, a tree that came down, or a long-overdue overgrowth
-            clear-out leaves piles the green bin can&apos;t touch. Dump Happy hauls yard and
+            clear-out leaves piles too big to deal with. Dump Happy hauls yard and
             green waste across Los Angeles — branches, trimmings, leaves, sod, brush, and storm
             debris — and takes it to organics facilities so it&apos;s composted or mulched, not
-            dumped. You skip the dozen bin cycles and the trips to the dump; we clear it in one
-            visit.
+            dumped. Our crew loads it from anywhere on the property and clears it in one visit.
           </p>
         }
         aside={<QuoteForm compact variant="card" defaultService="yard-waste-removal" />}
@@ -144,8 +143,8 @@ export default function YardWasteRemovalPage() {
             organic disposal, and non-compliance penalties can reach{" "}
             <strong>$10,000 a day.</strong> Dump Happy takes your green waste to{" "}
             <strong>authorized organics facilities</strong> where it&apos;s composted or turned
-            into mulch, and, for landscapers and businesses who self-haul, we keep the kind of
-            records SB 1383 expects rather than sending organics to a landfill.
+            into mulch, and, for landscapers and businesses, we keep the kind of records SB 1383
+            expects rather than sending organics to a landfill.
           </Callout>
         </div>
       </Section>
@@ -161,8 +160,9 @@ export default function YardWasteRemovalPage() {
           >
             Construction Debris Removal
           </Link>{" "}
-          service instead, and household hazardous waste (pesticides, chemicals) needs a County
-          drop-off. Keeping the loads separate is what keeps the organics recyclable.
+          service instead. Hazardous materials like pesticides and chemicals need to go to a
+          household hazardous waste drop-off; we&apos;ll haul everything else. Keeping the loads
+          separate is what keeps the organics recyclable.
         </p>
       </Section>
 
@@ -237,26 +237,6 @@ export default function YardWasteRemovalPage() {
           </Link>
           .
         </div>
-        <p className="mt-4 text-sm text-brand-gray">
-          Learn more:{" "}
-          <a
-            href="https://calrecycle.ca.gov/organics/slcp/collection/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-brand-orange hover:underline"
-          >
-            CalRecycle SB 1383 Organics Collection
-          </a>{" "}
-          ·{" "}
-          <a
-            href="https://sanitation.lacity.gov/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-brand-orange hover:underline"
-          >
-            LA Sanitation Organics
-          </a>
-        </p>
       </Section>
 
       <ServicesGrid heading="Explore Our Other Services" />

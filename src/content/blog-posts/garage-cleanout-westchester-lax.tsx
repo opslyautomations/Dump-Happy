@@ -4,14 +4,20 @@ export default function GarageCleanoutWestchesterLaxBody() {
   return (
     <>
       <p>
-        Westchester is one of the few LA neighborhoods where the garage clean-out is still a
-        genuinely common job — largely because the neighborhood is still full of the postwar
+        For a garage clean-out in Westchester, book Dump Happy: our crew sorts, donates, recycles,
+        and hauls everything in one visit for most single garages, with loads from $289.
+      </p>
+      <p>
+        Call (424) 356-4141 or <Link href="/contact">get a free quote</Link> for a{" "}
+        <Link href="/services/garage-cleanout">garage clean-out</Link>, and see every tier on our{" "}
+        <Link href="/pricing">pricing page</Link>. Westchester is one of the few LA neighborhoods
+        where the garage clean-out is still a common job, largely because the neighborhood is still full of the postwar
         single-family homes that actually have garages and yards to fill them with. Add in the
         area&apos;s proximity to LAX and Loyola Marymount University, and Westchester ends up with a
         pretty distinct rhythm to its clean-out work compared to denser parts of the city.
       </p>
 
-      <h2>Postwar homes, real garages</h2>
+      <h2>Why do Westchester garages fill up?</h2>
       <p>
         Westchester&apos;s housing stock is largely postwar single-family homes, and that matters
         for junk removal in a very direct way: these are homes with actual garages, not just street
@@ -21,7 +27,7 @@ export default function GarageCleanoutWestchesterLaxBody() {
         place.
       </p>
 
-      <h2>LAX and LMU shape the neighborhood&apos;s clean-out calendar</h2>
+      <h2>How do LAX and LMU shape the clean-out calendar?</h2>
       <h3>Airport proximity and turnover</h3>
       <p>
         Being close to LAX means Westchester sees a steady stream of moves tied to relocation and
@@ -37,25 +43,23 @@ export default function GarageCleanoutWestchesterLaxBody() {
         appliances, and the general accumulation of a school year all needing to go at once.
       </p>
 
-      <h2>What a typical Westchester garage clean-out looks like</h2>
+      <h2>What does a typical Westchester garage clean-out look like?</h2>
       <p>
-        Most single garages in Westchester are a same-visit job. The process usually starts with
-        sorting everything into clear categories before anything gets hauled:
+        Most single garages in Westchester are a same-visit job. Our crew sorts as we load:
       </p>
       <ul>
-        <li>Items in good enough condition to donate</li>
-        <li>Scrap metal, cardboard, and other recyclables</li>
-        <li>Hazardous materials like old paint, motor oil, or pesticides that need separate handling</li>
-        <li>Everything else headed for standard disposal</li>
+        <li>Items in good enough condition, which we donate</li>
+        <li>Metal, cardboard, and other recyclables, which we recycle</li>
+        <li>Everything else, which we dispose of properly</li>
       </ul>
       <p>
-        Sorting this way on site means the donation-worthy items actually get donated instead of
-        landfilled, and anything hazardous gets flagged and set aside rather than loaded into the
-        truck with everything else. For a typical single garage, that sorting-and-hauling process
-        wraps up in one visit rather than dragging into a multi-day project.
+        Hazardous materials like old paint, motor oil, or pesticides need to go to a household
+        hazardous waste drop-off; we&apos;ll haul everything else. For a typical single garage,
+        the sorting and hauling wrap up in one visit rather than dragging into a multi-day
+        project.
       </p>
 
-      <h2>Why timing your visit matters here specifically</h2>
+      <h2>When is the best time to book a Westchester garage clean-out?</h2>
       <p>
         Because so much of Westchester&apos;s clean-out demand clusters around the LMU academic
         calendar, scheduling around that rhythm pays off. Spring brings the heaviest volume of
@@ -65,16 +69,18 @@ export default function GarageCleanoutWestchesterLaxBody() {
         spring rush rather than during it.
       </p>
 
-      <h2>Downsizing and estate work in the mix</h2>
+      <h2>Do downsizing and estate clean-outs start in the garage?</h2>
       <p>
         Beyond routine garage clutter, Westchester&apos;s postwar homes also generate a steady
         stream of downsizing and estate-related clean-outs, as longtime homeowners age out of
         larger properties or families handle a home after a death in the family. These jobs often
         start in the garage — since that&apos;s frequently where decades of accumulated household
-        items end up — before extending into the rest of the house.
+        items end up — before extending into the rest of the house. Our{" "}
+        <Link href="/services/estate-cleanout">estate clean-out service</Link> covers the whole
+        home.
       </p>
 
-      <h2>What tends to fill a Westchester garage</h2>
+      <h2>What tends to fill a Westchester garage?</h2>
       <p>
         Because so many of these homes have held the same family for years or decades, the garage
         often ends up as the default storage spot for whatever didn&apos;t have another place to go
@@ -85,11 +91,12 @@ export default function GarageCleanoutWestchesterLaxBody() {
         even shows up.
       </p>
 
-      <h2>Getting a garage ready for a crew</h2>
+      <h2>How do you get a garage ready for the crew?</h2>
       <p>
         If you&apos;re planning ahead of a visit, a little prep goes a long way: clearing a path to
-        anything you know needs to go, and separating out anything you already know is hazardous
-        material. Our <Link href="/services/garage-cleanout">garage clean-out service</Link> handles
+        anything you know needs to go, and setting aside anything you know is hazardous. Our{" "}
+        <Link href="/blog/how-to-prep-garage-cleanout">garage clean-out prep guide</Link> walks
+        through it. Our <Link href="/services/garage-cleanout">garage clean-out service</Link> handles
         the sorting on site either way, so a walkthrough beforehand isn&apos;t strictly necessary —
         it just speeds up the visit.
       </p>
@@ -105,7 +112,8 @@ export default function GarageCleanoutWestchesterLaxBody() {
         usually the busiest stretch to book around — getting ahead of it tends to mean an easier
         scheduling window either way. Fall and winter tend to be quieter, which makes them a solid
         window for a homeowner with flexible timing to finally get that garage cleared out without
-        competing against the seasonal student turnover for a slot.
+        competing against the seasonal student turnover for a slot. Call (424) 356-4141, 10am to
+        8pm, seven days a week, or <Link href="/contact">get a free quote</Link>.
       </p>
     </>
   );

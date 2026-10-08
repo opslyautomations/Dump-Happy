@@ -4,57 +4,62 @@ export default function BestJunkRemovalServiceLosAngelesBody() {
   return (
     <>
       <p>
-        The best junk removal service in Los Angeles is the one that is licensed and insured,
-        posts its prices, gives a firm quote before loading, disposes of your items legally, has
-        consistent genuine reviews, and actually serves your neighborhood on your schedule. No
-        single company is best for every job, so judge each one against those criteria.
+        The best junk removal service in Los Angeles posts its prices, gives a firm quote before
+        loading, disposes of your items legally, does all the lifting, and fits your schedule.
+        Dump Happy is built around exactly those standards, with load-based pricing from $289 and
+        crews out 10am to 8pm, seven days a week.
       </p>
       <p>
-        Here&apos;s how to apply those criteria, how the main types of providers compare, and where
-        Dump Happy fits, without fake rankings or made-up awards.
+        Here are the criteria that matter, and how Dump Happy meets each one, without fake rankings
+        or made-up awards.
+      </p>
+      <p>
+        <strong>Want to see for yourself?</strong> Call (424) 356-4141 or{" "}
+        <Link href="/contact">get a free quote</Link>.
       </p>
 
       <h2>What is the best junk removal service in Los Angeles?</h2>
       <p>
-        The best junk removal service in Los Angeles for you is a properly insured local or
-        national company that quotes a clear, all-in price up front and can explain where your
-        items go. If two companies meet that bar, choose the one with better availability in your
-        area and reviews that mention punctuality, honest pricing, and care with property.
+        The best junk removal service in Los Angeles is one that quotes a clear, all-in price up
+        front, carries items from anywhere in the house, explains where your items go, and can come
+        when you need it. Dump Happy is a locally owned company that checks every one of those
+        boxes across the Westside, South Bay, and Central LA.
       </p>
 
-      <h2>7 criteria that separate good junk removal companies from risky ones</h2>
+      <h2>7 criteria that separate the best junk removal companies</h2>
       <ol>
         <li>
-          <strong>Licensed and insured.</strong> Ask about liability insurance and workers&apos;
-          compensation for the crew. If someone gets hurt carrying a dresser down your stairs, it
-          shouldn&apos;t be your problem.
-        </li>
-        <li>
-          <strong>Posted prices.</strong> A company that publishes its load tiers lets you budget
-          before you call. Vague hourly pricing with no estimate of total hours is harder to
-          compare.
+          <strong>Posted prices.</strong> You should be able to budget before you call. Dump Happy
+          publishes every load tier on our <Link href="/pricing">pricing page</Link>.
         </li>
         <li>
           <strong>A firm quote before loading.</strong> You should know the price before anything
-          goes in the truck, and any change should be explained and agreed to first.
+          goes in the truck, and any change should be explained and agreed to first. That&apos;s
+          how we work.
         </li>
         <li>
-          <strong>Legal disposal and recycling.</strong> Ask where items go. A good answer names
-          donation, mattress and e-waste recycling, and licensed transfer stations. See{" "}
+          <strong>Legal disposal and recycling.</strong> We donate usable items, send mattresses to
+          California mattress recyclers and electronics to certified e-waste recyclers, and take the
+          rest to licensed facilities. See{" "}
           <Link href="/blog/what-happens-to-junk-after-pickup">what happens to junk after pickup</Link>
           .
         </li>
         <li>
-          <strong>Genuine reviews.</strong> Look for a consistent business name, a real Google
-          Business Profile, and reviews that describe specific jobs, not just star counts.
+          <strong>Full-service lifting.</strong> The crew carries items from any room, floor,
+          garage, or backyard, and sweeps up after.
+        </li>
+        <li>
+          <strong>Genuine reviews.</strong> Look for reviews that describe specific jobs, not just
+          star counts. Read ours on our <Link href="/reviews">reviews page</Link>.
         </li>
         <li>
           <strong>Availability.</strong> Evening and weekend hours matter when you work days or
-          have a move-out deadline.
+          have a move-out deadline. We&apos;re open 10am to 8pm, seven days a week, with same-day
+          or next-day pickup when the schedule allows.
         </li>
         <li>
-          <strong>Service area.</strong> A company based near you spends less time in traffic and is
-          more likely to fit you in quickly.
+          <strong>Local service area.</strong> A company based near you spends less time in traffic
+          and fits you in faster. Dump Happy is local to the Westside, South Bay, and Central LA.
         </li>
       </ol>
       <p>
@@ -62,91 +67,57 @@ export default function BestJunkRemovalServiceLosAngelesBody() {
         <Link href="/blog/how-to-choose-junk-removal-company">
           8 questions to ask a junk removal company
         </Link>{" "}
-        turns these into a script you can use on the phone.
-      </p>
-
-      <h2>National franchise vs. local company vs. Craigslist hauler vs. dumpster</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Provider type</th>
-            <th>Strengths</th>
-            <th>Watch for</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>National franchise</td>
-            <td>Recognizable brand, standard process, on-site quotes</td>
-            <td>Prices set by the local owner; often no posted prices</td>
-          </tr>
-          <tr>
-            <td>Local junk removal company</td>
-            <td>Knows the area, often posts prices, direct owner contact</td>
-            <td>Check insurance, reviews, and disposal practices</td>
-          </tr>
-          <tr>
-            <td>Unlicensed or classifieds hauler</td>
-            <td>Lowest quoted price</td>
-            <td>No insurance, no receipt, risk of illegal dumping</td>
-          </tr>
-          <tr>
-            <td>Dumpster rental</td>
-            <td>Good for multi-week projects</td>
-            <td>You do the lifting; needs legal parking</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <h3>National franchises</h3>
-      <p>
-        Franchise brands generally price by truck volume with a minimum charge and quote on-site.
-        Because each territory is locally owned, service and pricing can vary between locations of
-        the same brand. Whoever you call, ask for a firm price before anything is loaded.
-      </p>
-
-      <h3>Local junk removal companies</h3>
-      <p>
-        A local company can be just as professional as a franchise, and the owner is often a phone
-        call away. The same checks apply: insurance, a firm quote, and a clear answer on disposal.
-      </p>
-
-      <h3>Unlicensed haulers</h3>
-      <p>
-        The cheapest quote on a classifieds site can become the most expensive. If your items end
-        up dumped in an alley, paperwork or labeled boxes can trace them back to you, and illegal
-        dumping is prosecuted under California Penal Code 374.3. Our{" "}
-        <Link href="/blog/illegal-dumping-los-angeles">illegal dumping overview</Link> explains the
-        law.
-      </p>
-
-      <h3>Dumpster rental</h3>
-      <p>
-        A dumpster isn&apos;t a junk removal service so much as a container: you do the loading.
-        It fits a long remodel better than a one-day clear-out. See{" "}
-        <Link href="/blog/junk-removal-vs-dumpster-rental">junk removal vs. dumpster rental</Link>.
+        turns these into a phone script, and we&apos;re happy to answer every one.
       </p>
 
       <h2>How much should the best junk removal service in LA cost?</h2>
       <p>
-        The best service isn&apos;t the cheapest or the most expensive; it&apos;s the one whose
-        price includes everything: labor, loading, disposal fees, and cleanup. Most reputable LA
-        companies price by how much truck space your items fill, so a single couch and a full
-        garage land in very different tiers.
+        The best service isn&apos;t the cheapest quote; it&apos;s the one whose price includes
+        everything: labor, loading, disposal fees, and cleanup. Dump Happy prices by how much truck
+        space your items fill:
       </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Load size</th>
+            <th>Starting price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Small load</td>
+            <td>$289</td>
+          </tr>
+          <tr>
+            <td>Quarter load</td>
+            <td>$389</td>
+          </tr>
+          <tr>
+            <td>Half load</td>
+            <td>$569</td>
+          </tr>
+          <tr>
+            <td>3/4 load</td>
+            <td>$739</td>
+          </tr>
+          <tr>
+            <td>Full load (16ft trailer)</td>
+            <td>$899</td>
+          </tr>
+        </tbody>
+      </table>
       <p>
-        When you compare quotes, compare the same volume. A &quot;half load&quot; in a small
-        pickup isn&apos;t a half load in a 16ft trailer. Our{" "}
-        <Link href="/blog/junk-removal-cost-los-angeles">LA junk removal cost guide</Link> explains
-        what moves the number within a tier.
+        Our <Link href="/blog/junk-removal-cost-los-angeles">LA junk removal cost guide</Link>{" "}
+        explains what moves the number within a tier, and{" "}
+        <Link href="/blog/cheapest-way-to-get-rid-of-junk-los-angeles">
+          the cheapest way to get rid of junk in LA
+        </Link>{" "}
+        shows how to land in the smallest one.
       </p>
 
-      <h2>What should a good junk removal crew do on pickup day?</h2>
-      <p>
-        Pickup day is where the difference between providers shows up. A good crew:
-      </p>
+      <h2>What does a Dump Happy crew do on pickup day?</h2>
       <ul>
-        <li>Calls ahead with an arrival window and shows up inside it.</li>
+        <li>Arrives in the scheduled window.</li>
         <li>Walks the job with you and confirms the price before lifting anything.</li>
         <li>Protects floors, doorframes, and railings on the way out.</li>
         <li>Carries items from wherever they are, including upstairs and the backyard.</li>
@@ -154,7 +125,7 @@ export default function BestJunkRemovalServiceLosAngelesBody() {
         <li>Separates donations and recyclables instead of tossing everything in one pile.</li>
       </ul>
 
-      <h2>Red flags when choosing junk removal in LA</h2>
+      <h2>What red flags should I avoid?</h2>
       <ul>
         <li>A price far below everyone else&apos;s, with no explanation of disposal.</li>
         <li>Cash only, no receipt, and no business name.</li>
@@ -162,45 +133,27 @@ export default function BestJunkRemovalServiceLosAngelesBody() {
         <li>&quot;We take everything,&quot; including paint and chemicals.</li>
         <li>A price that changes after the truck is already loaded.</li>
       </ul>
-
-      <h2>Is Dump Happy a good fit for your job?</h2>
       <p>
-        Dump Happy is a locally owned junk removal company serving the Westside, South Bay, and
-        Central LA, from <Link href="/locations/santa-monica">Santa Monica</Link> and Venice to{" "}
-        <Link href="/locations/west-hollywood">West Hollywood</Link> and Koreatown. Here&apos;s how
-        we line up against the criteria above:
+        A hauler who dumps your items illegally can leave you exposed: dumped junk often traces
+        back to its owner, and illegal dumping is prosecuted under California Penal Code 374.3. Our{" "}
+        <Link href="/blog/illegal-dumping-los-angeles">illegal dumping overview</Link> explains the
+        law.
       </p>
-      <ul>
-        <li>
-          <strong>Posted prices:</strong> small load from $289, quarter $389, half $569, three-quarter
-          $739, full 16ft trailer $899, all on our <Link href="/pricing">pricing page</Link>.
-        </li>
-        <li>
-          <strong>Firm quote first:</strong> send photos, get a tier, and confirm the price before
-          anything is loaded.
-        </li>
-        <li>
-          <strong>Legal disposal:</strong> usable items to donation, mattresses and electronics to
-          recyclers, the rest to licensed facilities.
-        </li>
-        <li>
-          <strong>Availability:</strong> open 10am to 8pm, seven days a week, with same-day or
-          next-day pickup when the schedule allows.
-        </li>
-        <li>
-          <strong>Reviews:</strong> read what customers say on our{" "}
-          <Link href="/reviews">reviews page</Link> and judge for yourself.
-        </li>
-      </ul>
+
+      <h2>Does Dump Happy serve my neighborhood?</h2>
       <p>
-        If you&apos;re outside our area or need something we don&apos;t haul, like hazardous
-        waste, we&apos;ll tell you. Learn more about our{" "}
-        <Link href="/services/junk-removal">junk removal service</Link>, or if budget is the main
-        concern, compare{" "}
-        <Link href="/blog/cheapest-way-to-get-rid-of-junk-los-angeles">
-          the cheapest ways to get rid of junk in Los Angeles
-        </Link>{" "}
-        first. Questions? Call Dump Happy at (424) 356-4141.
+        We serve the Westside, South Bay, and Central LA, from{" "}
+        <Link href="/locations/santa-monica">Santa Monica</Link> and Venice to{" "}
+        <Link href="/locations/west-hollywood">West Hollywood</Link> and Koreatown. Hazardous
+        materials like paint and chemicals need to go to a household hazardous waste drop-off;
+        we&apos;ll haul everything else.
+      </p>
+
+      <h2>How do I book Dump Happy?</h2>
+      <p>
+        Learn more about our <Link href="/services/junk-removal">junk removal service</Link>, then
+        call Dump Happy at (424) 356-4141 or <Link href="/contact">get a free quote</Link>.
+        We&apos;re open 10am to 8pm, seven days a week.
       </p>
     </>
   );

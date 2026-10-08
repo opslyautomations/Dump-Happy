@@ -4,99 +4,145 @@ export default function JunkRemovalVsDumpsterRentalBody() {
   return (
     <>
       <p>
-        Anyone staring down a garage full of junk or a remodel that&apos;s generating debris by
-        the hour eventually asks the same question: do I rent a dumpster, or do I book a junk
-        removal crew? There&apos;s no universally right answer — the two options are built for
-        different kinds of jobs, and the honest way to decide is to look at your timeline, your
-        site access, and what kind of job you&apos;re actually running, not just whichever option
-        sounds simpler.
+        For most Los Angeles clean-outs and remodel debris, booking a junk removal crew beats
+        renting a dumpster: Dump Happy does all the lifting, needs no parking spot or permit, and
+        clears the job in one visit, starting at $289. With a dumpster, you still do every bit of
+        the loading yourself.
+      </p>
+      <p>
+        Here&apos;s how the two compare on cost, effort, space, and timing, and why a crew comes
+        out ahead.
+      </p>
+      <p>
+        <strong>Want a side-by-side number for your job?</strong> Call (424) 356-4141 or{" "}
+        <Link href="/contact">get a free quote</Link>.
       </p>
 
-      <h2>What a dumpster rental is actually built for</h2>
+      <h2>Junk removal vs. dumpster rental: what&apos;s the difference?</h2>
       <p>
-        A dumpster rental makes the most sense when debris is going to accumulate over several
-        days or weeks rather than show up all at once. If you&apos;re mid-remodel and drywall,
-        flooring, and old fixtures are coming out in stages over a multi-week project, having a bin
-        sitting on the property that you can toss into as you go is genuinely useful. You&apos;re
-        not paying for a crew to come back repeatedly — you&apos;re paying for a container that
-        stays put until the project&apos;s done and it gets hauled away in one trip.
+        A dumpster is a container. It gets dropped off, you fill it, and it gets hauled away later.
+        Junk removal is a service. A crew shows up, carries everything out from wherever it is,
+        loads it, and leaves with it the same visit.
       </p>
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Dump Happy junk removal</th>
+            <th>Dumpster rental</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Who lifts and loads</td>
+            <td>Our crew, from any room or floor</td>
+            <td>You</td>
+          </tr>
+          <tr>
+            <td>Space needed</td>
+            <td>None; the truck leaves with the load</td>
+            <td>A driveway or legal street spot for days</td>
+          </tr>
+          <tr>
+            <td>Timing</td>
+            <td>One visit; same-day or next-day when the schedule allows</td>
+            <td>Drop-off, fill period, then pickup</td>
+          </tr>
+          <tr>
+            <td>Pricing</td>
+            <td>Pay only for the space you fill, from $289</td>
+            <td>Pay for the container, full or not</td>
+          </tr>
+          <tr>
+            <td>Sorting and recycling</td>
+            <td>We donate and recycle what we can</td>
+            <td>Everything goes in one bin</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Is junk removal cheaper than a dumpster?</h2>
       <p>
-        The tradeoff is that a dumpster needs somewhere to sit. That&apos;s fine on a property with
-        a driveway or a curb spot that can hold it for the duration of the project. It&apos;s a lot
-        less fine on a tight urban lot, a property with no legal parking for a roll-off, or a job
-        where the debris needs to be gone the same day rather than parked on site for a few weeks.
+        Often, yes, once you count what you&apos;re actually paying for. With Dump Happy you pay
+        for the truck space your items fill, with labor, hauling, and disposal included:
+      </p>
+      <ul>
+        <li>Small load: from $289</li>
+        <li>Quarter load: $389</li>
+        <li>Half load: $569</li>
+        <li>3/4 load: $739</li>
+        <li>Full load (16ft trailer): $899</li>
+      </ul>
+      <p>
+        A half-full container still costs the full rental, and the labor of filling it is all
+        yours. See our <Link href="/pricing">pricing page</Link> and{" "}
+        <Link href="/blog/junk-removal-cost-los-angeles">
+          how much junk removal costs in Los Angeles
+        </Link>
+        .
       </p>
 
-      <h2>What junk removal is actually built for</h2>
-      <h3>Defined clear-outs</h3>
+      <h2>Why is a crew better for clear-outs?</h2>
       <p>
-        A junk removal crew is the better fit when the job is a defined clear-out rather than an
-        ongoing project — a garage that needs to be emptied, a house being prepped for sale, an
-        office that&apos;s moving out. There&apos;s no benefit to a bin sitting around for days when
-        everything that needs to go is already sitting there in one visit.
-      </p>
-      <h3>Tight sites with no room for a bin</h3>
-      <p>
-        Some properties simply don&apos;t have anywhere to put a dumpster — no driveway, permit
-        parking restrictions, an alley that can&apos;t accommodate a roll-off truck. A hauling crew
-        that loads directly into a truck and leaves doesn&apos;t need a parking spot for a container
-        that has to sit for days.
-      </p>
-      <h3>Wanting it gone same-day</h3>
-      <p>
-        If the goal is walking away from a clean space today rather than scheduling a pickup once
-        a bin fills up, a hauling crew gets there faster. There&apos;s no waiting on a fill
-        schedule — the crew shows up, loads it, and it&apos;s gone.
+        A garage, a house being prepped for sale, an estate, or an office move-out is a defined
+        job: everything that needs to go is already there. There&apos;s no benefit to a bin
+        sitting in the driveway for days. Our crew loads it all in one visit and you walk away from
+        a clean space. See our{" "}
+        <Link href="/services/garage-cleanout">garage clean-out</Link> and{" "}
+        <Link href="/services/estate-cleanout">estate clean-out</Link> services.
       </p>
 
-      <h2>Matching the option to the job type</h2>
+      <h2>What if there&apos;s no room for a dumpster?</h2>
       <p>
-        The clearest way to decide isn&apos;t cost — it&apos;s job type. A multi-week renovation
-        with debris trickling out daily fits a dumpster. A single-visit clear-out, a property with
-        no room for a bin, or a job where speed matters more than convenience over time fits a
-        hauling crew. Plenty of construction and demo work actually benefits from a hybrid
-        approach, using a dumpster for the bulk of ongoing debris and a hauler for the final
-        clear-out or for material that needs specialized handling. Our{" "}
+        Many LA properties have no driveway, permit-only street parking, or an alley too tight for
+        a roll-off truck. A crew that loads into a truck and leaves doesn&apos;t need a place for a
+        container to sit, so tight lots in Koreatown, Venice, or West Hollywood are no problem.
+      </p>
+
+      <h2>What about remodel and construction debris?</h2>
+      <p>
+        Drywall, flooring, cabinets, and tile are heavy, and loading them into a bin is the
+        hardest part of the job. Book Dump Happy when the demo is done, or schedule pickups at key
+        stages of the project, and we haul it all away. We recycle construction and demolition
+        debris wherever possible, so you don&apos;t have to sort it. See our{" "}
         <Link href="/services/construction-debris-removal">construction debris removal service</Link>{" "}
-        often gets called in for exactly that kind of finish-up work.
+        and{" "}
+        <Link href="/blog/construction-debris-recycling-los-angeles">
+          construction debris recycling in LA
+        </Link>
+        .
       </p>
 
-      <h2>Questions worth asking before you book either one</h2>
-      <h3>How long will debris actually be generated?</h3>
+      <h2>Do I still have to do the lifting with a dumpster?</h2>
       <p>
-        A one-day clear-out and a six-week renovation have completely different debris timelines,
-        even if the total volume ends up similar. If everything is coming out at once, paying for a
-        container that sits around for weeks doesn&apos;t add value. If debris trickles out daily
-        over a longer stretch, a single hauling visit won&apos;t keep up without repeated bookings.
-      </p>
-      <h3>Is there anywhere legal to put a dumpster?</h3>
-      <p>
-        Some properties simply don&apos;t have a spot for a roll-off container that complies with
-        local parking and permit rules. If that&apos;s the case, the dumpster conversation is moot
-        regardless of how the rest of the job shakes out — a crew that loads and leaves is the only
-        practical option.
-      </p>
-      <h3>Does the debris need special handling?</h3>
-      <p>
-        Not everything that comes off a job site can go into a general dumpster. Certain
-        construction debris streams need to be separated for recycling compliance, and a hauler who
-        already sorts by material can save you from having to manage that yourself.
+        Yes. A dumpster only removes the hauling step. Carrying a sleeper sofa down a flight of
+        stairs, wrestling a refrigerator through a doorway, and tossing heavy debris over the side
+        of a bin are all still on you. With Dump Happy, the crew does every bit of it.
       </p>
 
-      <h2>Getting an accurate answer for your situation</h2>
+      <h2>Questions to answer before you book</h2>
+      <h3>What&apos;s coming out, and from where?</h3>
       <p>
-        Because the right choice depends so heavily on your specific site, timeline, and volume,
-        it&apos;s worth getting a real read on your job rather than guessing. Our{" "}
-        <Link href="/services/junk-removal">junk removal service</Link> covers the single-visit end
-        of this comparison, and our <Link href="/pricing">pricing page</Link> explains how we
-        quote by load tier so you know what you&apos;re working with before committing either way.
+        Photos of the items and the space, plus a heads-up about stairs or long carries, let us
+        place the job in the right tier before the truck leaves.
+      </p>
+      <h3>When do you need it gone?</h3>
+      <p>
+        If there&apos;s a move-out, closing, or inspection date, tell us. We offer same-day or
+        next-day pickup when the schedule allows.
+      </p>
+      <h3>Is anything hazardous?</h3>
+      <p>
+        Paint, chemicals, and fuel need to go to a household hazardous waste drop-off; we&apos;ll
+        haul everything else. See{" "}
+        <Link href="/blog/what-junk-haulers-cant-take">what junk haulers can&apos;t take</Link>.
       </p>
 
+      <h2>Skip the dumpster and book the crew</h2>
       <p>
-        If you&apos;re still not sure which way to go, describe the job — timeline, site access,
-        and what&apos;s actually coming out — and it&apos;s usually obvious pretty quickly which
-        option fits better.
+        Dump Happy&apos;s <Link href="/services/junk-removal">junk removal service</Link> covers the
+        Westside, South Bay, and Central LA, open 10am to 8pm, seven days a week. Call (424)
+        356-4141 or <Link href="/contact">get a free quote</Link> with a few photos.
       </p>
     </>
   );

@@ -69,8 +69,8 @@ function OfferCard() {
           Mattress removal is normally {PROMO.regularPrice}. Call and mention promo code{" "}
           <strong className="font-bold text-brand-black">{PROMO.code}</strong> and we&apos;ll take{" "}
           {PROMO.percentOff}% off — {PROMO.salePrice} out the door. We carry it from any room in
-          the house and route it into California&apos;s Bye Bye Mattress recycling program, so you
-          never touch the lift or the drop-off.
+          the house and route it to a California mattress recycler, so you never touch the lift or the
+          hauling.
         </p>
 
         <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
@@ -133,7 +133,7 @@ export default function SpecialsPage() {
               },
               {
                 title: "We haul and recycle it",
-                body: "We carry it out from any room, load it, and route it into California's mattress recycling program. No curb drag, no drop-off run.",
+                body: "We carry it out from any room, load it, and route it into California's mattress recycling program. No curb drag, no hauling on your end.",
               },
             ]}
           />

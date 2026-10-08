@@ -47,12 +47,12 @@ const faqs: FaqItem[] = [
   {
     question: "Dumpster rental vs. your haul-away — which is better?",
     answer:
-      "A dumpster suits a long project where debris accumulates for days. Our haul-away suits a defined clear-out, a tight site with no room for a bin, or a phase you want gone the same day. We'll tell you honestly which fits your job.",
+      "A crew does the loading for you. With a dumpster, your team still carries every piece of debris to the bin, the bin takes up the driveway or street for days, and you pay for the box whether it's full or not. Our haul-away clears debris in one visit — we load it, sweep up, and route it to certified recyclers — and works on tight sites with no room for a bin. You pay for the volume you actually fill.",
   },
   {
     question: "What can't you haul from a job site?",
     answer:
-      "Household hazardous waste and materials like asbestos, wet paint, and solvents require specialized, licensed handling and can't go in a standard truck. Flag anything questionable and we'll direct you to the correct disposal route.",
+      "Hazardous materials like asbestos, wet paint, and solvents need to go to a household hazardous waste drop-off; we'll haul everything else. Flag anything questionable when you book so we can quote the rest of the job accurately.",
   },
   {
     question: "How is it priced?",
@@ -195,26 +195,6 @@ export default function ConstructionDebrisRemovalPage() {
           </Link>
           .
         </div>
-        <p className="mt-4 text-sm text-brand-gray">
-          Learn more:{" "}
-          <a
-            href="https://cleanla.lacounty.gov/cnd/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-brand-orange hover:underline"
-          >
-            LA County C&amp;D Recycling
-          </a>{" "}
-          ·{" "}
-          <a
-            href="https://calrecycle.ca.gov/lgcentral/library/canddmodel/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-brand-orange hover:underline"
-          >
-            CalRecycle C&amp;D Diversion Guide
-          </a>
-        </p>
       </Section>
 
       <ServicesGrid heading="Explore Our Other Services" />

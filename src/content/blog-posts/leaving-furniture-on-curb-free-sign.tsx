@@ -7,13 +7,25 @@ export default function LeavingFurnitureOnCurbFreeSignBody() {
   return (
     <>
       <p>
-        It&apos;s an LA tradition: a dresser on the parkway with a piece of cardboard taped to it
-        that says FREE. Sometimes it&apos;s gone in an hour. Sometimes it sits in the rain for a
-        week. Either way, a lot of people assume the sign makes it a giveaway instead of dumping.
+        Leaving furniture on the curb with a &quot;free&quot; sign in LA can still count as illegal
+        dumping under California Penal Code 374.3, with fines starting at $250 per violation. The
+        legal, no-hassle alternative is to book Dump Happy: we carry it out, donate what&apos;s
+        usable, and dispose of the rest legally, starting at $289.
+      </p>
+      <p>
+        Call (424) 356-4141 or <Link href="/contact">get a free quote</Link>. We&apos;re open 10am
+        to 8pm, seven days a week.
+      </p>
+
+      <h2>Is leaving furniture on the curb with a free sign legal?</h2>
+      <p>
+        Usually not. It&apos;s an LA tradition: a dresser on the parkway with a piece of cardboard
+        taped to it that says FREE. Sometimes it&apos;s gone in an hour. Sometimes it sits in the
+        rain for a week. A lot of people assume the sign makes it a giveaway instead of dumping.
         Legally, it usually doesn&apos;t.
       </p>
 
-      <h2>What the law actually says</h2>
+      <h2>What does Penal Code 374.3 actually say?</h2>
       <p>
         California&apos;s illegal dumping statute,{" "}
         <a href={PC_374_3} target="_blank" rel="noopener noreferrer">
@@ -30,7 +42,7 @@ export default function LeavingFurnitureOnCurbFreeSignBody() {
         becomes exactly that the moment you walk away from it.
       </p>
 
-      <h2>What it can cost</h2>
+      <h2>What are the fines for leaving furniture on the curb?</h2>
       <p>For household items, the penalties are set right in the statute:</p>
       <ul>
         <li>
@@ -47,22 +59,22 @@ export default function LeavingFurnitureOnCurbFreeSignBody() {
         Two details make this more expensive than it sounds. First,{" "}
         <strong>each day the item remains is a separate violation</strong>, so a couch that sits
         out for a week isn&apos;t one problem. Second, courts can order you to pay for the cleanup
-        and to spend at least 12 hours picking up litter. For larger amounts — anything a business
-        generates, or one cubic yard or more — the violation becomes a misdemeanor with fines up to
-        $10,000 and possible jail time. We cover the bigger picture in{" "}
+        and to spend at least 12 hours picking up litter. For larger amounts, such as anything a
+        business generates or one cubic yard or more, the violation becomes a misdemeanor with
+        fines up to $10,000 and possible jail time. We cover the bigger picture in{" "}
         <Link href="/blog/illegal-dumping-los-angeles">our illegal dumping overview</Link>.
       </p>
 
-      <h2>Your own property is a different situation</h2>
+      <h2>Is your own property a different situation?</h2>
       <p>
-        The statute specifically says it doesn&apos;t restrict a private owner&apos;s use of their
-        own property, unless the pile creates a health, safety, or fire hazard or a public
+        Yes. The statute specifically says it doesn&apos;t restrict a private owner&apos;s use of
+        their own property, unless the pile creates a health, safety, or fire hazard or a public
         nuisance. So there&apos;s a real difference between:
       </p>
       <ul>
         <li>
-          A bookshelf in <strong>your driveway or front yard</strong> for a few hours with a sign,
-          which you bring back inside if nobody takes it, and
+          A bookshelf in <strong>your driveway or front yard</strong> for a few hours, which you
+          bring back inside if nobody takes it, and
         </li>
         <li>
           The same bookshelf on the <strong>sidewalk or parkway</strong>, left overnight with no
@@ -71,40 +83,45 @@ export default function LeavingFurnitureOnCurbFreeSignBody() {
       </ul>
       <p>
         Renters should be careful here too. The front yard of an apartment building belongs to the
-        owner, not the tenant, so check with your landlord before using it as a giveaway spot.
+        owner, not the tenant, so it isn&apos;t yours to use as a staging spot.
       </p>
 
-      <h2>The legal ways to give furniture away</h2>
+      <h2>What&apos;s the legal way to get rid of furniture you don&apos;t want?</h2>
+      <p>
+        Book a pickup with Dump Happy. It takes the guesswork, and the legal risk, out of it:
+      </p>
       <ul>
         <li>
-          <strong>List it online and keep it inside</strong> (or on your own property) until
-          someone picks it up. Photos and dimensions get it claimed faster than a curb sign.
+          <strong>Nothing goes on the curb.</strong> Our crew carries furniture out of any room,
+          including upstairs.
         </li>
         <li>
-          <strong>Donate it.</strong> Clean, undamaged pieces are welcome at many charities. See{" "}
-          <Link href="/blog/donate-furniture-los-angeles">
-            where to donate furniture in LA and what gets turned away
-          </Link>
+          <strong>Usable pieces still get a second home.</strong> We route furniture in good
+          condition to donation. See{" "}
+          <Link href="/blog/donate-furniture-los-angeles">how our furniture donation pickup works</Link>
           .
         </li>
         <li>
-          <strong>Schedule a bulky item pickup.</strong> If LA Sanitation services your home,
-          booking through MyLA311 or 311 makes setting items at the curb legitimate, because
-          there&apos;s a pickup scheduled for them.
+          <strong>Everything else is handled legally.</strong> Recyclable materials get recycled,
+          and the rest goes to proper disposal.
         </li>
         <li>
-          <strong>Book a haul-away.</strong> Our{" "}
-          <Link href="/services/furniture-removal">furniture removal service</Link> takes whatever
-          didn&apos;t find a home, donates what&apos;s usable, and disposes of the rest legally.
+          <strong>Clear pricing.</strong> Load-based pricing starts at $289 for a small load, with
+          labor, hauling, and disposal included. See <Link href="/pricing">pricing</Link>.
         </li>
       </ul>
+      <p>
+        Learn more about our{" "}
+        <Link href="/services/furniture-removal">furniture removal service</Link>, or read{" "}
+        <Link href="/blog/furniture-disposal-los-angeles">furniture disposal in Los Angeles</Link>.
+      </p>
 
       <h2>A good rule of thumb</h2>
       <p>
         If you&apos;d be comfortable with the item sitting there for a week, and you have a plan
         for it if nobody takes it, you&apos;re probably giving something away. If the plan is
         “someone will take it eventually,” you&apos;re probably dumping. When you&apos;re on a
-        move-out deadline and there&apos;s no time to wait, <Link href="/contact">get a quote</Link>{" "}
+        move-out deadline, call (424) 356-4141 or <Link href="/contact">get a free quote</Link>{" "}
         and we&apos;ll clear it the same way we clear everything: legally.
       </p>
       <p className="text-sm">

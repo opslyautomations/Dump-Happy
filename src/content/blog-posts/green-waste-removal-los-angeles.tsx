@@ -4,14 +4,15 @@ export default function GreenWasteRemovalLosAngelesBody() {
   return (
     <>
       <p>
-        Green waste removal in Los Angeles means getting yard debris (branches, trimmings,
-        leaves, grass, brush, and weeds) hauled away and delivered to an organics facility where
-        it&apos;s turned into compost or mulch. For small amounts your green bin handles it; for
-        anything bigger, you need a scheduled city collection or a hauler.
+        For green waste removal in Los Angeles, book Dump Happy: our crew loads branches,
+        trimmings, leaves, grass, brush, and weeds from anywhere on your property and delivers
+        them to an organics facility where they&apos;re turned into compost or mulch, from $289.
       </p>
       <p>
-        This guide covers what counts as green waste, what doesn&apos;t, the options LA
-        homeowners actually have, and how to tell which one fits your pile.
+        Call (424) 356-4141 or <Link href="/contact">get a free quote</Link> for{" "}
+        <Link href="/services/yard-waste-removal">yard waste removal</Link>, and see every load
+        tier on our <Link href="/pricing">pricing page</Link>. This guide covers what counts as
+        green waste, what doesn&apos;t, and how a pickup works.
       </p>
 
       <h2>What counts as green waste?</h2>
@@ -30,10 +31,10 @@ export default function GreenWasteRemovalLosAngelesBody() {
       </ul>
       <p>
         <strong>Palm fronds are a special case.</strong> Their tough fibers can wrap around the
-        shredding equipment at processing facilities, so many cities and composters restrict or
-        refuse them in green bins. We cover how to deal with them in{" "}
+        shredding equipment at processing facilities, so they need to go to a facility that
+        handles them. We load them as they lie. More in{" "}
         <Link href="/blog/too-much-yard-waste-for-green-bin-los-angeles">
-          our guide to yard waste that won&apos;t fit in the green bin
+          our guide to getting rid of yard waste in LA
         </Link>
         .
       </p>
@@ -42,14 +43,14 @@ export default function GreenWasteRemovalLosAngelesBody() {
       <p>
         Dirt, rock, sand, concrete, and broken pavers are not green waste, even when they come out
         of the same yard project. Mixing them into a green waste load can contaminate it and keep
-        it from being composted. Those materials go through{" "}
-        <Link href="/services/construction-debris-removal">construction debris removal</Link>{" "}
-        instead.
+        it from being composted. We haul those too, kept separate, through{" "}
+        <Link href="/services/construction-debris-removal">construction debris removal</Link>.
       </p>
       <p>
-        Treated or painted lumber, old fencing, plastic pots, irrigation tubing, and garden
-        chemicals also stay out of the organics stream. Pesticides and fertilizers count as
-        household hazardous waste and need a county drop-off.
+        Treated or painted lumber, old fencing, plastic pots, and irrigation tubing also stay out
+        of the organics stream, and we haul them as regular junk. Pesticides and garden chemicals
+        are hazardous materials that need to go to a household hazardous waste drop-off;
+        we&apos;ll haul everything else.
       </p>
 
       <h2>Where does green waste go after it&apos;s removed?</h2>
@@ -62,64 +63,38 @@ export default function GreenWasteRemovalLosAngelesBody() {
         , so we won&apos;t repeat them here.
       </p>
       <p>
-        The practical takeaway: when you hire a hauler, ask where the yard debris goes. A
-        legitimate green waste hauler can tell you it goes to an organics facility, not a
-        landfill or an empty lot.
+        That&apos;s why Dump Happy delivers green waste to organics facilities, not a landfill or
+        an empty lot. When you book with us, you don&apos;t have to think about where it ends up.
       </p>
 
-      <h2>What are your green waste removal options in Los Angeles?</h2>
+      <h2>How does green waste removal work in Los Angeles?</h2>
       <p>
-        Most LA homeowners have four realistic ways to get rid of yard waste. Which one fits
-        depends on volume, timing, and how much hauling you can do yourself.
+        Booking Dump Happy takes a few minutes, and the crew does all the lifting:
       </p>
       <ol>
         <li>
-          <strong>Your weekly green bin.</strong> Best for routine clippings and trimmings. It
-          only works if everything fits with the lid closed and meets your city&apos;s size rules
-          for branches.
+          <strong>Get a free quote.</strong> Send a photo or describe the pile, and we price it by
+          how much truck space it fills.
         </li>
         <li>
-          <strong>A scheduled city collection.</strong> LA Sanitation offers a free once-a-year
-          brush collection for extra yard trimmings to the households it serves, scheduled through
-          MyLA311 or 1-800-773-2489. Bundles have size and weight limits, and you wait for the
-          pickup date.
+          <strong>Schedule a time.</strong> We work 10am to 8pm, seven days a week, with same-day
+          or next-day pickup when the schedule allows.
         </li>
         <li>
-          <strong>Self-haul to a green waste facility.</strong> Works if you have a truck, a
-          tarp, and time. Expect gate fees and rules about what can be in the load.
+          <strong>We load it where it sits.</strong> Backyards, side yards, slopes, and narrow
+          gates are all fine. No bundling or cutting to size.
         </li>
         <li>
-          <strong>A green waste removal company.</strong> A crew loads it from wherever it is on
-          the property, hauls it in one trip, and routes it to an organics facility.
+          <strong>We handle disposal.</strong> Organics go to a composting or mulch facility, and
+          we sweep up when we&apos;re done.
         </li>
       </ol>
-
-      <h2>Green bin vs. city pickup vs. hauler: how do they compare?</h2>
-      <ul>
-        <li>
-          <strong>Green bin:</strong> no extra cost, weekly, but limited to one bin&apos;s worth
-          with the lid closed.
-        </li>
-        <li>
-          <strong>City brush collection:</strong> no charge for eligible households, but once a
-          year, bundled and tied, and curbside only.
-        </li>
-        <li>
-          <strong>Self-haul:</strong> you pay facility fees and supply the truck, labor, and
-          time.
-        </li>
-        <li>
-          <strong>Green waste hauler:</strong> paid by load size, but same-week or same-day,
-          no bundling, and the crew does the lifting.
-        </li>
-      </ul>
       <p>
-        If your pile would take a month of green bin cycles to clear, or it&apos;s sitting in a
-        backyard with no truck access, a hauler is usually the faster and cheaper option once you
-        count your time.
+        If your pile would take weeks to clear on your own, or it&apos;s sitting in a backyard
+        with no truck access, one haul clears it in a single visit.
       </p>
 
-      <h2>When does green waste removal make sense?</h2>
+      <h2>When do people book green waste removal?</h2>
       <p>
         The jobs where people call us are almost always bigger than a normal week of gardening:
       </p>
@@ -181,8 +156,8 @@ export default function GreenWasteRemovalLosAngelesBody() {
         </li>
       </ol>
       <p>
-        You don&apos;t need to cut or bundle anything for us. That&apos;s one of the main
-        differences between a hauler and city curbside programs.
+        You don&apos;t need to cut or bundle anything for us. Ready to clear the yard? Call (424)
+        356-4141 or <Link href="/contact">get a free quote</Link>.
       </p>
     </>
   );

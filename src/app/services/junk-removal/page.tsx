@@ -32,7 +32,7 @@ const breadcrumbItems = [
   { name: "Junk Removal", path: "/services/junk-removal" },
 ];
 
-const intro = `When clutter outgrows your bins, Dump Happy clears it — a single heavy item or an entire property's worth. You point; our crew carries it down the stairs, out of the garage, off the curb, and into the truck. No trips to the transfer station, no borrowing a friend's pickup, no throwing your back out. We serve homeowners, renters, contractors, and property managers across Los Angeles and the Westside/South Bay, and we quote the job before we start so the number never moves on you.`;
+const intro = `When clutter outgrows your space, Dump Happy clears it — a single heavy item or an entire property's worth. You point; our crew carries it down the stairs, out of the garage, off the curb, and into the truck. No heavy lifting, no hauling, no throwing your back out. We serve homeowners, renters, contractors, and property managers across Los Angeles and the Westside/South Bay, and we quote the job before we start so the number never moves on you.`;
 
 const steps = [
   {
@@ -53,7 +53,7 @@ const pricingExplainer = `Junk removal here is priced by volume — how much spa
 
 const whatWeTake = `Furniture, appliances, mattresses, e-waste, garage and yard clutter, construction and remodel debris, hot tubs, estate and property clean-out contents, and general household junk. If it's bulky, heavy, or just in the way, it's probably a yes — ask.`;
 
-const whatWeCant = `Household hazardous waste is off-limits by law — paint, motor oil, solvents, pesticides, pool chemicals, and asbestos can't ride in a junk truck or go to a standard transfer station. We'll tell you exactly where those go (see the garage clean-out page for the LA County hazardous-waste route). Being straight about this is part of doing it right.`;
+const whatWeCant = `Household hazardous waste is off-limits by law — paint, motor oil, solvents, pesticides, pool chemicals, and asbestos can't ride in a junk truck. Hazardous materials need to go to a household hazardous waste drop-off; we'll haul everything else. Being straight about this is part of doing it right.`;
 
 const whereItGoes = `Reputable hauling isn't "load it and dump it." Usable furniture and working appliances are routed to donation; metal, cardboard, and e-waste go to recyclers; only what genuinely can't be reused is taken to a licensed disposal facility. Ask any hauler one question — what happens to my stuff after pickup? — and judge them on the answer.`;
 
@@ -83,7 +83,7 @@ const faqs: FaqItem[] = [
   {
     question: "What won't you take?",
     answer:
-      "Household hazardous waste — paint, motor oil, solvents, pesticides, pool chemicals — and asbestos. These are illegal to haul in a standard truck and are banned from ordinary transfer stations. Tell us what you've got and we'll point you to the right LA County drop-off for those items.",
+      "Household hazardous waste — paint, motor oil, solvents, pesticides, pool chemicals — and asbestos. These can't ride in a standard junk truck. Hazardous materials need to go to a household hazardous waste drop-off; we'll haul everything else.",
   },
   {
     question: "What happens to my junk after you take it?",
@@ -93,7 +93,7 @@ const faqs: FaqItem[] = [
   {
     question: "Can you come the same day?",
     answer:
-      "Often, yes — same-week is standard and same-day or next-day is frequently available when you book early in the day. Mobile scheduling across LA and the South Bay means we can usually slot an urgent pickup faster than a curbside city appointment.",
+      "Often, yes — same-week is standard and same-day or next-day is frequently available when you book early in the day. Call (424) 356-4141 to check today's availability across LA and the South Bay.",
   },
   {
     question: "Is it really illegal to just leave stuff on the side of the road?",
@@ -217,17 +217,6 @@ export default function JunkRemovalPage() {
         <div className="mt-6">
           <FAQAccordion faqs={faqs} />
         </div>
-        <p className="mt-6 text-sm text-brand-gray">
-          Learn more:{" "}
-          <a
-            href="https://cleanla.lacounty.gov/illegal-dumping/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-brand-orange hover:underline"
-          >
-            LA County illegal-dumping ordinance &amp; penalties
-          </a>
-        </p>
       </Section>
 
       <ServicesGrid heading="Explore All Our Services" />

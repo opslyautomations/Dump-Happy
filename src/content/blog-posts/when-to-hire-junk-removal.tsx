@@ -4,102 +4,101 @@ export default function WhenToHireJunkRemovalBody() {
   return (
     <>
       <p>
-        You should hire junk removal when the job is bigger than one trip, involves heavy items or
-        stairs, or has a deadline you can&apos;t miss. If it&apos;s a single piece of furniture that
-        qualifies for free city bulky item pickup and you can carry it to the curb, you probably
-        don&apos;t need to hire anyone.
+        It&apos;s time to hire junk removal when the job involves heavy items, stairs, more than a
+        carload, or a deadline you can&apos;t miss. Book Dump Happy and our crew carries everything
+        out of any room and hauls it away in one visit, starting at $289.
       </p>
       <p>
-        Most people wait too long to make the call, or pay for help on a job they could have done
-        free. The nine signs below, plus some rough math, will tell you which side of the line
-        you&apos;re on.
+        Most people wait too long to make the call. The nine signs below will tell you when
+        it&apos;s time to book.
+      </p>
+      <p>
+        <strong>Recognize your situation?</strong> Call (424) 356-4141 or{" "}
+        <Link href="/contact">get a free quote</Link> with a few photos.
       </p>
 
       <h2>When should I hire junk removal?</h2>
       <p>
-        Hire junk removal when the cost of doing it yourself, in time, truck rental, fees, and
-        risk of injury, is close to or more than the cost of a crew. In practice that happens when
-        you have a deadline, a large volume, heavy items, difficult access, or items a city pickup
-        won&apos;t take.
+        Hire junk removal when doing it yourself would cost you a day, a strained back, or a
+        missed deadline. In practice that means a large volume, heavy or awkward items, stairs or
+        a long carry, a move-out or closing date, or a mix of items that need different disposal.
       </p>
 
-      <h2>9 signs it&apos;s worth hiring junk removal</h2>
+      <h2>9 signs it&apos;s time to book junk removal</h2>
 
       <h3>1. You have a move-out deadline</h3>
       <p>
-        A lease end date or closing day doesn&apos;t move. City bulky pickup runs on your trash day,
-        and donation pickups can book up near the end of the month. A crew that can come same-day
-        or next-day when the schedule allows removes the risk of leaving furniture behind and losing
-        part of your deposit.
+        A lease end date or closing day doesn&apos;t move. Dump Happy offers same-day or next-day
+        pickup when the schedule allows, so furniture doesn&apos;t get left behind and eat into
+        your deposit.
       </p>
 
       <h3>2. You&apos;re clearing an estate</h3>
       <p>
         Estate clean-outs mean a whole household of items, emotional decisions, and often family
-        members living out of town. Hiring out the heavy part lets the family focus on what to keep.
-        Our <Link href="/blog/estate-cleanout-checklist">estate clean-out checklist</Link> covers
-        what to do before the crew arrives.
+        members living out of town. Handing off the heavy part lets the family focus on what to
+        keep. Our <Link href="/blog/estate-cleanout-checklist">estate clean-out checklist</Link>{" "}
+        covers what to do before the crew arrives.
       </p>
 
       <h3>3. A renovation is producing debris</h3>
       <p>
-        Old cabinets, flooring, tile, and drywall pile up fast and are heavy. If the debris is all
-        coming out at once, a single haul is usually simpler than a bin. If it trickles out over
-        weeks, compare options in{" "}
+        Old cabinets, flooring, tile, and drywall pile up fast and are heavy. A crew loads it all
+        in one visit and recycles what can be recycled. See our{" "}
+        <Link href="/services/construction-debris-removal">construction debris removal</Link>{" "}
+        service and{" "}
         <Link href="/blog/junk-removal-vs-dumpster-rental">junk removal vs. dumpster rental</Link>.
       </p>
 
       <h3>4. The items are heavy or bulky</h3>
       <p>
-        Sleeper sofas, sectionals, solid wood armoires, refrigerators, and treadmills are where DIY
+        Sleeper sofas, sectionals, solid wood armoires, refrigerators, and treadmills are where
         injuries happen. If you&apos;d need to recruit two friends and still aren&apos;t sure it
         fits through the door, that&apos;s a sign.
       </p>
 
       <h3>5. There are stairs or no elevator</h3>
       <p>
-        A third-floor walk-up turns a 20-minute job into an afternoon. The city&apos;s free bulky
-        pickup only collects items already at the curb, so the carrying is still on you.
+        A third-floor walk-up turns a 20-minute job into an afternoon. Our crew carries items from
+        any floor, so nothing needs to be at the curb before we arrive.
       </p>
 
-      <h3>6. It would take multiple trips</h3>
+      <h3>6. It would take more than one carload</h3>
       <p>
-        If one pickup truck load won&apos;t do it, every extra trip adds driving time, more fees at
-        the drop-off facility, and another round of loading and unloading. Volume is where hiring
-        pulls ahead fastest.
+        If it won&apos;t fit in one pickup truck, every extra trip adds driving, loading, and
+        unloading. Volume is where a crew saves the most time, and with load-based pricing you pay
+        once for the space you use.
       </p>
 
       <h3>7. The garage is overflowing</h3>
       <p>
-        When the car hasn&apos;t fit in the garage for years, the job is usually a mix of furniture,
-        boxes, old paint, and broken equipment. A crew sorts it in one visit, routing usable items to
-        donation and recyclables to recyclers. See{" "}
-        <Link href="/blog/how-to-prep-garage-cleanout">how to prep for a garage clean-out</Link>.
+        When the car hasn&apos;t fit in the garage for years, the job is usually a mix of
+        furniture, boxes, and broken equipment. We sort it in one visit, donating usable items and
+        sending recyclables to recyclers. See{" "}
+        <Link href="/blog/how-to-prep-garage-cleanout">how to prep for a garage clean-out</Link>{" "}
+        and our <Link href="/services/garage-cleanout">garage clean-out service</Link>.
       </p>
 
       <h3>8. You&apos;re turning over a rental unit</h3>
       <p>
-        Landlords and property managers dealing with abandoned furniture between tenants need the
-        unit empty before the next showing. A haul-away is faster than coordinating a bulky pickup
-        for a building that may not even qualify for city service. If a tenant left things behind,
-        read{" "}
+        Landlords and property managers need abandoned furniture gone before the next showing. A
+        booked haul-away clears the unit on your schedule. If a tenant left things behind, read{" "}
         <Link href="/blog/tenant-left-belongings-california">
           California&apos;s abandoned property rules
         </Link>{" "}
         first.
       </p>
 
-      <h3>9. Your time costs more than the haul</h3>
+      <h3>9. Your time is worth more than the haul</h3>
       <p>
-        A weekend spent renting a truck, loading, driving, and waiting in line at a transfer station
-        is a weekend. If that time is worth more to you than the price of a crew, hiring is the
-        cheaper option, even if it doesn&apos;t look that way on paper.
+        A weekend spent loading, driving, and unloading is a weekend gone. If that time is worth
+        more to you than the price of a crew, booking is the better deal.
       </p>
 
-      <h2>Is junk removal worth it? Rough DIY vs. hire math</h2>
+      <h2>Is junk removal worth it? What it costs with Dump Happy</h2>
       <p>
         Dump Happy prices by how much space your items take up in the truck. These are real
-        starting prices:
+        starting prices, with labor, hauling, and disposal included:
       </p>
       <table>
         <thead>
@@ -138,63 +137,31 @@ export default function WhenToHireJunkRemovalBody() {
         </tbody>
       </table>
       <p>
-        To compare, add up your DIY costs: a truck or van rental and mileage, drop-off facility
-        fees for each trip, gas, any helpers you&apos;re paying or feeding, and your own hours. Then
-        consider what&apos;s not on the receipt, like a strained back or a scuffed stairwell.
-      </p>
-      <p>
-        As a rule of thumb, a single item you can carry is cheaper to handle yourself. A half load
-        or more, especially with stairs, usually tips toward hiring, because a DIY job that size
-        often needs several trips. See the full breakdown in{" "}
+        Combining everything into one visit is the best value, since you pay for space rather than
+        per item. See the full breakdown in{" "}
         <Link href="/blog/junk-removal-cost-los-angeles">
           how much junk removal costs in Los Angeles
-        </Link>{" "}
-        or on our <Link href="/pricing">pricing page</Link>.
-      </p>
-
-      <h2>When should I NOT hire junk removal?</h2>
-      <p>Save your money in these situations:</p>
-      <ul>
-        <li>
-          <strong>One item, city-serviced home, flexible timing:</strong> if LA Sanitation collects
-          your trash, schedule a free bulky item pickup and carry the item to the curb on your trash
-          day.
-        </li>
-        <li>
-          <strong>Good-condition furniture with no deadline:</strong> sell it or donate it. See{" "}
-          <Link href="/blog/donate-furniture-los-angeles">where to donate furniture in LA</Link>.
-        </li>
-        <li>
-          <strong>Buying a replacement mattress or appliance:</strong> ask the retailer about
-          take-back or haul-away of the old one at delivery.
-        </li>
-        <li>
-          <strong>Cardboard and regular recyclables:</strong> break boxes down and use your
-          recycling bin over a few weeks.
-        </li>
-      </ul>
-      <p>
-        For more no-cost routes, see{" "}
-        <Link href="/blog/free-junk-pickup-los-angeles">free junk pickup in Los Angeles</Link> and{" "}
-        <Link href="/blog/cheapest-way-to-get-rid-of-junk-los-angeles">
+        </Link>
+        , <Link href="/blog/cheapest-way-to-get-rid-of-junk-los-angeles">
           the cheapest way to get rid of junk in LA
         </Link>
-        .
+        , or on our <Link href="/pricing">pricing page</Link>.
       </p>
 
       <h2>What should I check before hiring?</h2>
       <ul>
-        <li>A firm price before anything is lifted, based on load size or volume.</li>
-        <li>That they&apos;re insured and dispose of items legally, not by dumping.</li>
-        <li>What they do with usable items: donation, recycling, or landfill.</li>
-        <li>Whether they can take what you have; some items need special handling.</li>
+        <li>A firm price before anything is lifted, based on load size.</li>
+        <li>Legal disposal, not dumping.</li>
+        <li>What happens to usable items: donation, recycling, or landfill.</li>
+        <li>Whether they can take what you have.</li>
       </ul>
       <p>
-        Our guide to{" "}
+        Dump Happy checks every box: firm quote first, usable items donated, mattresses and
+        electronics recycled, and the rest taken to licensed facilities. Hazardous materials like
+        paint and chemicals need to go to a household hazardous waste drop-off; we&apos;ll haul
+        everything else. See{" "}
         <Link href="/blog/how-to-choose-junk-removal-company">choosing a junk removal company</Link>{" "}
-        covers the questions to ask, and{" "}
-        <Link href="/blog/what-junk-haulers-cant-take">what junk haulers can&apos;t take</Link>{" "}
-        covers the exceptions.
+        and <Link href="/blog/what-junk-haulers-cant-take">what junk haulers can&apos;t take</Link>.
       </p>
 
       <h2>Ready to hand it off?</h2>
@@ -204,7 +171,7 @@ export default function WhenToHireJunkRemovalBody() {
         Westside, South Bay, and Central LA, including{" "}
         <Link href="/locations/santa-monica">Santa Monica</Link> and{" "}
         <Link href="/locations/koreatown">Koreatown</Link>. We&apos;re open 10am to 8pm, seven days a
-        week. Call (424) 356-4141 or <Link href="/contact">get a quote</Link> with a few photos.
+        week. Call (424) 356-4141 or <Link href="/contact">get a free quote</Link> with a few photos.
       </p>
     </>
   );

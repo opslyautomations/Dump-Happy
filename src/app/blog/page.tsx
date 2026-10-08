@@ -62,7 +62,7 @@ export default function BlogIndexPage() {
                 <h2 className="mt-2 text-lg font-bold text-brand-black group-hover:text-brand-orange">
                   {post.title}
                 </h2>
-                <p className="mt-2 flex-1 text-sm text-brand-gray">{post.summary}</p>
+                <p className="mt-2 flex-1 text-sm text-brand-gray">{post.metaDescription}</p>
                 <time dateTime={post.datePublished} className="mt-4 text-xs text-brand-gray">
                   {formatDate(post.datePublished)}
                 </time>

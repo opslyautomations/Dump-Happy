@@ -4,13 +4,19 @@ export default function EstateCleanoutChecklistBody() {
   return (
     <>
       <p>
-        Clearing a family home after a loss is rarely just a logistics problem — it&apos;s an
-        emotional one wrapped around a practical one, often on a timeline you didn&apos;t choose.
-        This estate clean-out checklist is meant for executors and family members trying to figure
-        out where to actually start, in an order that protects what matters most first.
+        The simplest estate clean-out checklist is this: secure documents and valuables, let the
+        family choose keepsakes, then book Dump Happy to clear everything else in one respectful
+        visit. We sort, donate usable items, and haul the rest, from $289.
+      </p>
+      <p>
+        Call (424) 356-4141 or <Link href="/contact">get a free quote</Link> for an{" "}
+        <Link href="/services/estate-cleanout">estate clean-out</Link>, and see load tiers on our{" "}
+        <Link href="/pricing">pricing page</Link>. Clearing a family home after a loss is an
+        emotional job wrapped around a practical one, often on a timeline you didn&apos;t choose.
+        These steps are for executors and family members trying to figure out where to start.
       </p>
 
-      <h2>1. Locate documents and valuables before anything else moves</h2>
+      <h2>1. Where do you start? Locate documents and valuables first</h2>
       <p>
         Before any clearing begins, the home needs a careful pass specifically for the things that
         can&apos;t be replaced: cash, jewelry, property deeds, photographs, and military records
@@ -56,24 +62,18 @@ export default function EstateCleanoutChecklistBody() {
         single afternoon alongside everything else that needs deciding.
       </p>
 
-      <h2>4. Decide what gets donated versus disposed of</h2>
+      <h2>4. What happens to everything else?</h2>
       <p>
-        Once keepers are set aside, most of what remains falls into either donation or disposal.
-        Furniture in good condition is generally the easiest category to donate — organizations
-        like Habitat for Humanity ReStore and St. Vincent de Paul are common outlets for exactly
-        this kind of donation in LA. Items that are damaged, outdated, or simply not usable move
-        toward disposal instead. This decision doesn&apos;t need to be made item-by-item in
-        advance; a clean-out crew can sort as they go.
+        Once keepers are set aside, leave the rest to us. You don&apos;t need to decide
+        item-by-item in advance. Our crew sorts as we go: usable furniture and household goods
+        are donated, recyclables are recycled, and the rest is disposed of properly.
       </p>
 
-      <h2>5. Choose one coordinated clean-out over piecemeal pickups</h2>
+      <h2>5. Why book one coordinated clean-out?</h2>
       <p>
-        It&apos;s tempting to handle an estate in stages — a pickup here, a donation run there,
-        hauling a few things out yourself over several weekends. In practice, a single coordinated
-        clean-out almost always beats that approach, especially against a probate or escrow
-        deadline. One visit that sorts, donates, and disposes properly is faster and less
-        stressful than managing multiple separate trips while also grieving and handling estate
-        paperwork.
+        A single coordinated clean-out keeps the job on schedule, especially against a probate or
+        escrow deadline. One visit that sorts, donates, and disposes properly takes the
+        logistics off your plate while you&apos;re also grieving and handling estate paperwork.
       </p>
       <p>
         Our <Link href="/services/estate-cleanout">estate clean-out service</Link> is built
@@ -90,14 +90,18 @@ export default function EstateCleanoutChecklistBody() {
         later.
       </p>
 
-      <h2>Local considerations in larger LA homes</h2>
+      <h2>What about larger LA homes?</h2>
       <p>
         Estate clean-outs in neighborhoods with larger properties come with their own scale
         considerations — more square footage, more accumulated belongings, sometimes more
         discretion needed. If you&apos;re handling an estate in{" "}
         <Link href="/locations/beverly-hills">Beverly Hills</Link> or{" "}
         <Link href="/locations/brentwood">Brentwood</Link>, those local pages cover what to expect
-        specific to those areas.
+        specific to those areas, and our{" "}
+        <Link href="/blog/estate-cleanout-beverly-hills-brentwood">
+          guide to estate clean-outs in Beverly Hills and Brentwood
+        </Link>{" "}
+        goes further.
       </p>
 
       <p>
@@ -106,17 +110,19 @@ export default function EstateCleanoutChecklistBody() {
         let one coordinated visit handle everything else.
       </p>
 
-      <h2>A short version of the checklist</h2>
+      <h2>What&apos;s the short version of the estate clean-out checklist?</h2>
       <ol>
         <li>Search the home for documents, cash, jewelry, and valuables before anything else moves.</li>
         <li>Give family members real time to decide what they want to keep.</li>
         <li>Confirm the timeline against probate, escrow, or listing dates with the relevant professionals.</li>
-        <li>Sort what remains into donation and disposal, without needing to decide every item in advance.</li>
-        <li>Book one coordinated clean-out rather than several piecemeal pickups.</li>
+        <li>Leave the sorting of everything else to the crew; no need to decide every item in advance.</li>
+        <li>Book one coordinated Dump Happy clean-out.</li>
       </ol>
       <p>
         Keeping these steps in order — valuables first, family decisions second, logistics last —
-        is what keeps an already difficult process from becoming harder than it needs to be.
+        is what keeps an already difficult process from becoming harder than it needs to be. When
+        you&apos;re ready, call (424) 356-4141 or <Link href="/contact">get a free quote</Link>.
+        We&apos;re open 10am to 8pm, seven days a week.
       </p>
     </>
   );

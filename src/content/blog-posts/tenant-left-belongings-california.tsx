@@ -7,14 +7,19 @@ export default function TenantLeftBelongingsCaliforniaBody() {
   return (
     <>
       <p>
-        The tenant is gone, the keys are back, and the unit still has a couch, a closet full of
-        clothes, and a garage stacked with boxes. It&apos;s tempting to rent a truck and clear it
-        all out that afternoon, but California has a specific legal process for belongings left
-        behind, and skipping it can expose a landlord to liability. Here&apos;s how it works under
-        Civil Code sections 1980 through 1991.
+        If a tenant left belongings behind in California, give the required written notice, wait
+        out the 15- or 18-day claim period, and then book Dump Happy to clear the unit in one
+        visit. We sort, donate what&apos;s usable, and haul the rest, from $289.
+      </p>
+      <p>
+        Call (424) 356-4141 or <Link href="/contact">get a free quote</Link> for{" "}
+        <Link href="/services/junk-removal">junk removal</Link>, and see load tiers on our{" "}
+        <Link href="/pricing">pricing page</Link>. Skipping the legal process can expose a
+        landlord to liability, so here&apos;s how tenant abandoned property rules work in
+        California under Civil Code sections 1980 through 1991.
       </p>
 
-      <h2>When these rules apply</h2>
+      <h2>When do California&apos;s tenant abandoned property rules apply?</h2>
       <p>
         The process applies when personal property remains on the premises after a tenancy has
         ended and the tenant has moved out. That includes a tenant who moved out voluntarily and one
@@ -23,7 +28,7 @@ export default function TenantLeftBelongingsCaliforniaBody() {
         a unit as abandoned too early is a separate legal problem.
       </p>
 
-      <h2>Step 1: Send a written notice</h2>
+      <h2>Step 1: What notice do you have to send?</h2>
       <p>
         Under{" "}
         <a href={CIV("1983")} target="_blank" rel="noopener noreferrer">
@@ -51,14 +56,14 @@ export default function TenantLeftBelongingsCaliforniaBody() {
         simplest way to make sure the required language is there.
       </p>
 
-      <h2>Step 2: Store the property safely during the notice period</h2>
+      <h2>Step 2: What do you do with the property during the notice period?</h2>
       <p>
         During the notice period, the belongings need to be stored with reasonable care, either
         in the unit or somewhere safe. If the former tenant (or another owner) claims the property
         before the deadline, you release it once they pay reasonable storage costs.
       </p>
 
-      <h2>Step 3: After the deadline, what happens depends on value</h2>
+      <h2>Step 3: What happens after the deadline?</h2>
       <p>
         Under{" "}
         <a href={CIV("1988")} target="_blank" rel="noopener noreferrer">
@@ -83,10 +88,10 @@ export default function TenantLeftBelongingsCaliforniaBody() {
         but judge honestly. Electronics, tools, jewelry, or a vehicle can change the picture quickly.
       </p>
 
-      <h2>Step 4: Clear the unit</h2>
+      <h2>Step 4: How do you clear the unit?</h2>
       <p>
         Once you&apos;re legally clear to dispose of the property, the fastest way to turn the unit
-        is a single clean-out: furniture, bagged clothing, kitchen items, and whatever&apos;s in
+        is a single Dump Happy clean-out: furniture, bagged clothing, kitchen items, and whatever&apos;s in
         the garage, all in one visit. What we clear gets sorted for donation, recycling, and legal
         disposal. Our{" "}
         <Link href="/services/junk-removal">junk removal</Link> and{" "}
@@ -104,13 +109,18 @@ export default function TenantLeftBelongingsCaliforniaBody() {
         for more.
       </p>
 
-      <h2>Practical tips for landlords</h2>
+      <h2>What practical tips help landlords?</h2>
       <ul>
         <li>Photograph and inventory everything before you send the notice.</li>
         <li>Keep a copy of the notice and proof of mailing or delivery.</li>
         <li>Box and label items so a claim can be handled quickly.</li>
         <li>Put the move-out and abandoned property process in your lease and move-out letters.</li>
       </ul>
+      <p>
+        When the notice period is up, call Dump Happy at (424) 356-4141, 10am to 8pm, seven days a
+        week, or <Link href="/contact">get a free quote</Link>. We serve property managers and
+        landlords across the Westside, South Bay, and Central LA.
+      </p>
       <p className="text-sm">
         This article is general information about California law, not legal advice. For your
         specific situation, consult a landlord-tenant attorney or the{" "}

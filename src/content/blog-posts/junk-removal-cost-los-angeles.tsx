@@ -14,6 +14,10 @@ export default function JunkRemovalCostLosAngelesBody() {
         price by volume, which is why the most useful way to estimate your cost is to picture
         how much of a truck your junk would fill.
       </p>
+      <p>
+        <strong>Want your exact price?</strong> Call Dump Happy at (424) 356-4141 or{" "}
+        <Link href="/contact">get a free quote</Link> with a few photos.
+      </p>
 
       <h2>How much is junk removal in Los Angeles?</h2>
       <p>Here&apos;s what each Dump Happy load tier costs and what it usually covers:</p>
@@ -161,6 +165,12 @@ export default function JunkRemovalCostLosAngelesBody() {
         whether an item needs special handling on the back end, like an appliance requiring
         certified disposal, since that&apos;s about the item category rather than the volume
         itself.
+      </p>
+
+      <h2>Get your junk removal quote</h2>
+      <p>
+        Dump Happy serves the Westside, South Bay, and Central LA, open 10am to 8pm, seven days a
+        week. Call (424) 356-4141 or <Link href="/contact">get a free quote</Link>.
       </p>
     </>
   );

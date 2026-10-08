@@ -32,15 +32,15 @@ const breadcrumbItems = [
   { name: "Mattress Removal", path: "/services/mattress-removal" },
 ];
 
-const intro = `Dump Happy provides mattress removal, mattress pickup, and legal mattress disposal across Los Angeles, starting at $289 for a small load. A used mattress is one of the hardest things to get rid of on your own: donation centers won't take it, it won't fit in a car, and leaving it at the curb can cost you a fine. Dump Happy carries mattresses and box springs out of any room in your LA home and routes them into California's statewide recycling program — the responsible, legal path, without you wrestling a king-size down a stairwell. One item or a whole apartment's worth, we handle it.`;
+const intro = `Dump Happy provides mattress removal, mattress pickup, and legal mattress disposal across Los Angeles, starting at $289 for a small load. A used mattress is one of the hardest things to get rid of on your own: it's heavy and floppy, it won't fit in a car, and leaving it at the curb can cost you a fine. Dump Happy carries mattresses and box springs out of any room in your LA home and routes them to California mattress recyclers — the responsible, legal path, without you wrestling a king-size down a stairwell. One item or a whole apartment's worth, we handle it.`;
 
 const recyclingHeading = "How Mattress Recycling Works in California";
 
-const recyclingText = `California runs a statewide mattress recycling program (the Mattress Recycling Council's Bye Bye Mattress, funded by a small recycling fee charged on every mattress sold). Old units are broken down and the steel springs, foam, and fibers become carpet padding, insulation, and mulch — the reason your mattress shouldn't just hit a landfill. LA County has close to twenty free residential drop-off centers tied to this program.`;
+const recyclingText = `California law (SB 254) built a statewide system for recycling mattresses, funded by a small fee charged on every mattress sold. Old units are broken down and the steel springs, foam, and fibers become carpet padding, insulation, and mulch — the reason your mattress shouldn't just hit a landfill. When Dump Happy picks up your mattress, we route it to a California mattress recycler for you, so it ends up in that stream without you lifting a finger.`;
 
-const catchHeading = `"There's a free drop-off — so why hire you?" (The Catch)`;
+const includedHeading = "What's Included When You Book Mattress Removal";
 
-const catchText = `Two reasons. First, those free County drop-offs are for residents dropping off their own mattress — commercial haulers are barred from using them — and getting a king-size to a center means a truck or SUV you probably don't have. Second, if you leave it on the curb or in an alley instead, that's illegal dumping under California Penal Code 374.3, with LA County fines up to $10,000 — and illegally dumped mattresses are such a problem the recycling program spends millions a year cleaning them off streets. Dump Happy does the lift and the legal routing for a set, load-based price. If you can haul your own and drop it free, genuinely do — we'll even tell you where.`;
+const includedText = `Everything from the bedroom to the recycler. Our crew carries the mattress, box spring, and frame out of any room — upstairs units, no-elevator walk-ups, and tight hallways included — loads it, and routes it to a California mattress recycler. You don't need a truck, a helper, or a free afternoon. Pricing is by load, starting at $289 for a small load, which usually covers a mattress, box spring, and frame together, and you get a firm quote before we lift anything. Call (424) 356-4141 or request a free quote online; same-day or next-day pickup is often available when the schedule allows.`;
 
 const illegalDumpingReinforcement = `Leaving a mattress on a sidewalk, alley, or curb outside of a scheduled, approved pickup is illegal dumping under California Penal Code 374.3 — the same law that covers furniture and bags of junk. LA County fines run up to $10,000, on top of possible cleanup costs. A booked mattress removal is the simple way to avoid it entirely.`;
 
@@ -58,12 +58,12 @@ const faqs: FaqItem[] = [
   {
     question: "How do you dispose of a mattress in Los Angeles?",
     answer:
-      "We haul it from your room and route it into California's Bye Bye Mattress recycling program, where the springs, foam, and fabric are recovered and reused. That keeps it out of a landfill and off the street — and off your to-do list, since you don't handle the lift or the drop-off.",
+      "We haul it from your room and route it to a California mattress recycler, where the springs, foam, and fabric are recovered and reused. That keeps it out of a landfill and off the street — and off your to-do list, since you never handle the lift or the hauling.",
   },
   {
-    question: "There are free mattress drop-offs — why should I pay?",
+    question: "What's included when I book mattress removal?",
     answer:
-      "If you can get your mattress to one of LA County's residential drop-off centers yourself, it's free and we'll point you there. Hire us when it's a king you can't transport, it's upstairs, there are several, or you'd otherwise be tempted to leave it at the curb — which is illegal dumping and can bring a fine far higher than our fee.",
+      "Everything: our crew carries the mattress out of any room — upstairs and no-elevator buildings included — loads it, and routes it to a California mattress recycler. Box springs and frames can go in the same trip. Pricing starts at $289 for a small load, with a firm quote before we lift anything.",
   },
   {
     question: "Do you take box springs and futons too?",
@@ -73,7 +73,7 @@ const faqs: FaqItem[] = [
   {
     question: "Will you take a stained or old mattress?",
     answer:
-      "Yes. Condition doesn't matter for removal — recycling processes the materials regardless. (It's exactly why donation isn't an option for mattresses: charities decline them on hygiene grounds, so recycling is the responsible route.)",
+      "Yes. Condition doesn't matter for removal — every mattress we haul goes to a California mattress recycler, which processes the materials regardless of stains or wear.",
   },
   {
     question: "Is it illegal to leave a mattress on the curb?",
@@ -95,7 +95,7 @@ const faqs: FaqItem[] = [
 const MATTRESS_GUIDES = [
   { href: "/blog/how-to-get-rid-of-a-mattress-los-angeles", label: "How to get rid of an old mattress in Los Angeles" },
   { href: "/blog/mattress-pickup-los-angeles", label: "Mattress pickup in Los Angeles: same-day and scheduled options" },
-  { href: "/blog/free-mattress-pickup-los-angeles", label: "Free mattress pickup in LA: every option compared" },
+  { href: "/blog/free-mattress-pickup-los-angeles", label: "Free mattress pickup in LA? What mattress pickup really costs" },
   { href: "/blog/mattress-removal-cost-los-angeles", label: "How much mattress removal costs in Los Angeles" },
   { href: "/blog/mattress-recycling-los-angeles", label: "Mattress recycling in LA: where your old mattress goes" },
   { href: "/blog/box-spring-bed-frame-disposal-los-angeles", label: "Box spring and bed frame disposal" },
@@ -110,7 +110,7 @@ export default function MattressRemovalPage() {
           serviceJsonLd({
             name: "Mattress Removal",
             description:
-              "Mattress and box spring removal in Los Angeles, recycled through California's Bye Bye Mattress program.",
+              "Mattress and box spring removal in Los Angeles, routed to California mattress recyclers.",
             path: "/services/mattress-removal",
           }),
           faqPageJsonLd(faqs),
@@ -133,8 +133,8 @@ export default function MattressRemovalPage() {
       </Section>
 
       <Section bg="offwhite">
-        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">{catchHeading}</h2>
-        <p className="mt-4 leading-relaxed text-brand-charcoal">{catchText}</p>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">{includedHeading}</h2>
+        <p className="mt-4 leading-relaxed text-brand-charcoal">{includedText}</p>
       </Section>
 
       <Section>
@@ -215,26 +215,6 @@ export default function MattressRemovalPage() {
         <div className="mt-6">
           <FAQAccordion faqs={faqs} />
         </div>
-        <p className="mt-6 text-sm text-brand-gray">
-          Learn more:{" "}
-          <a
-            href="https://cleanla.lacounty.gov/mrp/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-brand-orange hover:underline"
-          >
-            LA County Countywide Mattress Recycling Program
-          </a>{" "}
-          ·{" "}
-          <a
-            href="https://byebyemattress.com/california/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-brand-orange hover:underline"
-          >
-            Bye Bye Mattress (California)
-          </a>
-        </p>
       </Section>
 
       <ServicesGrid heading="Explore All Our Services" />
