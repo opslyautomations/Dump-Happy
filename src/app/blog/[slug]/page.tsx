@@ -56,6 +56,8 @@ export default async function BlogPostPage({
             image: `${SITE.url}/blog/${post.slug}/opengraph-image`,
             datePublished: post.datePublished,
             dateModified: post.dateModified,
+            keywords: post.targetKeyword,
+            abstract: post.quickAnswer,
           }),
           breadcrumbJsonLd([
             { name: "Home", path: "/" },
@@ -80,9 +82,27 @@ export default async function BlogPostPage({
         <h1 className="mt-2 text-3xl font-bold tracking-tight text-brand-ink sm:text-4xl">
           {post.title}
         </h1>
-        <time dateTime={post.datePublished} className="mt-3 block text-sm text-brand-gray">
-          {formatDate(post.datePublished)}
-        </time>
+        <p className="mt-3 text-sm text-brand-gray">
+          <time dateTime={post.datePublished}>{formatDate(post.datePublished)}</time>
+          {post.dateModified !== post.datePublished && (
+            <>
+              {" · Updated "}
+              <time dateTime={post.dateModified}>{formatDate(post.dateModified)}</time>
+            </>
+          )}
+        </p>
+
+        {post.quickAnswer && (
+          <aside
+            data-quick-answer
+            className="mt-8 rounded-xl border-l-4 border-brand-orange bg-brand-orange/5 p-6"
+          >
+            <p className="text-xs font-bold uppercase tracking-wide text-brand-orange">
+              Quick answer
+            </p>
+            <p className="mt-2 leading-relaxed text-brand-ink">{post.quickAnswer}</p>
+          </aside>
+        )}
 
         <Image
           src={`/blog/${post.slug}/opengraph-image`}
@@ -94,7 +114,7 @@ export default async function BlogPostPage({
           className="mt-8 aspect-[1200/630] w-full rounded-xl object-cover"
         />
 
-        <div className="prose-content mt-10 space-y-5 leading-relaxed text-brand-charcoal [&_a]:font-semibold [&_a]:text-brand-orange [&_a:hover]:underline [&_h2]:mt-10 [&_h2]:text-2xl [&_h2]:font-extrabold [&_h2]:text-brand-black [&_h3]:mt-6 [&_h3]:text-xl [&_h3]:font-bold [&_h3]:text-brand-black [&_ul]:list-disc [&_ul]:pl-6 [&_ol]:list-decimal [&_ol]:pl-6">
+        <div className="prose-content mt-10 space-y-5 leading-relaxed text-brand-charcoal [&_a]:font-semibold [&_a]:text-brand-orange [&_a:hover]:underline [&_h2]:mt-10 [&_h2]:text-2xl [&_h2]:font-extrabold [&_h2]:text-brand-black [&_h3]:mt-6 [&_h3]:text-xl [&_h3]:font-bold [&_h3]:text-brand-black [&_ul]:list-disc [&_ul]:pl-6 [&_ol]:list-decimal [&_ol]:pl-6 [&_table]:block [&_table]:max-w-full [&_table]:overflow-x-auto [&_table]:border-collapse [&_table]:text-sm [&_th]:border-b-2 [&_th]:border-black/10 [&_th]:p-2 [&_th]:text-left [&_th]:font-bold [&_th]:text-brand-black [&_td]:border-b [&_td]:border-black/10 [&_td]:p-2 [&_td]:align-top">
           {Body ? <Body /> : <p>Content coming soon.</p>}
         </div>
 

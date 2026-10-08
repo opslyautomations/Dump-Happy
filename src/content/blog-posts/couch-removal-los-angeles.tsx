@@ -39,8 +39,7 @@ export default function CouchRemovalLosAngelesBody() {
         If your home gets trash service from LA Sanitation, you can schedule a free bulky item
         pickup through MyLA311 or 311 at least one business day before your regular trash day. The
         catch: you have to get the couch to the curb yourself, and only set it out for a scheduled
-        pickup. Larger apartment buildings usually use a private hauler instead, so ask your
-        property manager.
+        pickup. In the City of LA, apartment buildings with five or more units still get LA Sanitation bulky pickup (it&apos;s funded through a fee on the LADWP bill), though your property manager may handle the booking or tell you where to set items out.
       </p>
 
       <h2>Option 4: Have it hauled away</h2>

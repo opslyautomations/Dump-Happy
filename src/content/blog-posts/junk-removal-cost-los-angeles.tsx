@@ -4,12 +4,62 @@ export default function JunkRemovalCostLosAngelesBody() {
   return (
     <>
       <p>
-        If you&apos;ve started asking around about junk removal cost in Los Angeles, you&apos;ve
-        probably noticed nobody gives you a straight number over the phone. That&apos;s not
-        evasiveness — it&apos;s because reputable haulers, Dump Happy included, don&apos;t price by
-        the hour or by counting individual items. We price by how much space your junk takes up in
-        the truck. Once you understand that system, the whole question of &quot;how much will this
-        cost&quot; gets a lot easier to answer for yourself.
+        Junk removal in Los Angeles typically costs between $289 and $899 with Dump Happy,
+        depending on how much space your items take up in the truck. A few items or a single
+        bulky piece starts at $289; a full 16ft trailer load for a whole-property clean-out
+        starts at $899. Labor, hauling, and disposal fees are included in the quote.
+      </p>
+      <p>
+        Reputable haulers don&apos;t price by the hour or by counting individual items. They
+        price by volume, which is why the most useful way to estimate your cost is to picture
+        how much of a truck your junk would fill.
+      </p>
+
+      <h2>How much is junk removal in Los Angeles?</h2>
+      <p>Here&apos;s what each Dump Happy load tier costs and what it usually covers:</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Load size</th>
+            <th>Starting price</th>
+            <th>Typical job</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Small load (pickup truck)</td>
+            <td>$289</td>
+            <td>A single couch, mattress set, or handful of items</td>
+          </tr>
+          <tr>
+            <td>Quarter load</td>
+            <td>$389</td>
+            <td>A small room&apos;s worth of furniture and boxes</td>
+          </tr>
+          <tr>
+            <td>Half load</td>
+            <td>$569</td>
+            <td>A garage corner or a couple of rooms</td>
+          </tr>
+          <tr>
+            <td>Three-quarter load</td>
+            <td>$739</td>
+            <td>A packed garage or large multi-room clear-out</td>
+          </tr>
+          <tr>
+            <td>Full load (16ft trailer)</td>
+            <td>$899</td>
+            <td>Whole-home, estate, or hoarding clean-outs</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        The full breakdown is on our <Link href="/pricing">pricing page</Link>. If budget is the
+        main concern, read{" "}
+        <Link href="/blog/cheapest-way-to-get-rid-of-junk-los-angeles">
+          the cheapest ways to get rid of junk in LA
+        </Link>
+        .
       </p>
 
       <h2>Why load-based pricing makes more sense than hourly pricing</h2>
@@ -20,43 +70,6 @@ export default function JunkRemovalCostLosAngelesBody() {
         problems: you&apos;re charged for the physical space your stuff occupies, which is the
         actual cost driver for the crew — fuel, dump fees, and labor all scale with volume, not
         with the clock.
-      </p>
-
-      <h2>The six load tiers, explained</h2>
-      <p>
-        Dump Happy quotes every job against a simple six-tier system, from smallest to largest.
-        Here&apos;s what each one generally covers:
-      </p>
-      <ul>
-        <li>
-          <strong>Single item:</strong> One bulky piece — a couch, a mattress, a refrigerator, a
-          washer/dryer. No sorting required, in and out fast.
-        </li>
-        <li>
-          <strong>Small load:</strong> A handful of items — a few boxes, a couple of pieces of
-          furniture, a small pile of yard debris.
-        </li>
-        <li>
-          <strong>Quarter load:</strong> Roughly a quarter of a standard truck — think a small
-          apartment&apos;s worth of unwanted furniture or a modest garage corner.
-        </li>
-        <li>
-          <strong>Half load:</strong> A full room or two of furniture and boxes, or a mid-size
-          garage clean-out.
-        </li>
-        <li>
-          <strong>Three-quarter load:</strong> Multiple rooms, a packed garage, or a small
-          construction debris pile.
-        </li>
-        <li>
-          <strong>Full load:</strong> Whole-property clean-outs — estate clear-outs, hoarding
-          situations, or a full garage plus yard.
-        </li>
-      </ul>
-      <p>
-        Every tier maps to a set price range on our{" "}
-        <Link href="/pricing">pricing page</Link>, so you can get a rough sense of where your job
-        lands before we even show up.
       </p>
 
       <h2>What actually makes a load bigger or smaller</h2>

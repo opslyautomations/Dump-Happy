@@ -94,6 +94,7 @@ export function Footer() {
                 ["Gallery", "/gallery"],
                 ["Blog", "/blog"],
                 ["Pricing", "/pricing"],
+                ["FAQ", "/faq"],
                 ...(PROMO.active ? [["Specials", "/specials"]] : []),
                 ["Contact", "/contact"],
               ].map(([label, href]) => (

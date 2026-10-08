@@ -23,13 +23,18 @@ const SERVICE_NAME = "Yard/Green Waste Removal";
 const PATH = "/services/yard-waste-removal";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Yard & Green Waste Removal in Los Angeles | Dump Happy",
+  title: "Green Waste Removal & Hauling in Los Angeles | Dump Happy",
   description:
-    "Yard waste removal in LA — branches, trimmings, sod, and storm debris hauled to organics facilities, not landfills. Load-based pricing, free quote.",
+    "Green waste removal and hauling in LA from $289. Branches, palm fronds, trimmings, and sod hauled to organics facilities, not landfills. Free quote.",
   path: PATH,
 });
 
 const faqs: FaqItem[] = [
+  {
+    question: "Who does green waste removal in Los Angeles?",
+    answer:
+      "Dump Happy provides green waste removal and green waste hauling across LA's Westside, South Bay, and Central LA, 7 days a week from 10am to 8pm. We load branches, palm fronds, trimmings, leaves, and sod from anywhere on the property and haul them to organics facilities for composting or mulch. Pricing starts at $289 for a small load.",
+  },
   {
     question: "What yard waste do you take?",
     answer:
@@ -58,8 +63,16 @@ const faqs: FaqItem[] = [
   {
     question: "How is yard waste removal priced?",
     answer:
-      "By volume in the truck — a few bags of trimmings is a small load; a cleared-out yard runs higher — quoted before we start, with no per-bag surprises.",
+      "Green waste removal is priced by how much of the truck it fills: a small load starts at $289, a quarter load at $389, a half load at $569, and a full 16ft trailer at $899. A few piles of trimmings is usually a small load; a full yard clear-out runs higher. You get the price before we start loading, with no per-bag charges.",
   },
+];
+
+const GREEN_WASTE_GUIDES = [
+  { href: "/blog/green-waste-removal-los-angeles", label: "Green waste removal in Los Angeles: the complete guide" },
+  { href: "/blog/green-waste-hauling-los-angeles", label: "Green waste hauling for homeowners, landscapers, and property managers" },
+  { href: "/blog/green-waste-removal-cost-los-angeles", label: "How much green waste removal costs in LA" },
+  { href: "/blog/too-much-yard-waste-for-green-bin-los-angeles", label: "Too much yard waste for the green bin? Branches, palm fronds, and overflow" },
+  { href: "/blog/sb-1383-yard-waste-los-angeles", label: "SB 1383 and your yard waste" },
 ];
 
 export default function YardWasteRemovalPage() {
@@ -92,10 +105,11 @@ export default function YardWasteRemovalPage() {
 
       <Hero
         background={{ type: "pattern", tone: "orange" }}
-        h1={<>Yard &amp; Green Waste Removal in Los Angeles</>}
+        h1={<>Green Waste Removal &amp; Yard Waste Hauling in Los Angeles</>}
         intro={
           <p>
-            A weekend of yard work, a tree that came down, or a long-overdue overgrowth
+            Dump Happy handles green waste removal and green waste hauling across Los
+            Angeles, starting at $289. A weekend of yard work, a tree that came down, or a long-overdue overgrowth
             clear-out leaves piles the green bin can&apos;t touch. Dump Happy hauls yard and
             green waste across Los Angeles — branches, trimmings, leaves, sod, brush, and storm
             debris — and takes it to organics facilities so it&apos;s composted or mulched, not
@@ -164,13 +178,28 @@ export default function YardWasteRemovalPage() {
       </Section>
 
       <Section>
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">
+          Green Waste Removal Guides for Los Angeles
+        </h2>
+        <ul className="mt-4 list-disc space-y-2 pl-6 leading-relaxed text-brand-charcoal">
+          {GREEN_WASTE_GUIDES.map((g) => (
+            <li key={g.href}>
+              <Link href={g.href} className="font-semibold text-brand-orange hover:underline">
+                {g.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </Section>
+
+      <Section bg="offwhite">
         <h2 className="text-2xl font-bold tracking-tight text-brand-ink">What Our Clients Say</h2>
         <div className="mt-6">
           <ReviewSlot contextKey="service:yard-waste-removal" label={SERVICE_NAME} />
         </div>
       </Section>
 
-      <Section bg="offwhite">
+      <Section>
         <h2 className="text-2xl font-bold tracking-tight text-brand-ink">
           Frequently Asked Questions
         </h2>
@@ -179,7 +208,7 @@ export default function YardWasteRemovalPage() {
         </div>
       </Section>
 
-      <Section>
+      <Section bg="offwhite">
         <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-brand-gray">
           <span className="font-semibold text-brand-black">Related services:</span>
           <Link href="/services/junk-removal" className="text-brand-orange hover:underline">

@@ -20,9 +20,9 @@ import { PillList } from "@/components/page-sections/PillList";
 import { QuoteForm } from "@/components/QuoteForm";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Mattress Removal in Los Angeles | Dump Happy",
+  title: "Mattress Removal, Pickup & Disposal in LA | Dump Happy",
   description:
-    "Old mattress or box spring in LA? Dump Happy hauls it from any room and routes it to California's recycling program. Load-based pricing — free quote today.",
+    "Mattress removal and pickup in Los Angeles from $289. We carry it out of any room and handle legal mattress disposal through California recycling.",
   path: "/services/mattress-removal",
 });
 
@@ -32,7 +32,7 @@ const breadcrumbItems = [
   { name: "Mattress Removal", path: "/services/mattress-removal" },
 ];
 
-const intro = `A used mattress is one of the hardest things to get rid of on your own: donation centers won't take it, it won't fit in a car, and leaving it at the curb can cost you a fine. Dump Happy carries mattresses and box springs out of any room in your LA home and routes them into California's statewide recycling program — the responsible, legal path, without you wrestling a king-size down a stairwell. One item or a whole apartment's worth, we handle it.`;
+const intro = `Dump Happy provides mattress removal, mattress pickup, and legal mattress disposal across Los Angeles, starting at $289 for a small load. A used mattress is one of the hardest things to get rid of on your own: donation centers won't take it, it won't fit in a car, and leaving it at the curb can cost you a fine. Dump Happy carries mattresses and box springs out of any room in your LA home and routes them into California's statewide recycling program — the responsible, legal path, without you wrestling a king-size down a stairwell. One item or a whole apartment's worth, we handle it.`;
 
 const recyclingHeading = "How Mattress Recycling Works in California";
 
@@ -45,6 +45,16 @@ const catchText = `Two reasons. First, those free County drop-offs are for resid
 const illegalDumpingReinforcement = `Leaving a mattress on a sidewalk, alley, or curb outside of a scheduled, approved pickup is illegal dumping under California Penal Code 374.3 — the same law that covers furniture and bags of junk. LA County fines run up to $10,000, on top of possible cleanup costs. A booked mattress removal is the simple way to avoid it entirely.`;
 
 const faqs: FaqItem[] = [
+  {
+    question: "What's the difference between mattress removal, mattress pickup, and mattress disposal?",
+    answer:
+      "In practice they're the same job. Mattress pickup or removal means a crew carries the mattress out of your home and hauls it away; mattress disposal is where it ends up. Dump Happy does all three in one visit: we lift it from any room, load it, and route it to a California mattress recycler instead of a landfill.",
+  },
+  {
+    question: "Do you offer same-day mattress pickup in Los Angeles?",
+    answer:
+      "Often, yes. We're open 10am to 8pm, 7 days a week, and can usually do same-day or next-day mattress pickup across the Westside, South Bay, and Central LA when the schedule allows. Call (424) 356-4141 to check today's availability.",
+  },
   {
     question: "How do you dispose of a mattress in Los Angeles?",
     answer:
@@ -78,8 +88,18 @@ const faqs: FaqItem[] = [
   {
     question: "How much does mattress removal cost?",
     answer:
-      "It's part of our load-based pricing — a single mattress is a single-item pickup; a set or several units scales up. You'll have a firm quote before we lift. Ask for an estimate with the count and floor when you call.",
+      "Mattress removal in Los Angeles starts at $289 for a small load, which usually covers a mattress, box spring, and bed frame together. Several mattresses move up to the next load tier rather than being billed per piece. You get a firm quote before we lift anything.",
   },
+];
+
+const MATTRESS_GUIDES = [
+  { href: "/blog/how-to-get-rid-of-a-mattress-los-angeles", label: "How to get rid of an old mattress in Los Angeles" },
+  { href: "/blog/mattress-pickup-los-angeles", label: "Mattress pickup in Los Angeles: same-day and scheduled options" },
+  { href: "/blog/free-mattress-pickup-los-angeles", label: "Free mattress pickup in LA: every option compared" },
+  { href: "/blog/mattress-removal-cost-los-angeles", label: "How much mattress removal costs in Los Angeles" },
+  { href: "/blog/mattress-recycling-los-angeles", label: "Mattress recycling in LA: where your old mattress goes" },
+  { href: "/blog/box-spring-bed-frame-disposal-los-angeles", label: "Box spring and bed frame disposal" },
+  { href: "/blog/bed-bug-mattress-disposal", label: "Disposing of a mattress with bed bugs" },
 ];
 
 export default function MattressRemovalPage() {
@@ -101,7 +121,7 @@ export default function MattressRemovalPage() {
       <Breadcrumbs items={breadcrumbItems} />
 
       <Hero
-        h1="Mattress Removal in Los Angeles — Off Your Floor, Into California's Recycling Stream"
+        h1="Mattress Removal & Pickup in Los Angeles — Off Your Floor, Into California's Recycling Stream"
         intro={<p>{intro}</p>}
         background={{ type: "pattern", tone: "orange" }}
         aside={<QuoteForm compact variant="glass" defaultService="mattress-removal" />}
@@ -144,7 +164,19 @@ export default function MattressRemovalPage() {
       </Section>
 
       <Section bg="offwhite">
-        <p className="leading-relaxed text-brand-charcoal">
+        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">
+          Mattress Pickup &amp; Disposal Guides for Los Angeles
+        </h2>
+        <ul className="mt-4 list-disc space-y-2 pl-6 leading-relaxed text-brand-charcoal">
+          {MATTRESS_GUIDES.map((g) => (
+            <li key={g.href}>
+              <Link href={g.href} className="font-semibold text-brand-orange hover:underline">
+                {g.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+        <p className="mt-6 leading-relaxed text-brand-charcoal">
           Replacing the whole bedroom set? See{" "}
           <Link
             href="/services/furniture-removal"

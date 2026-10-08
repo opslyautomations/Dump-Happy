@@ -1,5 +1,7 @@
 export const SITE = {
   name: "Dump Happy",
+  // Brand-name variants people actually search (GSC shows "happy dump").
+  alternateNames: ["Happy Dump", "DumpHappy", "Dump Happy Junk Removal"],
   tagline: "Fast. Reliable. Happy Dumping!",
   domain: "dumphappy.com",
   // Must match the primary domain in Vercel (apex redirects to www) so canonicals don't point at a redirect.
@@ -22,5 +24,6 @@ export const NAV_COMPANY_LINKS = [
   { href: "/reviews", label: "Reviews" },
   { href: "/gallery", label: "Gallery" },
   { href: "/blog", label: "Blog" },
+  { href: "/faq", label: "FAQ" },
   { href: "/contact", label: "Contact" },
 ] as const;

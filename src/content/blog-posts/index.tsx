@@ -28,6 +28,21 @@ import TvDisposalLosAngeles from "./tv-disposal-los-angeles";
 import CouchRemovalLosAngeles from "./couch-removal-los-angeles";
 import DonateFurnitureLosAngeles from "./donate-furniture-los-angeles";
 import HowToChooseJunkRemovalCompany from "./how-to-choose-junk-removal-company";
+import HowToGetRidOfAMattressLosAngeles from "./how-to-get-rid-of-a-mattress-los-angeles";
+import MattressPickupLosAngeles from "./mattress-pickup-los-angeles";
+import MattressRecyclingLosAngeles from "./mattress-recycling-los-angeles";
+import BoxSpringBedFrameDisposalLosAngeles from "./box-spring-bed-frame-disposal-los-angeles";
+import GreenWasteRemovalLosAngeles from "./green-waste-removal-los-angeles";
+import GreenWasteHaulingLosAngeles from "./green-waste-hauling-los-angeles";
+import GreenWasteRemovalCostLosAngeles from "./green-waste-removal-cost-los-angeles";
+import TooMuchYardWasteForGreenBinLosAngeles from "./too-much-yard-waste-for-green-bin-los-angeles";
+import FurnitureDisposalLosAngeles from "./furniture-disposal-los-angeles";
+import WhenToHireJunkRemoval from "./when-to-hire-junk-removal";
+import FreeJunkPickupLosAngeles from "./free-junk-pickup-los-angeles";
+import BulkyItemPickupLosAngeles from "./bulky-item-pickup-los-angeles";
+import HowToGetRidOfLargeFurnitureBoxes from "./how-to-get-rid-of-large-furniture-boxes";
+import CheapestWayToGetRidOfJunkLosAngeles from "./cheapest-way-to-get-rid-of-junk-los-angeles";
+import BestJunkRemovalServiceLosAngeles from "./best-junk-removal-service-los-angeles";
 
 export const BLOG_BODIES: Record<string, ComponentType> = {
   "junk-removal-cost-los-angeles": JunkRemovalCostLosAngeles,
@@ -58,4 +73,19 @@ export const BLOG_BODIES: Record<string, ComponentType> = {
   "couch-removal-los-angeles": CouchRemovalLosAngeles,
   "donate-furniture-los-angeles": DonateFurnitureLosAngeles,
   "how-to-choose-junk-removal-company": HowToChooseJunkRemovalCompany,
+  "how-to-get-rid-of-a-mattress-los-angeles": HowToGetRidOfAMattressLosAngeles,
+  "mattress-pickup-los-angeles": MattressPickupLosAngeles,
+  "mattress-recycling-los-angeles": MattressRecyclingLosAngeles,
+  "box-spring-bed-frame-disposal-los-angeles": BoxSpringBedFrameDisposalLosAngeles,
+  "green-waste-removal-los-angeles": GreenWasteRemovalLosAngeles,
+  "green-waste-hauling-los-angeles": GreenWasteHaulingLosAngeles,
+  "green-waste-removal-cost-los-angeles": GreenWasteRemovalCostLosAngeles,
+  "too-much-yard-waste-for-green-bin-los-angeles": TooMuchYardWasteForGreenBinLosAngeles,
+  "furniture-disposal-los-angeles": FurnitureDisposalLosAngeles,
+  "when-to-hire-junk-removal": WhenToHireJunkRemoval,
+  "free-junk-pickup-los-angeles": FreeJunkPickupLosAngeles,
+  "bulky-item-pickup-los-angeles": BulkyItemPickupLosAngeles,
+  "how-to-get-rid-of-large-furniture-boxes": HowToGetRidOfLargeFurnitureBoxes,
+  "cheapest-way-to-get-rid-of-junk-los-angeles": CheapestWayToGetRidOfJunkLosAngeles,
+  "best-junk-removal-service-los-angeles": BestJunkRemovalServiceLosAngeles,
 };

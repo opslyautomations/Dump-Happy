@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { buildMetadata, breadcrumbJsonLd, localBusinessJsonLd } from "@/lib/seo";
+import {
+  buildMetadata,
+  breadcrumbJsonLd,
+  faqPageJsonLd,
+  localBusinessJsonLd,
+  type FaqItem,
+} from "@/lib/seo";
+import { FAQAccordion } from "@/components/FAQAccordion";
 import { JsonLd } from "@/components/JsonLd";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CTABand } from "@/components/CTABand";
@@ -13,12 +20,36 @@ export const metadata: Metadata = buildMetadata({
   path: "/about",
 });
 
+const faqs: FaqItem[] = [
+  {
+    question: "Is Happy Dump the same company as Dump Happy?",
+    answer:
+      "Yes. People sometimes search for us as \"Happy Dump,\" but the company is Dump Happy, a locally owned junk removal company in Los Angeles. You can reach us at (424) 356-4141 or dumphappy.com.",
+  },
+  {
+    question: "What does Dump Happy do?",
+    answer:
+      "Dump Happy is a Los Angeles junk removal company. We handle mattress removal and pickup, green waste removal and hauling, furniture and appliance removal, garage and estate clean-outs, construction debris, hot tub removal, and commercial clear-outs.",
+  },
+  {
+    question: "Where does Dump Happy operate?",
+    answer:
+      "We serve the Westside, South Bay, and Central LA, including Santa Monica, Culver City, Beverly Hills, West Hollywood, Marina del Rey, Venice, Sawtelle, Brentwood, Westchester, Mid-City, and Koreatown. We're open 10am to 8pm, 7 days a week.",
+  },
+  {
+    question: "How much does Dump Happy charge?",
+    answer:
+      "Pricing is based on how much space your items take in the truck, starting at $289 for a small load and up to $899 for a full 16ft trailer. You get a firm quote before we start loading, with no hidden fees.",
+  },
+];
+
 export default function AboutPage() {
   return (
     <>
       <JsonLd
         data={[
           localBusinessJsonLd(),
+          faqPageJsonLd(faqs),
           breadcrumbJsonLd([
             { name: "Home", path: "/" },
             { name: "About", path: "/about" },
@@ -125,6 +156,17 @@ export default function AboutPage() {
           truck and the crew to you — no storefront, no unnecessary overhead,
           just fast, reliable hauling wherever you are in Los Angeles County.
         </p>
+      </section>
+
+      <section className="bg-brand-offwhite">
+        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold tracking-tight text-brand-ink">
+            Frequently Asked Questions About Dump Happy
+          </h2>
+          <div className="mt-6">
+            <FAQAccordion faqs={faqs} />
+          </div>
+        </div>
       </section>
 
       <CTABand />

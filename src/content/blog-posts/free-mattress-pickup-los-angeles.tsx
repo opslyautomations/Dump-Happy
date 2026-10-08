@@ -24,8 +24,7 @@ export default function FreeMattressPickupLosAngelesBody() {
       <p>
         <strong>Watch out for:</strong> putting the mattress out without a scheduled pickup. A
         mattress on the parkway with no request behind it isn&apos;t a pickup; it&apos;s illegal
-        dumping. Also, larger apartment buildings are usually served by a private franchised
-        hauler rather than LA Sanitation, so check with your property manager first. And if you
+        dumping. Also, if you live in a larger apartment building, check with your property manager first: in the City of LA these buildings still get LA Sanitation bulky pickup, but the manager may handle the booking. And if you
         live in Santa Monica, Culver City, Beverly Hills, or West Hollywood, those cities run their
         own sanitation services with their own rules.
       </p>

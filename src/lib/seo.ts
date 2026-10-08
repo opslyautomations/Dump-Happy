@@ -18,7 +18,9 @@ export function buildMetadata({
 }: BuildMetadataArgs): Metadata {
   const url = `${SITE.url}${path}`;
   return {
-    title,
+    // Titles that already carry the brand skip the layout's "%s | Dump Happy"
+    // template, which would otherwise double it.
+    title: title.includes(SITE.name) ? { absolute: title } : title,
     description,
     alternates: { canonical: url },
     robots: noindex
@@ -50,6 +52,7 @@ export function organizationJsonLd() {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: SITE.name,
+    alternateName: SITE.alternateNames,
     url: SITE.url,
     telephone: SITE.phoneRaw,
     ...(SITE.email ? { email: SITE.email } : {}),
@@ -63,6 +66,7 @@ export function websiteJsonLd() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: SITE.name,
+    alternateName: SITE.alternateNames,
     url: SITE.url,
   };
 }
@@ -75,6 +79,9 @@ export function localBusinessJsonLd(opts: {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: SITE.name,
+    alternateName: SITE.alternateNames,
+    description:
+      "Locally owned junk removal company in Los Angeles: mattress removal and pickup, green waste hauling, furniture, appliance, and full clean-outs with load-based pricing from $289.",
     telephone: SITE.phoneRaw,
     ...(SITE.email ? { email: SITE.email } : {}),
     url: SITE.url,
@@ -172,13 +179,21 @@ export function blogPostingJsonLd(opts: {
   image: string;
   datePublished: string;
   dateModified: string;
+  keywords?: string;
+  abstract?: string;
 }) {
   return {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     headline: opts.title,
     description: opts.description,
+    ...(opts.abstract ? { abstract: opts.abstract } : {}),
+    ...(opts.keywords ? { keywords: opts.keywords } : {}),
+    inLanguage: "en-US",
     url: `${SITE.url}${opts.path}`,
+    mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE.url}${opts.path}` },
+    // The summary box carries the quotable answer for AI assistants and voice.
+    speakable: { "@type": "SpeakableSpecification", cssSelector: ["h1", "[data-quick-answer]"] },
     image: opts.image,
     datePublished: opts.datePublished,
     dateModified: opts.dateModified,

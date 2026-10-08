@@ -14,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.url}/gallery`, changeFrequency: "monthly", priority: 0.5 },
     { url: `${SITE.url}/contact`, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE.url}/pricing`, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${SITE.url}/faq`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE.url}/services`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE.url}/locations`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE.url}/blog`, changeFrequency: "weekly", priority: 0.6 },
