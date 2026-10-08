@@ -24,9 +24,6 @@ export const metadata: Metadata = {
   description:
     "Locally owned junk removal and clean-outs across LA's Westside, South Bay, and Central LA. Load-based pricing, legal disposal, no hidden fees.",
   applicationName: SITE.name,
-  icons: {
-    icon: "/favicon.ico",
-  },
   openGraph: {
     siteName: SITE.name,
     locale: "en_US",
