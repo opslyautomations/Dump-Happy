@@ -70,6 +70,36 @@ export default function FreeMattressPickupLosAngelesBody() {
         <Link href="/blog/mattress-pickup-los-angeles">mattress pickup in Los Angeles</Link> guide.
       </p>
 
+      <h2>Isn&apos;t there a free way to get rid of a mattress?</h2>
+      <p>
+        On paper, yes. In practice, &quot;free&quot; costs you your time, your back, and some risk:
+      </p>
+      <ul>
+        <li>
+          <strong>City bulky item pickup</strong> means booking ahead, waiting for your collection
+          day (up to a week, longer if it gets missed), and dragging the mattress down the stairs
+          and out to the curb yourself. Only certain addresses qualify.
+        </li>
+        <li>
+          <strong>Drop-off sites</strong> need a truck big enough for a queen or king, a second
+          person to lift it, and a drive across town. Many limit how many you can bring, require
+          appointments, or turn away mattresses that are wet or stained.
+        </li>
+        <li>
+          <strong>Store take-back</strong> only applies when you&apos;re buying a new mattress with
+          delivery, and the store can take up to 30 days to come back for the old one.
+        </li>
+        <li>
+          <strong>The fine risk is yours.</strong> If a city pickup isn&apos;t booked correctly,
+          the mattress goes out on the wrong day, or it gets skipped, a mattress on the curb looks
+          exactly like illegal dumping, and LA County fines run up to $10,000.
+        </li>
+      </ul>
+      <p>
+        With Dump Happy, the mattress goes from your bedroom to our truck in one visit, and
+        it&apos;s recycled properly. No waiting, no lifting, no fine risk.
+      </p>
+
       <h2>How can I keep the cost down?</h2>
       <ul>
         <li>

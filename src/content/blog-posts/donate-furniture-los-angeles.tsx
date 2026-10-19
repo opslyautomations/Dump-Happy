@@ -78,6 +78,35 @@ export default function DonateFurnitureLosAngelesBody() {
         handle the sorting.
       </p>
 
+      <h2>Why not just call a charity myself?</h2>
+      <p>
+        You can, but donating furniture on your own is more work than most people expect:
+      </p>
+      <ul>
+        <li>
+          <strong>They&apos;re picky.</strong> Most donation centers want photos first and turn
+          away upholstered pieces with any wear, stains, or pet hair. Expect some rejections.
+        </li>
+        <li>
+          <strong>Pickups are slow, if they offer them at all.</strong> Charity pickup slots can
+          be booked out for weeks, and many only take items from the ground floor or the curb.
+        </li>
+        <li>
+          <strong>They only take the good stuff.</strong> Whatever they won&apos;t accept is
+          still yours to deal with, which means a second appointment, a dump run, or the city.
+        </li>
+        <li>
+          <strong>Calling the city instead isn&apos;t faster.</strong> City bulky item pickup
+          means booking ahead, waiting for your collection day, and dragging everything to the
+          curb yourself. If it isn&apos;t booked right or gets missed, furniture on the sidewalk
+          can be treated as illegal dumping, with fines up to $10,000 in LA County.
+        </li>
+      </ul>
+      <p>
+        One Dump Happy visit takes both piles, donatable and not, so you&apos;re done in a single
+        appointment.
+      </p>
+
       <h2>Do I need to find a charity or schedule anything?</h2>
       <p>
         No. Dump Happy handles the donation step for you. You book one pickup, our crew decides

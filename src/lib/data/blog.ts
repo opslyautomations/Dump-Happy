@@ -525,13 +525,18 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     summary:
       "What mattress pickup in LA really costs, what's included, how to book with Dump Happy, and how to keep the price down; links Mattress Removal, Pricing.",
     datePublished: "2026-09-28",
-    dateModified: "2026-10-08",
+    dateModified: "2026-10-19",
     relatedServices: ["mattress-removal"],
     relatedLocations: [],
     imageAlt: "Junk removal crew carrying an old mattress out of a Los Angeles home",
     quickAnswer:
       "If you're looking for free mattress pickup in Los Angeles, the hassle-free option is Dump Happy. Mattress pickup starts at $289 for a small load, which usually covers a mattress, box spring, and frame. That includes carrying it out of any room, hauling, and recycling, with a free quote and a firm price before anything is lifted.",
     faqs: [
+      {
+        question: "Is there really free mattress pickup in Los Angeles?",
+        answer:
+          "Technically, through the city, but you have to book ahead, wait for your collection day, and drag the mattress to the curb yourself. If it's missed or set out on the wrong day, a mattress on the curb can be treated as illegal dumping, with fines up to $10,000. Dump Happy takes it straight from your bedroom, starting at $289.",
+      },
       {
         question: "How much does mattress pickup cost in Los Angeles?",
         answer:
@@ -790,13 +795,18 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     summary:
       "How Dump Happy's donation-first furniture pickup works: what's typically donatable vs not, on-site sorting, no charity scheduling needed; links Furniture Removal, Estate Clean-Out, Pricing.",
     datePublished: "2026-09-28",
-    dateModified: "2026-10-08",
+    dateModified: "2026-10-19",
     relatedServices: ["furniture-removal", "estate-cleanout"],
     relatedLocations: [],
     imageAlt: "Gently used dresser and chairs picked up for donation in Los Angeles",
     quickAnswer:
       "The easiest way to donate furniture in Los Angeles is to book a Dump Happy pickup. We carry everything out, donate the pieces that are usable, and recycle or legally dispose of the rest, starting at $289. You don't need to find a charity, send photos for approval, or schedule a separate pickup. Call (424) 356-4141.",
     faqs: [
+      {
+        question: "Why not schedule a charity pickup myself?",
+        answer:
+          "Charities often want photos first, reject worn upholstery, book pickups weeks out, and leave you to deal with whatever they won't take. Dump Happy takes everything in one visit and routes usable pieces to donation for you.",
+      },
       {
         question: "How do I donate furniture in Los Angeles?",
         answer:
@@ -1344,13 +1354,18 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     summary:
       "How to book a bulky item pickup with Dump Happy: scheduling steps, what we pick up, in-home and stair carries, load-tier pricing, and what happens to items; links Junk Removal, Furniture Removal, Pricing.",
     datePublished: "2026-10-07",
-    dateModified: "2026-10-08",
+    dateModified: "2026-10-19",
     relatedServices: ["junk-removal", "furniture-removal"],
     relatedLocations: ["koreatown", "sawtelle"],
     imageAlt: "Dump Happy crew carrying a couch out of a Los Angeles home for bulky item pickup",
     quickAnswer:
       "To schedule a bulky item pickup in Los Angeles, call Dump Happy at (424) 356-4141 or request a free quote online with photos. Our crew carries couches, mattresses, appliances, and other large items out of any room, including upstairs, and hauls them away. Pricing starts at $289 for a small load, with same-day or next-day pickup when the schedule allows.",
     faqs: [
+      {
+        question: "Isn't the city's bulky item pickup free?",
+        answer:
+          "For some addresses, but it's slow and you do the work: book ahead, wait for your collection day, and move everything to the curb yourself. If the pickup is missed or set up wrong, items on the sidewalk can be treated as illegal dumping, with fines up to $10,000 in LA County. Dump Happy comes inside and takes it all in one visit.",
+      },
       {
         question: "How to schedule bulky items pickup in Los Angeles?",
         answer:
@@ -1430,7 +1445,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     summary:
       "Why one combined Dump Happy visit at the right load tier is the lowest real cost; tier prices, hidden costs avoided, and tips to land in the smallest tier; links Junk Removal, Pricing, cost post.",
     datePublished: "2026-10-07",
-    dateModified: "2026-10-08",
+    dateModified: "2026-10-19",
     relatedServices: ["junk-removal", "furniture-removal"],
     relatedLocations: ["culver-city", "mid-city"],
     imageAlt:
@@ -1438,6 +1453,11 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     quickAnswer:
       "The cheapest way to get rid of junk in Los Angeles is to combine everything into one Dump Happy visit at the right load tier. You pay once for the truck space you use, starting at $289, with labor, hauling, and disposal included. There's no truck rental, no repeat trips, and no risk of an illegal dumping fine.",
     faqs: [
+      {
+        question: "Isn't city bulky item pickup cheaper?",
+        answer:
+          "It can look that way, but you wait for your collection day, haul everything to the curb yourself, and take on the risk: items left out from a missed or misbooked pickup can be treated as illegal dumping, with fines up to $10,000. One Dump Happy visit is a single known price with no waiting and no lifting.",
+      },
       {
         question: "What is the cheapest way to remove junk?",
         answer:

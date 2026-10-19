@@ -109,6 +109,32 @@ export default function CheapestWayToGetRidOfJunkLosAngelesBody() {
         </li>
       </ul>
 
+      <h2>Isn&apos;t calling the city or doing a dump run cheaper?</h2>
+      <p>
+        Only if your time, your back, and your risk are worth nothing:
+      </p>
+      <ul>
+        <li>
+          <strong>City bulky item pickup is slow and limited.</strong> You book ahead, wait for
+          your collection day (up to a week, longer if it&apos;s missed), and drag everything to
+          the curb yourself. Only certain addresses qualify.
+        </li>
+        <li>
+          <strong>The city route can cost you a fine.</strong> If the pickup isn&apos;t logged
+          correctly, items go out on the wrong day, or they get skipped, junk on the sidewalk can
+          be treated as illegal dumping, with LA County fines up to $10,000. That&apos;s many times
+          the cost of a pickup.
+        </li>
+        <li>
+          <strong>A dump run adds up fast.</strong> Truck rental, mileage, gas, gate fees, a lost
+          day, and often a second trip, plus the risk of a strained back or a gouged doorframe.
+        </li>
+      </ul>
+      <p>
+        One Dump Happy visit is a single known price, with no waiting, no lifting, and nothing
+        left on the curb with your name on it.
+      </p>
+
       <h2>How do I keep my junk removal cost as low as possible?</h2>
       <ol>
         <li>

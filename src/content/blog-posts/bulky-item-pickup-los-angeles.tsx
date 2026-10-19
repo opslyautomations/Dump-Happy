@@ -45,6 +45,37 @@ export default function BulkyItemPickupLosAngelesBody() {
         </li>
       </ol>
 
+      <h2>Why not use the city&apos;s bulky item pickup?</h2>
+      <p>
+        You can call the city, but most people who try it once book a crew the next time. Here&apos;s
+        why:
+      </p>
+      <ul>
+        <li>
+          <strong>It&apos;s slow.</strong> You have to book ahead, and pickup only happens on your
+          regular collection day. That can mean up to a week with a couch or fridge sitting out
+          front, longer if it gets missed.
+        </li>
+        <li>
+          <strong>You do the heavy lifting.</strong> The city only collects from the curb. Getting
+          a sectional down three flights of stairs or a fridge out of the garage is on you.
+        </li>
+        <li>
+          <strong>You carry the risk.</strong> If the request isn&apos;t logged correctly, the items
+          go out on the wrong day, or the truck skips them, they&apos;re sitting on public property,
+          and that can be treated as illegal dumping under California Penal Code 374.3, with LA
+          County fines up to $10,000.
+        </li>
+        <li>
+          <strong>Not everyone qualifies.</strong> Eligibility depends on your city and who
+          collects your trash, and many apartment buildings work differently.
+        </li>
+      </ul>
+      <p>
+        Dump Happy works on your schedule, comes inside, and takes everything in one visit, often
+        same-day or next-day.
+      </p>
+
       <h2>What bulky items does Dump Happy pick up?</h2>
       <p>If it&apos;s too big for the trash can, we can usually take it. Common pickups include:</p>
       <ul>
