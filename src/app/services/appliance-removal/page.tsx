@@ -48,6 +48,7 @@ const applianceChips = [
   "Wall & window AC units",
   "Trash compactors",
   "Small kitchen appliances",
+  "TVs & monitors (e-waste)",
 ];
 
 const includedHeading = "What's Included When You Book Appliance Removal";
@@ -57,6 +58,16 @@ const includedText = `Disconnection, the carry-out, and legal disposal in one vi
 const howItWorksText = `Photo or walkthrough → firm load-based quote (a single fridge is a single-item pickup; several appliances or an appliance-heavy clear-out scales up the tier) → we disconnect and haul (please have units emptied and defrosted where possible) → refrigerant units routed to certified recovery, metal to recyclers.`;
 
 const faqs: FaqItem[] = [
+  {
+    question: "Who hauls away old refrigerators?",
+    answer:
+      "We do. Dump Happy hauls fridges across Los Angeles — working or dead, from the kitchen, garage, or upstairs — and routes them to certified refrigerant recovery and metal recycling, starting at $289. City pickup means booking ahead, waiting for your collection day, and moving a 250-pound appliance to the curb yourself; stores usually only take one when you buy a new one. We just take it.",
+  },
+  {
+    question: "How do I dispose of an old TV?",
+    answer:
+      "Book us. TVs are hazardous e-waste in California and can't go in the trash, and a TV left on the curb without a properly booked city pickup is illegal dumping. We unmount it, carry it out, and send it to a certified e-waste recycler, starting at $289 — flat-screens, tube TVs, and broken screens included.",
+  },
   {
     question: "Is it legal to just throw away a refrigerator?",
     answer:
@@ -159,6 +170,20 @@ export default function ApplianceRemovalPage() {
             className="font-semibold text-brand-orange hover:underline"
           >
             Garage Clean-Out
+          </Link>
+          . Comparing your options? Read{" "}
+          <Link
+            href="/blog/who-hauls-away-old-refrigerators"
+            className="font-semibold text-brand-orange hover:underline"
+          >
+            who hauls away old refrigerators
+          </Link>{" "}
+          and{" "}
+          <Link
+            href="/blog/how-to-dispose-of-a-tv"
+            className="font-semibold text-brand-orange hover:underline"
+          >
+            how to dispose of a TV
           </Link>
           . Furniture going too?{" "}
           <Link

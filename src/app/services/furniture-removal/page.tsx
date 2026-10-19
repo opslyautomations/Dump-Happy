@@ -59,6 +59,16 @@ const inHomeCurbsideText = `Point-and-done from any room, or set it at the curb 
 
 const faqs: FaqItem[] = [
   {
+    question: "How do I get rid of an old couch?",
+    answer:
+      "Book Dump Happy. Our crew carries the couch out of any room — upstairs, back bedroom, garage — and hauls it away, starting at $289, with labor, hauling, and disposal included. You never drag it to the curb or wait on a pickup window. Usable couches go to donation and the rest is recycled or disposed of legally.",
+  },
+  {
+    question: "Can't I just have the city pick up my couch?",
+    answer:
+      "You can, but it's on their terms: you book ahead, wait for your collection day, and haul the couch to the curb yourself. If it isn't booked right, goes out on the wrong day, or gets missed, a couch on the sidewalk can be treated as illegal dumping — fines run up to $10,000 in LA County. We take it straight from your living room to our truck, often same-day or next-day.",
+  },
+  {
     question: "Can you take furniture from inside my home, not just the curb?",
     answer:
       "Yes. We remove couches, dressers, and tables from upstairs bedrooms, back rooms, basements, and tight hallways. You don't move a thing; the crew handles the lifting, the doorways, and the stairs.",
@@ -158,6 +168,23 @@ export default function FurnitureRemovalPage() {
 
       <Section bg="offwhite">
         <p className="leading-relaxed text-brand-charcoal">
+          Weighing your options? Read{" "}
+          <Link
+            href="/blog/how-to-get-rid-of-a-couch"
+            className="font-semibold text-brand-orange hover:underline"
+          >
+            how to get rid of a couch in Los Angeles
+          </Link>{" "}
+          or see{" "}
+          <Link
+            href="/blog/couch-removal-los-angeles"
+            className="font-semibold text-brand-orange hover:underline"
+          >
+            how our couch removal works
+          </Link>
+          .
+        </p>
+        <p className="mt-4 leading-relaxed text-brand-charcoal">
           Getting rid of the bed too? See{" "}
           <Link
             href="/services/mattress-removal"

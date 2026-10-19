@@ -46,6 +46,16 @@ const illegalDumpingReinforcement = `Leaving a mattress on a sidewalk, alley, or
 
 const faqs: FaqItem[] = [
   {
+    question: "Where can I get rid of a mattress in Los Angeles?",
+    answer:
+      "Right from your bedroom. Book Dump Happy and our crew carries the mattress out of any room, hauls it away, and routes it to a California mattress recycler, starting at $289. No truck to borrow, no drop-off site to find, no city appointment to wait on.",
+  },
+  {
+    question: "Where can I dump a mattress?",
+    answer:
+      "Not on a sidewalk, in an alley, or beside a dumpster — that's illegal dumping under California Penal Code 374.3, with LA County fines up to $10,000. The sites that legally accept mattresses make you bring it yourself in a truck, and city pickup means waiting for your collection day and dragging it to the curb. Book a pickup and we'll take it straight from the bedroom.",
+  },
+  {
     question: "What's the difference between mattress removal, mattress pickup, and mattress disposal?",
     answer:
       "In practice they're the same job. Mattress pickup or removal means a crew carries the mattress out of your home and hauls it away; mattress disposal is where it ends up. Dump Happy does all three in one visit: we lift it from any room, load it, and route it to a California mattress recycler instead of a landfill.",
@@ -56,9 +66,9 @@ const faqs: FaqItem[] = [
       "Often, yes. We're open 10am to 8pm, 7 days a week, and can usually do same-day or next-day mattress pickup across the Westside, South Bay, and Central LA when the schedule allows. Call (424) 356-4141 to check today's availability.",
   },
   {
-    question: "How do you dispose of a mattress in Los Angeles?",
+    question: "How do I dispose of a mattress in Los Angeles?",
     answer:
-      "We haul it from your room and route it to a California mattress recycler, where the springs, foam, and fabric are recovered and reused. That keeps it out of a landfill and off the street — and off your to-do list, since you never handle the lift or the hauling.",
+      "The easiest way is to book a pickup: we haul it from your room and route it to a California mattress recycler, where the springs, foam, and fabric are recovered and reused. That keeps it out of a landfill and off the street — and off your to-do list, since you never handle the lift or the hauling.",
   },
   {
     question: "What's included when I book mattress removal?",
@@ -93,6 +103,7 @@ const faqs: FaqItem[] = [
 ];
 
 const MATTRESS_GUIDES = [
+  { href: "/blog/where-to-get-rid-of-a-mattress", label: "Where to get rid of (or dump) a mattress in Los Angeles" },
   { href: "/blog/how-to-get-rid-of-a-mattress-los-angeles", label: "How to get rid of an old mattress in Los Angeles" },
   { href: "/blog/mattress-pickup-los-angeles", label: "Mattress pickup in Los Angeles: same-day and scheduled options" },
   { href: "/blog/free-mattress-pickup-los-angeles", label: "Free mattress pickup in LA? What mattress pickup really costs" },

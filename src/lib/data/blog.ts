@@ -701,7 +701,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
   },
   {
     slug: "tv-disposal-los-angeles",
-    title: "How to Dispose of an Old TV in Los Angeles",
+    title: "TV Removal in Los Angeles: How Dump Happy Handles Old TVs",
     metaTitle: "TV Disposal in Los Angeles | Dump Happy",
     metaDescription:
       "Old TVs can't go in the trash in California. Dump Happy carries out flat-screens and tube TVs and sends them to certified e-waste recyclers. From $289.",
@@ -741,7 +741,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
   },
   {
     slug: "couch-removal-los-angeles",
-    title: "How to Get Rid of an Old Couch in Los Angeles",
+    title: "Couch Removal in Los Angeles: How It Works and What It Costs",
     metaTitle: "Couch Removal & Sofa Disposal in Los Angeles | Dump Happy",
     metaDescription:
       "Couch removal in Los Angeles from $289. Dump Happy carries out sofas, sectionals, and sleepers from any room, donates usable ones, and hauls the rest.",
@@ -867,7 +867,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
   {
     slug: "how-to-get-rid-of-a-mattress-los-angeles",
     title: "How to Get Rid of an Old Mattress in Los Angeles: Mattress Disposal Done for You",
-    metaTitle: "Mattress Disposal in Los Angeles, Done for You | Dump Happy",
+    metaTitle: "How to Get Rid of a Mattress in LA (Done for You) | Dump Happy",
     metaDescription:
       "Mattress disposal in Los Angeles with Dump Happy: we carry it out of any room, haul it, and recycle it. Pickups from $289. Free quote.",
     targetKeyword: "mattress disposal los angeles",
@@ -1497,6 +1497,166 @@ export const BLOG_POSTS: BlogPostMeta[] = [
         question: "What areas does Dump Happy serve?",
         answer:
           "Dump Happy serves the Westside, South Bay, and Central LA, including Santa Monica, Culver City, Venice, West Hollywood, Koreatown, and Mid-City. We're open 10am to 8pm, seven days a week.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-get-rid-of-a-couch",
+    title: "How to Get Rid of a Couch in Los Angeles (Without Lifting It)",
+    metaTitle: "How to Get Rid of a Couch in Los Angeles | Dump Happy",
+    metaDescription:
+      "The easiest way to get rid of an old couch in LA: Dump Happy carries it out of any room and hauls it away from $289. No curb, no city wait, no dumping fines.",
+    targetKeyword: "how to get rid of a couch",
+    category: "Guides",
+    summary:
+      "Getting rid of a couch with Dump Happy: how it works, why the city/donation/DIY routes are a hassle (wait, lifting, fines), sectionals, cost; links Furniture Removal + couch post.",
+    datePublished: "2026-10-19",
+    dateModified: "2026-10-19",
+    relatedServices: ["furniture-removal"],
+    relatedLocations: [],
+    imageAlt: "Old couch being carried out of a Los Angeles home for removal",
+    quickAnswer:
+      "The easiest way to get rid of an old couch in Los Angeles is to book Dump Happy. Our crew carries it out of any room and hauls it away, starting at $289, so you never move it to the curb, wait on a city pickup, or risk an illegal dumping fine. Usable couches go to donation and the rest is disposed of legally.",
+    faqs: [
+      {
+        question: "How do I get rid of an old couch?",
+        answer:
+          "Book Dump Happy. Our crew carries the couch out of any room, including upstairs, and hauls it away, starting at $289. Labor, hauling, and disposal are included. Call (424) 356-4141 for a free quote.",
+      },
+      {
+        question: "Can't I just have the city pick up my couch?",
+        answer:
+          "You can, but you have to book ahead, wait for your collection day, and get the couch to the curb yourself. If the pickup isn't booked correctly or the couch gets missed, it can be treated as illegal dumping with fines up to $10,000 in LA County. Dump Happy takes it straight from your living room to the truck.",
+      },
+      {
+        question: "What's the fastest way to get rid of a couch?",
+        answer:
+          "Book Dump Happy. We're open 10am to 8pm, seven days a week, and often have same-day or next-day pickup across the Westside, South Bay, and Central LA.",
+      },
+      {
+        question: "Can I leave a couch on the curb with a free sign?",
+        answer:
+          "No. Leaving furniture on a sidewalk or alley is illegal dumping under California Penal Code 374.3, even with a sign. Booking a pickup avoids the fine entirely.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-dispose-of-a-tv",
+    title: "How to Dispose of a TV in Los Angeles (the Easy, Legal Way)",
+    metaTitle: "How to Dispose of a TV in Los Angeles | Dump Happy",
+    metaDescription:
+      "TVs can't go in the trash in California. Dump Happy takes your TV off the wall, carries it out, and sends it to certified e-waste recycling from $289.",
+    targetKeyword: "how to dispose of a tv",
+    category: "Disposal Rules",
+    summary:
+      "Disposing of a TV with Dump Happy: why TVs are e-waste, how pickup works, why city pickup/drop-off/store take-back are a hassle, tube and broken TVs; links Junk Removal + TV post.",
+    datePublished: "2026-10-19",
+    dateModified: "2026-10-19",
+    relatedServices: ["junk-removal", "appliance-removal"],
+    relatedLocations: [],
+    imageAlt: "Old flat-screen TV set aside for e-waste recycling in Los Angeles",
+    quickAnswer:
+      "The easiest way to dispose of a TV in Los Angeles is to book Dump Happy. We take it down, carry it out, and send it to a certified e-waste recycler, starting at $289. TVs are hazardous e-waste in California and can't go in the trash, and leaving one on the curb can bring an illegal dumping fine.",
+    faqs: [
+      {
+        question: "How do I dispose of a TV in Los Angeles?",
+        answer:
+          "Book Dump Happy. We unmount it, carry it out, and send it to certified e-waste recycling, starting at $289. Flat-screens, tube TVs, and broken screens are all fine. Call (424) 356-4141 for a free quote.",
+      },
+      {
+        question: "Can I put a TV in the trash?",
+        answer:
+          "No. California treats TVs and monitors as hazardous electronic waste because they can contain lead, mercury, and other toxic materials. They have to be recycled, which is what we do with every TV we pick up.",
+      },
+      {
+        question: "Can't the city pick up my TV?",
+        answer:
+          "Sometimes, but you have to schedule ahead, wait for your collection day, and carry the TV to the curb yourself. A TV left out without a properly booked pickup is illegal dumping. Dump Happy takes it straight from your wall to the truck.",
+      },
+      {
+        question: "How do I get rid of an old tube TV?",
+        answer:
+          "Book a crew. Tube TVs often weigh over 100 pounds and fewer places accept them. Don't break one apart; the glass contains lead. Dump Happy carries them out and sends them to certified e-waste recyclers.",
+      },
+    ],
+  },
+  {
+    slug: "where-to-get-rid-of-a-mattress",
+    title: "Where to Get Rid of a Mattress in Los Angeles (and Where You Can't Dump One)",
+    metaTitle: "Where to Get Rid of a Mattress in Los Angeles | Dump Happy",
+    metaDescription:
+      "Where can I get rid of a mattress in LA? Right from your bedroom. Dump Happy carries it out and recycles it from $289. No truck, no city wait, no dumping fines.",
+    targetKeyword: "where to get rid of mattress",
+    category: "Guides",
+    summary:
+      "Where to get rid of a mattress in LA: Dump Happy pickup, why dumping/drop-off/city/store routes are a hassle (truck, wait, fines), same-day, bed bugs, recycling; links Mattress Removal + mattress posts.",
+    datePublished: "2026-10-19",
+    dateModified: "2026-10-19",
+    relatedServices: ["mattress-removal"],
+    relatedLocations: [],
+    imageAlt: "Used mattress being carried out of a Los Angeles apartment for recycling",
+    quickAnswer:
+      "The easiest place to get rid of a mattress in Los Angeles is right where it is. Book Dump Happy and our crew carries it out of any room and routes it to a California mattress recycler, starting at $289. You don't need a truck, a drop-off site, or a city appointment, and you avoid illegal dumping fines of up to $10,000.",
+    faqs: [
+      {
+        question: "Where can I get rid of a mattress in Los Angeles?",
+        answer:
+          "From your bedroom. Book Dump Happy and our crew carries the mattress out, hauls it away, and routes it to a California mattress recycler, starting at $289. Call (424) 356-4141 for a free quote.",
+      },
+      {
+        question: "Where can I dump a mattress?",
+        answer:
+          "Not on the sidewalk, in an alley, or beside a dumpster. That's illegal dumping under California Penal Code 374.3, with fines up to $10,000 in LA County. Sites that legally accept mattresses require you to bring it yourself in a truck. Dump Happy brings the truck to you.",
+      },
+      {
+        question: "Can't the city pick up my mattress?",
+        answer:
+          "You can request it, but you have to book ahead, wait for your collection day, and get the mattress to the curb yourself. If it's missed or put out on the wrong day, the fine risk is yours. Dump Happy takes it straight from your room.",
+      },
+      {
+        question: "Can I get rid of a mattress the same day?",
+        answer:
+          "Often, yes. Dump Happy is open 10am to 8pm, seven days a week, with same-day or next-day mattress pickup across the Westside, South Bay, and Central LA when the schedule allows.",
+      },
+    ],
+  },
+  {
+    slug: "who-hauls-away-old-refrigerators",
+    title: "Who Hauls Away Old Refrigerators in Los Angeles?",
+    metaTitle: "Who Hauls Away Old Refrigerators in LA? | Dump Happy",
+    metaDescription:
+      "Dump Happy hauls away old refrigerators in Los Angeles, working or dead, from any room, with legal refrigerant recovery and recycling. From $289. Free quote.",
+    targetKeyword: "who hauls away old refrigerators",
+    category: "Guides",
+    summary:
+      "Dump Happy hauls old fridges: how it works, refrigerant law, why city pickup/store haul-away/utility programs/scrap yards fall short, prep checklist; links Appliance Removal + fridge rules post.",
+    datePublished: "2026-10-19",
+    dateModified: "2026-10-19",
+    relatedServices: ["appliance-removal"],
+    relatedLocations: [],
+    imageAlt: "Crew hauling an old refrigerator out of a Los Angeles garage",
+    quickAnswer:
+      "Dump Happy hauls away old refrigerators across Los Angeles, working or dead, from the kitchen, garage, or upstairs, starting at $289. We carry it out and make sure the refrigerant is recovered by certified handlers and the metal is recycled, as federal and California law require. No curbside wait and no dumping fine risk.",
+    faqs: [
+      {
+        question: "Who will haul away an old refrigerator?",
+        answer:
+          "Dump Happy. We pick up fridges from any room, working or not, and route them to certified refrigerant recovery and metal recycling, starting at $289. Call (424) 356-4141 for a free quote.",
+      },
+      {
+        question: "Can't the city pick up my old fridge?",
+        answer:
+          "You'd have to book ahead, wait for your collection day, and move a 250-pound appliance to the curb yourself. A fridge left out without a properly booked pickup is illegal dumping, with fines up to $10,000 in LA County. We take it straight from your kitchen or garage.",
+      },
+      {
+        question: "Will the store take my old fridge?",
+        answer:
+          "Usually only if you're buying a new one from them, added haul-away when you ordered, and the old unit is in the same spot as the new one, often for an extra fee. Dump Happy takes any fridge, whether or not you're replacing it.",
+      },
+      {
+        question: "Can I put an old refrigerator on the curb?",
+        answer:
+          "Not without a scheduled pickup. Otherwise it's illegal dumping under California Penal Code 374.3, and federal law requires the refrigerant to be recovered by a certified technician before the fridge is scrapped.",
       },
     ],
   },

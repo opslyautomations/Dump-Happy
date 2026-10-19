@@ -43,6 +43,10 @@ import BulkyItemPickupLosAngeles from "./bulky-item-pickup-los-angeles";
 import HowToGetRidOfLargeFurnitureBoxes from "./how-to-get-rid-of-large-furniture-boxes";
 import CheapestWayToGetRidOfJunkLosAngeles from "./cheapest-way-to-get-rid-of-junk-los-angeles";
 import BestJunkRemovalServiceLosAngeles from "./best-junk-removal-service-los-angeles";
+import HowToGetRidOfACouch from "./how-to-get-rid-of-a-couch";
+import HowToDisposeOfATv from "./how-to-dispose-of-a-tv";
+import WhereToGetRidOfAMattress from "./where-to-get-rid-of-a-mattress";
+import WhoHaulsAwayOldRefrigerators from "./who-hauls-away-old-refrigerators";
 
 export const BLOG_BODIES: Record<string, ComponentType> = {
   "junk-removal-cost-los-angeles": JunkRemovalCostLosAngeles,
@@ -88,4 +92,8 @@ export const BLOG_BODIES: Record<string, ComponentType> = {
   "how-to-get-rid-of-large-furniture-boxes": HowToGetRidOfLargeFurnitureBoxes,
   "cheapest-way-to-get-rid-of-junk-los-angeles": CheapestWayToGetRidOfJunkLosAngeles,
   "best-junk-removal-service-los-angeles": BestJunkRemovalServiceLosAngeles,
+  "how-to-get-rid-of-a-couch": HowToGetRidOfACouch,
+  "how-to-dispose-of-a-tv": HowToDisposeOfATv,
+  "where-to-get-rid-of-a-mattress": WhereToGetRidOfAMattress,
+  "who-hauls-away-old-refrigerators": WhoHaulsAwayOldRefrigerators,
 };

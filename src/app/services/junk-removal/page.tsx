@@ -81,6 +81,11 @@ const faqs: FaqItem[] = [
       "It helps for the walkthrough and final approval, but it isn't always required. For straightforward curbside or garage jobs, many customers confirm the items and pricing by photo and text. We'll walk the space with you at the end so nothing gets missed.",
   },
   {
+    question: "How do I get rid of a couch, mattress, TV, or old fridge?",
+    answer:
+      "Book one pickup and we handle all of it. Each item has its own rules — mattresses go to California mattress recyclers, TVs are hazardous e-waste, and fridges need certified refrigerant recovery — and we route every piece the right way, starting at $289. No waiting on a city pickup day, no dragging things to the curb, and no illegal dumping fines.",
+  },
+  {
     question: "What won't you take?",
     answer:
       "Household hazardous waste — paint, motor oil, solvents, pesticides, pool chemicals — and asbestos. These can't ride in a standard junk truck. Hazardous materials need to go to a household hazardous waste drop-off; we'll haul everything else.",
@@ -190,6 +195,34 @@ export default function JunkRemovalPage() {
             className="font-semibold text-brand-orange hover:underline"
           >
             Appliance Removal
+          </Link>
+          . Getting rid of one thing? Read our guides on{" "}
+          <Link
+            href="/blog/how-to-get-rid-of-a-couch"
+            className="font-semibold text-brand-orange hover:underline"
+          >
+            getting rid of a couch
+          </Link>
+          ,{" "}
+          <Link
+            href="/blog/where-to-get-rid-of-a-mattress"
+            className="font-semibold text-brand-orange hover:underline"
+          >
+            where to get rid of a mattress
+          </Link>
+          ,{" "}
+          <Link
+            href="/blog/how-to-dispose-of-a-tv"
+            className="font-semibold text-brand-orange hover:underline"
+          >
+            disposing of a TV
+          </Link>
+          , and{" "}
+          <Link
+            href="/blog/who-hauls-away-old-refrigerators"
+            className="font-semibold text-brand-orange hover:underline"
+          >
+            who hauls away old refrigerators
           </Link>
           . Whole garage? Start with{" "}
           <Link
