@@ -23,6 +23,7 @@ export function GET() {
     "- Mattresses are routed to California mattress recyclers, not landfill; usable items are donated",
     "- Green waste (branches, trimmings, leaves, sod) goes to organics facilities for compost and mulch",
     `- Website: ${SITE.url}`,
+    `- Full-text reference (all local pages, guides, FAQs, reviews): ${url("/llms-full.txt")}`,
     "",
     "## How to book",
     `- Call ${SITE.phoneDisplay} or request a free quote at ${url("/contact")}`,

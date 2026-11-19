@@ -4,6 +4,8 @@ import { buildMetadata, breadcrumbJsonLd } from "@/lib/seo";
 import { JsonLd } from "@/components/JsonLd";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CTABand } from "@/components/CTABand";
+import { Reveal } from "@/components/Reveal";
+import { PageIntro } from "@/components/page-sections/PageIntro";
 import { BEFORE_AFTER_PAIRS, GALLERY_PHOTOS } from "@/lib/data/gallery";
 
 export const metadata: Metadata = buildMetadata({
@@ -24,73 +26,86 @@ export default function GalleryPage() {
       />
       <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Gallery", path: "/gallery" }]} />
 
-      <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
-        <h1 className="text-3xl font-bold tracking-tight text-brand-ink sm:text-4xl">
-          Before &amp; After Gallery
-        </h1>
-        <p className="mt-4 max-w-2xl leading-relaxed text-brand-gray">
+      <PageIntro eyebrow="Our work" title="Before & After Gallery">
+        <p>
           Real jobs from across Los Angeles — garages reclaimed, yards
           cleared, and truckloads hauled to legal, certified disposal.
         </p>
-      </section>
+      </PageIntro>
 
       <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold tracking-tight text-brand-ink">Before &amp; After</h2>
-          <div className="mt-8 grid grid-cols-1 gap-10 lg:grid-cols-2">
-            {BEFORE_AFTER_PAIRS.map((pair) => (
-              <div key={pair.key} className="rounded-xl bg-white p-5 shadow-sm">
-                <h3 className="font-bold text-brand-black">{pair.title}</h3>
-                <div className="mt-4 grid grid-cols-2 gap-3">
-                  <div>
-                    <Image
-                      src={pair.before.src}
-                      alt={pair.before.alt}
-                      width={pair.before.width}
-                      height={pair.before.height}
-                      sizes="(min-width: 1024px) 320px, 45vw"
-                      className="aspect-[4/5] w-full rounded-lg object-cover"
-                    />
-                    <p className="mt-2 text-center text-xs font-bold uppercase tracking-wide text-brand-gray">
-                      Before
-                    </p>
-                  </div>
-                  <div>
-                    <Image
-                      src={pair.after.src}
-                      alt={pair.after.alt}
-                      width={pair.after.width}
-                      height={pair.after.height}
-                      sizes="(min-width: 1024px) 320px, 45vw"
-                      className="aspect-[4/5] w-full rounded-lg object-cover"
-                    />
-                    <p className="mt-2 text-center text-xs font-bold uppercase tracking-wide text-brand-orange">
-                      After
-                    </p>
+        <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
+          <Reveal>
+            <h2 className="text-4xl font-extrabold leading-[1.02] text-brand-ink sm:text-5xl">Before &amp; After</h2>
+          </Reveal>
+          <div className="mt-10 grid grid-cols-1 gap-8 lg:grid-cols-2">
+            {BEFORE_AFTER_PAIRS.map((pair, i) => (
+              <Reveal key={pair.key} delay={(i % 2) * 120} className="h-full">
+                <div className="h-full rounded-3xl border border-black/5 bg-white p-5 shadow-sm transition duration-500 hover:-translate-y-1 hover:shadow-xl sm:p-6">
+                  <h3 className="font-display text-xl font-bold tracking-tight text-brand-black">{pair.title}</h3>
+                  <div className="mt-5 grid grid-cols-2 gap-3">
+                    <div>
+                      <div className="overflow-hidden rounded-2xl">
+                        <Image
+                          src={pair.before.src}
+                          alt={pair.before.alt}
+                          width={pair.before.width}
+                          height={pair.before.height}
+                          sizes="(min-width: 1024px) 320px, 45vw"
+                          className="aspect-[4/5] w-full object-cover"
+                        />
+                      </div>
+                      <p className="mt-3 text-center text-xs font-semibold uppercase tracking-[0.2em] text-brand-slate">
+                        Before
+                      </p>
+                    </div>
+                    <div>
+                      <div className="overflow-hidden rounded-2xl ring-2 ring-brand-orange/60">
+                        <Image
+                          src={pair.after.src}
+                          alt={pair.after.alt}
+                          width={pair.after.width}
+                          height={pair.after.height}
+                          sizes="(min-width: 1024px) 320px, 45vw"
+                          className="aspect-[4/5] w-full object-cover"
+                        />
+                      </div>
+                      <p className="mt-3 text-center text-xs font-semibold uppercase tracking-[0.2em] text-brand-orange-dark">
+                        After
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </Reveal>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
-        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">Recent Jobs</h2>
-        <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3">
-          {GALLERY_PHOTOS.map((photo) => (
-            <figure key={photo.src} className="overflow-hidden rounded-xl bg-brand-offwhite">
-              <Image
-                src={photo.src}
-                alt={photo.alt}
-                width={photo.width}
-                height={photo.height}
-                sizes="(min-width: 1024px) 33vw, 50vw"
-                className="aspect-square w-full object-cover"
-              />
-              <figcaption className="p-3 text-xs text-brand-gray">{photo.caption}</figcaption>
-            </figure>
-          ))}
+      <section className="bg-brand-cream">
+        <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
+          <Reveal>
+            <h2 className="text-4xl font-extrabold leading-[1.02] text-brand-ink sm:text-5xl">Recent Jobs</h2>
+          </Reveal>
+          <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-6">
+            {GALLERY_PHOTOS.map((photo, i) => (
+              <Reveal key={photo.src} variant="clip" delay={(i % 3) * 100}>
+                <figure className="group overflow-hidden rounded-3xl border border-black/5 bg-white shadow-sm">
+                  <div className="overflow-hidden">
+                    <Image
+                      src={photo.src}
+                      alt={photo.alt}
+                      width={photo.width}
+                      height={photo.height}
+                      sizes="(min-width: 1024px) 33vw, 50vw"
+                      className="aspect-square w-full object-cover transition duration-[1.2s] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-105"
+                    />
+                  </div>
+                  <figcaption className="p-4 text-xs leading-relaxed text-brand-slate sm:text-sm">{photo.caption}</figcaption>
+                </figure>
+              </Reveal>
+            ))}
+          </div>
         </div>
       </section>
 

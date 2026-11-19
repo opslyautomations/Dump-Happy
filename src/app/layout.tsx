@@ -1,11 +1,13 @@
 import type { Metadata, Viewport } from "next";
-import { Inter } from "next/font/google";
+import { Bricolage_Grotesque, Inter } from "next/font/google";
+import { ViewTransition } from "react";
+import "lenis/dist/lenis.css";
 import "./globals.css";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 import { JsonLd } from "@/components/JsonLd";
 import { PromoPopup } from "@/components/PromoPopup";
-import { RevealObserver } from "@/components/RevealObserver";
+import { MotionRuntime } from "@/components/motion/MotionRuntime";
 import { organizationJsonLd, websiteJsonLd } from "@/lib/seo";
 import { SITE } from "@/lib/data/site";
 
@@ -14,6 +16,12 @@ const GA_ID = "G-H0HCN7L6PY";
 
 const inter = Inter({
   variable: "--font-inter",
+  subsets: ["latin"],
+  display: "swap",
+});
+
+const display = Bricolage_Grotesque({
+  variable: "--font-display-face",
   subsets: ["latin"],
   display: "swap",
 });
@@ -40,6 +48,7 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
+  themeColor: "#0e0c0a",
 };
 
 export default function RootLayout({
@@ -48,7 +57,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} h-full antialiased`}>
+    <html lang="en" className={`${inter.variable} ${display.variable} h-full antialiased`}>
       <head>
         {/* Google Tag Manager */}
         <script
@@ -74,7 +83,7 @@ gtag('config', '${GA_ID}');`,
           }}
         />
       </head>
-      <body className="flex min-h-full flex-col bg-white text-brand-ink">
+      <body className="flex min-h-full flex-col bg-brand-cream text-brand-ink">
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
@@ -85,11 +94,16 @@ gtag('config', '${GA_ID}');`,
           />
         </noscript>
         <JsonLd data={[organizationJsonLd(), websiteJsonLd()]} />
+        <div className="scroll-progress" aria-hidden="true" />
         <Nav />
-        <main className="flex-1">{children}</main>
+        <ViewTransition default="page">
+          <main id="main" className="flex-1">
+            {children}
+          </main>
+        </ViewTransition>
         <Footer />
         <PromoPopup />
-        <RevealObserver />
+        <MotionRuntime />
       </body>
     </html>
   );

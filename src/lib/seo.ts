@@ -1,5 +1,43 @@
 import type { Metadata } from "next";
 import { SITE } from "./data/site";
+import { SERVICES } from "./data/services";
+import { LOCATIONS } from "./data/locations";
+import { PRICING_TIERS } from "./data/pricing";
+import { getReviews } from "./data/reviews";
+
+// Stable entity IDs. Every JSON-LD block on the site references these, so
+// Google and AI answer engines merge them into one knowledge-graph entity
+// instead of seeing several unrelated "Dump Happy" fragments.
+export const ENTITY_IDS = {
+  organization: `${SITE.url}/#organization`,
+  business: `${SITE.url}/#localbusiness`,
+  website: `${SITE.url}/#website`,
+  logo: `${SITE.url}/#logo`,
+} as const;
+
+const LOGO_URL = `${SITE.url}/icon.png`;
+
+const KNOWS_ABOUT = [
+  "Junk removal",
+  "Furniture removal",
+  "Mattress removal and recycling",
+  "Appliance removal and refrigerant-compliant disposal",
+  "Garage clean-outs",
+  "Estate clean-outs",
+  "Hoarding clean-outs",
+  "Construction debris removal",
+  "Green waste and yard waste hauling",
+  "Hot tub removal",
+  "E-waste recycling",
+  "Donation and recycling diversion",
+];
+
+function areaServedPlaces() {
+  return [
+    { "@type": "City", name: "Los Angeles", sameAs: "https://en.wikipedia.org/wiki/Los_Angeles" },
+    ...LOCATIONS.map((l) => ({ "@type": "Place", name: `${l.name}, CA` })),
+  ];
+}
 
 interface BuildMetadataArgs {
   title: string;
@@ -25,7 +63,18 @@ export function buildMetadata({
     alternates: { canonical: url },
     robots: noindex
       ? { index: false, follow: false }
-      : { index: true, follow: true },
+      : {
+          index: true,
+          follow: true,
+          // Let Google (incl. AI Overviews) show full snippets and large images.
+          googleBot: {
+            index: true,
+            follow: true,
+            "max-snippet": -1,
+            "max-image-preview": "large",
+            "max-video-preview": -1,
+          },
+        },
     openGraph: {
       title,
       description,
@@ -51,12 +100,33 @@ export function organizationJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": ENTITY_IDS.organization,
     name: SITE.name,
     alternateName: SITE.alternateNames,
+    slogan: SITE.tagline,
     url: SITE.url,
     telephone: SITE.phoneRaw,
     ...(SITE.email ? { email: SITE.email } : {}),
-    logo: `${SITE.url}/opengraph-image`,
+    logo: {
+      "@type": "ImageObject",
+      "@id": ENTITY_IDS.logo,
+      url: LOGO_URL,
+      contentUrl: LOGO_URL,
+      width: 512,
+      height: 512,
+      caption: SITE.name,
+    },
+    image: { "@id": ENTITY_IDS.logo },
+    founder: { "@type": "Person", name: SITE.owner },
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: SITE.phoneRaw,
+      ...(SITE.email ? { email: SITE.email } : {}),
+      contactType: "customer service",
+      areaServed: "US-CA",
+      availableLanguage: ["English"],
+    },
+    knowsAbout: KNOWS_ABOUT,
     sameAs: [SITE.gbpUrl],
   };
 }
@@ -65,9 +135,12 @@ export function websiteJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": ENTITY_IDS.website,
     name: SITE.name,
     alternateName: SITE.alternateNames,
     url: SITE.url,
+    inLanguage: "en-US",
+    publisher: { "@id": ENTITY_IDS.organization },
   };
 }
 
@@ -75,9 +148,11 @@ export function localBusinessJsonLd(opts: {
   areaServed?: string | string[];
   aggregateRating?: { ratingValue: number; reviewCount: number };
 } = {}) {
+  const reviews = opts.aggregateRating ? getReviews("general") : [];
   return {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
+    "@id": ENTITY_IDS.business,
     name: SITE.name,
     alternateName: SITE.alternateNames,
     description:
@@ -86,7 +161,13 @@ export function localBusinessJsonLd(opts: {
     ...(SITE.email ? { email: SITE.email } : {}),
     url: SITE.url,
     image: `${SITE.url}/opengraph-image`,
+    logo: { "@id": ENTITY_IDS.logo },
+    parentOrganization: { "@id": ENTITY_IDS.organization },
+    slogan: SITE.tagline,
     priceRange: "$$",
+    currenciesAccepted: "USD",
+    knowsAbout: KNOWS_ABOUT,
+    sameAs: [SITE.gbpUrl],
     openingHoursSpecification: [
       {
         "@type": "OpeningHoursSpecification",
@@ -103,19 +184,58 @@ export function localBusinessJsonLd(opts: {
         closes: SITE.hours.closes,
       },
     ],
-    areaServed: opts.areaServed,
+    areaServed: opts.areaServed ?? areaServedPlaces(),
     address: {
       "@type": "PostalAddress",
+      addressLocality: "Los Angeles",
       addressRegion: "CA",
       addressCountry: "US",
     },
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "Junk removal services",
+      itemListElement: SERVICES.map((svc) => ({
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: svc.name,
+          description: svc.tagline,
+          url: `${SITE.url}/services/${svc.slug}`,
+        },
+      })),
+    },
+    makesOffer: PRICING_TIERS.map((t) => ({
+      "@type": "Offer",
+      name: `${t.name} (${t.subtitle})`,
+      description: t.description,
+      url: `${SITE.url}/pricing`,
+      priceSpecification: {
+        "@type": "PriceSpecification",
+        minPrice: t.priceFrom,
+        priceCurrency: "USD",
+      },
+    })),
     ...(opts.aggregateRating
       ? {
           aggregateRating: {
             "@type": "AggregateRating",
             ratingValue: opts.aggregateRating.ratingValue,
             reviewCount: opts.aggregateRating.reviewCount,
+            bestRating: 5,
+            worstRating: 1,
           },
+        }
+      : {}),
+    // Verbatim Google Business Profile reviews (see data/reviews.ts).
+    ...(reviews.length
+      ? {
+          review: reviews.map((r) => ({
+            "@type": "Review",
+            author: { "@type": "Person", name: r.reviewerName },
+            reviewRating: { "@type": "Rating", ratingValue: r.rating, bestRating: 5 },
+            reviewBody: r.text,
+            publisher: { "@type": "Organization", name: "Google" },
+          })),
         }
       : {}),
   };
@@ -135,9 +255,20 @@ export function serviceJsonLd(opts: {
     description: opts.description,
     provider: {
       "@type": "LocalBusiness",
+      "@id": ENTITY_IDS.business,
       name: SITE.name,
       telephone: SITE.phoneRaw,
       url: SITE.url,
+    },
+    brand: { "@id": ENTITY_IDS.organization },
+    offers: {
+      "@type": "Offer",
+      url: `${SITE.url}/pricing`,
+      priceSpecification: {
+        "@type": "PriceSpecification",
+        minPrice: PRICING_TIERS[0].priceFrom,
+        priceCurrency: "USD",
+      },
     },
     areaServed: opts.areaServed ?? SITE.areaServed,
     url: `${SITE.url}${opts.path}`,
@@ -197,11 +328,13 @@ export function blogPostingJsonLd(opts: {
     image: opts.image,
     datePublished: opts.datePublished,
     dateModified: opts.dateModified,
-    author: { "@type": "Organization", name: SITE.name, url: SITE.url },
+    isPartOf: { "@id": ENTITY_IDS.website },
+    author: { "@type": "Organization", "@id": ENTITY_IDS.organization, name: SITE.name, url: SITE.url },
     publisher: {
       "@type": "Organization",
+      "@id": ENTITY_IDS.organization,
       name: SITE.name,
-      logo: { "@type": "ImageObject", url: `${SITE.url}/opengraph-image` },
+      logo: { "@type": "ImageObject", url: LOGO_URL },
     },
   };
 }

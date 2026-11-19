@@ -6,6 +6,8 @@ import { JsonLd } from "@/components/JsonLd";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ReviewSlot } from "@/components/ReviewSlot";
 import { CTABand } from "@/components/CTABand";
+import { Reveal } from "@/components/Reveal";
+import { PageIntro } from "@/components/page-sections/PageIntro";
 
 export const metadata: Metadata = buildMetadata({
   title: "Reviews | Dump Happy Junk Removal",
@@ -30,22 +32,21 @@ export default function ReviewsPage() {
       />
       <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Reviews", path: "/reviews" }]} />
 
-      <section className="mx-auto max-w-5xl px-4 py-14 sm:px-6 lg:px-8">
-        <h1 className="text-3xl font-bold tracking-tight text-brand-ink sm:text-4xl">
-          What Los Angeles Customers Say About Dump Happy
-        </h1>
-        <p className="mt-4 max-w-2xl leading-relaxed text-brand-gray">
+      <PageIntro eyebrow="Reviews" title="What Los Angeles Customers Say About Dump Happy">
+        <p>
           Every review below comes straight from our{" "}
-          <a href={SITE.gbpUrl} target="_blank" rel="noopener noreferrer" className="font-semibold text-brand-orange hover:underline">
+          <a href={SITE.gbpUrl} target="_blank" rel="noopener noreferrer" className="font-semibold text-brand-orange-light hover:underline">
             Google Business Profile
           </a>
           . We don&apos;t write or edit them — just proud to share what our
           customers have to say.
         </p>
+      </PageIntro>
 
-        <div className="mt-10">
+      <section className="bg-brand-cream">
+        <Reveal className="mx-auto max-w-5xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
           <ReviewSlot contextKey="general" label="Dump Happy" />
-        </div>
+        </Reveal>
       </section>
 
       <CTABand />

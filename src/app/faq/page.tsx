@@ -4,7 +4,8 @@ import { buildMetadata, breadcrumbJsonLd, faqPageJsonLd } from "@/lib/seo";
 import { JsonLd } from "@/components/JsonLd";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CTABand } from "@/components/CTABand";
-import { Section } from "@/components/page-sections/Section";
+import { Reveal } from "@/components/Reveal";
+import { PageIntro } from "@/components/page-sections/PageIntro";
 
 export const metadata: Metadata = buildMetadata({
   title: "Junk Removal FAQ: Cost & Pickup in LA | Dump Happy",
@@ -115,50 +116,61 @@ export default function FaqPage() {
       />
       <Breadcrumbs items={breadcrumbItems} />
 
-      <Section>
-        <h1 className="text-3xl font-bold tracking-tight text-brand-ink sm:text-4xl">
-          Junk Removal Questions, Answered
-        </h1>
-        <p className="mt-4 max-w-2xl leading-relaxed text-brand-gray">
+      <PageIntro
+        eyebrow="FAQ"
+        title="Junk Removal Questions, Answered"
+        meta={
+          <nav aria-label="FAQ topics" className="flex flex-wrap gap-2">
+            {FAQ_GROUPS.map((g) => (
+              <a
+                key={g.heading}
+                href={`#${slugify(g.heading)}`}
+                className="inline-flex min-h-11 items-center rounded-full border border-white/20 bg-white/5 px-4 text-sm font-semibold text-white/85 transition hover:border-brand-orange hover:bg-brand-orange hover:text-white"
+              >
+                {g.heading}
+              </a>
+            ))}
+          </nav>
+        }
+      >
+        <p>
           Straight answers to the questions Angelenos ask most about junk removal cost, bulky
           item pickup, and getting rid of furniture, from the Dump Happy crew.
         </p>
-        <nav aria-label="FAQ topics" className="mt-6 flex flex-wrap gap-2">
-          {FAQ_GROUPS.map((g) => (
-            <a
-              key={g.heading}
-              href={`#${slugify(g.heading)}`}
-              className="rounded-full border border-black/10 px-4 py-2 text-sm font-semibold text-brand-ink hover:border-brand-orange hover:text-brand-orange"
-            >
-              {g.heading}
-            </a>
-          ))}
-        </nav>
-      </Section>
+      </PageIntro>
 
       {FAQ_GROUPS.map((group, gi) => (
-        <Section key={group.heading} bg={gi % 2 === 0 ? "offwhite" : "white"}>
-          <h2
-            id={slugify(group.heading)}
-            className="scroll-mt-24 text-2xl font-bold tracking-tight text-brand-ink"
-          >
-            {group.heading}
-          </h2>
-          <div className="mt-6 space-y-8">
-            {group.items.map((item) => (
-              <div key={item.question}>
-                <h3 className="text-lg font-bold text-brand-black">{item.question}</h3>
-                <p className="mt-2 leading-relaxed text-brand-charcoal">{item.answer}</p>
-                <Link
-                  href={item.guide.href}
-                  className="mt-2 inline-block text-sm font-semibold text-brand-orange hover:underline"
-                >
-                  Read more: {item.guide.label} →
-                </Link>
-              </div>
-            ))}
+        <section key={group.heading} className={gi % 2 === 0 ? "bg-brand-cream" : "bg-brand-offwhite"}>
+          <div className="mx-auto max-w-4xl px-4 py-20 sm:px-6 lg:px-8 lg:py-24">
+            <Reveal>
+              <p aria-hidden="true" className="font-display text-sm font-bold tabular-nums text-brand-orange-dark">
+                {String(gi + 1).padStart(2, "0")}
+              </p>
+              <h2
+                id={slugify(group.heading)}
+                className="mt-2 scroll-mt-24 text-4xl font-extrabold leading-[1.02] text-brand-ink sm:text-5xl"
+              >
+                {group.heading}
+              </h2>
+            </Reveal>
+            <div className="mt-10 space-y-5">
+              {group.items.map((item, ii) => (
+                <Reveal key={item.question} delay={ii * 90}>
+                  <div data-spotlight className="overflow-hidden rounded-3xl border border-black/5 bg-white p-7 shadow-sm sm:p-8">
+                    <h3 className="relative font-display text-xl font-bold tracking-tight text-brand-black sm:text-2xl">{item.question}</h3>
+                    <p className="relative mt-3 leading-relaxed text-brand-charcoal">{item.answer}</p>
+                    <Link
+                      href={item.guide.href}
+                      className="relative mt-3 inline-flex min-h-11 items-center text-sm font-semibold text-brand-orange-dark hover:underline"
+                    >
+                      Read more: {item.guide.label} →
+                    </Link>
+                  </div>
+                </Reveal>
+              ))}
+            </div>
           </div>
-        </Section>
+        </section>
       ))}
 
       <CTABand />

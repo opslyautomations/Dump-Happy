@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { Reveal } from "@/components/Reveal";
 
 export function Section({
   bg = "white",
@@ -18,9 +19,9 @@ export function Section({
 
   return (
     <section className={bg === "offwhite" ? "bg-brand-offwhite" : ""}>
-      <div className={`mx-auto ${widthClass} px-4 py-14 sm:px-6 lg:px-8 ${gridClass} ${className}`}>
+      <Reveal className={`mx-auto ${widthClass} px-4 py-16 sm:px-6 lg:px-8 ${gridClass} ${className}`}>
         {children}
-      </div>
+      </Reveal>
     </section>
   );
 }

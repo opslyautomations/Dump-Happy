@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react";
 import Image from "next/image";
 import type { LocationPhoto as LocationPhotoData } from "@/lib/data/location-photos";
 import { Reveal } from "@/components/Reveal";
@@ -6,11 +7,11 @@ import { MapPinIcon } from "@/components/Icons";
 export function LocationPhoto({ photo, name }: { photo: LocationPhotoData; name: string }) {
   const { credit } = photo;
   return (
-    <section className="mx-auto max-w-6xl px-4 pb-4 pt-12 sm:px-6">
-      <Reveal>
+    <section className="mx-auto max-w-6xl px-4 pb-4 pt-14 sm:px-6">
+      <Reveal variant="fade">
         <figure>
           <div className="relative">
-            <div className="relative aspect-[16/9] overflow-hidden rounded-3xl shadow-xl shadow-black/10 sm:aspect-[21/9]">
+            <div className="img-unveil relative aspect-[16/9] overflow-hidden rounded-3xl shadow-2xl shadow-black/15 sm:aspect-[21/9]">
               {/* unoptimized: serve the original JPEG so its embedded IPTC/XMP/EXIF metadata isn't stripped */}
               <Image
                 src={photo.src}
@@ -19,12 +20,14 @@ export function LocationPhoto({ photo, name }: { photo: LocationPhotoData; name:
                 fill
                 unoptimized
                 sizes="(min-width: 1152px) 1152px, 100vw"
+                data-parallax
+                style={{ "--parallax": "-30px", scale: "1.12" } as CSSProperties}
                 className="object-cover"
               />
             </div>
-            <div className="absolute -bottom-5 left-4 flex items-center gap-2 rounded-2xl bg-white px-4 py-3 shadow-xl ring-1 ring-black/5 sm:left-8">
-              <MapPinIcon size={18} className="text-brand-orange" />
-              <p className="text-sm font-semibold text-brand-ink">Serving {name}</p>
+            <div className="absolute -bottom-5 left-4 flex items-center gap-2 rounded-full bg-brand-night px-5 py-3 shadow-xl sm:left-8">
+              <MapPinIcon size={18} className="text-brand-sun" />
+              <p className="text-sm font-semibold text-white">Serving {name}</p>
             </div>
           </div>
           <figcaption className="mt-8 flex flex-col gap-1 text-xs text-brand-slate sm:flex-row sm:items-center sm:justify-between">

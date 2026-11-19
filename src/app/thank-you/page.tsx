@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SITE } from "@/lib/data/site";
+import { Smile } from "@/components/motion/Smile";
 
 export const metadata: Metadata = {
   title: "Thank You | Dump Happy",
@@ -10,27 +11,27 @@ export const metadata: Metadata = {
 
 export default function ThankYouPage() {
   return (
-    <div className="mx-auto flex max-w-2xl flex-col items-center px-4 py-24 text-center sm:px-6">
-      <div className="flex h-16 w-16 items-center justify-center rounded-full bg-brand-orange/10 text-brand-orange">
-        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <path d="M20 6L9 17l-5-5" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
-      </div>
-      <h1 className="mt-6 text-3xl font-bold tracking-tight text-brand-ink">Thanks — we got it!</h1>
-      <p className="mt-4 text-brand-gray">
+    <section className="grain relative overflow-hidden bg-brand-night text-white">
+      <div aria-hidden="true" className="animate-glow pointer-events-none absolute -top-40 left-1/2 -z-10 h-[32rem] w-[32rem] -translate-x-1/2 rounded-full bg-brand-orange/35 blur-3xl" />
+      <div className="relative z-[2] mx-auto flex max-w-2xl flex-col items-center px-4 py-28 text-center sm:px-6">
+      <Smile className="h-24 w-auto text-brand-orange" />
+      <h1 className="mt-8 text-5xl font-extrabold leading-[1.02] text-white sm:text-6xl">Thanks — we got it!</h1>
+      <p className="mt-6 text-lg leading-relaxed text-white/70">
         Your quote request is in. We&apos;ll reach out shortly by phone or text. Need it
         faster? Call us directly at{" "}
-        <a href={`tel:${SITE.phoneRaw}`} className="font-semibold text-brand-orange hover:underline">
+        <a href={`tel:${SITE.phoneRaw}`} className="font-semibold text-brand-orange-light hover:underline">
           {SITE.phoneDisplay}
         </a>
         .
       </p>
       <Link
         href="/"
-        className="mt-8 flex min-h-12 items-center justify-center rounded-lg bg-brand-orange px-8 text-sm font-semibold text-white shadow-md shadow-brand-orange/25 hover:bg-brand-orange-dark"
+        data-magnetic
+        className="mt-10 flex min-h-14 items-center justify-center rounded-full bg-brand-orange px-8 text-lg font-semibold text-white shadow-xl shadow-brand-orange/30 transition-colors hover:bg-brand-orange-dark"
       >
         Back to Home
       </Link>
-    </div>
+      </div>
+    </section>
   );
 }

@@ -1,25 +1,44 @@
 @import "tailwindcss";
 
+/* ==========================================================================
+   Dump Happy — "Sunset Haul" design system
+   Warm night-black, sunset orange, smile-yellow. Display type is Bricolage
+   Grotesque; body stays Inter. Every animation here is progressive
+   enhancement: content is fully visible in the HTML with JS/CSS motion off.
+   ========================================================================== */
+
 :root {
-  --background: #ffffff;
+  --background: #fbf8f4;
   --foreground: #141414;
 
+  /* Existing brand tokens — names/values kept so page-level classes still map */
   --color-brand-orange: #f26a21;
   --color-brand-orange-dark: #d4560f;
   --color-brand-orange-light: #ff8a4c;
   --color-brand-black: #141414;
   --color-brand-charcoal: #232323;
   --color-brand-gray: #6b6b6b;
-  --color-brand-offwhite: #f7f5f2;
-  --color-brand-pale: #fff3eb;
+  --color-brand-offwhite: #f4efe8;
+  --color-brand-pale: #fff1e6;
   --color-brand-ink: #1c1917;
   --color-brand-slate: #57534e;
+
+  /* New */
+  --color-brand-night: #0e0c0a;
+  --color-brand-night-2: #1a1512;
+  --color-brand-sun: #ffc43d;
+  --color-brand-cream: #fbf8f4;
+  --color-brand-sand: #efe6da;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-inter);
+  --font-display: var(--font-display-face);
 
   --color-brand-orange: var(--color-brand-orange);
   --color-brand-orange-dark: var(--color-brand-orange-dark);
@@ -31,11 +50,19 @@
   --color-brand-pale: var(--color-brand-pale);
   --color-brand-ink: var(--color-brand-ink);
   --color-brand-slate: var(--color-brand-slate);
+  --color-brand-night: var(--color-brand-night);
+  --color-brand-night-2: var(--color-brand-night-2);
+  --color-brand-sun: var(--color-brand-sun);
+  --color-brand-cream: var(--color-brand-cream);
+  --color-brand-sand: var(--color-brand-sand);
 
-  --animate-rise: rise 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+  --animate-rise: rise 0.9s var(--ease-out-expo) both;
   --animate-float: float 6s ease-in-out infinite;
   --animate-float-delayed: float 6s ease-in-out 1.5s infinite;
   --animate-slow-zoom: slow-zoom 18s ease-out both;
+  --animate-marquee: marquee var(--marquee-duration, 40s) linear infinite;
+  --animate-spin-slow: spin 18s linear infinite;
+  --animate-glow: glow-drift 14s ease-in-out infinite alternate;
 }
 
 body {
@@ -44,18 +71,113 @@ body {
   font-family: var(--font-inter), Arial, Helvetica, sans-serif;
 }
 
-/* tap targets + no horizontal scroll site-wide */
+h1,
+h2,
+.font-display {
+  font-family: var(--font-display-face), var(--font-inter), Arial, sans-serif;
+  font-optical-sizing: auto;
+  letter-spacing: -0.025em;
+}
+
+h3 {
+  letter-spacing: -0.01em;
+}
+
+/* tap targets + no horizontal scroll site-wide (clip keeps position:sticky working) */
 html {
   -webkit-text-size-adjust: 100%;
-  overflow-x: hidden;
+  overflow-x: clip;
+}
+body {
+  overflow-x: clip;
+}
+
+::selection {
+  background: var(--color-brand-orange);
+  color: #fff;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-brand-orange);
+  outline-offset: 3px;
+  border-radius: 6px;
 }
 
 .overflow-x-auto {
   -webkit-overflow-scrolling: touch;
 }
 
+/* --------------------------------------------------------------------------
+   Texture + surfaces
+   -------------------------------------------------------------------------- */
 
-/* promo popup entrance */
+/* film grain over dark sections — pure SVG noise, no image request */
+.grain {
+  position: relative;
+  isolation: isolate;
+}
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.09;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* outlined display text */
+.text-outline {
+  color: transparent;
+  -webkit-text-stroke: 1.5px currentColor;
+}
+.text-outline-orange {
+  color: transparent;
+  -webkit-text-stroke: 1.5px var(--color-brand-orange);
+}
+
+/* sunset gradient text */
+.text-sunset {
+  background: linear-gradient(100deg, var(--color-brand-sun) 0%, var(--color-brand-orange) 55%, var(--color-brand-orange-dark) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* cursor spotlight — MotionRuntime feeds --mx/--my on [data-spotlight] */
+[data-spotlight] {
+  position: relative;
+}
+[data-spotlight]::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  background: radial-gradient(
+    420px circle at var(--mx, 50%) var(--my, 50%),
+    rgb(242 106 33 / 0.16),
+    transparent 60%
+  );
+  z-index: 0;
+}
+[data-spotlight]:hover::before {
+  opacity: 1;
+}
+
+/* magnetic elements are moved via transform by MotionRuntime */
+[data-magnetic] {
+  transition: transform 0.5s var(--ease-out-expo);
+  will-change: transform;
+}
+
+/* --------------------------------------------------------------------------
+   Keyframes
+   -------------------------------------------------------------------------- */
+
 @keyframes promo-in {
   from {
     opacity: 0;
@@ -71,14 +193,13 @@ html {
 @keyframes rise {
   from {
     opacity: 0;
-    transform: translateY(18px);
+    transform: translateY(22px);
   }
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
-
 .animate-rise {
   animation-delay: var(--delay, 0ms);
 }
@@ -102,22 +223,385 @@ html {
   }
 }
 
-/* scroll reveal — RevealObserver adds .reveal-ready to <html> once JS runs,
-   so content stays visible without JS */
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-cue {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(200%);
+  }
+}
+
+@keyframes glow-drift {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(6%, -8%) scale(1.15);
+  }
+  100% {
+    transform: translate(-6%, 6%) scale(0.95);
+  }
+}
+
+/* Split headline: each word slides up out of a mask. Opacity stays at 1 so the
+   headline still counts as painted for LCP and is always in the DOM. */
+@keyframes word-up {
+  from {
+    transform: translateY(105%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.split-word {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+  padding-bottom: 0.08em;
+  margin-bottom: -0.08em;
+}
+.split-word > span {
+  display: inline-block;
+  animation: word-up 1s var(--ease-out-expo) both;
+  animation-delay: calc(var(--base-delay, 0ms) + var(--i, 0) * 55ms);
+}
+
+/* infinite marquee — duplicate content is aria-hidden */
+.marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee var(--marquee-duration, 40s) linear infinite;
+}
+.marquee-reverse {
+  animation-direction: reverse;
+}
+.marquee-host:hover .marquee,
+.marquee-host:focus-within .marquee {
+  animation-play-state: paused;
+}
+
+/* --------------------------------------------------------------------------
+   Scroll reveal — RevealObserver adds .reveal-ready to <html> once JS runs,
+   so content stays visible without JS (and for every crawler).
+   -------------------------------------------------------------------------- */
+
 .reveal-ready [data-reveal] {
   opacity: 0;
-  transform: translateY(24px);
+  transform: translateY(32px);
   transition:
-    opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
-    transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+    opacity 0.9s var(--ease-out-expo),
+    transform 0.9s var(--ease-out-expo),
+    clip-path 1.1s var(--ease-out-expo),
+    filter 0.9s var(--ease-out-expo);
   transition-delay: var(--reveal-delay, 0ms);
+}
+.reveal-ready [data-reveal="fade"] {
+  transform: none;
+}
+.reveal-ready [data-reveal="scale"] {
+  transform: scale(0.94);
+}
+.reveal-ready [data-reveal="blur"] {
+  filter: blur(12px);
+  transform: translateY(16px);
+}
+.reveal-ready [data-reveal="left"] {
+  transform: translateX(-40px);
+}
+.reveal-ready [data-reveal="right"] {
+  transform: translateX(40px);
+}
+/* curtain wipe for imagery */
+.reveal-ready [data-reveal="clip"] {
+  opacity: 1;
+  transform: scale(1.04);
+  clip-path: inset(100% 0 0 0 round 1.5rem);
 }
 
 .reveal-ready [data-reveal].is-visible {
   opacity: 1;
   transform: none;
+  filter: none;
+  clip-path: inset(0 0 0 0 round 1.5rem);
+}
+.reveal-ready [data-reveal]:not([data-reveal="clip"]).is-visible {
+  clip-path: none;
 }
 
+/* hand-drawn smile swoosh draws itself when revealed */
+.smile-path {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 0;
+}
+.reveal-ready [data-reveal="draw"] {
+  opacity: 1;
+  transform: none;
+}
+.reveal-ready [data-reveal="draw"] .smile-path {
+  stroke-dashoffset: 1;
+  transition: stroke-dashoffset 1.6s var(--ease-out-quart);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+.reveal-ready [data-reveal="draw"].is-visible .smile-path {
+  stroke-dashoffset: 0;
+}
+
+/* --------------------------------------------------------------------------
+   Scroll-driven motion (native CSS, zero JS). Browsers without
+   animation-timeline simply show the static layout.
+   -------------------------------------------------------------------------- */
+
+.scroll-progress {
+  display: none;
+}
+
+/* horizontal services rail: plain swipe scroller by default */
+.hscroll-track {
+  display: flex;
+  gap: 1.25rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  padding-inline: 1rem;
+  padding-bottom: 0.5rem;
+}
+.hscroll-track::-webkit-scrollbar {
+  display: none;
+}
+.hscroll-track > * {
+  scroll-snap-align: start;
+  flex: 0 0 auto;
+}
+
+@keyframes progress-grow {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@keyframes parallax-y {
+  from {
+    transform: translateY(var(--parallax, 60px));
+  }
+  to {
+    transform: translateY(calc(var(--parallax, 60px) * -1));
+  }
+}
+@keyframes hero-media-out {
+  to {
+    transform: scale(1.18) translateY(6%);
+    filter: saturate(1.25) brightness(0.55);
+  }
+}
+@keyframes hero-copy-out {
+  to {
+    transform: translateY(-18%);
+    opacity: 0;
+  }
+}
+@keyframes hscroll-x {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% + 100vw - var(--hscroll-pad, 0px)));
+  }
+}
+@keyframes line-grow {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+@keyframes img-unveil {
+  from {
+    clip-path: inset(12% 10% 12% 10% round 2rem);
+    transform: scale(1.12);
+  }
+  to {
+    clip-path: inset(0 0 0 0 round 1.5rem);
+    transform: scale(1);
+  }
+}
+@keyframes text-scrub {
+  from {
+    background-size: 0% 100%;
+  }
+  to {
+    background-size: 100% 100%;
+  }
+}
+@keyframes draw-scroll {
+  from {
+    stroke-dashoffset: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@supports (animation-timeline: scroll()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .scroll-progress {
+      display: block;
+      position: fixed;
+      inset: 0 0 auto 0;
+      height: 3px;
+      z-index: 70;
+      transform-origin: 0 50%;
+      background: linear-gradient(90deg, var(--color-brand-sun), var(--color-brand-orange));
+      animation: progress-grow linear both;
+      animation-timeline: scroll(root);
+    }
+
+    [data-parallax] {
+      animation: parallax-y linear both;
+      animation-timeline: view();
+      animation-range: cover;
+    }
+
+    .hero-media {
+      animation: hero-media-out linear both;
+      animation-timeline: scroll(root);
+      animation-range: 0 100svh;
+    }
+    .hero-copy {
+      animation: hero-copy-out linear both;
+      animation-timeline: scroll(root);
+      animation-range: 20svh 90svh;
+    }
+
+    .img-unveil {
+      animation: img-unveil linear both;
+      animation-timeline: view();
+      animation-range: entry 0% cover 45%;
+    }
+
+    /* long paragraph that "fills in" as it scrolls past */
+    .text-scrub {
+      color: rgb(255 255 255 / 0.18);
+      background: linear-gradient(var(--color-brand-cream), var(--color-brand-cream)) 0 0 / 0% 100% no-repeat;
+      -webkit-background-clip: text;
+      background-clip: text;
+      animation: text-scrub linear both;
+      animation-timeline: view();
+      animation-range: entry 60% cover 60%;
+    }
+
+    .steps-line {
+      transform-origin: 50% 0;
+      animation: line-grow linear both;
+      animation-timeline: --steps;
+      animation-range: entry 40% exit 60%;
+    }
+    .steps-timeline {
+      view-timeline-name: --steps;
+    }
+
+    .smile-scroll .smile-path {
+      animation: draw-scroll linear both;
+      animation-timeline: view();
+      animation-range: entry 10% cover 55%;
+    }
+
+    /* pinned horizontal rail on large screens */
+    @media (min-width: 1024px) {
+      .hscroll {
+        view-timeline-name: --hscroll;
+        height: var(--hscroll-height, 320vh);
+      }
+      .hscroll-sticky {
+        position: sticky;
+        top: 0;
+        height: 100svh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+      }
+      .hscroll-track {
+        overflow: visible;
+        scroll-snap-type: none;
+        width: max-content;
+        padding-inline: max(1.5rem, calc((100vw - 80rem) / 2 + 1.5rem));
+        --hscroll-pad: 0px;
+        animation: hscroll-x linear both;
+        animation-timeline: --hscroll;
+        animation-range: contain 0% contain 100%;
+      }
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   FAQ / <details> — smooth height where interpolate-size is supported
+   -------------------------------------------------------------------------- */
+@supports (interpolate-size: allow-keywords) {
+  :root {
+    interpolate-size: allow-keywords;
+  }
+  details::details-content {
+    block-size: 0;
+    overflow: clip;
+    transition:
+      block-size 0.45s var(--ease-out-expo),
+      content-visibility 0.45s allow-discrete;
+  }
+  details[open]::details-content {
+    block-size: auto;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Route transitions (React <ViewTransition> in layout.tsx)
+   -------------------------------------------------------------------------- */
+::view-transition-old(.page) {
+  animation: 220ms var(--ease-out-quart) both vt-out;
+}
+::view-transition-new(.page) {
+  animation: 520ms var(--ease-out-expo) 80ms both vt-in;
+}
+::view-transition-group(site-header) {
+  animation: none;
+  z-index: 100;
+}
+::view-transition-old(site-header) {
+  display: none;
+}
+::view-transition-new(site-header) {
+  animation: none;
+}
+@keyframes vt-out {
+  to {
+    opacity: 0;
+    transform: translateY(-12px);
+    filter: blur(4px);
+  }
+}
+@keyframes vt-in {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Reduced motion: everything settles into its final, static state.
+   -------------------------------------------------------------------------- */
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -125,9 +609,22 @@ html {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
   .reveal-ready [data-reveal] {
     opacity: 1;
     transform: none;
+    filter: none;
+    clip-path: none;
+  }
+  .reveal-ready [data-reveal="draw"] .smile-path {
+    stroke-dashoffset: 0;
+  }
+  .marquee {
+    animation: none;
+  }
+  ::view-transition-old(.page),
+  ::view-transition-new(.page) {
+    animation: none;
   }
 }

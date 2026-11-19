@@ -12,6 +12,8 @@ import { JsonLd } from "@/components/JsonLd";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CTABand } from "@/components/CTABand";
 import { Callout } from "@/components/Callout";
+import { Reveal } from "@/components/Reveal";
+import { PageIntro } from "@/components/page-sections/PageIntro";
 
 export const metadata: Metadata = buildMetadata({
   title: "About Dump Happy | LA Junk Removal Company",
@@ -58,114 +60,119 @@ export default function AboutPage() {
       />
       <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "About", path: "/about" }]} />
 
-      <section className="relative overflow-hidden">
-        <div
-          aria-hidden="true"
-          className="pointer-events-none absolute -right-40 -top-20 h-[26rem] w-[26rem] rounded-full bg-brand-orange-light opacity-25 blur-3xl"
-        />
-        <div className="relative mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:py-20">
-          <p className="text-sm font-semibold uppercase tracking-widest text-brand-orange-dark">Our story</p>
-          <h1 className="animate-rise mt-3 text-4xl font-bold tracking-tight text-brand-ink sm:text-5xl">
-            About Dump Happy
-          </h1>
-          <p className="mt-5 text-lg leading-relaxed text-brand-slate">
-            Dump Happy makes junk removal and clean-outs simple, affordable,
-            and stress-free. Based in Los Angeles and serving the Westside,
-            South Bay, and Central LA, we provide reliable junk removal,
-            clean-outs, hauling, and debris disposal for homeowners, renters,
-            contractors, property managers, and businesses.
-          </p>
-        </div>
-      </section>
+      <PageIntro eyebrow="Our story" title="About Dump Happy">
+        <p>
+          Dump Happy makes junk removal and clean-outs simple, affordable,
+          and stress-free. Based in Los Angeles and serving the Westside,
+          South Bay, and Central LA, we provide reliable junk removal,
+          clean-outs, hauling, and debris disposal for homeowners, renters,
+          contractors, property managers, and businesses.
+        </p>
+      </PageIntro>
 
-      <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 gap-10 lg:grid-cols-5 lg:items-center">
-          <div className="lg:col-span-3">
-            <h2 className="text-2xl font-bold tracking-tight text-brand-ink">Our Story</h2>
-            <p className="mt-4 leading-relaxed text-brand-charcoal">
-              Whether you&apos;re clearing a garage, tackling a renovation, managing
-              an estate clean-out, or removing construction debris, Jason and the
-              Dump Happy crew make it fast and hassle-free — showing up on time,
-              working hard, and treating every property with respect. From a
-              single-item pickup to a full property clean-out, we&apos;re ready to
-              help keep Southern California clean, safe, and clutter-free.
-            </p>
-          </div>
-          <div className="lg:col-span-2">
-            <Image
-              src="/team-photo.webp"
-              alt="The Dump Happy team wearing Dump Happy Junk Removal t-shirts"
-              width={1476}
-              height={1969}
-              sizes="(min-width: 1024px) 360px, 80vw"
-              className="mx-auto w-full max-w-sm rounded-xl object-cover shadow-md"
-            />
+      <section className="bg-brand-cream">
+        <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
+          <div className="grid grid-cols-1 gap-12 lg:grid-cols-5 lg:items-center lg:gap-16">
+            <Reveal className="lg:col-span-3">
+              <h2 className="text-4xl font-extrabold leading-[1.02] text-brand-ink sm:text-5xl">Our Story</h2>
+              <p className="mt-6 text-lg leading-relaxed text-brand-charcoal">
+                Whether you&apos;re clearing a garage, tackling a renovation, managing
+                an estate clean-out, or removing construction debris, Jason and the
+                Dump Happy crew make it fast and hassle-free — showing up on time,
+                working hard, and treating every property with respect. From a
+                single-item pickup to a full property clean-out, we&apos;re ready to
+                help keep Southern California clean, safe, and clutter-free.
+              </p>
+            </Reveal>
+            <Reveal variant="clip" delay={120} className="lg:col-span-2">
+              <Image
+                src="/team-photo.webp"
+                alt="The Dump Happy team wearing Dump Happy Junk Removal t-shirts"
+                width={1476}
+                height={1969}
+                sizes="(min-width: 1024px) 360px, 80vw"
+                className="mx-auto w-full max-w-sm rounded-[2rem] object-cover shadow-2xl shadow-black/20"
+              />
+            </Reveal>
           </div>
         </div>
       </section>
 
       <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold tracking-tight text-brand-ink">
-            What Sets Us Apart
-          </h2>
-          <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-3">
-            <div className="rounded-xl bg-white p-6">
-              <h3 className="font-bold text-brand-black">Honest, load-based pricing</h3>
-              <p className="mt-2 text-sm text-brand-gray">
-                As a locally owned and operated company, we deliver clear
-                communication from start to finish — no hidden fees, no
-                surprises.
-              </p>
-            </div>
-            <div className="rounded-xl bg-white p-6">
-              <h3 className="font-bold text-brand-black">Respect for your property</h3>
-              <p className="mt-2 text-sm text-brand-gray">
-                We show up on time, protect floors and doorways, and treat
-                every home, garage, and job site like it&apos;s our own.
-              </p>
-            </div>
-            <div className="rounded-xl bg-white p-6">
-              <h3 className="font-bold text-brand-black">Legal, responsible disposal</h3>
-              <p className="mt-2 text-sm text-brand-gray">
-                Usable items go to donation first; the rest is recycled or
-                disposed of through licensed facilities — never dumped.
-              </p>
-            </div>
+        <div className="mx-auto max-w-5xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
+          <Reveal>
+            <h2 className="text-4xl font-extrabold leading-[1.02] text-brand-ink sm:text-5xl">
+              What Sets Us Apart
+            </h2>
+          </Reveal>
+          <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-3">
+            <Reveal delay={0}>
+              <div data-spotlight className="h-full overflow-hidden rounded-3xl border border-black/5 bg-white p-7 shadow-sm transition duration-500 hover:-translate-y-1 hover:shadow-xl">
+                <h3 className="relative text-lg font-bold text-brand-black">Honest, load-based pricing</h3>
+                <p className="relative mt-3 text-[15px] leading-relaxed text-brand-slate">
+                  As a locally owned and operated company, we deliver clear
+                  communication from start to finish — no hidden fees, no
+                  surprises.
+                </p>
+              </div>
+            </Reveal>
+            <Reveal delay={100}>
+              <div data-spotlight className="h-full overflow-hidden rounded-3xl border border-black/5 bg-white p-7 shadow-sm transition duration-500 hover:-translate-y-1 hover:shadow-xl">
+                <h3 className="relative text-lg font-bold text-brand-black">Respect for your property</h3>
+                <p className="relative mt-3 text-[15px] leading-relaxed text-brand-slate">
+                  We show up on time, protect floors and doorways, and treat
+                  every home, garage, and job site like it&apos;s our own.
+                </p>
+              </div>
+            </Reveal>
+            <Reveal delay={200}>
+              <div data-spotlight className="h-full overflow-hidden rounded-3xl border border-black/5 bg-white p-7 shadow-sm transition duration-500 hover:-translate-y-1 hover:shadow-xl">
+                <h3 className="relative text-lg font-bold text-brand-black">Legal, responsible disposal</h3>
+                <p className="relative mt-3 text-[15px] leading-relaxed text-brand-slate">
+                  Usable items go to donation first; the rest is recycled or
+                  disposed of through licensed facilities — never dumped.
+                </p>
+              </div>
+            </Reveal>
           </div>
 
-          <div className="mt-8">
+          <Reveal className="mt-10">
             <Callout title="Illegal dumping is a crime" variant="warning">
               Leaving furniture, mattresses, or debris on a curb, alley, or
               vacant lot violates California Penal Code 374.3, with LA County
               fines up to $10,000 and possible vehicle impoundment. Every
               Dump Happy job is disposed of the legal way.
             </Callout>
-          </div>
+          </Reveal>
         </div>
       </section>
 
-      <section className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-        <h2 className="text-2xl font-bold tracking-tight text-brand-ink">
-          Our Commitment to Southern California
-        </h2>
-        <p className="mt-4 leading-relaxed text-brand-charcoal">
-          Dump Happy is proud to serve homeowners, renters, contractors,
-          property managers, and businesses across the Westside, South Bay,
-          and Central LA. As a mobile, service-area business, we bring the
-          truck and the crew to you — no storefront, no unnecessary overhead,
-          just fast, reliable hauling wherever you are in Los Angeles County.
-        </p>
+      <section className="bg-brand-cream">
+        <Reveal className="mx-auto max-w-4xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
+          <h2 className="text-4xl font-extrabold leading-[1.02] text-brand-ink sm:text-5xl">
+            Our Commitment to Southern California
+          </h2>
+          <p className="mt-6 text-lg leading-relaxed text-brand-charcoal">
+            Dump Happy is proud to serve homeowners, renters, contractors,
+            property managers, and businesses across the Westside, South Bay,
+            and Central LA. As a mobile, service-area business, we bring the
+            truck and the crew to you — no storefront, no unnecessary overhead,
+            just fast, reliable hauling wherever you are in Los Angeles County.
+          </p>
+        </Reveal>
       </section>
 
       <section className="bg-brand-offwhite">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold tracking-tight text-brand-ink">
-            Frequently Asked Questions About Dump Happy
-          </h2>
-          <div className="mt-6">
+        <div className="mx-auto max-w-4xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
+          <Reveal>
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-orange-dark">FAQ</p>
+            <h2 className="mt-3 text-4xl font-extrabold leading-[1.02] text-brand-ink sm:text-5xl">
+              Frequently Asked Questions About Dump Happy
+            </h2>
+          </Reveal>
+          <Reveal delay={100} className="mt-10">
             <FAQAccordion faqs={faqs} />
-          </div>
+          </Reveal>
         </div>
       </section>
 
