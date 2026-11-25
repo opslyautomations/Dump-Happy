@@ -6,7 +6,7 @@ export default function TooMuchYardWasteForGreenBinLosAngelesBody() {
       <p>
         The easiest way to get rid of yard waste in Los Angeles is to book Dump Happy: we load
         branches, palm fronds, trimmings, sod, and brush from wherever they&apos;re piled and haul
-        the whole lot away in one visit, from $289.
+        the whole lot away in one visit, from $454.
       </p>
       <p>
         No cutting to size, no bundling, no waiting. Call (424) 356-4141 or{" "}
@@ -106,7 +106,7 @@ export default function TooMuchYardWasteForGreenBinLosAngelesBody() {
         Dump Happy hauls branches, palm fronds, trimmings, sod, and brush in one trip across the
         Westside, South Bay, and Central LA, including{" "}
         <Link href="/locations/santa-monica">Santa Monica</Link> and{" "}
-        <Link href="/locations/culver-city">Culver City</Link>. Pricing starts at $289 for a small
+        <Link href="/locations/culver-city">Culver City</Link>. Pricing starts at $454 for a quarter
         load. See the <Link href="/pricing">pricing page</Link> for every tier.
       </p>
       <p>

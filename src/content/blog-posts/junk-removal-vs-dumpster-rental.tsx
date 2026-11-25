@@ -6,7 +6,7 @@ export default function JunkRemovalVsDumpsterRentalBody() {
       <p>
         For most Los Angeles clean-outs and remodel debris, booking a junk removal crew beats
         renting a dumpster: Dump Happy does all the lifting, needs no parking spot or permit, and
-        clears the job in one visit, starting at $289. With a dumpster, you still do every bit of
+        clears the job in one visit, starting at $454. With a dumpster, you still do every bit of
         the loading yourself.
       </p>
       <p>
@@ -50,7 +50,7 @@ export default function JunkRemovalVsDumpsterRentalBody() {
           </tr>
           <tr>
             <td>Pricing</td>
-            <td>Pay only for the space you fill, from $289</td>
+            <td>Pay only for the space you fill, from $454</td>
             <td>Pay for the container, full or not</td>
           </tr>
           <tr>
@@ -67,11 +67,10 @@ export default function JunkRemovalVsDumpsterRentalBody() {
         for the truck space your items fill, with labor, hauling, and disposal included:
       </p>
       <ul>
-        <li>Small load: from $289</li>
-        <li>Quarter load: $389</li>
-        <li>Half load: $569</li>
-        <li>3/4 load: $739</li>
-        <li>Full load (16ft trailer): $899</li>
+        <li>Quarter load: $454</li>
+        <li>Half load: $624</li>
+        <li>3/4 load: $794</li>
+        <li>Full load (16ft trailer): $964</li>
       </ul>
       <p>
         A half-full container still costs the full rental, and the labor of filling it is all

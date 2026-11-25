@@ -6,7 +6,7 @@ export default function HowToPrepGarageCleanoutBody() {
       <p>
         The best garage clean-out tip is the simplest: set aside what you&apos;re keeping, snap a
         few photos, and book Dump Happy. Our crew does the sorting, hauling, and disposal in one
-        visit, from $289.
+        visit, from $454.
       </p>
       <p>
         Call (424) 356-4141 or <Link href="/contact">get a free quote</Link> for a{" "}

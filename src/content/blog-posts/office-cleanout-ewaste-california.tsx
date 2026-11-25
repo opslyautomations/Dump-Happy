@@ -7,7 +7,7 @@ export default function OfficeCleanoutEwasteCaliforniaBody() {
         Old office computers and monitors count as covered e-waste in California, so they
         can&apos;t go in a dumpster or general trash haul. The easiest way to clear an office in Los
         Angeles is to book Dump Happy: we haul the furniture and junk and send electronics to
-        certified e-waste recyclers, all in one pickup, starting at $289.
+        certified e-waste recyclers, all in one pickup, starting at $454.
       </p>
       <p>
         Call (424) 356-4141 or <Link href="/contact">get a free quote</Link>. We&apos;re open 10am

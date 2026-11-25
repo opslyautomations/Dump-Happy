@@ -6,7 +6,7 @@ export default function ConstructionDebrisRecyclingLosAngelesBody() {
       <p>
         The easiest way to meet LA&apos;s construction debris recycling rules is to book Dump
         Happy: we haul demo debris, drywall, wood, metal, concrete, and soil from your job site and
-        route it to certified C&amp;D recycling facilities, from $289 a load.
+        route it to certified C&amp;D recycling facilities, from $454 a load.
       </p>
       <p>
         Call (424) 356-4141 or <Link href="/contact">get a free quote</Link> for{" "}

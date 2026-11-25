@@ -49,7 +49,7 @@ const steps = [
   },
 ];
 
-const pricingExplainer = `Junk removal here is priced by volume — how much space your stuff takes in the truck — not by the hour. That keeps it predictable. Dump Happy's tiers run from a single-item pickup (one couch, one fridge) up through small, quarter, half, three-quarter, and full load. You approve the tier before we lift anything, and if the load turns out smaller than quoted, you pay the smaller tier. Free quote, no hidden fees — exactly what the "no surprises" promise means.`;
+const pricingExplainer = `Junk removal here is priced by volume — how much space your stuff takes in the truck — not by the hour. That keeps it predictable. Dump Happy's tiers run from a quarter load (≈3.5 cubic yards — a couch, a fridge, or a few bulky items) up through half, three-quarter, and full load (≈14 cubic yards). You approve the tier before we lift anything, and if the load turns out smaller than quoted, you pay the smaller tier. Free quote, no hidden fees — exactly what the "no surprises" promise means.`;
 
 const whatWeTake = `Furniture, appliances, mattresses, e-waste, garage and yard clutter, construction and remodel debris, hot tubs, estate and property clean-out contents, and general household junk. If it's bulky, heavy, or just in the way, it's probably a yes — ask.`;
 
@@ -68,7 +68,7 @@ const faqs: FaqItem[] = [
   {
     question: "How much does junk removal cost in Los Angeles?",
     answer:
-      "Pricing is based on how much room your items take in the truck, not the hour. Dump Happy uses set tiers — single item, then small, quarter, half, three-quarter, and full load — and gives you a firm quote before any lifting. If the load ends up smaller than quoted, you pay the lower tier. Ask for a free estimate with a couple of photos.",
+      "Pricing is based on how much room your items take in the truck, not the hour. Dump Happy uses set tiers — quarter, half, three-quarter, and full load — and gives you a firm quote before any lifting. If the load ends up smaller than quoted, you pay the lower tier. Ask for a free estimate with a couple of photos.",
   },
   {
     question: "Do I have to move everything to the curb first?",
@@ -83,7 +83,7 @@ const faqs: FaqItem[] = [
   {
     question: "How do I get rid of a couch, mattress, TV, or old fridge?",
     answer:
-      "Book one pickup and we handle all of it. Each item has its own rules — mattresses go to California mattress recyclers, TVs are hazardous e-waste, and fridges need certified refrigerant recovery — and we route every piece the right way, starting at $289. No waiting on a city pickup day, no dragging things to the curb, and no illegal dumping fines.",
+      "Book one pickup and we handle all of it. Each item has its own rules — mattresses go to California mattress recyclers, TVs are hazardous e-waste, and fridges need certified refrigerant recovery — and we route every piece the right way, starting at $454. No waiting on a city pickup day, no dragging things to the curb, and no illegal dumping fines.",
   },
   {
     question: "What won't you take?",

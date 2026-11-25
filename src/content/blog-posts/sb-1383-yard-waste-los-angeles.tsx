@@ -7,7 +7,7 @@ export default function Sb1383YardWasteLosAngelesBody() {
         Under SB 1383, California&apos;s yard waste rules require organic material like branches
         and trimmings to be kept out of landfills. The simplest way for LA homeowners to stay on
         the right side of it is to book Dump Happy: we haul your yard waste and deliver it to an
-        organics facility, from $289.
+        organics facility, from $454.
       </p>
       <p>
         Call (424) 356-4141 or <Link href="/contact">get a free quote</Link> for{" "}
@@ -79,7 +79,7 @@ export default function Sb1383YardWasteLosAngelesBody() {
       <ul>
         <li>No cutting, bundling, or hauling on your end</li>
         <li>Pickup from backyards, side yards, and slopes</li>
-        <li>Pricing by truck space, from $289 for a small load to $899 for a full 16ft trailer</li>
+        <li>Pricing by truck space, from $454 for a quarter load to $964 for a full 16ft trailer</li>
         <li>Open 10am to 8pm, seven days a week</li>
       </ul>
       <p>

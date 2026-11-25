@@ -6,7 +6,7 @@ export default function MattressDisposalCaliforniaBody() {
       <p>
         In California, an old mattress is supposed to be recycled, not thrown in the trash. In Los
         Angeles, the easiest way to do that is to book Dump Happy: we carry the mattress out of any
-        room and route it to a California mattress recycler, starting at $289.
+        room and route it to a California mattress recycler, starting at $329.
       </p>
       <p>
         Call <a href="tel:+14243564141">(424) 356-4141</a> or{" "}
@@ -61,9 +61,9 @@ export default function MattressDisposalCaliforniaBody() {
 
       <h2>What does mattress disposal cost?</h2>
       <p>
-        With Dump Happy, a small load starts at $289 and usually fits a mattress, box spring, and
-        frame. Larger jobs move up to a quarter load (from $389), half load (from $569), 3/4 load
-        (from $739), or full 16ft trailer (from $899). See{" "}
+        With Dump Happy, mattress pickup starts at $329 and usually fits a mattress, box spring, and
+        frame. Larger jobs move up to a quarter load (from $454), half load (from $624), 3/4 load
+        (from $794), or full 16ft trailer (from $964). See{" "}
         <Link href="/pricing">pricing</Link> and{" "}
         <Link href="/blog/mattress-removal-cost-los-angeles">
           what mattress removal costs in LA

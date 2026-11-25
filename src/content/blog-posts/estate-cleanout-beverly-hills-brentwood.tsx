@@ -6,8 +6,8 @@ export default function EstateCleanoutBeverlyHillsBrentwoodBody() {
       <p>
         For an estate clean-out in Beverly Hills or Brentwood, book Dump Happy: our crew plans
         around large homes, canyon access, and the discretion these jobs call for, then sorts,
-        donates, and hauls everything in a coordinated visit. Loads start at $289, and a full 16ft
-        trailer is $899.
+        donates, and hauls everything in a coordinated visit. Loads start at $454, and a full 16ft
+        trailer is $964.
       </p>
       <p>
         Call (424) 356-4141 or <Link href="/contact">get a free quote</Link> for an{" "}

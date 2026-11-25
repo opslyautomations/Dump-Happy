@@ -26,28 +26,28 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "How Much Does Junk Removal Cost in Los Angeles?",
     metaTitle: "Junk Removal Cost in Los Angeles (2026 Prices) | Dump Happy",
     metaDescription:
-      "Junk removal in Los Angeles costs $289 to $899 with Dump Happy, based on truck volume. See each load tier, what fits, and what changes your quote.",
+      "Junk removal in Los Angeles costs $454 to $964 with Dump Happy, based on truck volume. See each load tier, what fits, and what changes your quote.",
     targetKeyword: "junk removal cost los angeles",
     category: "Pricing",
     summary:
-      "LA junk removal prices by load tier ($289–$899) and what drives cost; links Pricing + Junk Removal.",
+      "LA junk removal prices by load tier ($454–$964) and what drives cost; links Pricing + Junk Removal.",
     datePublished: "2026-04-06",
     dateModified: "2026-10-07",
     relatedServices: ["junk-removal"],
     relatedLocations: [],
     imageAlt: "Junk removal crew loading a truck by volume in Los Angeles",
     quickAnswer:
-      "Junk removal in Los Angeles costs about $289 to $899 with Dump Happy, priced by how much of the truck your items fill. A single bulky item or small load starts at $289, a half load at $569, and a full 16ft trailer at $899. Labor, hauling, and disposal are included, and you get a firm quote before loading.",
+      "Junk removal in Los Angeles costs about $454 to $964 with Dump Happy, priced by how much of the truck your items fill. A quarter load starts at $454, a half load at $624, and a full 16ft trailer at $964. Labor, hauling, and disposal are included, and you get a firm quote before loading.",
     faqs: [
       {
         question: "How much is junk removal in Los Angeles?",
         answer:
-          "With Dump Happy, junk removal in Los Angeles starts at $289 for a small load and runs up to $899 for a full 16ft trailer. Quarter loads start at $389, half loads at $569, and three-quarter loads at $739. The price includes labor, hauling, and disposal.",
+          "With Dump Happy, junk removal in Los Angeles starts at $454 for a quarter load and runs up to $964 for a full 16ft trailer. Quarter loads start at $454, half loads at $624, and three-quarter loads at $794. The price includes labor, hauling, and disposal.",
       },
       {
         question: "How much does it cost to remove one item, like a couch?",
         answer:
-          "A single bulky item like a couch, mattress, or refrigerator falls into the small load tier, which starts at $289. Adding a few more items to the same pickup often costs little or nothing extra, since you pay for truck space rather than per piece.",
+          "A single bulky item like a couch, mattress, or refrigerator falls into the quarter-load tier, which starts at $454. Adding a few more items to the same pickup often costs little or nothing extra, since you pay for truck space rather than per piece.",
       },
       {
         question: "Is junk removal priced by the hour?",
@@ -77,7 +77,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: [],
     imageAlt: "Household hazardous waste sorted separately from a junk removal load",
     quickAnswer:
-      "The only thing junk haulers can't take is household hazardous waste: paint, chemicals, pesticides, motor oil, batteries, fuel, and asbestos. Those need to go to a household hazardous waste drop-off. Everything else, including furniture, appliances, electronics, mattresses, and yard debris, Dump Happy hauls away, starting at $289.",
+      "The only thing junk haulers can't take is household hazardous waste: paint, chemicals, pesticides, motor oil, batteries, fuel, and asbestos. Those need to go to a household hazardous waste drop-off. Everything else, including furniture, appliances, electronics, mattresses, and yard debris, Dump Happy hauls away, starting at $454.",
     faqs: [
       {
         question: "What won't junk removal companies take?",
@@ -101,7 +101,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "Is It Legal to Leave Junk on the Curb in LA?",
     metaTitle: "Is Illegal Dumping in LA a Crime? | Dump Happy",
     metaDescription:
-      "Leaving junk on a curb in LA can mean fines up to $10,000 under Penal Code 374.3. What the law says, and how Dump Happy hauls it legally from $289.",
+      "Leaving junk on a curb in LA can mean fines up to $10,000 under Penal Code 374.3. What the law says, and how Dump Happy hauls it legally from $454.",
     targetKeyword: "illegal dumping los angeles",
     category: "Disposal Rules",
     summary:
@@ -112,7 +112,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: [],
     imageAlt: "Illegally dumped furniture on a Los Angeles curbside",
     quickAnswer:
-      "No. Leaving furniture or junk on a curb, alley, or vacant lot in Los Angeles without authorization is illegal dumping under California Penal Code 374.3, with fines up to $10,000, possible jail time, and vehicle impoundment. The legal, easy option is to book Dump Happy to haul it away, with loads from $289.",
+      "No. Leaving furniture or junk on a curb, alley, or vacant lot in Los Angeles without authorization is illegal dumping under California Penal Code 374.3, with fines up to $10,000, possible jail time, and vehicle impoundment. The legal, easy option is to book Dump Happy to haul it away, with loads from $454.",
   },
   {
     slug: "what-happens-to-junk-after-pickup",
@@ -130,7 +130,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: [],
     imageAlt: "Junk removal load sorted into donation, recycling, and disposal piles",
     quickAnswer:
-      "When Dump Happy picks up your junk, it doesn't all go to the dump. We sort every load: usable items get donated, mattresses go to California mattress recyclers, e-waste to certified recyclers, green waste to organics facilities, and only what's left is disposed of legally. You don't have to sort anything yourself. Pickups start at $289.",
+      "When Dump Happy picks up your junk, it doesn't all go to the dump. We sort every load: usable items get donated, mattresses go to California mattress recyclers, e-waste to certified recyclers, green waste to organics facilities, and only what's left is disposed of legally. You don't have to sort anything yourself. Pickups start at $454.",
     faqs: [
       {
         question: "Where does junk go after removal?",
@@ -154,7 +154,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "How to Dispose of a Mattress in California",
     metaTitle: "Mattress Disposal Rules in California | Dump Happy",
     metaDescription:
-      "California requires old mattresses to be recycled. Dump Happy carries yours out in LA and routes it to a mattress recycler, from $289.",
+      "California requires old mattresses to be recycled. Dump Happy carries yours out in LA and routes it to a mattress recycler, from $329.",
     targetKeyword: "mattress disposal california",
     category: "Disposal Rules",
     summary:
@@ -165,7 +165,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: [],
     imageAlt: "Old mattress being loaded for recycling in California",
     quickAnswer:
-      "In California, old mattresses are meant to be recycled under the state's mattress recycling law, not landfilled. In Los Angeles, the easiest way to do that is to book Dump Happy: we carry the mattress out of any room and route it to a California mattress recycler, starting at $289 for a small load.",
+      "In California, old mattresses are meant to be recycled under the state's mattress recycling law, not landfilled. In Los Angeles, the easiest way to do that is to book Dump Happy: we carry the mattress out of any room and route it to a California mattress recycler, starting at $329.",
     faqs: [
       {
         question: "Do mattresses have to be recycled in California?",
@@ -175,7 +175,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       {
         question: "How much does mattress disposal cost in Los Angeles?",
         answer:
-          "With Dump Happy, mattress disposal starts at $289 for a small load, which usually fits a mattress, box spring, and frame. The price includes carrying it out, hauling, and recycling.",
+          "With Dump Happy, mattress disposal starts at $329, which usually fits a mattress, box spring, and frame. The price includes carrying it out, hauling, and recycling.",
       },
       {
         question: "Can Dump Happy take several mattresses at once?",
@@ -189,7 +189,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "Refrigerator Disposal Rules in California",
     metaTitle: "Refrigerator Disposal Rules in CA | Dump Happy",
     metaDescription:
-      "Old fridges hold refrigerant that must be recovered before disposal under federal and California law. Dump Happy hauls them and handles it. From $289.",
+      "Old fridges hold refrigerant that must be recovered before disposal under federal and California law. Dump Happy hauls them and handles it. From $454.",
     targetKeyword: "refrigerator disposal california",
     category: "Disposal Rules",
     summary:
@@ -200,7 +200,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: [],
     imageAlt: "Old refrigerator being removed for certified refrigerant recovery",
     quickAnswer:
-      "In California, an old refrigerator's refrigerant must be recovered by a certified technician before the unit is scrapped or disposed of. The easiest way to handle that in Los Angeles is to book Dump Happy: we haul the fridge out, make sure the refrigerant is recovered properly, and recycle the metal, starting at $289.",
+      "In California, an old refrigerator's refrigerant must be recovered by a certified technician before the unit is scrapped or disposed of. The easiest way to handle that in Los Angeles is to book Dump Happy: we haul the fridge out, make sure the refrigerant is recovered properly, and recycle the metal, starting at $454.",
     faqs: [
       {
         question: "Can I throw away a refrigerator in California?",
@@ -215,7 +215,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       {
         question: "How much does refrigerator removal cost in Los Angeles?",
         answer:
-          "A single fridge typically fits in Dump Happy's small load tier, starting at $289, with labor, hauling, and disposal included. Adding other appliances to the same pickup is usually cheaper than booking separately.",
+          "A single fridge typically fits in Dump Happy's quarter-load tier, starting at $454, with labor, hauling, and disposal included. Adding other appliances to the same pickup is usually cheaper than booking separately.",
       },
       {
         question: "Do you take refrigerators that still work?",
@@ -240,14 +240,14 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: [],
     imageAlt: "Cluttered garage being sorted before a clean-out",
     quickAnswer:
-      "To prep for a garage clean-out, set aside anything you're keeping, move paint and chemicals to one side, clear a walking path to the driveway, and send a few photos for a quote. Then book Dump Happy: our crew sorts, donates, recycles, and hauls everything else in one visit, with loads from $289.",
+      "To prep for a garage clean-out, set aside anything you're keeping, move paint and chemicals to one side, clear a walking path to the driveway, and send a few photos for a quote. Then book Dump Happy: our crew sorts, donates, recycles, and hauls everything else in one visit, with loads from $454.",
   },
   {
     slug: "estate-cleanout-checklist",
     title: "Estate Clean-Out Checklist: Where to Start",
     metaTitle: "Estate Clean-Out Checklist | Dump Happy",
     metaDescription:
-      "Estate clean-out checklist for LA executors: secure valuables, choose keepsakes, then book Dump Happy to clear the rest in one visit, from $289.",
+      "Estate clean-out checklist for LA executors: secure valuables, choose keepsakes, then book Dump Happy to clear the rest in one visit, from $454.",
     targetKeyword: "estate cleanout checklist",
     category: "Guides",
     summary:
@@ -258,7 +258,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: ["beverly-hills", "brentwood"],
     imageAlt: "Executor sorting boxes during an estate clean-out",
     quickAnswer:
-      "Start an estate clean-out by securing documents, cash, jewelry, and photos, then give the family time to choose keepsakes and confirm the probate or escrow timeline. After that, book Dump Happy to clear everything else in one respectful visit: we sort, donate usable items, and haul the rest, with loads from $289.",
+      "Start an estate clean-out by securing documents, cash, jewelry, and photos, then give the family time to choose keepsakes and confirm the probate or escrow timeline. After that, book Dump Happy to clear everything else in one respectful visit: we sort, donate usable items, and haul the rest, with loads from $454.",
   },
   {
     slug: "how-hot-tub-removal-works",
@@ -294,7 +294,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: ["culver-city", "brentwood"],
     imageAlt: "Construction debris sorted for recycling at a Los Angeles job site",
     quickAnswer:
-      "LA County requires most construction and demolition debris on covered projects to be recycled at 70% or more, and 100% of soil, through certified facilities. The easiest way to comply is to book Dump Happy, which hauls job-site debris to certified C&D recyclers, with loads from $289 and free quotes at (424) 356-4141.",
+      "LA County requires most construction and demolition debris on covered projects to be recycled at 70% or more, and 100% of soil, through certified facilities. The easiest way to comply is to book Dump Happy, which hauls job-site debris to certified C&D recyclers, with loads from $454 and free quotes at (424) 356-4141.",
   },
   {
     slug: "sb-1383-yard-waste-los-angeles",
@@ -312,14 +312,14 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: [],
     imageAlt: "Yard trimmings and green waste piled for organics recycling",
     quickAnswer:
-      "SB 1383 is California's law requiring organic waste, including yard trimmings, to be diverted from landfills to composting and mulching. Its penalties target cities and haulers, not individual homeowners. The simplest way to comply is to book Dump Happy, which hauls your yard waste to an organics facility, with loads from $289.",
+      "SB 1383 is California's law requiring organic waste, including yard trimmings, to be diverted from landfills to composting and mulching. Its penalties target cities and haulers, not individual homeowners. The simplest way to comply is to book Dump Happy, which hauls your yard waste to an organics facility, with loads from $454.",
   },
   {
     slug: "junk-removal-vs-dumpster-rental",
     title: "Junk Removal vs. Dumpster Rental: Why a Crew Beats a Bin in LA",
     metaTitle: "Junk Removal vs Dumpster Rental | Dump Happy",
     metaDescription:
-      "Junk removal vs dumpster rental in LA: Dump Happy does the lifting, needs no parking spot, and clears it in one visit from $289. See the comparison.",
+      "Junk removal vs dumpster rental in LA: Dump Happy does the lifting, needs no parking spot, and clears it in one visit from $454. See the comparison.",
     targetKeyword: "junk removal vs dumpster rental",
     category: "Guides",
     summary:
@@ -330,12 +330,12 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: [],
     imageAlt: "Dump Happy crew loading debris into a truck instead of a dumpster in Los Angeles",
     quickAnswer:
-      "For most Los Angeles clean-outs and remodel debris, booking Dump Happy beats renting a dumpster. Our crew does all the lifting, needs no parking spot or permit, and clears the job in one visit. You pay only for the truck space you fill, from $289, with hauling and disposal included, instead of paying for a container you load yourself.",
+      "For most Los Angeles clean-outs and remodel debris, booking Dump Happy beats renting a dumpster. Our crew does all the lifting, needs no parking spot or permit, and clears the job in one visit. You pay only for the truck space you fill, from $454, with hauling and disposal included, instead of paying for a container you load yourself.",
     faqs: [
       {
         question: "Is junk removal cheaper than a dumpster?",
         answer:
-          "Often, yes. With Dump Happy you pay only for the space your items fill, from $289 for a small load to $899 for a full 16ft trailer, with labor and disposal included. A dumpster costs the same whether it's full or not, and you do all the loading.",
+          "Often, yes. With Dump Happy you pay only for the space your items fill, from $454 for a quarter load to $964 for a full 16ft trailer, with labor and disposal included. A dumpster costs the same whether it's full or not, and you do all the loading.",
       },
       {
         question: "Do I have to load a dumpster myself?",
@@ -370,14 +370,14 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: [],
     imageAlt: "A supportive family member helping sort belongings",
     quickAnswer:
-      "To help a loved one facing hoarding, start without judgment, let them make decisions and set the pace, and protect keepsakes like photos and documents. When they're ready, book Dump Happy for a discreet hoarding clean-out: our crew sorts, protects what matters, and hauls the clutter, with loads from $289.",
+      "To help a loved one facing hoarding, start without judgment, let them make decisions and set the pace, and protect keepsakes like photos and documents. When they're ready, book Dump Happy for a discreet hoarding clean-out: our crew sorts, protects what matters, and hauls the clutter, with loads from $454.",
   },
   {
     slug: "office-cleanout-ewaste-california",
     title: "Office Clean-Outs: E-Waste and Data Rules in California",
     metaTitle: "Office E-Waste Rules in California | Dump Happy",
     metaDescription:
-      "Old office computers count as covered e-waste in California. Dump Happy clears offices and sends electronics to certified e-waste recyclers. From $289.",
+      "Old office computers count as covered e-waste in California. Dump Happy clears offices and sends electronics to certified e-waste recyclers. From $454.",
     targetKeyword: "office e-waste disposal california",
     category: "Disposal Rules",
     summary:
@@ -388,7 +388,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: ["culver-city", "koreatown"],
     imageAlt: "Old office computers and monitors staged for e-waste recycling",
     quickAnswer:
-      "Old office computers and monitors count as covered e-waste in California and can't go in a dumpster. The easiest way to clear an office in Los Angeles is to book Dump Happy: we haul the furniture and junk and send electronics to certified e-waste recyclers, all in one pickup, starting at $289. Call (424) 356-4141.",
+      "Old office computers and monitors count as covered e-waste in California and can't go in a dumpster. The easiest way to clear an office in Los Angeles is to book Dump Happy: we haul the furniture and junk and send electronics to certified e-waste recyclers, all in one pickup, starting at $454. Call (424) 356-4141.",
     faqs: [
       {
         question: "Can office computers go in a dumpster in California?",
@@ -403,7 +403,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       {
         question: "How much does an office clean-out cost?",
         answer:
-          "Dump Happy prices by load size: from $289 for a small load up to $899 for a full 16ft trailer. Furniture, junk, and e-waste all go in the same pickup.",
+          "Dump Happy prices by load size: from $454 for a quarter load up to $964 for a full 16ft trailer. Furniture, junk, and e-waste all go in the same pickup.",
       },
     ],
   },
@@ -423,14 +423,14 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: ["santa-monica"],
     imageAlt: "Furniture being moved out of a Santa Monica apartment building",
     quickAnswer:
-      "For junk removal in Santa Monica after an apartment move-out, book Dump Happy. Our crew works around permit parking and building access, loads furniture, mattresses, and leftover clutter straight from the unit, and clears it on your lease timeline. Loads start at $289, with same-day or next-day service when the schedule allows.",
+      "For junk removal in Santa Monica after an apartment move-out, book Dump Happy. Our crew works around permit parking and building access, loads furniture, mattresses, and leftover clutter straight from the unit, and clears it on your lease timeline. Loads start at $454, with same-day or next-day service when the schedule allows.",
   },
   {
     slug: "estate-cleanout-beverly-hills-brentwood",
     title: "Estate Clean-Outs in Beverly Hills & Brentwood",
     metaTitle: "Estate Clean-Outs in Beverly Hills & Brentwood | Dump Happy",
     metaDescription:
-      "Estate clean-outs in Beverly Hills and Brentwood mean scale, discretion, and canyon access. How Dump Happy handles large homes, from $289 per load.",
+      "Estate clean-outs in Beverly Hills and Brentwood mean scale, discretion, and canyon access. How Dump Happy handles large homes, from $454 per load.",
     targetKeyword: "estate cleanout beverly hills",
     category: "Local Guides",
     summary:
@@ -441,14 +441,14 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: ["beverly-hills", "brentwood"],
     imageAlt: "Large estate home being cleared out in Beverly Hills",
     quickAnswer:
-      "For an estate clean-out in Beverly Hills or Brentwood, book Dump Happy. Our crew plans around large homes, long driveways, canyon access, and the discretion these jobs need, then sorts, donates quality furnishings, and hauls the rest in a coordinated visit. Loads start at $289, and a full 16ft trailer is $899.",
+      "For an estate clean-out in Beverly Hills or Brentwood, book Dump Happy. Our crew plans around large homes, long driveways, canyon access, and the discretion these jobs need, then sorts, donates quality furnishings, and hauls the rest in a coordinated visit. Loads start at $454, and a full 16ft trailer is $964.",
   },
   {
     slug: "apartment-junk-removal-koreatown-weho",
     title: "Apartment Junk Removal in Koreatown & West Hollywood",
     metaTitle: "Apartment Junk Removal: Koreatown & WeHo | Dump Happy",
     metaDescription:
-      "Apartment junk removal in Koreatown and West Hollywood: elevators, tight corridors, single items. Dump Happy carries it out, from $289 per load.",
+      "Apartment junk removal in Koreatown and West Hollywood: elevators, tight corridors, single items. Dump Happy carries it out, from $454 per load.",
     targetKeyword: "apartment junk removal koreatown",
     category: "Local Guides",
     summary:
@@ -459,7 +459,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: ["koreatown", "west-hollywood"],
     imageAlt: "High-rise apartment building in Koreatown, Los Angeles",
     quickAnswer:
-      "For apartment junk removal in Koreatown or West Hollywood, book Dump Happy. Our crew carries couches, mattresses, and appliances out of your unit, down the stairs or elevator, and hauls them away. Single items and small loads start at $289, and we're open 10am to 8pm, seven days a week.",
+      "For apartment junk removal in Koreatown or West Hollywood, book Dump Happy. Our crew carries couches, mattresses, and appliances out of your unit, down the stairs or elevator, and hauls them away. Loads start at $454, and we're open 10am to 8pm, seven days a week.",
   },
   {
     slug: "garage-cleanout-westchester-lax",
@@ -477,14 +477,14 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: ["westchester"],
     imageAlt: "Single-family home garage near LAX in Westchester, Los Angeles",
     quickAnswer:
-      "For a garage clean-out in Westchester, book Dump Happy. Our crew sorts as we load, donating usable items, recycling metal and cardboard, and hauling the rest, and most single garages are done in one visit. Loads start at $289. Booking outside the spring LMU move-out rush usually makes scheduling easier.",
+      "For a garage clean-out in Westchester, book Dump Happy. Our crew sorts as we load, donating usable items, recycling metal and cardboard, and hauling the rest, and most single garages are done in one visit. Loads start at $454. Booking outside the spring LMU move-out rush usually makes scheduling easier.",
   },
   {
     slug: "mattress-removal-cost-los-angeles",
     title: "How Much Does Mattress Removal Cost in Los Angeles?",
     metaTitle: "Mattress Removal Cost in Los Angeles (2026) | Dump Happy",
     metaDescription:
-      "Mattress removal in Los Angeles costs from $289 with Dump Happy, including carry-out, hauling, and recycling. See what changes the price.",
+      "Mattress removal in Los Angeles costs from $329 with Dump Happy, including carry-out, hauling, and recycling. See what changes the price.",
     targetKeyword: "mattress removal cost los angeles",
     category: "Pricing",
     summary:
@@ -495,12 +495,12 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: [],
     imageAlt: "Queen mattress and box spring loaded into a junk removal truck in Los Angeles",
     quickAnswer:
-      "Mattress removal in Los Angeles with Dump Happy starts at $289 for a small load, which usually fits a mattress, box spring, and bed frame together. The price includes carrying it out of any room, hauling, and recycling. Stairs don't add to the cost, and you get a firm quote before anything is lifted.",
+      "Mattress removal in Los Angeles with Dump Happy starts at $329, which usually fits a mattress, box spring, and bed frame together. The price includes carrying it out of any room, hauling, and recycling. Stairs don't add to the cost, and you get a firm quote before anything is lifted.",
     faqs: [
       {
         question: "How much does it cost to get a mattress picked up in Los Angeles?",
         answer:
-          "Dump Happy's pickups start at $289 for a small load, which covers a mattress plus a few other items, like a box spring and bed frame. The price covers the crew carrying it out, the haul, and routing it to a mattress recycler.",
+          "Dump Happy's pickups start at $329, which covers a mattress plus a few other items, like a box spring and bed frame. The price covers the crew carrying it out, the haul, and routing it to a mattress recycler.",
       },
       {
         question: "Do stairs or a walk-up cost extra?",
@@ -510,7 +510,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       {
         question: "Does a box spring cost extra?",
         answer:
-          "With load-based pricing you pay for the space your items take up, not per piece. A mattress, box spring, and frame usually fit in the same small load.",
+          "With load-based pricing you pay for the space your items take up, not per piece. A mattress, box spring, and frame usually fit in the same quarter load.",
       },
     ],
   },
@@ -519,7 +519,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "Free Mattress Pickup in Los Angeles? What Mattress Pickup Costs and How to Book It",
     metaTitle: "Free Mattress Pickup in LA? Real Costs | Dump Happy",
     metaDescription:
-      "Looking for free mattress pickup in Los Angeles? Here's what mattress pickup really costs with Dump Happy (from $289), what's included, and how to book.",
+      "Looking for free mattress pickup in Los Angeles? Here's what mattress pickup really costs with Dump Happy (from $329), what's included, and how to book.",
     targetKeyword: "free mattress pickup los angeles",
     category: "Guides",
     summary:
@@ -530,17 +530,17 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: [],
     imageAlt: "Junk removal crew carrying an old mattress out of a Los Angeles home",
     quickAnswer:
-      "If you're looking for free mattress pickup in Los Angeles, the hassle-free option is Dump Happy. Mattress pickup starts at $289 for a small load, which usually covers a mattress, box spring, and frame. That includes carrying it out of any room, hauling, and recycling, with a free quote and a firm price before anything is lifted.",
+      "If you're looking for free mattress pickup in Los Angeles, the hassle-free option is Dump Happy. Mattress pickup starts at $329, which usually covers a mattress, box spring, and frame. That includes carrying it out of any room, hauling, and recycling, with a free quote and a firm price before anything is lifted.",
     faqs: [
       {
         question: "Is there really free mattress pickup in Los Angeles?",
         answer:
-          "Technically, through the city, but you have to book ahead, wait for your collection day, and drag the mattress to the curb yourself. If it's missed or set out on the wrong day, a mattress on the curb can be treated as illegal dumping, with fines up to $10,000. Dump Happy takes it straight from your bedroom, starting at $289.",
+          "Technically, through the city, but you have to book ahead, wait for your collection day, and drag the mattress to the curb yourself. If it's missed or set out on the wrong day, a mattress on the curb can be treated as illegal dumping, with fines up to $10,000. Dump Happy takes it straight from your bedroom, starting at $329.",
       },
       {
         question: "How much does mattress pickup cost in Los Angeles?",
         answer:
-          "Dump Happy's mattress pickup starts at $289 for a small load, which usually covers a mattress, box spring, and bed frame. Larger loads run from $389 (quarter) to $899 (full 16ft trailer).",
+          "Dump Happy's mattress pickup starts at $329, which usually covers a mattress, box spring, and bed frame. Larger loads run from $454 (quarter) to $964 (full 16ft trailer).",
       },
       {
         question: "Is the quote free?",
@@ -575,7 +575,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: [],
     imageAlt: "Mattress sealed in plastic and labeled for bed bug disposal",
     quickAnswer:
-      "To dispose of a mattress with bed bugs, seal it completely in heavy plastic, label it \"BED BUGS\" on both sides, and book Dump Happy to carry it straight from the room to the truck. Mention the bed bugs when you book so the crew loads it separately. Pickups start at $289 for a small load.",
+      "To dispose of a mattress with bed bugs, seal it completely in heavy plastic, label it \"BED BUGS\" on both sides, and book Dump Happy to carry it straight from the room to the truck. Mention the bed bugs when you book so the crew loads it separately. Pickups start at $329.",
     faqs: [
       {
         question: "Will Dump Happy take a mattress with bed bugs?",
@@ -599,7 +599,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "Can You Leave Furniture on the Curb With a “Free” Sign in LA?",
     metaTitle: "Leaving Furniture on the Curb With a Free Sign? | Dump Happy",
     metaDescription:
-      "A “free” sign doesn't make curbside furniture legal in LA. What Penal Code 374.3 says, the fines, and how Dump Happy clears it legally from $289.",
+      "A “free” sign doesn't make curbside furniture legal in LA. What Penal Code 374.3 says, the fines, and how Dump Happy clears it legally from $454.",
     targetKeyword: "leaving furniture on curb free sign",
     category: "Disposal Rules",
     summary:
@@ -610,7 +610,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: [],
     imageAlt: "Couch on a Los Angeles sidewalk with a handwritten free sign",
     quickAnswer:
-      "Leaving furniture on the curb with a free sign in LA can still count as illegal dumping under California Penal Code 374.3, with fines starting at $250 per violation. The legal, no-hassle alternative is to book Dump Happy: we carry it out, donate what's usable, and dispose of the rest legally, starting at $289.",
+      "Leaving furniture on the curb with a free sign in LA can still count as illegal dumping under California Penal Code 374.3, with fines starting at $250 per violation. The legal, no-hassle alternative is to book Dump Happy: we carry it out, donate what's usable, and dispose of the rest legally, starting at $454.",
     faqs: [
       {
         question: "Is it illegal to put free stuff on the curb in California?",
@@ -625,7 +625,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       {
         question: "What's the legal way to get rid of furniture I don't want?",
         answer:
-          "Book a Dump Happy pickup. Our crew carries furniture out of any room, routes usable pieces to donation, and disposes of the rest legally, starting at $289. Nothing has to sit on the curb.",
+          "Book a Dump Happy pickup. Our crew carries furniture out of any room, routes usable pieces to donation, and disposes of the rest legally, starting at $454. Nothing has to sit on the curb.",
       },
     ],
   },
@@ -634,7 +634,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "Someone Dumped Junk on My Property in LA: How to Get It Cleared Fast",
     metaTitle: "Someone Dumped Junk on My Property? | Dump Happy",
     metaDescription:
-      "Found a couch in your alley or debris on your lot? Who's responsible, why not to move it to the curb, and how Dump Happy clears it fast from $289.",
+      "Found a couch in your alley or debris on your lot? Who's responsible, why not to move it to the curb, and how Dump Happy clears it fast from $454.",
     targetKeyword: "someone dumped junk on my property",
     category: "Disposal Rules",
     summary:
@@ -645,12 +645,12 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: [],
     imageAlt: "Dumped mattress and debris on a Los Angeles property ready for haul-away",
     quickAnswer:
-      "If someone dumped junk on your property in Los Angeles, book Dump Happy to clear it fast. As the owner, cleanup of private property usually falls to you, and moving it to the curb can count as illegal dumping. Our crew hauls dumped furniture, mattresses, and debris from where it sits, with loads from $289.",
+      "If someone dumped junk on your property in Los Angeles, book Dump Happy to clear it fast. As the owner, cleanup of private property usually falls to you, and moving it to the curb can count as illegal dumping. Our crew hauls dumped furniture, mattresses, and debris from where it sits, with loads from $454.",
     faqs: [
       {
         question: "Who has to clean up junk dumped on my private property?",
         answer:
-          "Generally the property owner, even if someone else dumped it. Leaving it can lead to code enforcement notices. Dump Happy can haul it from wherever it was left, with loads from $289.",
+          "Generally the property owner, even if someone else dumped it. Leaving it can lead to code enforcement notices. Dump Happy can haul it from wherever it was left, with loads from $454.",
       },
       {
         question: "Can I move dumped junk to the curb?",
@@ -685,7 +685,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: [],
     imageAlt: "Furniture and boxes left behind in an empty rental apartment in Los Angeles",
     quickAnswer:
-      "If a tenant left belongings behind in California, send written notice and wait at least 15 days if delivered in person or 18 days if mailed. If unclaimed property is reasonably worth under $700, you may dispose of it. Then book Dump Happy to clear the unit in one visit, with loads from $289.",
+      "If a tenant left belongings behind in California, send written notice and wait at least 15 days if delivered in person or 18 days if mailed. If unclaimed property is reasonably worth under $700, you may dispose of it. Then book Dump Happy to clear the unit in one visit, with loads from $454.",
     faqs: [
       {
         question: "How long does a California landlord have to keep a former tenant's belongings?",
@@ -700,7 +700,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       {
         question: "Can Dump Happy clear out a unit after the notice period?",
         answer:
-          "Yes. Once you're legally clear to dispose of the property, Dump Happy empties the unit in one visit, donates what's usable, and recycles or disposes of the rest, with loads from $289. This article is general information, not legal advice. Confirm your situation with an attorney if you're unsure.",
+          "Yes. Once you're legally clear to dispose of the property, Dump Happy empties the unit in one visit, donates what's usable, and recycles or disposes of the rest, with loads from $454. This article is general information, not legal advice. Confirm your situation with an attorney if you're unsure.",
       },
     ],
   },
@@ -709,7 +709,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "TV Removal in Los Angeles: How Dump Happy Handles Old TVs",
     metaTitle: "TV Disposal in Los Angeles | Dump Happy",
     metaDescription:
-      "Old TVs can't go in the trash in California. Dump Happy carries out flat-screens and tube TVs and sends them to certified e-waste recyclers. From $289.",
+      "Old TVs can't go in the trash in California. Dump Happy carries out flat-screens and tube TVs and sends them to certified e-waste recyclers. From $454.",
     targetKeyword: "tv disposal los angeles",
     category: "Disposal Rules",
     summary:
@@ -720,7 +720,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: [],
     imageAlt: "Old flat-screen and tube televisions set aside for e-waste recycling",
     quickAnswer:
-      "The easiest way to dispose of an old TV in Los Angeles is to book Dump Happy. We take it down, carry it out, and send it to a certified e-waste recycler, starting at $289. Flat-screens, tube TVs, and wall-mounted screens are all fine. TVs can't go in the trash in California. Call (424) 356-4141 for a quote.",
+      "The easiest way to dispose of an old TV in Los Angeles is to book Dump Happy. We take it down, carry it out, and send it to a certified e-waste recycler, starting at $454. Flat-screens, tube TVs, and wall-mounted screens are all fine. TVs can't go in the trash in California. Call (424) 356-4141 for a quote.",
     faqs: [
       {
         question: "Can I throw a TV in the trash in California?",
@@ -740,7 +740,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       {
         question: "How much does TV removal cost?",
         answer:
-          "Dump Happy prices by load size, starting at $289 for a small load. Adding other furniture or electronics to the same pickup is usually cheaper than booking separately.",
+          "Dump Happy prices by load size, starting at $454 for a quarter load. Adding other furniture or electronics to the same pickup is usually cheaper than booking separately.",
       },
     ],
   },
@@ -749,7 +749,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "Couch Removal in Los Angeles: How It Works and What It Costs",
     metaTitle: "Couch Removal & Sofa Disposal in Los Angeles | Dump Happy",
     metaDescription:
-      "Couch removal in Los Angeles from $289. Dump Happy carries out sofas, sectionals, and sleepers from any room, donates usable ones, and hauls the rest.",
+      "Couch removal in Los Angeles from $454. Dump Happy carries out sofas, sectionals, and sleepers from any room, donates usable ones, and hauls the rest.",
     targetKeyword: "couch removal los angeles",
     category: "Guides",
     summary:
@@ -760,7 +760,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: [],
     imageAlt: "Crew carrying an old sectional sofa out of a Los Angeles apartment",
     quickAnswer:
-      "The easiest way to get rid of a couch in Los Angeles is to book Dump Happy. We carry it out of any room, including upstairs, and haul it away, starting at $289. Usable couches get routed to donation, and the rest is recycled or disposed of legally. Call (424) 356-4141 or request a free quote online.",
+      "The easiest way to get rid of a couch in Los Angeles is to book Dump Happy. We carry it out of any room, including upstairs, and haul it away, starting at $454. Usable couches get routed to donation, and the rest is recycled or disposed of legally. Call (424) 356-4141 or request a free quote online.",
     faqs: [
       {
         question: "What's the easiest way to get rid of a couch in LA?",
@@ -775,7 +775,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       {
         question: "How much does couch removal cost?",
         answer:
-          "Dump Happy's pricing is based on load size, starting at $289 for a small load, and a single couch usually fits in that tier. Adding other items to the same pickup is usually cheaper than booking separate jobs.",
+          "Dump Happy's pricing is based on load size, starting at $454 for a quarter load, and a single couch usually fits in that tier. Adding other items to the same pickup is usually cheaper than booking separate jobs.",
       },
       {
         question: "Can you remove a sectional or sleeper sofa?",
@@ -789,7 +789,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "Furniture Donation Pickup in LA: Book Dump Happy and We Donate What's Usable",
     metaTitle: "Furniture Donation Pickup Los Angeles | Dump Happy",
     metaDescription:
-      "Donate furniture in Los Angeles without the hassle. Dump Happy picks it up, donates what's usable, and handles the rest legally. From $289.",
+      "Donate furniture in Los Angeles without the hassle. Dump Happy picks it up, donates what's usable, and handles the rest legally. From $454.",
     targetKeyword: "donate furniture los angeles",
     category: "Guides",
     summary:
@@ -800,7 +800,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: [],
     imageAlt: "Gently used dresser and chairs picked up for donation in Los Angeles",
     quickAnswer:
-      "The easiest way to donate furniture in Los Angeles is to book a Dump Happy pickup. We carry everything out, donate the pieces that are usable, and recycle or legally dispose of the rest, starting at $289. You don't need to find a charity, send photos for approval, or schedule a separate pickup. Call (424) 356-4141.",
+      "The easiest way to donate furniture in Los Angeles is to book a Dump Happy pickup. We carry everything out, donate the pieces that are usable, and recycle or legally dispose of the rest, starting at $454. You don't need to find a charity, send photos for approval, or schedule a separate pickup. Call (424) 356-4141.",
     faqs: [
       {
         question: "Why not schedule a charity pickup myself?",
@@ -830,7 +830,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       {
         question: "How much does a furniture donation pickup cost?",
         answer:
-          "Dump Happy prices by load size, starting at $289 for a small load. Labor, hauling, donation drop-off, and disposal are included in the price.",
+          "Dump Happy prices by load size, starting at $454 for a quarter load. Labor, hauling, donation drop-off, and disposal are included in the price.",
       },
     ],
   },
@@ -850,7 +850,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: [],
     imageAlt: "Branded junk removal truck and crew arriving for a job in Los Angeles",
     quickAnswer:
-      "To choose a junk removal company in Los Angeles, ask how they price, whether the quote is firm before loading, where your items go, what they won't take, and whether they do all the lifting. Dump Happy answers each up front, with posted load tiers from $289, a firm quote before loading, and donation and recycling built in.",
+      "To choose a junk removal company in Los Angeles, ask how they price, whether the quote is firm before loading, where your items go, what they won't take, and whether they do all the lifting. Dump Happy answers each up front, with posted load tiers from $454, a firm quote before loading, and donation and recycling built in.",
     faqs: [
       {
         question: "What should I ask a junk removal company before hiring?",
@@ -865,7 +865,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       {
         question: "How does Dump Happy price junk removal?",
         answer:
-          "By how much truck space your items fill, with posted tiers: a small load from $289, quarter $389, half $569, 3/4 $739, and a full 16ft trailer $899. You get a firm price before anything is loaded.",
+          "By how much truck space your items fill, with posted tiers: a quarter load from $454, half $624, 3/4 $794, and a full 16ft trailer $964. You get a firm price before anything is loaded.",
       },
       {
         question: "Where does Dump Happy take my items?",
@@ -879,7 +879,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "How to Get Rid of an Old Mattress in Los Angeles: Mattress Disposal Done for You",
     metaTitle: "How to Get Rid of a Mattress in LA (Done for You) | Dump Happy",
     metaDescription:
-      "Mattress disposal in Los Angeles with Dump Happy: we carry it out of any room, haul it, and recycle it. Pickups from $289. Free quote.",
+      "Mattress disposal in Los Angeles with Dump Happy: we carry it out of any room, haul it, and recycle it. Pickups from $329. Free quote.",
     targetKeyword: "mattress disposal los angeles",
     category: "Guides",
     summary:
@@ -890,12 +890,12 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: ["santa-monica", "koreatown"],
     imageAlt: "Old mattress being carried out of a Los Angeles apartment for legal disposal",
     quickAnswer:
-      "The easiest way to dispose of a mattress in Los Angeles is to book Dump Happy. Our crew carries it out of any room, including upstairs units, hauls it away, and routes it to a California mattress recycler. Pickups start at $289 for a small load, which usually covers a mattress, box spring, and frame, with a firm price upfront.",
+      "The easiest way to dispose of a mattress in Los Angeles is to book Dump Happy. Our crew carries it out of any room, including upstairs units, hauls it away, and routes it to a California mattress recycler. Pickups start at $329, which usually covers a mattress, box spring, and frame, with a firm price upfront.",
     faqs: [
       {
         question: "What is the easiest way to get rid of a mattress in Los Angeles?",
         answer:
-          "Book a mattress pickup with Dump Happy. The crew carries it out from any room, loads it, and routes it to a California mattress recycler. Pickups start at $289 for a small load. Call (424) 356-4141 or request a free quote.",
+          "Book a mattress pickup with Dump Happy. The crew carries it out from any room, loads it, and routes it to a California mattress recycler. Pickups start at $329. Call (424) 356-4141 or request a free quote.",
       },
       {
         question: "Can I throw a mattress in the trash or dumpster?",
@@ -924,7 +924,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "Mattress Pickup in Los Angeles: Same-Day, Next-Day & Scheduled Options",
     metaTitle: "Mattress Pickup Los Angeles: Same & Next Day | Dump Happy",
     metaDescription:
-      "Mattress pickup in Los Angeles from Dump Happy: same-day or next-day when the schedule allows, carried from any room and recycled. From $289.",
+      "Mattress pickup in Los Angeles from Dump Happy: same-day or next-day when the schedule allows, carried from any room and recycled. From $329.",
     targetKeyword: "mattress pickup los angeles",
     category: "Guides",
     summary:
@@ -935,7 +935,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: ["west-hollywood", "culver-city"],
     imageAlt: "Junk removal crew loading a mattress into a truck for pickup in Los Angeles",
     quickAnswer:
-      "For mattress pickup in Los Angeles, book Dump Happy. We offer same-day or next-day pickup when the schedule allows, carry the mattress out of any room, and route it to a mattress recycler. Pickups start at $289 for a small load, which usually also fits a box spring and bed frame.",
+      "For mattress pickup in Los Angeles, book Dump Happy. We offer same-day or next-day pickup when the schedule allows, carry the mattress out of any room, and route it to a mattress recycler. Pickups start at $329, which usually also fits a box spring and bed frame.",
     faqs: [
       {
         question: "Can I get same-day mattress pickup in Los Angeles?",
@@ -945,7 +945,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       {
         question: "How much does mattress pickup cost in LA?",
         answer:
-          "Dump Happy prices by load size, and a mattress pickup usually fits in the small load tier, starting at $289. That tier typically also covers a box spring and bed frame. You get a firm price before anything is lifted.",
+          "Dump Happy prices by load size, and a mattress pickup usually fits in a single mattress pickup, starting at $329. That tier typically also covers a box spring and bed frame. You get a firm price before anything is lifted.",
       },
       {
         question: "Do I have to bring the mattress outside?",
@@ -964,7 +964,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "Mattress Recycling in Los Angeles: Where Your Old Mattress Actually Goes",
     metaTitle: "Mattress Recycling in Los Angeles | Dump Happy",
     metaDescription:
-      "Mattress recycling in Los Angeles: Dump Happy carries your mattress out and routes it to a recycler. What it becomes, and pickups from $289.",
+      "Mattress recycling in Los Angeles: Dump Happy carries your mattress out and routes it to a recycler. What it becomes, and pickups from $329.",
     targetKeyword: "mattress recycling los angeles",
     category: "Disposal Rules",
     summary:
@@ -975,12 +975,12 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: ["venice", "mid-city"],
     imageAlt: "Mattresses separated into steel springs, foam, and fabric at a recycling facility",
     quickAnswer:
-      "The easiest way to recycle a mattress in Los Angeles is to book Dump Happy. We carry it out of your home and route it to a California mattress recycler, where the steel, foam, fiber, and wood become products like rebar, carpet padding, insulation, and mulch. Pickups start at $289 for a small load.",
+      "The easiest way to recycle a mattress in Los Angeles is to book Dump Happy. We carry it out of your home and route it to a California mattress recycler, where the steel, foam, fiber, and wood become products like rebar, carpet padding, insulation, and mulch. Pickups start at $329.",
     faqs: [
       {
         question: "How do I get my mattress recycled in Los Angeles?",
         answer:
-          "Book a Dump Happy pickup. Our crew carries the mattress out from any room and routes it to a California mattress recycler. Pickups start at $289; call (424) 356-4141 or request a free quote.",
+          "Book a Dump Happy pickup. Our crew carries the mattress out from any room and routes it to a California mattress recycler. Pickups start at $329; call (424) 356-4141 or request a free quote.",
       },
       {
         question: "Who pays for mattress recycling in California?",
@@ -1004,7 +1004,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "Box Spring and Bed Frame Disposal in Los Angeles",
     metaTitle: "Box Spring Disposal Los Angeles + Bed Frames | Dump Happy",
     metaDescription:
-      "Box spring disposal in Los Angeles: Dump Happy hauls the box spring, bed frame, and mattress in one visit and recycles them. From $289.",
+      "Box spring disposal in Los Angeles: Dump Happy hauls the box spring, bed frame, and mattress in one visit and recycles them. From $329.",
     targetKeyword: "box spring disposal los angeles",
     category: "Disposal Rules",
     summary:
@@ -1015,12 +1015,12 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: ["brentwood", "westchester"],
     imageAlt: "Box spring and disassembled metal bed frame ready for haul-away in Los Angeles",
     quickAnswer:
-      "The simplest way to handle box spring disposal in Los Angeles is to book Dump Happy. We carry out the box spring, bed frame, headboard, and mattress in one visit, starting at $289 for a small load. Box springs go to a California mattress recycler, and frames are donated or recycled where we can.",
+      "The simplest way to handle box spring disposal in Los Angeles is to book Dump Happy. We carry out the box spring, bed frame, headboard, and mattress in one visit, starting at $329. Box springs go to a California mattress recycler, and frames are donated or recycled where we can.",
     faqs: [
       {
         question: "How do I dispose of a box spring in Los Angeles?",
         answer:
-          "Book a Dump Happy pickup. Box springs are covered by California's mattress recycling law, so we carry yours out and route it to a California mattress recycler, usually in the same small load as the mattress and frame, from $289.",
+          "Book a Dump Happy pickup. Box springs are covered by California's mattress recycling law, so we carry yours out and route it to a California mattress recycler, usually in the same pickup as the mattress and frame, from $329.",
       },
       {
         question: "What happens to a metal bed frame?",
@@ -1035,7 +1035,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       {
         question: "Does a box spring cost extra to haul away?",
         answer:
-          "Not with load-based pricing. Dump Happy charges for the space your items take up, and a mattress, box spring, and bed frame usually fit together in the small load tier, starting at $289.",
+          "Not with load-based pricing. Dump Happy charges for the space your items take up, and a mattress, box spring, and bed frame usually fit together in a single mattress pickup, starting at $329.",
       },
     ],
   },
@@ -1044,7 +1044,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "Green Waste Removal in Los Angeles: The Complete Guide",
     metaTitle: "Green Waste Removal Los Angeles: Full Guide | Dump Happy",
     metaDescription:
-      "Green waste removal in Los Angeles with Dump Happy: what counts as yard waste, where it goes, how a pickup works, and pricing from $289 per load.",
+      "Green waste removal in Los Angeles with Dump Happy: what counts as yard waste, where it goes, how a pickup works, and pricing from $454 per load.",
     targetKeyword: "green waste removal los angeles",
     category: "Guides",
     summary:
@@ -1056,7 +1056,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     imageAlt:
       "Crew loading cut branches and yard trimmings into a truck for green waste removal in Los Angeles",
     quickAnswer:
-      "For green waste removal in Los Angeles, book Dump Happy. Our crew loads branches, trimmings, leaves, grass, brush, and sod from anywhere on your property, with no bundling, and delivers it to an organics facility for compost or mulch. Loads start at $289, and we're open 10am to 8pm, seven days a week.",
+      "For green waste removal in Los Angeles, book Dump Happy. Our crew loads branches, trimmings, leaves, grass, brush, and sod from anywhere on your property, with no bundling, and delivers it to an organics facility for compost or mulch. Loads start at $454, and we're open 10am to 8pm, seven days a week.",
     faqs: [
       {
         question: "What counts as green waste?",
@@ -1090,7 +1090,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "Green Waste Hauling in LA for Homeowners, Landscapers & Property Managers",
     metaTitle: "Green Waste Hauling Service in Los Angeles | Dump Happy",
     metaDescription:
-      "Green waste hauling in LA by Dump Happy for homeowners, landscapers, and property managers. What a haul-away includes and pricing from $289 per load.",
+      "Green waste hauling in LA by Dump Happy for homeowners, landscapers, and property managers. What a haul-away includes and pricing from $454 per load.",
     targetKeyword: "green waste hauling",
     category: "Guides",
     summary:
@@ -1102,7 +1102,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     imageAlt:
       "Landscaping crew handing off a large pile of green waste to a hauling truck in Los Angeles",
     quickAnswer:
-      "Green waste hauling is the loading and transport of yard debris like branches, trimmings, palm fronds, brush, and sod to an organics facility for composting or mulch. In Los Angeles, Dump Happy hauls green waste for homeowners, landscapers, and property managers, priced by load from $289 for a small load to $899 for a full truck.",
+      "Green waste hauling is the loading and transport of yard debris like branches, trimmings, palm fronds, brush, and sod to an organics facility for composting or mulch. In Los Angeles, Dump Happy hauls green waste for homeowners, landscapers, and property managers, priced by load from $454 for a quarter load to $964 for a full truck.",
     faqs: [
       {
         question: "What is green waste hauling?",
@@ -1112,7 +1112,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       {
         question: "How much does green waste hauling cost in Los Angeles?",
         answer:
-          "Dump Happy prices green waste hauling by truck space: $289 for a small load, $389 for a quarter, $569 for a half, $739 for three-quarters, and $899 for a full 16ft trailer.",
+          "Dump Happy prices green waste hauling by truck space: $454 for a quarter load, $624 for a half, $794 for three-quarters, and $964 for a full 16ft trailer.",
       },
       {
         question: "Can landscapers hire Dump Happy to haul their green waste?",
@@ -1135,7 +1135,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "How Much Does Green Waste Removal Cost in Los Angeles?",
     metaTitle: "Green Waste Removal Cost in Los Angeles | Dump Happy",
     metaDescription:
-      "Green waste removal cost in LA by load size: from $289 for a small load to $899 for a full truck. What fits in each tier and what changes the price.",
+      "Green waste removal cost in LA by load size: from $454 for a quarter load to $964 for a full truck. What fits in each tier and what changes the price.",
     targetKeyword: "green waste removal cost",
     category: "Pricing",
     summary:
@@ -1147,12 +1147,12 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     imageAlt:
       "Pile of cut branches and yard trimmings being estimated for a green waste removal quote in Los Angeles",
     quickAnswer:
-      "Green waste removal cost in Los Angeles is based on how much truck space your yard debris fills. At Dump Happy, a small load starts at $289, a quarter load at $389, a half load at $569, a three-quarter load at $739, and a full load at $899, including loading, hauling, and delivery to an organics facility.",
+      "Green waste removal cost in Los Angeles is based on how much truck space your yard debris fills. At Dump Happy, a quarter load starts at $454, a half load at $624, a three-quarter load at $794, and a full load at $964, including loading, hauling, and delivery to an organics facility.",
     faqs: [
       {
         question: "How much does it cost to have yard waste hauled away?",
         answer:
-          "Dump Happy prices yard waste by volume. Loads start at $289 for a small load and go up to $899 for a full 16ft trailer, with the price set before loading begins.",
+          "Dump Happy prices yard waste by volume. Loads start at $454 for a quarter load and go up to $964 for a full 16ft trailer, with the price set before loading begins.",
       },
       {
         question: "Is green waste removal priced per bag?",
@@ -1176,7 +1176,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "How to Get Rid of Yard Waste in LA: Branches, Palm Fronds & Big Piles",
     metaTitle: "How to Get Rid of Yard Waste in LA | Dump Happy",
     metaDescription:
-      "How to get rid of yard waste in Los Angeles: Dump Happy hauls branches, palm fronds, sod, and brush in one visit, from $289. No cutting or bundling.",
+      "How to get rid of yard waste in Los Angeles: Dump Happy hauls branches, palm fronds, sod, and brush in one visit, from $454. No cutting or bundling.",
     targetKeyword: "how to get rid of yard waste los angeles",
     category: "Disposal Rules",
     summary:
@@ -1188,12 +1188,12 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     imageAlt:
       "Large pile of tree branches and palm fronds in a Los Angeles yard ready for haul-away",
     quickAnswer:
-      "The easiest way to get rid of yard waste in Los Angeles is to book Dump Happy. Our crew loads branches, palm fronds, trimmings, sod, and brush from wherever they're piled and hauls everything in one visit, with no cutting or bundling. Loads start at $289, and green waste goes to an organics facility.",
+      "The easiest way to get rid of yard waste in Los Angeles is to book Dump Happy. Our crew loads branches, palm fronds, trimmings, sod, and brush from wherever they're piled and hauls everything in one visit, with no cutting or bundling. Loads start at $454, and green waste goes to an organics facility.",
     faqs: [
       {
         question: "What do I do with a big pile of yard waste in Los Angeles?",
         answer:
-          "Book Dump Happy to haul it in one visit. Our crew loads branches, trimmings, palm fronds, sod, and brush from wherever they're piled, with no cutting or bundling, and takes it to an organics facility. Loads start at $289.",
+          "Book Dump Happy to haul it in one visit. Our crew loads branches, trimmings, palm fronds, sod, and brush from wherever they're piled, with no cutting or bundling, and takes it to an organics facility. Loads start at $454.",
       },
       {
         question: "Will Dump Happy take palm fronds?",
@@ -1213,7 +1213,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       {
         question: "How much does yard waste removal cost in LA?",
         answer:
-          "Dump Happy prices yard waste by truck space: a small load from $289, a quarter load $389, a half load $569, a three-quarter load $739, and a full 16ft trailer $899, including loading, hauling, and disposal.",
+          "Dump Happy prices yard waste by truck space: a quarter load from $454, a half load $624, a three-quarter load $794, and a full 16ft trailer $964, including loading, hauling, and disposal.",
       },
     ],
   },
@@ -1222,7 +1222,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "How Can I Dispose of Furniture in Los Angeles? The Easy, Legal Way",
     metaTitle: "Furniture Disposal Los Angeles | Dump Happy",
     metaDescription:
-      "Furniture disposal in Los Angeles made easy: Dump Happy carries it out, donates what's usable, and disposes of the rest legally. From $289.",
+      "Furniture disposal in Los Angeles made easy: Dump Happy carries it out, donates what's usable, and disposes of the rest legally. From $454.",
     targetKeyword: "furniture disposal los angeles",
     category: "Guides",
     summary:
@@ -1234,7 +1234,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     imageAlt:
       "Old dresser and chairs being carried out of a Los Angeles home for furniture disposal",
     quickAnswer:
-      "The easiest legal way to dispose of furniture in Los Angeles is to book Dump Happy. Our crew carries it out of any room, routes usable pieces to donation, and recycles or legally disposes of the rest. Pricing starts at $289 for a small load, with labor, hauling, and disposal included. Call (424) 356-4141 for a free quote.",
+      "The easiest legal way to dispose of furniture in Los Angeles is to book Dump Happy. Our crew carries it out of any room, routes usable pieces to donation, and recycles or legally disposes of the rest. Pricing starts at $454 for a quarter load, with labor, hauling, and disposal included. Call (424) 356-4141 for a free quote.",
     faqs: [
       {
         question: "How can I dispose of furniture in Los Angeles?",
@@ -1259,7 +1259,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       {
         question: "How much does furniture removal cost in Los Angeles?",
         answer:
-          "Dump Happy prices furniture removal by load size, not per piece. A small load starts at $289, a quarter load at $389, a half load at $569, a 3/4 load at $739, and a full 16ft trailer at $899.",
+          "Dump Happy prices furniture removal by load size, not per piece. A quarter load starts at $454, a half load at $624, a 3/4 load at $794, and a full 16ft trailer at $964.",
       },
     ],
   },
@@ -1268,7 +1268,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "When Should I Hire Junk Removal? 9 Signs It's Worth It",
     metaTitle: "When Should I Hire Junk Removal? 9 Signs | Dump Happy",
     metaDescription:
-      "When should you hire junk removal? 9 signs it's time to book, from move-out deadlines to stairs, plus Dump Happy's real LA prices from $289.",
+      "When should you hire junk removal? 9 signs it's time to book, from move-out deadlines to stairs, plus Dump Happy's real LA prices from $454.",
     targetKeyword: "when to hire junk removal",
     category: "Guides",
     summary:
@@ -1279,12 +1279,12 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: ["santa-monica", "koreatown"],
     imageAlt: "Junk removal crew loading furniture and boxes into a truck in Los Angeles",
     quickAnswer:
-      "Hire junk removal when the job involves heavy items, stairs, more than one carload, or a move-out or closing deadline. Dump Happy's crew carries everything out of any room and hauls it away in one visit, starting at $289, with same-day or next-day pickup when the schedule allows. Call (424) 356-4141 for a free quote.",
+      "Hire junk removal when the job involves heavy items, stairs, more than one carload, or a move-out or closing deadline. Dump Happy's crew carries everything out of any room and hauls it away in one visit, starting at $454, with same-day or next-day pickup when the schedule allows. Call (424) 356-4141 for a free quote.",
     faqs: [
       {
         question: "When should I hire junk removal?",
         answer:
-          "Hire junk removal when you have a deadline, a large volume, heavy or bulky items, stairs, or a job that would take several trips in your own vehicle. Dump Happy handles all of it in one visit, starting at $289.",
+          "Hire junk removal when you have a deadline, a large volume, heavy or bulky items, stairs, or a job that would take several trips in your own vehicle. Dump Happy handles all of it in one visit, starting at $454.",
       },
       {
         question: "Is junk removal worth the money?",
@@ -1294,7 +1294,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       {
         question: "How much does junk removal cost in Los Angeles?",
         answer:
-          "Dump Happy prices by load size: a small load starts at $289, a quarter load at $389, a half load at $569, a 3/4 load at $739, and a full 16ft trailer load at $899. You get a firm price before anything is lifted.",
+          "Dump Happy prices by load size: a quarter load starts at $454, a half load at $624, a 3/4 load at $794, and a full 16ft trailer load at $964. You get a firm price before anything is lifted.",
       },
       {
         question: "Can junk removal come the same day?",
@@ -1308,18 +1308,18 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "Free Junk Pick-Up in Los Angeles? What Junk Pickup Really Costs (and How to Book It)",
     metaTitle: "Free Junk Pick-Up in Los Angeles? | Dump Happy",
     metaDescription:
-      "Is there free junk pick-up in Los Angeles? Pro pickup isn't free, but Dump Happy's quote is. See what $289 covers and the red flags of free haulers.",
+      "Is there free junk pick-up in Los Angeles? Pro pickup isn't free, but Dump Happy's quote is. See what $454 covers and the red flags of free haulers.",
     targetKeyword: "free junk pick up los angeles",
     category: "Guides",
     summary:
-      "Why professional junk pickup isn't free, how to get a free quote, what a $289 pickup covers, and red flags of 'free' haulers (PC 374.3 liability); links Junk Removal, Pricing, cost and dumping posts.",
+      "Why professional junk pickup isn't free, how to get a free quote, what a $454 pickup covers, and red flags of 'free' haulers (PC 374.3 liability); links Junk Removal, Pricing, cost and dumping posts.",
     datePublished: "2026-10-07",
     dateModified: "2026-10-08",
     relatedServices: ["junk-removal"],
     relatedLocations: ["mid-city", "venice"],
     imageAlt: "Dump Happy crew loading household junk into a truck in Los Angeles",
     quickAnswer:
-      "Professional junk pick-up in Los Angeles isn't free, but Dump Happy's quote is. Send photos or call (424) 356-4141 for a free, no-obligation price. A pickup starts at $289 for a small load and includes the crew, truck, carrying items from any room, hauling, and legal disposal. Be wary of free offers with no business name or receipt.",
+      "Professional junk pick-up in Los Angeles isn't free, but Dump Happy's quote is. Send photos or call (424) 356-4141 for a free, no-obligation price. A pickup starts at $454 for a quarter load and includes the crew, truck, carrying items from any room, hauling, and legal disposal. Be wary of free offers with no business name or receipt.",
     faqs: [
       {
         question: "Is there free junk pick-up in Los Angeles?",
@@ -1329,7 +1329,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       {
         question: "Are junk removal services free?",
         answer:
-          "No. Junk removal services charge for the crew, truck, labor, and disposal fees. Dump Happy's pickups start at $289 for a small load, with all of that included in the price.",
+          "No. Junk removal services charge for the crew, truck, labor, and disposal fees. Dump Happy's pickups start at $454 for a quarter load, with all of that included in the price.",
       },
       {
         question: "Is a free junk removal offer a scam?",
@@ -1339,7 +1339,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       {
         question: "How much does junk removal cost in Los Angeles?",
         answer:
-          "Dump Happy uses load-based pricing. A small load starts at $289, a quarter load at $389, a half load at $569, a 3/4 load at $739, and a full 16ft trailer load is $899.",
+          "Dump Happy uses load-based pricing. A quarter load starts at $454, a half load at $624, a 3/4 load at $794, and a full 16ft trailer load is $964.",
       },
     ],
   },
@@ -1348,7 +1348,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "Bulky Item Pickup in Los Angeles: How to Book It, What We Take, and What It Costs",
     metaTitle: "Bulky Item Pickup Los Angeles | Dump Happy",
     metaDescription:
-      "Book bulky item pickup in Los Angeles with Dump Happy. We carry couches, mattresses, and appliances from any room, from $289. Free quotes, 7 days a week.",
+      "Book bulky item pickup in Los Angeles with Dump Happy. We carry couches, mattresses, and appliances from any room, from $454. Free quotes, 7 days a week.",
     targetKeyword: "bulky item pickup los angeles",
     category: "Guides",
     summary:
@@ -1359,7 +1359,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: ["koreatown", "sawtelle"],
     imageAlt: "Dump Happy crew carrying a couch out of a Los Angeles home for bulky item pickup",
     quickAnswer:
-      "To schedule a bulky item pickup in Los Angeles, call Dump Happy at (424) 356-4141 or request a free quote online with photos. Our crew carries couches, mattresses, appliances, and other large items out of any room, including upstairs, and hauls them away. Pricing starts at $289 for a small load, with same-day or next-day pickup when the schedule allows.",
+      "To schedule a bulky item pickup in Los Angeles, call Dump Happy at (424) 356-4141 or request a free quote online with photos. Our crew carries couches, mattresses, appliances, and other large items out of any room, including upstairs, and hauls them away. Pricing starts at $454 for a quarter load, with same-day or next-day pickup when the schedule allows.",
     faqs: [
       {
         question: "Isn't the city's bulky item pickup free?",
@@ -1374,7 +1374,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       {
         question: "How much does bulky item pickup cost in Los Angeles?",
         answer:
-          "Dump Happy prices by truck space, not by the hour. A small load starts at $289, a quarter load at $389, a half load at $569, a 3/4 load at $739, and a full 16ft trailer at $899. Labor, hauling, and disposal are included.",
+          "Dump Happy prices by truck space, not by the hour. A quarter load starts at $454, a half load at $624, a 3/4 load at $794, and a full 16ft trailer at $964. Labor, hauling, and disposal are included.",
       },
       {
         question: "Do I have to bring bulky items to the curb?",
@@ -1398,7 +1398,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "How to Get Rid of Large Furniture Boxes (and Moving Boxes) in LA",
     metaTitle: "How to Get Rid of Large Furniture Boxes | Dump Happy",
     metaDescription:
-      "How to get rid of large furniture boxes in LA: Dump Happy hauls the boxes, packing foam, and your old furniture in one trip, from $289. Free quotes.",
+      "How to get rid of large furniture boxes in LA: Dump Happy hauls the boxes, packing foam, and your old furniture in one trip, from $454. Free quotes.",
     targetKeyword: "how to get rid of large furniture boxes",
     category: "Guides",
     summary:
@@ -1410,12 +1410,12 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     imageAlt:
       "Large furniture boxes and an old sofa ready for Dump Happy pickup in a Los Angeles home",
     quickAnswer:
-      "The easiest way to get rid of large furniture boxes in Los Angeles is to book Dump Happy. We haul the boxes, foam, plastic, and packing material along with the old furniture they replaced in one trip, starting at $289 for a small load. Cardboard is recycled, and you don't have to cut, bundle, or sort anything.",
+      "The easiest way to get rid of large furniture boxes in Los Angeles is to book Dump Happy. We haul the boxes, foam, plastic, and packing material along with the old furniture they replaced in one trip, starting at $454 for a quarter load. Cardboard is recycled, and you don't have to cut, bundle, or sort anything.",
     faqs: [
       {
         question: "How to get rid of large furniture boxes?",
         answer:
-          "Book a Dump Happy pickup. Gather the boxes and packing material in one spot, send a photo for a free quote, and our crew carries it all out and hauls it away in one visit. Pricing starts at $289 for a small load.",
+          "Book a Dump Happy pickup. Gather the boxes and packing material in one spot, send a photo for a free quote, and our crew carries it all out and hauls it away in one visit. Pricing starts at $454 for a quarter load.",
       },
       {
         question: "Can a junk removal company take boxes along with old furniture?",
@@ -1439,7 +1439,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "What's the Cheapest Way to Get Rid of Junk in Los Angeles?",
     metaTitle: "Cheapest Way to Get Rid of Junk in LA | Dump Happy",
     metaDescription:
-      "The cheapest way to get rid of junk in LA: one Dump Happy visit at the right load tier, from $289. No truck rental, no repeat trips, no fines.",
+      "The cheapest way to get rid of junk in LA: one Dump Happy visit at the right load tier, from $454. No truck rental, no repeat trips, no fines.",
     targetKeyword: "cheapest way to get rid of junk",
     category: "Guides",
     summary:
@@ -1451,7 +1451,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     imageAlt:
       "Dump Happy crew loading a mixed pile of household junk into one truck in Los Angeles",
     quickAnswer:
-      "The cheapest way to get rid of junk in Los Angeles is to combine everything into one Dump Happy visit at the right load tier. You pay once for the truck space you use, starting at $289, with labor, hauling, and disposal included. There's no truck rental, no repeat trips, and no risk of an illegal dumping fine.",
+      "The cheapest way to get rid of junk in Los Angeles is to combine everything into one Dump Happy visit at the right load tier. You pay once for the truck space you use, starting at $454, with labor, hauling, and disposal included. There's no truck rental, no repeat trips, and no risk of an illegal dumping fine.",
     faqs: [
       {
         question: "Isn't city bulky item pickup cheaper?",
@@ -1461,7 +1461,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       {
         question: "What is the cheapest way to remove junk?",
         answer:
-          "Combine everything into a single Dump Happy pickup. Because pricing is based on truck space, one visit at the right tier costs less than several small pickups. A small load starts at $289 with labor, hauling, and disposal included.",
+          "Combine everything into a single Dump Happy pickup. Because pricing is based on truck space, one visit at the right tier costs less than several small pickups. A quarter load starts at $454 with labor, hauling, and disposal included.",
       },
       {
         question: "Is one big pickup cheaper than several small ones?",
@@ -1476,7 +1476,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       {
         question: "How much does Dump Happy charge for junk removal?",
         answer:
-          "Dump Happy prices by how much truck space your items fill. A small load starts at $289, a quarter load at $389, a half load at $569, a 3/4 load at $739, and a full 16ft trailer load at $899.",
+          "Dump Happy prices by how much truck space your items fill. A quarter load starts at $454, a half load at $624, a 3/4 load at $794, and a full 16ft trailer load at $964.",
       },
     ],
   },
@@ -1496,12 +1496,12 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: ["santa-monica", "west-hollywood"],
     imageAlt: "Uniformed junk removal crew carrying furniture out of a Los Angeles home",
     quickAnswer:
-      "The best junk removal service in Los Angeles posts its prices, gives a firm quote before loading, disposes of items legally, does all the lifting, and fits your schedule. Dump Happy meets each of those standards, with load-based pricing from $289, donation and recycling built in, and crews working 10am to 8pm, seven days a week.",
+      "The best junk removal service in Los Angeles posts its prices, gives a firm quote before loading, disposes of items legally, does all the lifting, and fits your schedule. Dump Happy meets each of those standards, with load-based pricing from $454, donation and recycling built in, and crews working 10am to 8pm, seven days a week.",
     faqs: [
       {
         question: "What is the best junk removal service in Los Angeles?",
         answer:
-          "Look for posted prices, a firm quote before loading, legal disposal, full-service lifting, and real availability. Dump Happy meets each of those, serving the Westside, South Bay, and Central LA from $289. Call (424) 356-4141 for a free quote.",
+          "Look for posted prices, a firm quote before loading, legal disposal, full-service lifting, and real availability. Dump Happy meets each of those, serving the Westside, South Bay, and Central LA from $454. Call (424) 356-4141 for a free quote.",
       },
       {
         question: "What red flags should I watch for in a junk hauler?",
@@ -1511,7 +1511,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       {
         question: "How much does Dump Happy charge?",
         answer:
-          "Dump Happy prices by truck space: a small load starts at $289, a quarter load at $389, a half load at $569, a 3/4 load at $739, and a full 16ft trailer load at $899. Labor, hauling, and disposal are included.",
+          "Dump Happy prices by truck space: a quarter load starts at $454, a half load at $624, a 3/4 load at $794, and a full 16ft trailer load at $964. Labor, hauling, and disposal are included.",
       },
       {
         question: "What areas does Dump Happy serve?",
@@ -1525,7 +1525,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "How to Get Rid of a Couch in Los Angeles (Without Lifting It)",
     metaTitle: "How to Get Rid of a Couch in Los Angeles | Dump Happy",
     metaDescription:
-      "The easiest way to get rid of an old couch in LA: Dump Happy carries it out of any room and hauls it away from $289. No curb, no city wait, no dumping fines.",
+      "The easiest way to get rid of an old couch in LA: Dump Happy carries it out of any room and hauls it away from $454. No curb, no city wait, no dumping fines.",
     targetKeyword: "how to get rid of a couch",
     category: "Guides",
     summary:
@@ -1536,12 +1536,12 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: [],
     imageAlt: "Old couch being carried out of a Los Angeles home for removal",
     quickAnswer:
-      "The easiest way to get rid of an old couch in Los Angeles is to book Dump Happy. Our crew carries it out of any room and hauls it away, starting at $289, so you never move it to the curb, wait on a city pickup, or risk an illegal dumping fine. Usable couches go to donation and the rest is disposed of legally.",
+      "The easiest way to get rid of an old couch in Los Angeles is to book Dump Happy. Our crew carries it out of any room and hauls it away, starting at $454, so you never move it to the curb, wait on a city pickup, or risk an illegal dumping fine. Usable couches go to donation and the rest is disposed of legally.",
     faqs: [
       {
         question: "How do I get rid of an old couch?",
         answer:
-          "Book Dump Happy. Our crew carries the couch out of any room, including upstairs, and hauls it away, starting at $289. Labor, hauling, and disposal are included. Call (424) 356-4141 for a free quote.",
+          "Book Dump Happy. Our crew carries the couch out of any room, including upstairs, and hauls it away, starting at $454. Labor, hauling, and disposal are included. Call (424) 356-4141 for a free quote.",
       },
       {
         question: "Can't I just have the city pick up my couch?",
@@ -1565,7 +1565,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "How to Dispose of a TV in Los Angeles (the Easy, Legal Way)",
     metaTitle: "How to Dispose of a TV in Los Angeles | Dump Happy",
     metaDescription:
-      "TVs can't go in the trash in California. Dump Happy takes your TV off the wall, carries it out, and sends it to certified e-waste recycling from $289.",
+      "TVs can't go in the trash in California. Dump Happy takes your TV off the wall, carries it out, and sends it to certified e-waste recycling from $454.",
     targetKeyword: "how to dispose of a tv",
     category: "Disposal Rules",
     summary:
@@ -1576,12 +1576,12 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: [],
     imageAlt: "Old flat-screen TV set aside for e-waste recycling in Los Angeles",
     quickAnswer:
-      "The easiest way to dispose of a TV in Los Angeles is to book Dump Happy. We take it down, carry it out, and send it to a certified e-waste recycler, starting at $289. TVs are hazardous e-waste in California and can't go in the trash, and leaving one on the curb can bring an illegal dumping fine.",
+      "The easiest way to dispose of a TV in Los Angeles is to book Dump Happy. We take it down, carry it out, and send it to a certified e-waste recycler, starting at $454. TVs are hazardous e-waste in California and can't go in the trash, and leaving one on the curb can bring an illegal dumping fine.",
     faqs: [
       {
         question: "How do I dispose of a TV in Los Angeles?",
         answer:
-          "Book Dump Happy. We unmount it, carry it out, and send it to certified e-waste recycling, starting at $289. Flat-screens, tube TVs, and broken screens are all fine. Call (424) 356-4141 for a free quote.",
+          "Book Dump Happy. We unmount it, carry it out, and send it to certified e-waste recycling, starting at $454. Flat-screens, tube TVs, and broken screens are all fine. Call (424) 356-4141 for a free quote.",
       },
       {
         question: "Can I put a TV in the trash?",
@@ -1605,7 +1605,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "Where to Get Rid of a Mattress in Los Angeles (and Where You Can't Dump One)",
     metaTitle: "Where to Get Rid of a Mattress in Los Angeles | Dump Happy",
     metaDescription:
-      "Where can I get rid of a mattress in LA? Right from your bedroom. Dump Happy carries it out and recycles it from $289. No truck, no city wait, no dumping fines.",
+      "Where can I get rid of a mattress in LA? Right from your bedroom. Dump Happy carries it out and recycles it from $329. No truck, no city wait, no dumping fines.",
     targetKeyword: "where to get rid of mattress",
     category: "Guides",
     summary:
@@ -1616,12 +1616,12 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: [],
     imageAlt: "Used mattress being carried out of a Los Angeles apartment for recycling",
     quickAnswer:
-      "The easiest place to get rid of a mattress in Los Angeles is right where it is. Book Dump Happy and our crew carries it out of any room and routes it to a California mattress recycler, starting at $289. You don't need a truck, a drop-off site, or a city appointment, and you avoid illegal dumping fines of up to $10,000.",
+      "The easiest place to get rid of a mattress in Los Angeles is right where it is. Book Dump Happy and our crew carries it out of any room and routes it to a California mattress recycler, starting at $329. You don't need a truck, a drop-off site, or a city appointment, and you avoid illegal dumping fines of up to $10,000.",
     faqs: [
       {
         question: "Where can I get rid of a mattress in Los Angeles?",
         answer:
-          "From your bedroom. Book Dump Happy and our crew carries the mattress out, hauls it away, and routes it to a California mattress recycler, starting at $289. Call (424) 356-4141 for a free quote.",
+          "From your bedroom. Book Dump Happy and our crew carries the mattress out, hauls it away, and routes it to a California mattress recycler, starting at $329. Call (424) 356-4141 for a free quote.",
       },
       {
         question: "Where can I dump a mattress?",
@@ -1645,7 +1645,7 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     title: "Who Hauls Away Old Refrigerators in Los Angeles?",
     metaTitle: "Who Hauls Away Old Refrigerators in LA? | Dump Happy",
     metaDescription:
-      "Dump Happy hauls away old refrigerators in Los Angeles, working or dead, from any room, with legal refrigerant recovery and recycling. From $289. Free quote.",
+      "Dump Happy hauls away old refrigerators in Los Angeles, working or dead, from any room, with legal refrigerant recovery and recycling. From $454. Free quote.",
     targetKeyword: "who hauls away old refrigerators",
     category: "Guides",
     summary:
@@ -1656,12 +1656,12 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     relatedLocations: [],
     imageAlt: "Crew hauling an old refrigerator out of a Los Angeles garage",
     quickAnswer:
-      "Dump Happy hauls away old refrigerators across Los Angeles, working or dead, from the kitchen, garage, or upstairs, starting at $289. We carry it out and make sure the refrigerant is recovered by certified handlers and the metal is recycled, as federal and California law require. No curbside wait and no dumping fine risk.",
+      "Dump Happy hauls away old refrigerators across Los Angeles, working or dead, from the kitchen, garage, or upstairs, starting at $454. We carry it out and make sure the refrigerant is recovered by certified handlers and the metal is recycled, as federal and California law require. No curbside wait and no dumping fine risk.",
     faqs: [
       {
         question: "Who will haul away an old refrigerator?",
         answer:
-          "Dump Happy. We pick up fridges from any room, working or not, and route them to certified refrigerant recovery and metal recycling, starting at $289. Call (424) 356-4141 for a free quote.",
+          "Dump Happy. We pick up fridges from any room, working or not, and route them to certified refrigerant recovery and metal recycling, starting at $454. Call (424) 356-4141 for a free quote.",
       },
       {
         question: "Can't the city pick up my old fridge?",

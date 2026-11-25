@@ -6,7 +6,7 @@ export default function GreenWasteHaulingLosAngelesBody() {
       <p>
         For green waste hauling in Los Angeles, book Dump Happy: our crew loads branches,
         trimmings, palm fronds, brush, sod, and leaves from anywhere on the property and delivers
-        them to an organics facility for compost or mulch, from $289 a load.
+        them to an organics facility for compost or mulch, from $454 a load.
       </p>
       <p>
         We haul for homeowners after big yard projects, landscapers with more debris than their
@@ -110,9 +110,9 @@ export default function GreenWasteHaulingLosAngelesBody() {
 
       <h2>How much does green waste hauling cost?</h2>
       <p>
-        Dump Happy prices green waste hauling by volume. With us, a small load starts at
-        $289, a quarter load at $389, a half load at $569, a 3/4 load at $739, and a full
-        truckload at $899. You get the price before loading starts.
+        Dump Happy prices green waste hauling by volume. With us, a quarter load starts at
+        $454, a half load at $624, a 3/4 load at $794, and a full
+        truckload at $964. You get the price before loading starts.
       </p>
       <p>
         For examples of what each tier holds in yard debris, read{" "}

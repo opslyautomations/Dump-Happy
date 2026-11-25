@@ -5,7 +5,7 @@ export default function HowToGetRidOfACouchBody() {
     <>
       <p>
         The easiest way to get rid of an old couch in Los Angeles is to book Dump Happy. Our crew
-        carries it out of any room, upstairs or down, and hauls it away, starting at $289. You
+        carries it out of any room, upstairs or down, and hauls it away, starting at $454. You
         don&apos;t move it to the curb, you don&apos;t wait on the city, and you don&apos;t risk an
         illegal dumping fine. Usable couches go to donation, and the rest is recycled or disposed
         of legally.
@@ -23,8 +23,8 @@ export default function HowToGetRidOfACouchBody() {
           room, upstairs bedroom, garage.
         </li>
         <li>
-          <strong>Get a firm price.</strong> A single couch usually fits our small load tier,
-          starting at $289. Labor, hauling, and disposal are included.
+          <strong>Get a firm price.</strong> A single couch usually fits our quarter-load tier,
+          starting at $454. Labor, hauling, and disposal are included.
         </li>
         <li>
           <strong>We carry it out.</strong> The crew handles the lifting, the doorways, and the
@@ -98,7 +98,7 @@ export default function HowToGetRidOfACouchBody() {
 
       <h2>How much does it cost to get rid of a couch?</h2>
       <p>
-        A single couch typically falls in our small load tier, starting at $289. Adding a coffee
+        A single couch typically falls in our quarter-load tier, starting at $454. Adding a coffee
         table, armchair, mattress, or a few boxes to the same trip is usually cheaper than booking
         them separately, since you pay for truck space, not per piece. See{" "}
         <Link href="/pricing">pricing</Link> for every tier.

@@ -6,7 +6,7 @@ export default function HowToGetRidOfAMattressLosAngelesBody() {
       <p>
         The easiest way to get rid of an old mattress in Los Angeles is to book Dump Happy: our
         crew carries it out of any room, hauls it away, and routes it to a California mattress
-        recycler, starting at $289. You don&apos;t lift anything, and you don&apos;t have to figure
+        recycler, starting at $329. You don&apos;t lift anything, and you don&apos;t have to figure
         out where it goes.
       </p>
       <p>
@@ -47,7 +47,7 @@ export default function HowToGetRidOfAMattressLosAngelesBody() {
         <li>A firm quote before we start</li>
       </ul>
       <p>
-        A small load, from $289, typically covers a mattress plus its box spring and frame.
+        A mattress pickup, from $329, typically covers a mattress plus its box spring and frame.
       </p>
 
       <h2>What if the mattress is upstairs or there are several?</h2>
@@ -55,7 +55,7 @@ export default function HowToGetRidOfAMattressLosAngelesBody() {
         Stairs, walk-ups, and tight hallways are part of the job and don&apos;t change the price.
         If you&apos;re clearing several bedrooms, a rental between tenants, or a whole move-out,
         everything goes in one visit and you pay for the space it takes up, not per piece. Bigger
-        jobs move up to a quarter load (from $389), half load (from $569), or more. See our{" "}
+        jobs move up to a quarter load (from $454), half load (from $624), or more. See our{" "}
         <Link href="/pricing">pricing page</Link>.
       </p>
       <p>
@@ -89,7 +89,7 @@ export default function HowToGetRidOfAMattressLosAngelesBody() {
 
       <h2>How much does it cost to dispose of a mattress in LA?</h2>
       <p>
-        Mattress removal with Dump Happy starts at $289 for a small load. That price includes the
+        Mattress removal with Dump Happy starts at $329. That price includes the
         crew, the haul, and recycling. The full breakdown is in{" "}
         <Link href="/blog/mattress-removal-cost-los-angeles">
           how much mattress removal costs in LA

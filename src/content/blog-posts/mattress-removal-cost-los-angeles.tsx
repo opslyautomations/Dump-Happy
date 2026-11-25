@@ -1,15 +1,13 @@
 import Link from "next/link";
-import { PRICING_TIERS } from "@/lib/data/pricing";
+import { MATTRESS_PICKUP_PRICE } from "@/lib/data/pricing";
 import { SITE } from "@/lib/data/site";
-
-const smallLoad = PRICING_TIERS[0];
 
 export default function MattressRemovalCostLosAngelesBody() {
   return (
     <>
       <p>
-        Mattress removal in Los Angeles costs from ${smallLoad.priceFrom} with Dump Happy, and
-        that small load usually covers a mattress, box spring, and bed frame together. The price
+        Mattress removal in Los Angeles costs from ${MATTRESS_PICKUP_PRICE} with Dump Happy, and
+        that mattress pickup usually covers a mattress, box spring, and bed frame together. The price
         includes carrying it out of any room, hauling, and recycling, with a firm quote before we
         lift anything.
       </p>
@@ -21,27 +19,27 @@ export default function MattressRemovalCostLosAngelesBody() {
       <h2>What does a mattress pickup cost with Dump Happy?</h2>
       <p>
         We price by how much space your items take up in the truck, not by the piece. A mattress
-        on its own, or a mattress with its box spring and frame, fits in our{" "}
-        {smallLoad.name.toLowerCase()} tier, which starts at ${smallLoad.priceFrom}. That price
+        on its own, or a mattress with its box spring and frame, fits in a single
+        mattress pickup, which starts at ${MATTRESS_PICKUP_PRICE}. That price
         covers the crew carrying it out of the bedroom, down any stairs, loading, transport, and
         routing it to a mattress recycler rather than a landfill. You get a firm quote before we
-        lift anything, and if the job ends up smaller than quoted, you pay the lower tier.
+        lift anything, and if the job ends up smaller than quoted, you pay the lower price.
       </p>
       <ul>
         <li>
-          <strong>Small load:</strong> from $289
+          <strong>Mattress pickup:</strong> from ${MATTRESS_PICKUP_PRICE}
         </li>
         <li>
-          <strong>Quarter load:</strong> from $389
+          <strong>Quarter load:</strong> from $454
         </li>
         <li>
-          <strong>Half load:</strong> from $569
+          <strong>Half load:</strong> from $624
         </li>
         <li>
-          <strong>3/4 load:</strong> from $739
+          <strong>3/4 load:</strong> from $794
         </li>
         <li>
-          <strong>Full load (16ft trailer):</strong> from $899
+          <strong>Full load (16ft trailer):</strong> from $964
         </li>
       </ul>
       <p>
@@ -105,7 +103,7 @@ export default function MattressRemovalCostLosAngelesBody() {
       <h2>Get a firm price on your mattress removal</h2>
       <p>
         Whether it&apos;s one mattress or a whole bedroom, a single pickup starting at $
-        {smallLoad.priceFrom} takes care of it in one visit. Read{" "}
+        {MATTRESS_PICKUP_PRICE} takes care of it in one visit. Read{" "}
         <Link href="/blog/how-to-get-rid-of-a-mattress-los-angeles">
           how to get rid of a mattress in Los Angeles
         </Link>

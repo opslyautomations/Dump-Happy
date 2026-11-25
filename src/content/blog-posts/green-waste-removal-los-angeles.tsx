@@ -6,7 +6,7 @@ export default function GreenWasteRemovalLosAngelesBody() {
       <p>
         For green waste removal in Los Angeles, book Dump Happy: our crew loads branches,
         trimmings, leaves, grass, brush, and weeds from anywhere on your property and delivers
-        them to an organics facility where they&apos;re turned into compost or mulch, from $289.
+        them to an organics facility where they&apos;re turned into compost or mulch, from $454.
       </p>
       <p>
         Call (424) 356-4141 or <Link href="/contact">get a free quote</Link> for{" "}
@@ -117,8 +117,8 @@ export default function GreenWasteRemovalLosAngelesBody() {
       <h2>How much does green waste removal cost?</h2>
       <p>
         Dump Happy prices green waste removal by how much space the load takes in the truck,
-        with no per-bag or per-branch fees. Loads start at $289 for a small load, and a full
-        truck starts at $899. Our{" "}
+        with no per-bag or per-branch fees. Loads start at $454 for a quarter load, and a full
+        truck starts at $964. Our{" "}
         <Link href="/blog/green-waste-removal-cost-los-angeles">
           green waste removal cost breakdown
         </Link>{" "}

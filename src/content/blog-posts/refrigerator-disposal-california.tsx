@@ -7,7 +7,7 @@ export default function RefrigeratorDisposalCaliforniaBody() {
         In California, an old refrigerator has to have its refrigerant recovered by a certified
         technician before it&apos;s scrapped or disposed of. The easiest way to handle that in Los
         Angeles is to book Dump Happy: we haul the fridge out and make sure the refrigerant is
-        recovered properly and the metal is recycled, starting at $289.
+        recovered properly and the metal is recycled, starting at $454.
       </p>
       <p>
         Call (424) 356-4141 or <Link href="/contact">get a free quote</Link>. We&apos;re open 10am
@@ -79,8 +79,8 @@ export default function RefrigeratorDisposalCaliforniaBody() {
 
       <h2>How much does refrigerator removal cost?</h2>
       <p>
-        Dump Happy prices by load size. A single fridge typically fits in our small load tier,
-        starting at $289, with labor, hauling, and disposal included. Adding a washer, dryer, or
+        Dump Happy prices by load size. A single fridge typically fits in our quarter-load tier,
+        starting at $454, with labor, hauling, and disposal included. Adding a washer, dryer, or
         other items to the same pickup is usually cheaper than booking separately. See{" "}
         <Link href="/pricing">pricing</Link> for every tier.
       </p>

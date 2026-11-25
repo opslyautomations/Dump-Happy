@@ -1,14 +1,14 @@
 import Link from "next/link";
 import { PRICING_TIERS } from "@/lib/data/pricing";
 
-const smallLoad = PRICING_TIERS[0];
+const entryLoad = PRICING_TIERS[0];
 
 export default function CouchRemovalLosAngelesBody() {
   return (
     <>
       <p>
         The easiest way to get rid of a couch in Los Angeles is to book Dump Happy: we carry it out
-        of any room and haul it away, from ${smallLoad.priceFrom}. Loveseat, sectional, or steel-frame
+        of any room and haul it away, from ${entryLoad.priceFrom}. Loveseat, sectional, or steel-frame
         sleeper sofa, our crew handles the lifting, the stairs, and the disposal.
       </p>
       <p>
@@ -39,7 +39,7 @@ export default function CouchRemovalLosAngelesBody() {
       <h2>How much does couch removal cost in Los Angeles?</h2>
       <p>
         Pricing is by load size, and a single couch typically fits in our{" "}
-        {smallLoad.name.toLowerCase()} tier, starting at ${smallLoad.priceFrom}. Adding a coffee
+        {entryLoad.name.toLowerCase()} tier, starting at ${entryLoad.priceFrom}. Adding a coffee
         table, an armchair, or a few boxes to the same trip is usually cheaper than booking them
         separately. Labor, hauling, and disposal are included. See{" "}
         <Link href="/pricing">pricing</Link> for every tier.

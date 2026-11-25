@@ -9,7 +9,7 @@ export default function TenantLeftBelongingsCaliforniaBody() {
       <p>
         If a tenant left belongings behind in California, give the required written notice, wait
         out the 15- or 18-day claim period, and then book Dump Happy to clear the unit in one
-        visit. We sort, donate what&apos;s usable, and haul the rest, from $289.
+        visit. We sort, donate what&apos;s usable, and haul the rest, from $454.
       </p>
       <p>
         Call (424) 356-4141 or <Link href="/contact">get a free quote</Link> for{" "}

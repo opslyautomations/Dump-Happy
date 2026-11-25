@@ -5,8 +5,8 @@ export default function BoxSpringBedFrameDisposalLosAngelesBody() {
     <>
       <p>
         The simplest way to handle box spring disposal in Los Angeles is to book Dump Happy: we
-        carry out the box spring, bed frame, headboard, and mattress in one visit, from $289 for a
-        small load. Box springs go to a California mattress recycler, and frames are donated or
+        carry out the box spring, bed frame, headboard, and mattress in one visit, from $329.
+        Box springs go to a California mattress recycler, and frames are donated or
         recycled where we can.
       </p>
       <p>
@@ -111,9 +111,9 @@ export default function BoxSpringBedFrameDisposalLosAngelesBody() {
       <h2>How much does it cost to haul away a box spring and bed frame?</h2>
       <p>
         With Dump Happy, you pay for the space your items take up, not per piece. A mattress, box
-        spring, and bed frame usually fit together in the small load tier, from $289. Clearing
+        spring, and bed frame usually fit together in one mattress pickup, from $329. Clearing
         several bedrooms or adding dressers and nightstands moves you up to a quarter load (from
-        $389) or larger. You&apos;ll get a firm price before anything is lifted. See our{" "}
+        $454) or larger. You&apos;ll get a firm price before anything is lifted. See our{" "}
         <Link href="/pricing">pricing page</Link> or{" "}
         <Link href="/blog/mattress-removal-cost-los-angeles">
           what mattress removal costs in LA

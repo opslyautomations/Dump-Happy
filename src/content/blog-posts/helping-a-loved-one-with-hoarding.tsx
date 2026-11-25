@@ -6,7 +6,7 @@ export default function HelpingALovedOneWithHoardingBody() {
       <p>
         If you need hoarding cleanup help in Los Angeles, start with patience, let your loved one
         set the pace, and when they&apos;re ready, book Dump Happy: our crew sorts, protects
-        keepsakes, and hauls the clutter discreetly and without judgment, with loads from $289.
+        keepsakes, and hauls the clutter discreetly and without judgment, with loads from $454.
       </p>
       <p>
         Call (424) 356-4141 or <Link href="/contact">get a free quote</Link> for a{" "}

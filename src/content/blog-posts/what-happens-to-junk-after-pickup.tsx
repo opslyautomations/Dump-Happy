@@ -10,7 +10,7 @@ export default function WhatHappensToJunkAfterPickupBody() {
       </p>
       <p>
         Ready to book? Call (424) 356-4141 or <Link href="/contact">get a free quote</Link>.
-        Pricing starts at $289 and includes labor, hauling, and disposal.
+        Pricing starts at $454 and includes labor, hauling, and disposal.
       </p>
 
       <h2>Where does junk go after removal?</h2>

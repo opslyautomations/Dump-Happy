@@ -41,7 +41,7 @@ const faqs: FaqItem[] = [
   {
     question: "How much does Dump Happy charge?",
     answer:
-      "Pricing is based on how much space your items take in the truck, starting at $289 for a small load and up to $899 for a full 16ft trailer. You get a firm quote before we start loading, with no hidden fees.",
+      "Pricing is based on how much space your items take in the truck, starting at $454 for a quarter load and up to $964 for a full 16ft trailer. You get a firm quote before we start loading, with no hidden fees.",
   },
 ];
 

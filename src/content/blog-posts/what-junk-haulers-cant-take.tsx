@@ -7,7 +7,7 @@ export default function WhatJunkHaulersCantTakeBody() {
         The only thing junk haulers can&apos;t take is household hazardous waste: paint, chemicals,
         pesticides, motor oil, batteries, and asbestos. Everything else, from furniture and
         appliances to electronics, mattresses, and yard debris, Dump Happy hauls away, starting at
-        $289.
+        $454.
       </p>
       <p>
         Call (424) 356-4141 or <Link href="/contact">get a free quote</Link>. We&apos;re open 10am

@@ -7,7 +7,7 @@ export default function MattressRecyclingLosAngelesBody() {
         The easiest way to get a mattress recycled in Los Angeles is to book Dump Happy: we carry
         it out of your home and route it to a California mattress recycler, where its steel, foam,
         fiber, and wood are turned into new products instead of being buried in a landfill. Pickups
-        start at $289.
+        start at $329.
       </p>
       <p>
         Call <a href="tel:+14243564141">(424) 356-4141</a> or{" "}

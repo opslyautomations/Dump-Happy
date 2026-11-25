@@ -6,7 +6,7 @@ export default function SomeoneDumpedJunkOnMyPropertyBody() {
       <p>
         If someone dumped junk on your property in Los Angeles, the fastest fix is to book Dump
         Happy: we haul away dumped mattresses, furniture, construction debris, and trash, often
-        same-day or next-day when the schedule allows, from $289.
+        same-day or next-day when the schedule allows, from $454.
       </p>
       <p>
         Call (424) 356-4141 or <Link href="/contact">get a free quote</Link> for{" "}

@@ -4,10 +4,10 @@ export default function JunkRemovalCostLosAngelesBody() {
   return (
     <>
       <p>
-        Junk removal in Los Angeles typically costs between $289 and $899 with Dump Happy,
+        Junk removal in Los Angeles typically costs between $454 and $964 with Dump Happy,
         depending on how much space your items take up in the truck. A few items or a single
-        bulky piece starts at $289; a full 16ft trailer load for a whole-property clean-out
-        starts at $899. Labor, hauling, and disposal fees are included in the quote.
+        bulky piece starts at $454; a full 16ft trailer load for a whole-property clean-out
+        starts at $964. Labor, hauling, and disposal fees are included in the quote.
       </p>
       <p>
         Reputable haulers don&apos;t price by the hour or by counting individual items. They
@@ -31,28 +31,23 @@ export default function JunkRemovalCostLosAngelesBody() {
         </thead>
         <tbody>
           <tr>
-            <td>Small load (pickup truck)</td>
-            <td>$289</td>
-            <td>A single couch, mattress set, or handful of items</td>
-          </tr>
-          <tr>
             <td>Quarter load</td>
-            <td>$389</td>
+            <td>$454</td>
             <td>A small room&apos;s worth of furniture and boxes</td>
           </tr>
           <tr>
             <td>Half load</td>
-            <td>$569</td>
+            <td>$624</td>
             <td>A garage corner or a couple of rooms</td>
           </tr>
           <tr>
             <td>Three-quarter load</td>
-            <td>$739</td>
+            <td>$794</td>
             <td>A packed garage or large multi-room clear-out</td>
           </tr>
           <tr>
             <td>Full load (16ft trailer)</td>
-            <td>$899</td>
+            <td>$964</td>
             <td>Whole-home, estate, or hoarding clean-outs</td>
           </tr>
         </tbody>

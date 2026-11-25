@@ -6,7 +6,7 @@ export default function DonateFurnitureLosAngelesBody() {
       <p>
         The easiest way to donate furniture in Los Angeles is to book a Dump Happy pickup: we carry
         everything out, donate the pieces that are usable, and recycle or legally dispose of the
-        rest, starting at $289. You don&apos;t have to find a charity, send photos for approval, or
+        rest, starting at $454. You don&apos;t have to find a charity, send photos for approval, or
         wait weeks for a pickup slot.
       </p>
       <p>

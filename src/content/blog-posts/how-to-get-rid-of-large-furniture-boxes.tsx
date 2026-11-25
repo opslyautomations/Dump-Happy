@@ -6,7 +6,7 @@ export default function HowToGetRidOfLargeFurnitureBoxesBody() {
       <p>
         The easiest way to get rid of large furniture boxes in Los Angeles is to book Dump Happy:
         we haul the boxes, the foam and packing material, and the old furniture they replaced in
-        one trip, starting at $289. No cutting, bundling, or waiting weeks for space.
+        one trip, starting at $454. No cutting, bundling, or waiting weeks for space.
       </p>
       <p>
         A new sofa, bed frame, or dresser can leave behind a box taller than you are, plus foam,
@@ -89,28 +89,23 @@ export default function HowToGetRidOfLargeFurnitureBoxesBody() {
         </thead>
         <tbody>
           <tr>
-            <td>Small load</td>
-            <td>$289</td>
-            <td>A few large furniture boxes and packing material</td>
-          </tr>
-          <tr>
             <td>Quarter load</td>
-            <td>$389</td>
+            <td>$454</td>
             <td>Boxes plus an old sofa or mattress</td>
           </tr>
           <tr>
             <td>Half load</td>
-            <td>$569</td>
+            <td>$624</td>
             <td>A full move&apos;s worth of boxes and a few furniture pieces</td>
           </tr>
           <tr>
             <td>3/4 load</td>
-            <td>$739</td>
+            <td>$794</td>
             <td>Boxes plus a room or two of furniture</td>
           </tr>
           <tr>
             <td>Full load (16ft trailer)</td>
-            <td>$899</td>
+            <td>$964</td>
             <td>A whole-home move-out</td>
           </tr>
         </tbody>

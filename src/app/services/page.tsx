@@ -11,7 +11,7 @@ import { PageIntro } from "@/components/page-sections/PageIntro";
 export const metadata: Metadata = buildMetadata({
   title: "Junk Removal Services in Los Angeles | Dump Happy",
   description:
-    "From single-item pickups to full estate clean-outs, Dump Happy hauls it all across Los Angeles. Explore all 11 junk removal and clean-out services.",
+    `From single-item pickups to full estate clean-outs and moves into storage, Dump Happy hauls it all across Los Angeles. Explore all ${SERVICES.length} services.`,
   path: "/services",
 });
 

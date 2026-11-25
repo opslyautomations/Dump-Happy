@@ -53,20 +53,20 @@ const applianceChips = [
 
 const includedHeading = "What's Included When You Book Appliance Removal";
 
-const includedText = `Disconnection, the carry-out, and legal disposal in one visit. Our crew unhooks what's safe to unhook, moves the appliance out of the kitchen, laundry closet, garage, upstairs, or side yard, and loads it — so you avoid the strain and the floor damage. Refrigerant units go to certified recovery and the metal goes to recyclers. Working units that still have life in them may be donated. Pricing is by load, starting at $289 for a small load, with a firm quote before we start. Call (424) 356-4141 or request a free quote.`;
+const includedText = `Disconnection, the carry-out, and legal disposal in one visit. Our crew unhooks what's safe to unhook, moves the appliance out of the kitchen, laundry closet, garage, upstairs, or side yard, and loads it — so you avoid the strain and the floor damage. Refrigerant units go to certified recovery and the metal goes to recyclers. Working units that still have life in them may be donated. Pricing is by load, starting at $454 for a quarter load, with a firm quote before we start. Call (424) 356-4141 or request a free quote.`;
 
-const howItWorksText = `Photo or walkthrough → firm load-based quote (a single fridge is a single-item pickup; several appliances or an appliance-heavy clear-out scales up the tier) → we disconnect and haul (please have units emptied and defrosted where possible) → refrigerant units routed to certified recovery, metal to recyclers.`;
+const howItWorksText = `Photo or walkthrough → firm load-based quote (a single fridge usually fits a quarter load; several appliances or an appliance-heavy clear-out scales up the tier) → we disconnect and haul (please have units emptied and defrosted where possible) → refrigerant units routed to certified recovery, metal to recyclers.`;
 
 const faqs: FaqItem[] = [
   {
     question: "Who hauls away old refrigerators?",
     answer:
-      "We do. Dump Happy hauls fridges across Los Angeles — working or dead, from the kitchen, garage, or upstairs — and routes them to certified refrigerant recovery and metal recycling, starting at $289. City pickup means booking ahead, waiting for your collection day, and moving a 250-pound appliance to the curb yourself; stores usually only take one when you buy a new one. We just take it.",
+      "We do. Dump Happy hauls fridges across Los Angeles — working or dead, from the kitchen, garage, or upstairs — and routes them to certified refrigerant recovery and metal recycling, starting at $454. City pickup means booking ahead, waiting for your collection day, and moving a 250-pound appliance to the curb yourself; stores usually only take one when you buy a new one. We just take it.",
   },
   {
     question: "How do I dispose of an old TV?",
     answer:
-      "Book us. TVs are hazardous e-waste in California and can't go in the trash, and a TV left on the curb without a properly booked city pickup is illegal dumping. We unmount it, carry it out, and send it to a certified e-waste recycler, starting at $289 — flat-screens, tube TVs, and broken screens included.",
+      "Book us. TVs are hazardous e-waste in California and can't go in the trash, and a TV left on the curb without a properly booked city pickup is illegal dumping. We unmount it, carry it out, and send it to a certified e-waste recycler, starting at $454 — flat-screens, tube TVs, and broken screens included.",
   },
   {
     question: "Is it legal to just throw away a refrigerator?",
@@ -101,7 +101,7 @@ const faqs: FaqItem[] = [
   {
     question: "How is appliance removal priced?",
     answer:
-      "By truck volume, like the rest of our service. A single appliance is a single-item pickup; a kitchen's worth or an appliance-heavy clear-out moves up the load tiers. You get a firm quote before we start — no per-pound surprises.",
+      "By truck volume, like the rest of our service. A single appliance usually fits a quarter load; a kitchen's worth or an appliance-heavy clear-out moves up the load tiers. You get a firm quote before we start — no per-pound surprises.",
   },
 ];
 

@@ -18,11 +18,12 @@ import { Hero } from "@/components/page-sections/Hero";
 import { Section } from "@/components/page-sections/Section";
 import { PillList } from "@/components/page-sections/PillList";
 import { QuoteForm } from "@/components/QuoteForm";
+import { MATTRESS_PICKUP_PRICE } from "@/lib/data/pricing";
 
 export const metadata: Metadata = buildMetadata({
   title: "Mattress Removal, Pickup & Disposal in LA | Dump Happy",
   description:
-    "Mattress removal and pickup in Los Angeles from $289. We carry it out of any room and handle legal mattress disposal through California recycling.",
+    "Mattress removal and pickup in Los Angeles from $329. We carry it out of any room and handle legal mattress disposal through California recycling.",
   path: "/services/mattress-removal",
 });
 
@@ -32,7 +33,7 @@ const breadcrumbItems = [
   { name: "Mattress Removal", path: "/services/mattress-removal" },
 ];
 
-const intro = `Dump Happy provides mattress removal, mattress pickup, and legal mattress disposal across Los Angeles, starting at $289 for a small load. A used mattress is one of the hardest things to get rid of on your own: it's heavy and floppy, it won't fit in a car, and leaving it at the curb can cost you a fine. Dump Happy carries mattresses and box springs out of any room in your LA home and routes them to California mattress recyclers — the responsible, legal path, without you wrestling a king-size down a stairwell. One item or a whole apartment's worth, we handle it.`;
+const intro = `Dump Happy provides mattress removal, mattress pickup, and legal mattress disposal across Los Angeles, starting at $329. A used mattress is one of the hardest things to get rid of on your own: it's heavy and floppy, it won't fit in a car, and leaving it at the curb can cost you a fine. Dump Happy carries mattresses and box springs out of any room in your LA home and routes them to California mattress recyclers — the responsible, legal path, without you wrestling a king-size down a stairwell. One item or a whole apartment's worth, we handle it.`;
 
 const recyclingHeading = "How Mattress Recycling Works in California";
 
@@ -40,7 +41,7 @@ const recyclingText = `California law (SB 254) built a statewide system for recy
 
 const includedHeading = "What's Included When You Book Mattress Removal";
 
-const includedText = `Everything from the bedroom to the recycler. Our crew carries the mattress, box spring, and frame out of any room — upstairs units, no-elevator walk-ups, and tight hallways included — loads it, and routes it to a California mattress recycler. You don't need a truck, a helper, or a free afternoon. Pricing is by load, starting at $289 for a small load, which usually covers a mattress, box spring, and frame together, and you get a firm quote before we lift anything. Call (424) 356-4141 or request a free quote online; same-day or next-day pickup is often available when the schedule allows.`;
+const includedText = `Everything from the bedroom to the recycler. Our crew carries the mattress, box spring, and frame out of any room — upstairs units, no-elevator walk-ups, and tight hallways included — loads it, and routes it to a California mattress recycler. You don't need a truck, a helper, or a free afternoon. Pricing is by load, starting at $329, which usually covers a mattress, box spring, and frame together, and you get a firm quote before we lift anything. Call (424) 356-4141 or request a free quote online; same-day or next-day pickup is often available when the schedule allows.`;
 
 const illegalDumpingReinforcement = `Leaving a mattress on a sidewalk, alley, or curb outside of a scheduled, approved pickup is illegal dumping under California Penal Code 374.3 — the same law that covers furniture and bags of junk. LA County fines run up to $10,000, on top of possible cleanup costs. A booked mattress removal is the simple way to avoid it entirely.`;
 
@@ -48,7 +49,7 @@ const faqs: FaqItem[] = [
   {
     question: "Where can I get rid of a mattress in Los Angeles?",
     answer:
-      "Right from your bedroom. Book Dump Happy and our crew carries the mattress out of any room, hauls it away, and routes it to a California mattress recycler, starting at $289. No truck to borrow, no drop-off site to find, no city appointment to wait on.",
+      "Right from your bedroom. Book Dump Happy and our crew carries the mattress out of any room, hauls it away, and routes it to a California mattress recycler, starting at $329. No truck to borrow, no drop-off site to find, no city appointment to wait on.",
   },
   {
     question: "Where can I dump a mattress?",
@@ -73,7 +74,7 @@ const faqs: FaqItem[] = [
   {
     question: "What's included when I book mattress removal?",
     answer:
-      "Everything: our crew carries the mattress out of any room — upstairs and no-elevator buildings included — loads it, and routes it to a California mattress recycler. Box springs and frames can go in the same trip. Pricing starts at $289 for a small load, with a firm quote before we lift anything.",
+      "Everything: our crew carries the mattress out of any room — upstairs and no-elevator buildings included — loads it, and routes it to a California mattress recycler. Box springs and frames can go in the same trip. Pricing starts at $329, with a firm quote before we lift anything.",
   },
   {
     question: "Do you take box springs and futons too?",
@@ -98,7 +99,7 @@ const faqs: FaqItem[] = [
   {
     question: "How much does mattress removal cost?",
     answer:
-      "Mattress removal in Los Angeles starts at $289 for a small load, which usually covers a mattress, box spring, and bed frame together. Several mattresses move up to the next load tier rather than being billed per piece. You get a firm quote before we lift anything.",
+      "Mattress removal in Los Angeles starts at $329, which usually covers a mattress, box spring, and bed frame together. Several mattresses move up to the next load tier rather than being billed per piece. You get a firm quote before we lift anything.",
   },
 ];
 
@@ -123,6 +124,7 @@ export default function MattressRemovalPage() {
             description:
               "Mattress and box spring removal in Los Angeles, routed to California mattress recyclers.",
             path: "/services/mattress-removal",
+            minPrice: MATTRESS_PICKUP_PRICE,
           }),
           faqPageJsonLd(faqs),
           breadcrumbJsonLd(breadcrumbItems),

@@ -51,17 +51,17 @@ const furnitureChips = [
 
 const includedHeading = `What's Included When You Book Furniture Removal`;
 
-const includedText = `Everything from the room to the truck. Our crew carries each piece out of wherever it sits — upstairs bedrooms, back rooms, third-floor walk-ups, garages, storage units — and handles the doorways, the stairs, and any disassembly needed to get it out cleanly. We protect your floors and frames on the way out, load it, and take care of donation, recycling, and disposal. Pricing is by load, starting at $289 for a small load, with a firm quote before we lift anything. Same-day or next-day pickup is often available when the schedule allows.`;
+const includedText = `Everything from the room to the truck. Our crew carries each piece out of wherever it sits — upstairs bedrooms, back rooms, third-floor walk-ups, garages, storage units — and handles the doorways, the stairs, and any disassembly needed to get it out cleanly. We protect your floors and frames on the way out, load it, and take care of donation, recycling, and disposal. Pricing is by load, starting at $454 for a quarter load, with a firm quote before we lift anything. Same-day or next-day pickup is often available when the schedule allows.`;
 
 const donationText = `Furniture in good shape gets a second home instead of a landfill. We prioritize donation for clean, working pieces; recycle wood and metal where we can; and dispose of the rest responsibly. Mattresses go a different route — we take them to California mattress recyclers — so mention one when you book and we'll haul it on the same trip.`;
 
-const inHomeCurbsideText = `Point-and-done from any room, or set it at the curb for a quick grab — your call. Either way it's load-based pricing (single item up to full load), quoted before we lift.`;
+const inHomeCurbsideText = `Point-and-done from any room, or set it at the curb for a quick grab — your call. Either way it's load-based pricing (quarter load up to full load), quoted before we lift.`;
 
 const faqs: FaqItem[] = [
   {
     question: "How do I get rid of an old couch?",
     answer:
-      "Book Dump Happy. Our crew carries the couch out of any room — upstairs, back bedroom, garage — and hauls it away, starting at $289, with labor, hauling, and disposal included. You never drag it to the curb or wait on a pickup window. Usable couches go to donation and the rest is recycled or disposed of legally.",
+      "Book Dump Happy. Our crew carries the couch out of any room — upstairs, back bedroom, garage — and hauls it away, starting at $454, with labor, hauling, and disposal included. You never drag it to the curb or wait on a pickup window. Usable couches go to donation and the rest is recycled or disposed of legally.",
   },
   {
     question: "Can't I just have the city pick up my couch?",
@@ -76,7 +76,7 @@ const faqs: FaqItem[] = [
   {
     question: "How much does it cost to remove a couch in LA?",
     answer:
-      "It's priced by truck space, not per item, so a single couch typically falls in the small-load tier, starting at $289, and a full living room costs more. You get a firm quote up front from a photo or walkthrough.",
+      "It's priced by truck space, not per item, so a single couch typically falls in the quarter-load tier, starting at $454, and a full living room costs more. You get a firm quote up front from a photo or walkthrough.",
   },
   {
     question: "Do you take sectionals and sleeper sofas?",

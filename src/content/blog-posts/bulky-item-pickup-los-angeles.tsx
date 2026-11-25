@@ -7,7 +7,7 @@ export default function BulkyItemPickupLosAngelesBody() {
         To book a bulky item pickup in Los Angeles, call Dump Happy at (424) 356-4141 or{" "}
         <Link href="/contact">request a free quote</Link> online with a few photos. Our crew
         carries couches, mattresses, appliances, and other large items out of any room and hauls
-        them away, starting at $289 for a small load.
+        them away, starting at $454 for a quarter load.
       </p>
       <p>
         You don&apos;t have to drag anything to the curb or wait for a set collection day. This
@@ -137,28 +137,23 @@ export default function BulkyItemPickupLosAngelesBody() {
         </thead>
         <tbody>
           <tr>
-            <td>Small load</td>
-            <td>$289</td>
-            <td>One to a few large items, like a couch or mattress set</td>
-          </tr>
-          <tr>
             <td>Quarter load</td>
-            <td>$389</td>
+            <td>$454</td>
             <td>A room&apos;s worth of furniture</td>
           </tr>
           <tr>
             <td>Half load</td>
-            <td>$569</td>
+            <td>$624</td>
             <td>Several rooms or a garage corner</td>
           </tr>
           <tr>
             <td>3/4 load</td>
-            <td>$739</td>
+            <td>$794</td>
             <td>A packed garage or move-out</td>
           </tr>
           <tr>
             <td>Full load (16ft trailer)</td>
-            <td>$899</td>
+            <td>$964</td>
             <td>A whole-home clean-out</td>
           </tr>
         </tbody>

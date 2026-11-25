@@ -5,7 +5,7 @@ export default function HowToDisposeOfATvBody() {
     <>
       <p>
         The easiest way to dispose of a TV in Los Angeles is to book Dump Happy. We take it off the
-        wall, carry it out, and send it to a certified e-waste recycler, starting at $289. That
+        wall, carry it out, and send it to a certified e-waste recycler, starting at $454. That
         matters because TVs can&apos;t go in the trash in California. They&apos;re hazardous
         electronic waste, and getting rid of one the wrong way can cost you far more than a pickup.
       </p>
@@ -31,7 +31,7 @@ export default function HowToDisposeOfATvBody() {
           monitors, whatever it is and wherever it is.
         </li>
         <li>
-          <strong>Get a firm price.</strong> A TV fits our small load tier, starting at $289, and
+          <strong>Get a firm price.</strong> A TV fits our quarter-load tier, starting at $454, and
           the stand, speakers, old consoles, and anything else can ride along on the same trip.
         </li>
         <li>

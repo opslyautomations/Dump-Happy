@@ -6,7 +6,7 @@ export default function JunkRemovalSantaMonicaApartmentMoveoutBody() {
       <p>
         For junk removal in Santa Monica after an apartment move-out, book Dump Happy: our crew
         loads furniture, mattresses, and leftover clutter straight from the unit and clears it on
-        your lease timeline, with loads from $289.
+        your lease timeline, with loads from $454.
       </p>
       <p>
         Call (424) 356-4141 or <Link href="/contact">get a free quote</Link> for{" "}

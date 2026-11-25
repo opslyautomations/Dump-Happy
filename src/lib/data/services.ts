@@ -82,6 +82,12 @@ export const SERVICES: ServiceMeta[] = [
     tier: 2,
     image: { src: "/IMG_7404-cropped.jpg", alt: "Dump Happy crew member loading tree branches and yard waste into a truck" },
   },
+  {
+    slug: "dump-and-store",
+    name: "Dump + Store",
+    tagline: "We move you into your storage unit. One flat moving fee.",
+    tier: 2,
+  },
 ];
 
 export function getServiceBySlug(slug: string): ServiceMeta | undefined {

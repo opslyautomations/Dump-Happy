@@ -6,7 +6,7 @@ export default function BestJunkRemovalServiceLosAngelesBody() {
       <p>
         The best junk removal service in Los Angeles posts its prices, gives a firm quote before
         loading, disposes of your items legally, does all the lifting, and fits your schedule.
-        Dump Happy is built around exactly those standards, with load-based pricing from $289 and
+        Dump Happy is built around exactly those standards, with load-based pricing from $454 and
         crews out 10am to 8pm, seven days a week.
       </p>
       <p>
@@ -85,24 +85,20 @@ export default function BestJunkRemovalServiceLosAngelesBody() {
         </thead>
         <tbody>
           <tr>
-            <td>Small load</td>
-            <td>$289</td>
-          </tr>
-          <tr>
             <td>Quarter load</td>
-            <td>$389</td>
+            <td>$454</td>
           </tr>
           <tr>
             <td>Half load</td>
-            <td>$569</td>
+            <td>$624</td>
           </tr>
           <tr>
             <td>3/4 load</td>
-            <td>$739</td>
+            <td>$794</td>
           </tr>
           <tr>
             <td>Full load (16ft trailer)</td>
-            <td>$899</td>
+            <td>$964</td>
           </tr>
         </tbody>
       </table>

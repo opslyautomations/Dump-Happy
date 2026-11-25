@@ -6,7 +6,7 @@ export default function EstateCleanoutChecklistBody() {
       <p>
         The simplest estate clean-out checklist is this: secure documents and valuables, let the
         family choose keepsakes, then book Dump Happy to clear everything else in one respectful
-        visit. We sort, donate usable items, and haul the rest, from $289.
+        visit. We sort, donate usable items, and haul the rest, from $454.
       </p>
       <p>
         Call (424) 356-4141 or <Link href="/contact">get a free quote</Link> for an{" "}

@@ -6,7 +6,7 @@ export default function ApartmentJunkRemovalKoreatownWehoBody() {
       <p>
         For apartment junk removal in Koreatown or West Hollywood, book Dump Happy: we carry
         couches, mattresses, and appliances out of your unit, down the stairs or elevator, and
-        haul them away, with single-item and small loads from $289.
+        haul them away, with loads from $454.
       </p>
       <p>
         Call (424) 356-4141 or <Link href="/contact">get a free quote</Link> for{" "}
@@ -86,7 +86,7 @@ export default function ApartmentJunkRemovalKoreatownWehoBody() {
       <h2>Can Dump Happy handle a single item from an apartment?</h2>
       <p>
         Yes. If you live in a high-rise or a walk-up in either neighborhood, our crew navigates the
-        building, uses the loading zone or freight elevator, and prices a single item as a small
+        building, uses the loading zone or freight elevator, and prices a single item as a quarter
         load, not a full truck. Our{" "}
         <Link href="/services/junk-removal">junk removal service</Link> is built to flex across
         exactly that range, from a single piece of furniture to a full unit clear-out.

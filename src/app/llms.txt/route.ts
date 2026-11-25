@@ -2,7 +2,14 @@ import { SITE } from "@/lib/data/site";
 import { SERVICES } from "@/lib/data/services";
 import { LOCATIONS } from "@/lib/data/locations";
 import { BLOG_POSTS } from "@/lib/data/blog";
-import { PRICING_TIERS } from "@/lib/data/pricing";
+import {
+  PRICING_TIERS,
+  DUMP_STORE_TIERS,
+  STORAGE_UNITS,
+  MATTRESS_PICKUP_PRICE,
+  LOAD_INCLUDES,
+  MULTI_LOAD_NOTE,
+} from "@/lib/data/pricing";
 
 // Generated from site data so AI crawlers always see every service, area, and
 // post (with its quotable answer) without a hand-maintained file drifting.
@@ -33,6 +40,13 @@ export function GET() {
     "## Pricing (by truck volume, quoted before loading)",
     ...PRICING_TIERS.map((t) => `- ${t.name} (${t.subtitle}): from $${t.priceFrom}. ${t.description}`),
     `- Full pricing: ${url("/pricing")}`,
+    `- Mattress pickup: from $${MATTRESS_PICKUP_PRICE}`,
+    `- ${LOAD_INCLUDES} ${MULTI_LOAD_NOTE}`,
+    "",
+    "## Dump + Store (we move you into your storage unit; one flat moving fee, admin fee and lock included)",
+    ...DUMP_STORE_TIERS.map((t) => `- Moving fee, ${t.name} (${t.subtitle}): from $${t.priceFrom.toLocaleString("en-US")}`),
+    `- Storage units (monthly, subject to change): ${STORAGE_UNITS.map((u) => `${u.size} $${u.pricePerMonth}/mo`).join(", ")}`,
+    `- Details: ${url("/services/dump-and-store")}`,
     "",
     "## Services",
     ...SERVICES.map((s) => `- [${s.name}](${url(`/services/${s.slug}`)}): ${s.tagline}`),

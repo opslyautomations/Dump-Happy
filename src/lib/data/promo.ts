@@ -1,6 +1,8 @@
+import { MATTRESS_PICKUP_PRICE } from "./pricing";
+
 // Active promotion shown in the site-wide popup. Supplied by Jason — do not
 // invent or adjust offers here. Set `active: false` to pull the popup site-wide.
-const PRICE = 289;
+const PRICE = MATTRESS_PICKUP_PRICE;
 const PERCENT_OFF = 10;
 
 const discounted = PRICE * (1 - PERCENT_OFF / 100);

@@ -6,7 +6,7 @@ export default function HowToChooseJunkRemovalCompanyBody() {
       <p>
         To choose a junk removal company in Los Angeles, ask how they price, whether the quote is
         firm before loading, where your items go, and whether they do all the lifting. Dump Happy
-        answers all eight questions below up front, with posted load tiers starting at $289.
+        answers all eight questions below up front, with posted load tiers starting at $454.
       </p>
       <p>
         The cheapest quote isn&apos;t always the cheapest outcome. These eight questions separate a

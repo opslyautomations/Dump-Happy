@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SITE } from "./data/site";
 import { SERVICES } from "./data/services";
 import { LOCATIONS } from "./data/locations";
-import { PRICING_TIERS } from "./data/pricing";
+import { PRICING_TIERS, DUMP_STORE_TIERS, MATTRESS_PICKUP_PRICE } from "./data/pricing";
 import { getReviews } from "./data/reviews";
 
 // Stable entity IDs. Every JSON-LD block on the site references these, so
@@ -156,7 +156,7 @@ export function localBusinessJsonLd(opts: {
     name: SITE.name,
     alternateName: SITE.alternateNames,
     description:
-      "Locally owned junk removal company in Los Angeles: mattress removal and pickup, green waste hauling, furniture, appliance, and full clean-outs with load-based pricing from $289.",
+      "Locally owned junk removal company in Los Angeles: mattress removal and pickup, green waste hauling, furniture, appliance, and full clean-outs with load-based pricing from $454.",
     telephone: SITE.phoneRaw,
     ...(SITE.email ? { email: SITE.email } : {}),
     url: SITE.url,
@@ -204,17 +204,41 @@ export function localBusinessJsonLd(opts: {
         },
       })),
     },
-    makesOffer: PRICING_TIERS.map((t) => ({
-      "@type": "Offer",
-      name: `${t.name} (${t.subtitle})`,
-      description: t.description,
-      url: `${SITE.url}/pricing`,
-      priceSpecification: {
-        "@type": "PriceSpecification",
-        minPrice: t.priceFrom,
-        priceCurrency: "USD",
+    makesOffer: [
+      ...PRICING_TIERS.map((t) => ({
+        "@type": "Offer",
+        name: `Junk Removal — ${t.name} (${t.subtitle})`,
+        description: t.description,
+        url: `${SITE.url}/pricing`,
+        priceSpecification: {
+          "@type": "PriceSpecification",
+          minPrice: t.priceFrom,
+          priceCurrency: "USD",
+        },
+      })),
+      {
+        "@type": "Offer",
+        name: "Mattress Pickup",
+        description: "Mattress carried out of any room and routed to a California mattress recycler.",
+        url: `${SITE.url}/services/mattress-removal`,
+        priceSpecification: {
+          "@type": "PriceSpecification",
+          minPrice: MATTRESS_PICKUP_PRICE,
+          priceCurrency: "USD",
+        },
       },
-    })),
+      ...DUMP_STORE_TIERS.map((t) => ({
+        "@type": "Offer",
+        name: `Dump + Store Moving Fee — ${t.name} (${t.subtitle})`,
+        description: `${t.description} Admin fee and lock included.`,
+        url: `${SITE.url}/services/dump-and-store`,
+        priceSpecification: {
+          "@type": "PriceSpecification",
+          minPrice: t.priceFrom,
+          priceCurrency: "USD",
+        },
+      })),
+    ],
     ...(opts.aggregateRating
       ? {
           aggregateRating: {
@@ -246,6 +270,7 @@ export function serviceJsonLd(opts: {
   description: string;
   path: string;
   areaServed?: string;
+  minPrice?: number;
 }) {
   return {
     "@context": "https://schema.org",
@@ -266,7 +291,7 @@ export function serviceJsonLd(opts: {
       url: `${SITE.url}/pricing`,
       priceSpecification: {
         "@type": "PriceSpecification",
-        minPrice: PRICING_TIERS[0].priceFrom,
+        minPrice: opts.minPrice ?? PRICING_TIERS[0].priceFrom,
         priceCurrency: "USD",
       },
     },

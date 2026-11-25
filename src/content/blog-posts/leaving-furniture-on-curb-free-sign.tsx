@@ -10,7 +10,7 @@ export default function LeavingFurnitureOnCurbFreeSignBody() {
         Leaving furniture on the curb with a &quot;free&quot; sign in LA can still count as illegal
         dumping under California Penal Code 374.3, with fines starting at $250 per violation. The
         legal, no-hassle alternative is to book Dump Happy: we carry it out, donate what&apos;s
-        usable, and dispose of the rest legally, starting at $289.
+        usable, and dispose of the rest legally, starting at $454.
       </p>
       <p>
         Call (424) 356-4141 or <Link href="/contact">get a free quote</Link>. We&apos;re open 10am
@@ -106,7 +106,7 @@ export default function LeavingFurnitureOnCurbFreeSignBody() {
           and the rest goes to proper disposal.
         </li>
         <li>
-          <strong>Clear pricing.</strong> Load-based pricing starts at $289 for a small load, with
+          <strong>Clear pricing.</strong> Load-based pricing starts at $454 for a quarter load, with
           labor, hauling, and disposal included. See <Link href="/pricing">pricing</Link>.
         </li>
       </ul>

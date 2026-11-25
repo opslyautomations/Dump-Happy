@@ -6,7 +6,7 @@ export default function FurnitureDisposalLosAngelesBody() {
       <p>
         The easiest legal way to dispose of furniture in Los Angeles is to book Dump Happy: our
         crew carries it out of any room, donates what&apos;s usable, and recycles or legally
-        disposes of the rest, starting at $289. You don&apos;t lift anything, and nothing ends up
+        disposes of the rest, starting at $454. You don&apos;t lift anything, and nothing ends up
         on the curb.
       </p>
       <p>
@@ -102,28 +102,23 @@ export default function FurnitureDisposalLosAngelesBody() {
         </thead>
         <tbody>
           <tr>
-            <td>Small load</td>
-            <td>From $289</td>
-            <td>A handful of items, like a couch or a dresser</td>
-          </tr>
-          <tr>
             <td>Quarter load</td>
-            <td>From $389</td>
+            <td>From $454</td>
             <td>A small room&apos;s worth of furniture</td>
           </tr>
           <tr>
             <td>Half load</td>
-            <td>From $569</td>
+            <td>From $624</td>
             <td>A couple of rooms cleared out</td>
           </tr>
           <tr>
             <td>3/4 load</td>
-            <td>From $739</td>
+            <td>From $794</td>
             <td>A large multi-room clear-out</td>
           </tr>
           <tr>
             <td>Full load (16ft trailer)</td>
-            <td>From $899</td>
+            <td>From $964</td>
             <td>Whole-property clean-outs and major jobs</td>
           </tr>
         </tbody>

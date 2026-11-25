@@ -25,7 +25,7 @@ const PATH = "/services/yard-waste-removal";
 export const metadata: Metadata = buildMetadata({
   title: "Green Waste Removal & Hauling in Los Angeles | Dump Happy",
   description:
-    "Green waste removal and hauling in LA from $289. Branches, palm fronds, trimmings, and sod hauled to organics facilities, not landfills. Free quote.",
+    "Green waste removal and hauling in LA from $454. Branches, palm fronds, trimmings, and sod hauled to organics facilities, not landfills. Free quote.",
   path: PATH,
 });
 
@@ -33,7 +33,7 @@ const faqs: FaqItem[] = [
   {
     question: "Who does green waste removal in Los Angeles?",
     answer:
-      "Dump Happy provides green waste removal and green waste hauling across LA's Westside, South Bay, and Central LA, 7 days a week from 10am to 8pm. We load branches, palm fronds, trimmings, leaves, and sod from anywhere on the property and haul them to organics facilities for composting or mulch. Pricing starts at $289 for a small load.",
+      "Dump Happy provides green waste removal and green waste hauling across LA's Westside, South Bay, and Central LA, 7 days a week from 10am to 8pm. We load branches, palm fronds, trimmings, leaves, and sod from anywhere on the property and haul them to organics facilities for composting or mulch. Pricing starts at $454 for a quarter load.",
   },
   {
     question: "What yard waste do you take?",
@@ -63,7 +63,7 @@ const faqs: FaqItem[] = [
   {
     question: "How is yard waste removal priced?",
     answer:
-      "Green waste removal is priced by how much of the truck it fills: a small load starts at $289, a quarter load at $389, a half load at $569, and a full 16ft trailer at $899. A few piles of trimmings is usually a small load; a full yard clear-out runs higher. You get the price before we start loading, with no per-bag charges.",
+      "Green waste removal is priced by how much of the truck it fills: a quarter load starts at $454, a half load at $624, and a full 16ft trailer at $964. A few piles of trimmings usually fit a quarter load; a full yard clear-out runs higher. You get the price before we start loading, with no per-bag charges.",
   },
 ];
 
@@ -109,7 +109,7 @@ export default function YardWasteRemovalPage() {
         intro={
           <p>
             Dump Happy handles green waste removal and green waste hauling across Los
-            Angeles, starting at $289. A weekend of yard work, a tree that came down, or a long-overdue overgrowth
+            Angeles, starting at $454. A weekend of yard work, a tree that came down, or a long-overdue overgrowth
             clear-out leaves piles too big to deal with. Dump Happy hauls yard and
             green waste across Los Angeles — branches, trimmings, leaves, sod, brush, and storm
             debris — and takes it to organics facilities so it&apos;s composted or mulched, not

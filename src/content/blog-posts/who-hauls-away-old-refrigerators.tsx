@@ -5,7 +5,7 @@ export default function WhoHaulsAwayOldRefrigeratorsBody() {
     <>
       <p>
         In Los Angeles, Dump Happy hauls away old refrigerators: working or dead, from the kitchen,
-        garage, or an upstairs unit, starting at $289. We carry it out and make sure the
+        garage, or an upstairs unit, starting at $454. We carry it out and make sure the
         refrigerant is recovered by certified handlers and the metal is recycled, the way federal
         and California law require. You don&apos;t move it, you don&apos;t wait on the city, and
         you don&apos;t have to figure out the rules.
@@ -23,8 +23,8 @@ export default function WhoHaulsAwayOldRefrigeratorsBody() {
           stairs or tight turns.
         </li>
         <li>
-          <strong>Get a firm price.</strong> A single fridge fits our small load tier, starting at
-          $289. Add a freezer, washer, dryer, or anything else to the same trip.
+          <strong>Get a firm price.</strong> A single fridge fits our quarter-load tier, starting at
+          $454. Add a freezer, washer, dryer, or anything else to the same trip.
         </li>
         <li>
           <strong>We disconnect and carry it out.</strong> The crew handles the dolly, the

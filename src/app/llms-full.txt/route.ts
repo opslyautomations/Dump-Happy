@@ -3,7 +3,14 @@ import { SERVICES } from "@/lib/data/services";
 import { LOCATIONS } from "@/lib/data/locations";
 import { LOCATIONS_CONTENT } from "@/lib/data/locations-content";
 import { BLOG_POSTS } from "@/lib/data/blog";
-import { PRICING_TIERS } from "@/lib/data/pricing";
+import {
+  PRICING_TIERS,
+  DUMP_STORE_TIERS,
+  STORAGE_UNITS,
+  MATTRESS_PICKUP_PRICE,
+  LOAD_INCLUDES,
+  MULTI_LOAD_NOTE,
+} from "@/lib/data/pricing";
 import { getAggregateRating, getReviews } from "@/lib/data/reviews";
 
 // Full-text companion to /llms.txt: everything an AI assistant needs to
@@ -34,6 +41,13 @@ export function GET() {
     "## Pricing (by truck volume; labor, hauling, and disposal included; firm quote before loading)",
     ...PRICING_TIERS.map((t) => `- ${t.name} — ${t.subtitle}: from $${t.priceFrom}. ${t.description}`),
     `- Details: ${url("/pricing")}`,
+    `- Mattress pickup: from $${MATTRESS_PICKUP_PRICE}`,
+    `- ${LOAD_INCLUDES} ${MULTI_LOAD_NOTE}`,
+    "",
+    "## Dump + Store (we move you into your storage unit; one flat moving fee, admin fee and lock included)",
+    ...DUMP_STORE_TIERS.map((t) => `- Moving fee, ${t.name} (${t.subtitle}): from $${t.priceFrom.toLocaleString("en-US")}`),
+    `- Storage units (monthly, subject to change): ${STORAGE_UNITS.map((u) => `${u.size} $${u.pricePerMonth}/mo`).join(", ")}`,
+    `- Details: ${url("/services/dump-and-store")}`,
     "",
     "## Services",
     ...SERVICES.map((s) => `- ${s.name}: ${s.tagline} ${url(`/services/${s.slug}`)}`),

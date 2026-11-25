@@ -6,7 +6,7 @@ export default function WhenToHireJunkRemovalBody() {
       <p>
         It&apos;s time to hire junk removal when the job involves heavy items, stairs, more than a
         carload, or a deadline you can&apos;t miss. Book Dump Happy and our crew carries everything
-        out of any room and hauls it away in one visit, starting at $289.
+        out of any room and hauls it away in one visit, starting at $454.
       </p>
       <p>
         Most people wait too long to make the call. The nine signs below will tell you when
@@ -110,28 +110,23 @@ export default function WhenToHireJunkRemovalBody() {
         </thead>
         <tbody>
           <tr>
-            <td>Small load (pickup truck)</td>
-            <td>$289</td>
-            <td>A few items</td>
-          </tr>
-          <tr>
             <td>Quarter load</td>
-            <td>$389</td>
+            <td>$454</td>
             <td>A small room</td>
           </tr>
           <tr>
             <td>Half load</td>
-            <td>$569</td>
+            <td>$624</td>
             <td>A garage corner or two rooms</td>
           </tr>
           <tr>
             <td>3/4 load</td>
-            <td>$739</td>
+            <td>$794</td>
             <td>A packed garage</td>
           </tr>
           <tr>
             <td>Full load (16ft trailer)</td>
-            <td>$899</td>
+            <td>$964</td>
             <td>A whole-property clean-out</td>
           </tr>
         </tbody>

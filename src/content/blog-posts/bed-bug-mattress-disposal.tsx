@@ -5,7 +5,7 @@ export default function BedBugMattressDisposalBody() {
     <>
       <p>
         To get rid of a mattress with bed bugs, seal it in plastic, label it, and book Dump Happy
-        to carry it out and haul it away, starting at $289. Our crew loads it separately so it
+        to carry it out and haul it away, starting at $329. Our crew loads it separately so it
         never sits in a hallway or on the curb, which is how bed bugs spread.
       </p>
       <p>

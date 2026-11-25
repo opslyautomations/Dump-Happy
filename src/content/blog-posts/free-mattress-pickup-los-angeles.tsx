@@ -6,7 +6,7 @@ export default function FreeMattressPickupLosAngelesBody() {
       <p>
         If you&apos;re searching for free mattress pickup in Los Angeles, what you most likely want
         is a mattress gone without hassle. Dump Happy does that: our crew carries it out of any
-        room, hauls it away, and recycles it, starting at $289 for a small load with a firm price
+        room, hauls it away, and recycles it, starting at $329 with a firm price
         before we lift anything.
       </p>
       <p>
@@ -18,23 +18,23 @@ export default function FreeMattressPickupLosAngelesBody() {
       <h2>What does mattress pickup in Los Angeles cost?</h2>
       <p>
         Dump Happy prices by how much truck space your items take up, not per piece. A mattress
-        pickup usually fits in our small load tier:
+        pickup usually fits in our quarter-load tier:
       </p>
       <ul>
         <li>
-          <strong>Small load:</strong> from $289 (typically a mattress, box spring, and frame)
+          <strong>Mattress pickup:</strong> from $329
         </li>
         <li>
-          <strong>Quarter load:</strong> from $389
+          <strong>Quarter load:</strong> from $454
         </li>
         <li>
-          <strong>Half load:</strong> from $569
+          <strong>Half load:</strong> from $624
         </li>
         <li>
-          <strong>3/4 load:</strong> from $739
+          <strong>3/4 load:</strong> from $794
         </li>
         <li>
-          <strong>Full load (16ft trailer):</strong> from $899
+          <strong>Full load (16ft trailer):</strong> from $964
         </li>
       </ul>
       <p>

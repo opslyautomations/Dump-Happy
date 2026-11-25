@@ -5,7 +5,7 @@ export default function FreeJunkPickupLosAngelesBody() {
     <>
       <p>
         Professional junk pick-up in Los Angeles isn&apos;t free, but the quote is. With Dump
-        Happy, you get a free, no-obligation quote, and a pickup starts at $289 for a small load,
+        Happy, you get a free, no-obligation quote, and a pickup starts at $454 for a quarter load,
         with the crew, truck, loading, and legal disposal all included.
       </p>
       <p>
@@ -47,8 +47,8 @@ export default function FreeJunkPickupLosAngelesBody() {
         </li>
       </ol>
 
-      <h2>What does a $289 junk pick-up cover?</h2>
-      <p>A small load from Dump Happy starts at $289, and the price includes:</p>
+      <h2>What does a $454 junk pick-up cover?</h2>
+      <p>A quarter load from Dump Happy starts at $454, and the price includes:</p>
       <ul>
         <li>The crew and the truck.</li>
         <li>Carrying items out from any room, including upstairs, the garage, or the backyard.</li>
@@ -68,24 +68,20 @@ export default function FreeJunkPickupLosAngelesBody() {
         </thead>
         <tbody>
           <tr>
-            <td>Small load</td>
-            <td>$289</td>
-          </tr>
-          <tr>
             <td>Quarter load</td>
-            <td>$389</td>
+            <td>$454</td>
           </tr>
           <tr>
             <td>Half load</td>
-            <td>$569</td>
+            <td>$624</td>
           </tr>
           <tr>
             <td>3/4 load</td>
-            <td>$739</td>
+            <td>$794</td>
           </tr>
           <tr>
             <td>Full load (16ft trailer)</td>
-            <td>$899</td>
+            <td>$964</td>
           </tr>
         </tbody>
       </table>

@@ -6,7 +6,7 @@ export default function CheapestWayToGetRidOfJunkLosAngelesBody() {
       <p>
         The cheapest way to get rid of junk in Los Angeles is to gather everything into one Dump
         Happy visit at the right load tier. You pay once for the truck space you use, starting at
-        $289, with labor, hauling, and disposal included: no truck rental, no repeat trips, and no
+        $454, with labor, hauling, and disposal included: no truck rental, no repeat trips, and no
         fines.
       </p>
       <p>
@@ -23,7 +23,7 @@ export default function CheapestWayToGetRidOfJunkLosAngelesBody() {
         The cheapest way to remove junk is a single, well-planned pickup. Because Dump Happy prices
         by how much truck space your items fill, the per-item cost drops as you combine more into
         one visit. A couch alone and a couch plus a mattress, two chairs, and a stack of boxes can
-        land in the same small-load tier.
+        land in the same quarter-load tier.
       </p>
 
       <h2>How much does each load tier cost?</h2>
@@ -37,28 +37,23 @@ export default function CheapestWayToGetRidOfJunkLosAngelesBody() {
         </thead>
         <tbody>
           <tr>
-            <td>Small load</td>
-            <td>$289</td>
-            <td>A few items or one bulky piece</td>
-          </tr>
-          <tr>
             <td>Quarter load</td>
-            <td>$389</td>
+            <td>$454</td>
             <td>A small room</td>
           </tr>
           <tr>
             <td>Half load</td>
-            <td>$569</td>
+            <td>$624</td>
             <td>A garage corner or two rooms</td>
           </tr>
           <tr>
             <td>3/4 load</td>
-            <td>$739</td>
+            <td>$794</td>
             <td>A packed garage</td>
           </tr>
           <tr>
             <td>Full load (16ft trailer)</td>
-            <td>$899</td>
+            <td>$964</td>
             <td>A whole-property clean-out</td>
           </tr>
         </tbody>
@@ -72,7 +67,7 @@ export default function CheapestWayToGetRidOfJunkLosAngelesBody() {
       <h2>Why is one visit cheaper than several small pickups?</h2>
       <p>
         Each pickup is priced by the space it fills, and every tier has a starting price. Splitting
-        a job into three small pickups means paying three small-load minimums. Combining it into
+        a job into three small pickups means paying three separate minimums. Combining it into
         one visit means you pay for the space once, at the tier that fits.
       </p>
       <p>

@@ -5,7 +5,7 @@ export default function TvDisposalLosAngelesBody() {
     <>
       <p>
         The easiest way to dispose of an old TV in Los Angeles is to book Dump Happy: we take it
-        down, carry it out, and send it to a certified e-waste recycler, starting at $289. Flat-screen
+        down, carry it out, and send it to a certified e-waste recycler, starting at $454. Flat-screen
         or heavy tube TV, wall-mounted or in the garage, it never goes in the trash or a landfill.
       </p>
       <p>

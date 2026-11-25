@@ -5,7 +5,7 @@ export default function GarageCleanoutWestchesterLaxBody() {
     <>
       <p>
         For a garage clean-out in Westchester, book Dump Happy: our crew sorts, donates, recycles,
-        and hauls everything in one visit for most single garages, with loads from $289.
+        and hauls everything in one visit for most single garages, with loads from $454.
       </p>
       <p>
         Call (424) 356-4141 or <Link href="/contact">get a free quote</Link> for a{" "}

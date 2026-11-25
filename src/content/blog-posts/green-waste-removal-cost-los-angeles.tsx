@@ -5,8 +5,8 @@ export default function GreenWasteRemovalCostLosAngelesBody() {
     <>
       <p>
         Green waste removal cost in Los Angeles depends mostly on volume, meaning how much of the
-        truck your yard debris fills. At Dump Happy, pricing starts at $289 for a small load and
-        goes up to $899 for a full truckload, with the price set before loading begins.
+        truck your yard debris fills. At Dump Happy, pricing starts at $454 for a quarter load and
+        goes up to $964 for a full truckload, with the price set before loading begins.
       </p>
       <p>
         Call (424) 356-4141 or <Link href="/contact">get a free quote</Link> for{" "}
@@ -43,28 +43,23 @@ export default function GreenWasteRemovalCostLosAngelesBody() {
         </thead>
         <tbody>
           <tr>
-            <td>Small load (pickup truck, about 1/8 of our truck)</td>
-            <td>$289</td>
-            <td>A modest pile of trimmings or a few cut branches</td>
-          </tr>
-          <tr>
             <td>Quarter load (16 ft trailer)</td>
-            <td>$389</td>
+            <td>$454</td>
             <td>A hedge trim or one tree&apos;s worth of pruned limbs</td>
           </tr>
           <tr>
             <td>Half load (16 ft trailer)</td>
-            <td>$569</td>
+            <td>$624</td>
             <td>A weekend yard cleanup or a section of overgrowth cleared</td>
           </tr>
           <tr>
             <td>3/4 load (16 ft trailer)</td>
-            <td>$739</td>
+            <td>$794</td>
             <td>A large tree trim or a backyard landscape tear-out</td>
           </tr>
           <tr>
             <td>Full load (16 ft trailer)</td>
-            <td>$899</td>
+            <td>$964</td>
             <td>A full overgrown lot, storm cleanup, or whole-yard clear-out</td>
           </tr>
         </tbody>

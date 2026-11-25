@@ -6,7 +6,7 @@ export default function IllegalDumpingLosAngelesBody() {
       <p>
         No, leaving junk on the curb in LA without a scheduled pickup is illegal dumping under
         California Penal Code 374.3, with fines up to $10,000. The legal, low-stress way to get
-        rid of it is to book Dump Happy: we carry it out and haul it away, from $289.
+        rid of it is to book Dump Happy: we carry it out and haul it away, from $454.
       </p>
       <p>
         Call (424) 356-4141 or <Link href="/contact">get a free quote</Link> for{" "}
@@ -109,8 +109,8 @@ export default function IllegalDumpingLosAngelesBody() {
       <p>
         Pricing for a legal pickup is based on the load-based tier system covered on our{" "}
         <Link href="/pricing">pricing page</Link> — worth a look if the reason you were
-        considering leaving something at the curb was uncertainty about cost. Loads start at $289
-        for a small load and top out at $899 for a full 16ft trailer. Call (424) 356-4141, 10am to
+        considering leaving something at the curb was uncertainty about cost. Loads start at $454
+        for a quarter load and top out at $964 for a full 16ft trailer. Call (424) 356-4141, 10am to
         8pm, seven days a week, or <Link href="/contact">get a free quote</Link>.
       </p>
     </>

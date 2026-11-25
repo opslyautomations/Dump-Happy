@@ -6,7 +6,7 @@ export default function WhereToGetRidOfAMattressBody() {
       <p>
         The easiest place to get rid of a mattress in Los Angeles is right where it is: book Dump
         Happy and our crew carries it out of your bedroom, hauls it away, and routes it to a
-        California mattress recycler, starting at $289. No truck, no drop-off site, no waiting on
+        California mattress recycler, starting at $329. No truck, no drop-off site, no waiting on
         the city, and no risk of an illegal dumping fine.
       </p>
       <p>
@@ -22,7 +22,7 @@ export default function WhereToGetRidOfAMattressBody() {
           frame), the floor, and whether there&apos;s an elevator.
         </li>
         <li>
-          <strong>Get a firm price.</strong> A small load, from $289, usually covers a mattress,
+          <strong>Get a firm price.</strong> A mattress pickup, from $329, usually covers a mattress,
           box spring, and frame together.
         </li>
         <li>
