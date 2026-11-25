@@ -170,7 +170,7 @@ export function Nav() {
               scrolled ? "py-1" : "py-2"
             }`}
           >
-            <Link href="/" className="flex min-h-12 shrink-0 items-center" aria-label="Dump Happy home">
+            <Link href="/" onClick={close} className="flex min-h-12 shrink-0 items-center" aria-label="Dump Happy home">
               <Image
                 src="/logo.webp"
                 alt="Dump Happy - Junk Removal"
@@ -183,9 +183,6 @@ export function Nav() {
             </Link>
 
             <nav className="hidden items-center gap-5 xl:flex" aria-label="Primary">
-              <Link href="/" className={linkClass}>
-                Home
-              </Link>
               <MegaMenu label="Services" href="/services" allLabel={`All ${SERVICES.length} services`} items={SERVICES} basePath="/services" />
               <MegaMenu label="Service Areas" href="/locations" allLabel="All service areas" items={LOCATIONS} basePath="/locations" />
               {PLAIN_LINKS.map(([label, href]) => (
@@ -257,7 +254,6 @@ export function Nav() {
         <nav className="grain flex min-h-full flex-col px-6 pb-10 pt-6" aria-label="Mobile">
           {(
             [
-              ["Home", "/"],
               ["services"],
               ["areas"],
               ...PLAIN_LINKS,
