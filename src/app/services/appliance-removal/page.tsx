@@ -13,6 +13,7 @@ import { FAQAccordion } from "@/components/FAQAccordion";
 import { ReviewSlot } from "@/components/ReviewSlot";
 import { CTABand } from "@/components/CTABand";
 import { ServicesGrid } from "@/components/ServicesGrid";
+import { ServiceGuides } from "@/components/RelatedContent";
 import { Hero } from "@/components/page-sections/Hero";
 import { Section } from "@/components/page-sections/Section";
 import { PillList } from "@/components/page-sections/PillList";
@@ -230,6 +231,8 @@ export default function ApplianceRemovalPage() {
           </a>
         </p>
       </Section>
+
+      <ServiceGuides serviceSlug="appliance-removal" label="Appliance Removal" />
 
       <ServicesGrid heading="Explore All Our Services" />
 

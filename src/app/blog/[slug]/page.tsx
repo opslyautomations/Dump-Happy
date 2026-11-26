@@ -13,6 +13,7 @@ import { CTABand } from "@/components/CTABand";
 import { FAQAccordion } from "@/components/FAQAccordion";
 import { Reveal } from "@/components/Reveal";
 import { PageIntro } from "@/components/page-sections/PageIntro";
+import { BlogRelated } from "@/components/RelatedContent";
 
 export function generateStaticParams() {
   return BLOG_POSTS.map((p) => ({ slug: p.slug }));
@@ -136,6 +137,8 @@ export default async function BlogPostPage({
                 </Reveal>
               </section>
             ) : null}
+
+            <BlogRelated post={post} />
           </div>
         </div>
       </article>

@@ -21,6 +21,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FAQAccordion } from "@/components/FAQAccordion";
 import { CTABand } from "@/components/CTABand";
 import { ServicesGrid } from "@/components/ServicesGrid";
+import { ServiceGuides } from "@/components/RelatedContent";
 import { QuoteForm } from "@/components/QuoteForm";
 import { PriceTierGrid, StorageUnitGrid } from "@/components/PriceTiers";
 import { Hero } from "@/components/page-sections/Hero";
@@ -164,6 +165,8 @@ export default function DumpAndStorePage() {
           </Link>
         </div>
       </section>
+
+      <ServiceGuides serviceSlug="dump-and-store" label="Dump + Store" />
 
       <ServicesGrid heading="Explore Our Other Services" />
 

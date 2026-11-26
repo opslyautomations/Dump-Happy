@@ -13,6 +13,7 @@ import { FAQAccordion } from "@/components/FAQAccordion";
 import { ReviewSlot } from "@/components/ReviewSlot";
 import { CTABand } from "@/components/CTABand";
 import { ServicesGrid } from "@/components/ServicesGrid";
+import { ServiceGuides } from "@/components/RelatedContent";
 import { QuoteForm } from "@/components/QuoteForm";
 import { Hero } from "@/components/page-sections/Hero";
 import { Section } from "@/components/page-sections/Section";
@@ -182,6 +183,10 @@ export default function EstateCleanoutPage() {
           <Link href="/services/garage-cleanout" className="text-brand-orange hover:underline">
             Garage Clean-Out
           </Link>
+          ,{" "}
+          <Link href="/services/dump-and-store" className="text-brand-orange hover:underline">
+            Dump + Store
+          </Link>
         </div>
         <div className="mt-2 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-brand-gray">
           <span className="font-semibold text-brand-black">Serving:</span>
@@ -199,6 +204,8 @@ export default function EstateCleanoutPage() {
           .
         </div>
       </Section>
+
+      <ServiceGuides serviceSlug="estate-cleanout" label="Estate/Property Clean-Out" />
 
       <ServicesGrid heading="Explore Our Other Services" />
 

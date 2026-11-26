@@ -13,6 +13,7 @@ import { FAQAccordion } from "@/components/FAQAccordion";
 import { ReviewSlot } from "@/components/ReviewSlot";
 import { CTABand } from "@/components/CTABand";
 import { ServicesGrid } from "@/components/ServicesGrid";
+import { ServiceGuides } from "@/components/RelatedContent";
 import { Hero } from "@/components/page-sections/Hero";
 import { Section } from "@/components/page-sections/Section";
 import { PillList } from "@/components/page-sections/PillList";
@@ -206,7 +207,14 @@ export default function FurnitureRemovalPage() {
           >
             Junk Removal
           </Link>{" "}
-          service.
+          service. Moving and keeping some of it? With{" "}
+          <Link
+            href="/services/dump-and-store"
+            className="font-semibold text-brand-orange hover:underline"
+          >
+            Dump + Store
+          </Link>{" "}
+          we haul what goes and move the rest into your storage unit.
         </p>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           We serve Santa Monica, Culver City, Beverly Hills, and eight other Los Angeles
@@ -226,6 +234,8 @@ export default function FurnitureRemovalPage() {
           <FAQAccordion faqs={faqs} />
         </div>
       </Section>
+
+      <ServiceGuides serviceSlug="furniture-removal" label="Furniture Removal" />
 
       <ServicesGrid heading="Explore All Our Services" />
 

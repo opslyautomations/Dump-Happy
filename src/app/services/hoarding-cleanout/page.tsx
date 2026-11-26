@@ -13,6 +13,7 @@ import { FAQAccordion } from "@/components/FAQAccordion";
 import { ReviewSlot } from "@/components/ReviewSlot";
 import { CTABand } from "@/components/CTABand";
 import { ServicesGrid } from "@/components/ServicesGrid";
+import { ServiceGuides } from "@/components/RelatedContent";
 import { QuoteForm } from "@/components/QuoteForm";
 import { Callout } from "@/components/Callout";
 import { Hero } from "@/components/page-sections/Hero";
@@ -187,6 +188,10 @@ export default function HoardingCleanoutPage() {
           <Link href="/services/garage-cleanout" className="text-brand-orange hover:underline">
             Garage Clean-Out
           </Link>
+          ,{" "}
+          <Link href="/services/dump-and-store" className="text-brand-orange hover:underline">
+            Dump + Store
+          </Link>
         </div>
         <div className="mt-2 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-brand-gray">
           <span className="font-semibold text-brand-black">Serving:</span>
@@ -197,6 +202,8 @@ export default function HoardingCleanoutPage() {
           .
         </div>
       </Section>
+
+      <ServiceGuides serviceSlug="hoarding-cleanout" label="Hoarding Clean-Out" />
 
       <ServicesGrid heading="Explore Our Other Services" />
 

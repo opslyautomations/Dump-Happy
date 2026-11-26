@@ -47,6 +47,15 @@ import HowToGetRidOfACouch from "./how-to-get-rid-of-a-couch";
 import HowToDisposeOfATv from "./how-to-dispose-of-a-tv";
 import WhereToGetRidOfAMattress from "./where-to-get-rid-of-a-mattress";
 import WhoHaulsAwayOldRefrigerators from "./who-hauls-away-old-refrigerators";
+import MovingIntoStorageUnitLosAngeles from "./moving-into-storage-unit-los-angeles";
+import WhatSizeStorageUnitDoINeed from "./what-size-storage-unit-do-i-need";
+import DumpItOrStoreIt from "./dump-it-or-store-it";
+import DumpFeesLosAngeles from "./dump-fees-los-angeles";
+import MoveOutJunkRemovalLosAngeles from "./move-out-junk-removal-los-angeles";
+import WasherDryerDisposalLosAngeles from "./washer-dryer-disposal-los-angeles";
+import GarageCleanoutCostLosAngeles from "./garage-cleanout-cost-los-angeles";
+import DrywallDisposalLosAngeles from "./drywall-disposal-los-angeles";
+import OfficeFurnitureRemovalLosAngeles from "./office-furniture-removal-los-angeles";
 
 export const BLOG_BODIES: Record<string, ComponentType> = {
   "junk-removal-cost-los-angeles": JunkRemovalCostLosAngeles,
@@ -96,4 +105,13 @@ export const BLOG_BODIES: Record<string, ComponentType> = {
   "how-to-dispose-of-a-tv": HowToDisposeOfATv,
   "where-to-get-rid-of-a-mattress": WhereToGetRidOfAMattress,
   "who-hauls-away-old-refrigerators": WhoHaulsAwayOldRefrigerators,
+  "moving-into-storage-unit-los-angeles": MovingIntoStorageUnitLosAngeles,
+  "what-size-storage-unit-do-i-need": WhatSizeStorageUnitDoINeed,
+  "dump-it-or-store-it": DumpItOrStoreIt,
+  "dump-fees-los-angeles": DumpFeesLosAngeles,
+  "move-out-junk-removal-los-angeles": MoveOutJunkRemovalLosAngeles,
+  "washer-dryer-disposal-los-angeles": WasherDryerDisposalLosAngeles,
+  "garage-cleanout-cost-los-angeles": GarageCleanoutCostLosAngeles,
+  "drywall-disposal-los-angeles": DrywallDisposalLosAngeles,
+  "office-furniture-removal-los-angeles": OfficeFurnitureRemovalLosAngeles,
 };

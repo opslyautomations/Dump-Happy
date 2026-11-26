@@ -13,6 +13,7 @@ import { FAQAccordion } from "@/components/FAQAccordion";
 import { ReviewSlot } from "@/components/ReviewSlot";
 import { CTABand } from "@/components/CTABand";
 import { ServicesGrid } from "@/components/ServicesGrid";
+import { ServiceGuides } from "@/components/RelatedContent";
 import { QuoteForm } from "@/components/QuoteForm";
 import { Callout } from "@/components/Callout";
 import { Hero } from "@/components/page-sections/Hero";
@@ -207,6 +208,8 @@ export default function CommercialJunkRemovalPage() {
           .
         </div>
       </Section>
+
+      <ServiceGuides serviceSlug="commercial-junk-removal" label="Commercial Junk Removal" />
 
       <ServicesGrid heading="Explore Our Other Services" />
 

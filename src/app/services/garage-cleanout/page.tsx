@@ -13,6 +13,7 @@ import { FAQAccordion } from "@/components/FAQAccordion";
 import { ReviewSlot } from "@/components/ReviewSlot";
 import { CTABand } from "@/components/CTABand";
 import { ServicesGrid } from "@/components/ServicesGrid";
+import { ServiceGuides } from "@/components/RelatedContent";
 import { QuoteForm } from "@/components/QuoteForm";
 import { Callout } from "@/components/Callout";
 import { Hero } from "@/components/page-sections/Hero";
@@ -191,7 +192,14 @@ export default function GarageCleanoutPage() {
           >
             Junk Removal
           </Link>
-          .
+          . Keeping some of it? With{" "}
+          <Link
+            href="/services/dump-and-store"
+            className="font-semibold text-brand-orange hover:underline"
+          >
+            Dump + Store
+          </Link>{" "}
+          we haul the junk and move the keepers into a storage unit.
         </p>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
           We serve Santa Monica, Culver City, Beverly Hills, and eight other Los Angeles
@@ -209,6 +217,8 @@ export default function GarageCleanoutPage() {
           <FAQAccordion faqs={faqs} />
         </div>
       </Section>
+
+      <ServiceGuides serviceSlug="garage-cleanout" label="Garage Clean-Out" />
 
       <ServicesGrid heading="Explore All Our Services" />
 

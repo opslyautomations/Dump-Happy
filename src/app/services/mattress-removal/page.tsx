@@ -13,6 +13,7 @@ import { FAQAccordion } from "@/components/FAQAccordion";
 import { ReviewSlot } from "@/components/ReviewSlot";
 import { CTABand } from "@/components/CTABand";
 import { ServicesGrid } from "@/components/ServicesGrid";
+import { ServiceGuides } from "@/components/RelatedContent";
 import { Callout } from "@/components/Callout";
 import { Hero } from "@/components/page-sections/Hero";
 import { Section } from "@/components/page-sections/Section";
@@ -229,6 +230,8 @@ export default function MattressRemovalPage() {
           <FAQAccordion faqs={faqs} />
         </div>
       </Section>
+
+      <ServiceGuides serviceSlug="mattress-removal" label="Mattress Removal" />
 
       <ServicesGrid heading="Explore All Our Services" />
 

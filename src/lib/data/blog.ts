@@ -1,4 +1,11 @@
 import type { FaqItem } from "@/lib/seo";
+import {
+  DUMP_STORE_TIERS,
+  MATTRESS_PICKUP_PRICE,
+  PRICING_TIERS,
+  STORAGE_UNITS,
+  formatPrice as fp,
+} from "@/lib/data/pricing";
 
 export interface BlogPostMeta {
   slug: string;
@@ -1680,8 +1687,322 @@ export const BLOG_POSTS: BlogPostMeta[] = [
       },
     ],
   },
+  {
+    slug: "moving-into-storage-unit-los-angeles",
+    title: "How to Move Into a Storage Unit in Los Angeles",
+    metaTitle: "Movers to a Storage Unit in Los Angeles | Dump Happy",
+    metaDescription: `Dump Happy moves you into your storage unit in LA for one flat moving fee from ${fp(DUMP_STORE_TIERS[0].priceFrom)}, admin fee and lock included, and hauls away the junk.`,
+    targetKeyword: "movers to storage unit los angeles",
+    category: "Guides",
+    summary:
+      "Dump + Store explainer: how it works, flat moving fees, storage rates, DIY comparison, use cases; links Dump + Store, Junk Removal, Estate, Garage, storage-size + dump-or-store posts.",
+    datePublished: "2026-11-25",
+    dateModified: "2026-11-25",
+    relatedServices: ["dump-and-store", "junk-removal"],
+    relatedLocations: [],
+    imageAlt: "Dump Happy crew moving furniture into a storage unit in Los Angeles",
+    quickAnswer: `The easiest way to move into a storage unit in Los Angeles is Dump Happy's Dump + Store service. Our crew loads what you're keeping and moves it into your unit for one flat moving fee from ${fp(DUMP_STORE_TIERS[0].priceFrom)}, admin fee and lock included, and hauls away anything you're not keeping in the same job.`,
+    faqs: [
+      {
+        question: "How much do movers charge to move into a storage unit?",
+        answer: `With Dump Happy it's one flat moving fee by load: ${DUMP_STORE_TIERS.map((t) => `${t.name.toLowerCase()} from ${fp(t.priceFrom)}`).join(", ")}. The admin fee and lock are included. Storage rent is billed monthly on top.`,
+      },
+      {
+        question: "Can you haul away junk at the same time?",
+        answer: `Yes. Anything you're not storing is hauled as junk removal, priced by load from ${fp(PRICING_TIERS[0].priceFrom)}, with loading, haul-away, disposal, and cleanup included.`,
+      },
+      {
+        question: "How much is a storage unit?",
+        answer: `Units start at ${fp(STORAGE_UNITS[0].pricePerMonth)}/mo for a ${STORAGE_UNITS[0].size} and go up to ${fp(STORAGE_UNITS[STORAGE_UNITS.length - 1].pricePerMonth)}/mo for a ${STORAGE_UNITS[STORAGE_UNITS.length - 1].size}. Rates are subject to change.`,
+      },
+    ],
+  },
+  {
+    slug: "what-size-storage-unit-do-i-need",
+    title: "What Size Storage Unit Do I Need?",
+    metaTitle: "What Size Storage Unit Do I Need? (Sizes + Prices) | Dump Happy",
+    metaDescription: `Storage unit sizes from 10×10 to 10×29, what typically fits in each, and current LA rates from ${fp(STORAGE_UNITS[0].pricePerMonth)}/mo. Dump Happy moves you in for one flat fee.`,
+    targetKeyword: "what size storage unit do i need",
+    category: "Guides",
+    summary:
+      "Unit-size guide 10×10–10×29 with monthly rates and rule-of-thumb fits; how to choose; moving fee relation; links Dump + Store, Mattress Removal, TV post, dump-or-store + moving posts.",
+    datePublished: "2026-11-25",
+    dateModified: "2026-11-25",
+    relatedServices: ["dump-and-store"],
+    relatedLocations: [],
+    imageAlt: "Row of storage units in different sizes",
+    quickAnswer:
+      "Most people need a 10×10 storage unit for a one-bedroom apartment, a 10×15 for one to two bedrooms, and a 10×20 or larger for a house. Send Dump Happy a few photos and we'll recommend a unit size and moving load before you book, then move you in with Dump + Store.",
+    faqs: [
+      {
+        question: "What fits in a 10×10 storage unit?",
+        answer:
+          "As a rule of thumb, the furniture and boxes from a studio or one-bedroom apartment. Large sectionals and how tightly it's packed change what fits.",
+      },
+      {
+        question: "How much is a 10×10 storage unit?",
+        answer: `${fp(STORAGE_UNITS[0].pricePerMonth)} a month at current rates, which are subject to change.`,
+      },
+      {
+        question: "Is the storage unit included in the moving fee?",
+        answer:
+          "No. The flat moving fee covers loading, moving you in, the admin fee, and a lock. Storage rent is billed monthly.",
+      },
+    ],
+  },
+  {
+    slug: "dump-it-or-store-it",
+    title: "Dump It or Store It? How to Decide Before Moving Into Storage",
+    metaTitle: "Dump It or Store It? Storage vs. Junk Removal | Dump Happy",
+    metaDescription: `A year of a ${STORAGE_UNITS[0].size} storage unit costs ${fp(STORAGE_UNITS[0].pricePerMonth * 12)}. A junk pickup starts at ${fp(PRICING_TIERS[0].priceFrom)}. How to decide what's worth storing, and how Dump + Store does both.`,
+    targetKeyword: "is it worth paying for storage",
+    category: "Guides",
+    summary:
+      "Storage-vs-dump math using real rates, keep/store/dump test, where dumped items go; links Dump + Store, Junk Removal, donation + after-pickup + storage-size posts.",
+    datePublished: "2026-11-25",
+    dateModified: "2026-11-25",
+    relatedServices: ["dump-and-store", "junk-removal"],
+    relatedLocations: [],
+    imageAlt: "Boxes sorted into keep and discard piles before a move into storage",
+    quickAnswer: `Store it only if you'll use it again and it would cost more to replace than to keep. Dump everything else first. A year of a ${STORAGE_UNITS[0].size} unit at ${fp(STORAGE_UNITS[0].pricePerMonth)}/mo is ${fp(STORAGE_UNITS[0].pricePerMonth * 12)}, while a quarter-load junk pickup starts at ${fp(PRICING_TIERS[0].priceFrom)}. Dump Happy's Dump + Store does both in one job.`,
+    faqs: [
+      {
+        question: "Is it worth paying for a storage unit?",
+        answer:
+          "For things you'll use again that are expensive or impossible to replace, yes. For broken, worn-out, or cheap-to-replace items, a one-time haul-away usually costs less than a few months of rent.",
+      },
+      {
+        question: "Can you haul junk and move me into storage the same day?",
+        answer:
+          "Yes. That's Dump + Store: we haul the junk and move the keepers into your unit for one flat moving fee, admin fee and lock included.",
+      },
+    ],
+  },
+  {
+    slug: "dump-fees-los-angeles",
+    title: "Dump Fees in Los Angeles: What You Actually Pay",
+    metaTitle: "Dump Fees in Los Angeles (2026) | Dump Happy",
+    metaDescription: `Dump Happy's dump fees run ${fp(PRICING_TIERS[0].priceFrom)} to ${fp(PRICING_TIERS[PRICING_TIERS.length - 1].priceFrom)} per load in LA, with loading, haul-away, disposal, and cleanup included. Compare to hauling it to the dump yourself.`,
+    targetKeyword: "dump fees los angeles",
+    category: "Pricing",
+    summary:
+      "Dump fee tiers by load, what they cover, DIY dump costs, special-handling items, ways to save; links Pricing, Junk Removal, Dump + Store, cost + cheapest + can't-take posts.",
+    datePublished: "2026-11-25",
+    dateModified: "2026-11-25",
+    relatedServices: ["junk-removal"],
+    relatedLocations: [],
+    imageAlt: "Junk removal truck unloading at a Los Angeles transfer station",
+    quickAnswer: `Dump Happy's dump fees in Los Angeles run from ${fp(PRICING_TIERS[0].priceFrom)} for a quarter load to ${fp(PRICING_TIERS[PRICING_TIERS.length - 1].priceFrom)} for a full load. The fee covers the crew, loading, hauling, disposal, and cleanup, so you don't pay a landfill separately. Prices begin to drop after your first load.`,
+    faqs: [
+      {
+        question: "How much are dump fees in Los Angeles?",
+        answer: `With Dump Happy: ${PRICING_TIERS.map((t) => `${t.name.toLowerCase()} (${t.subtitle}) from ${fp(t.priceFrom)}`).join(", ")}. Every load includes loading, haul-away, disposal, and cleanup.`,
+      },
+      {
+        question: "Is it cheaper to take junk to the dump myself?",
+        answer:
+          "Sometimes, for a small load you can lift alone. Once you add gate fees, truck rental, gas, your time, and second trips for items the dump won't take, a hauler is often close to the same cost or cheaper.",
+      },
+      {
+        question: "Do prices go down for multiple loads?",
+        answer: "Yes. Prices begin to drop after your first load.",
+      },
+    ],
+  },
+  {
+    slug: "move-out-junk-removal-los-angeles",
+    title: "Move-Out Junk Removal in Los Angeles: Checklist and Costs",
+    metaTitle: "Move-Out Junk Removal in Los Angeles | Dump Happy",
+    metaDescription: `Move-out junk removal in LA from ${fp(PRICING_TIERS[0].priceFrom)}. When to book, a room-by-room checklist, building rules, and how to send keepers to storage instead.`,
+    targetKeyword: "move out junk removal los angeles",
+    category: "Guides",
+    summary:
+      "When to book, move-out checklist, load pricing + mattress pickup, building rules, donation; links Junk Removal, Furniture, Dump + Store, Koreatown/WeHo/Santa Monica + related posts.",
+    datePublished: "2026-11-25",
+    dateModified: "2026-11-25",
+    relatedServices: ["junk-removal", "furniture-removal", "dump-and-store"],
+    relatedLocations: ["santa-monica", "koreatown", "west-hollywood"],
+    imageAlt: "Crew carrying furniture out of a Los Angeles apartment on move-out day",
+    quickAnswer: `For move-out junk removal in Los Angeles, book Dump Happy two to five days before you hand back the keys. Our crew carries out everything you're leaving behind and hauls it away in one visit, from ${fp(PRICING_TIERS[0].priceFrom)}. Keeping some of it? Dump + Store moves it into a storage unit in the same job.`,
+    faqs: [
+      {
+        question: "How far ahead should I book move-out junk removal?",
+        answer:
+          "Two to five days before your move-out date. Same-day or next-day pickup is often available when the schedule allows, but end-of-month weekends fill up first.",
+      },
+      {
+        question: "How much does move-out junk removal cost?",
+        answer: `It's priced by load: from ${fp(PRICING_TIERS[0].priceFrom)} for a quarter load to ${fp(PRICING_TIERS[PRICING_TIERS.length - 1].priceFrom)} for a full load. Mattress pickup starts at ${fp(MATTRESS_PICKUP_PRICE)}.`,
+      },
+      {
+        question: "Can I leave furniture on the curb when I move out?",
+        answer:
+          "No. Without a scheduled city pickup that's illegal dumping under California Penal Code 374.3. We carry it out of the unit instead.",
+      },
+    ],
+  },
+  {
+    slug: "washer-dryer-disposal-los-angeles",
+    title: "How to Get Rid of an Old Washer and Dryer in Los Angeles",
+    metaTitle: "Washer and Dryer Disposal in Los Angeles | Dump Happy",
+    metaDescription: `Get rid of an old washer and dryer in LA. Dump Happy carries them out and sends them to appliance recyclers, from ${fp(PRICING_TIERS[0].priceFrom)}. Prep steps and curbside rules.`,
+    targetKeyword: "washer and dryer disposal los angeles",
+    category: "Disposal Rules",
+    summary:
+      "Washer/dryer removal: curbside rules, why special handling, prep (gas dryers), cost; links Appliance Removal, Garage Clean-Out, fridge + bulky-item posts.",
+    datePublished: "2026-11-25",
+    dateModified: "2026-11-25",
+    relatedServices: ["appliance-removal"],
+    relatedLocations: [],
+    imageAlt: "Old washer and dryer being carried out of a laundry room",
+    quickAnswer: `The easiest way to get rid of an old washer and dryer in Los Angeles is to book Dump Happy. We carry both machines out of the laundry room, garage, or upstairs closet and send them to appliance and metal recyclers, from ${fp(PRICING_TIERS[0].priceFrom)}. Working or dead doesn't matter.`,
+    faqs: [
+      {
+        question: "Will you take a washer and dryer that don't work?",
+        answer: "Yes. Working or dead, we haul them and send them to recyclers.",
+      },
+      {
+        question: "Do you disconnect gas dryers?",
+        answer:
+          "Gas lines should be shut off and capped by a qualified person before pickup. We unplug electric units and carry everything out.",
+      },
+      {
+        question: "Can I put my old washer on the curb?",
+        answer:
+          "Only with a scheduled city bulky item pickup. Otherwise it's illegal dumping under California Penal Code 374.3.",
+      },
+    ],
+  },
+  {
+    slug: "garage-cleanout-cost-los-angeles",
+    title: "How Much Does a Garage Clean-Out Cost in Los Angeles?",
+    metaTitle: "Garage Clean-Out Cost in Los Angeles (2026) | Dump Happy",
+    metaDescription: `A garage clean-out in LA costs ${fp(PRICING_TIERS[0].priceFrom)} to ${fp(PRICING_TIERS[PRICING_TIERS.length - 1].priceFrom)} per load with Dump Happy. What fits in each tier, what changes the price, and how to save.`,
+    targetKeyword: "garage cleanout cost los angeles",
+    category: "Pricing",
+    summary:
+      "Garage clean-out prices by load with typical garage jobs, cost factors, savings tips; links Garage Clean-Out, Construction Debris, Appliance, Dump + Store, Westchester + prep + washer posts.",
+    datePublished: "2026-11-25",
+    dateModified: "2026-11-25",
+    relatedServices: ["garage-cleanout", "junk-removal"],
+    relatedLocations: ["westchester"],
+    imageAlt: "Cluttered two-car garage before a clean-out in Los Angeles",
+    quickAnswer: `A garage clean-out in Los Angeles costs ${fp(PRICING_TIERS[0].priceFrom)} to ${fp(PRICING_TIERS[PRICING_TIERS.length - 1].priceFrom)} per load with Dump Happy, depending on how much of the truck it fills. A one-corner clear-out is usually a quarter load, and a packed two-car garage often runs a full load or more. Sorting, loading, hauling, and sweep-up are included.`,
+    faqs: [
+      {
+        question: "How much does it cost to clean out a two-car garage?",
+        answer: `A packed two-car garage often fills a full load, from ${fp(PRICING_TIERS[PRICING_TIERS.length - 1].priceFrom)}, and very full garages can take more than one load. Prices begin to drop after your first load.`,
+      },
+      {
+        question: "Do you take paint and chemicals from the garage?",
+        answer:
+          "No. Paint, oil, and chemicals are household hazardous waste and go to a county drop-off. We help you set them aside.",
+      },
+      {
+        question: "Can some of it go to a storage unit instead?",
+        answer:
+          "Yes. With Dump + Store we haul the junk and move the keepers into a storage unit for one flat moving fee.",
+      },
+    ],
+  },
+  {
+    slug: "drywall-disposal-los-angeles",
+    title: "How to Dispose of Drywall in Los Angeles",
+    metaTitle: "Drywall Disposal in Los Angeles | Dump Happy",
+    metaDescription: `Drywall can't go in your trash cart. Dump Happy hauls drywall and remodel debris across LA to C&D recyclers, from ${fp(PRICING_TIERS[0].priceFrom)} a load. Prep tips and pricing.`,
+    targetKeyword: "drywall disposal los angeles",
+    category: "Disposal Rules",
+    summary:
+      "Drywall disposal: trash rules, recycling, prep, pricing by volume, mixed remodel loads; links Construction Debris, Garage, Dump + Store, C&D recycling + dumpster posts.",
+    datePublished: "2026-11-25",
+    dateModified: "2026-11-25",
+    relatedServices: ["construction-debris-removal", "junk-removal"],
+    relatedLocations: [],
+    imageAlt: "Pile of broken drywall from a home remodel ready for pickup",
+    quickAnswer: `The easiest way to dispose of drywall in Los Angeles is to book Dump Happy. We load the broken sheets, scraps, and other remodel debris and route it to construction and demolition recycling facilities, from ${fp(PRICING_TIERS[0].priceFrom)} a load. Drywall doesn't belong in a trash cart, and bags left at the curb count as illegal dumping.`,
+    faqs: [
+      {
+        question: "Can I put drywall in my trash bin in LA?",
+        answer:
+          "Not in real quantities. Remodel drywall is construction and demolition waste and needs to go to a facility that accepts it.",
+      },
+      {
+        question: "Is drywall recyclable?",
+        answer:
+          "Clean gypsum drywall often is. C&D facilities sort it from wood, metal, and other debris.",
+      },
+      {
+        question: "How much does drywall removal cost?",
+        answer: `We price by truck space, from ${fp(PRICING_TIERS[0].priceFrom)} for a quarter load. Because drywall is heavy, very large loads are quoted on volume and weight.`,
+      },
+    ],
+  },
+  {
+    slug: "office-furniture-removal-los-angeles",
+    title: "Office Furniture Removal in Los Angeles",
+    metaTitle: "Office Furniture Removal in Los Angeles | Dump Happy",
+    metaDescription: `Desks, cubicles, chairs, and e-waste cleared from LA offices. Donation and recycling first, from ${fp(PRICING_TIERS[0].priceFrom)} a load, scheduled around your building.`,
+    targetKeyword: "office furniture removal los angeles",
+    category: "Guides",
+    summary:
+      "Office furniture removal: what we take, process, e-waste, pricing by load, storage option; links Commercial, Furniture, Dump + Store, Culver City/Santa Monica, office e-waste post.",
+    datePublished: "2026-11-25",
+    dateModified: "2026-11-25",
+    relatedServices: ["commercial-junk-removal", "furniture-removal"],
+    relatedLocations: ["culver-city", "santa-monica"],
+    imageAlt: "Crew removing desks and office chairs from a Los Angeles office",
+    quickAnswer: `For office furniture removal in Los Angeles, book Dump Happy. We clear desks, chairs, cubicles, filing cabinets, and old electronics, donate usable pieces, recycle metal, and send computers to certified e-waste recyclers, from ${fp(PRICING_TIERS[0].priceFrom)} a load. We schedule around building hours and loading docks.`,
+    faqs: [
+      {
+        question: "Do you break down cubicles?",
+        answer: "Yes. We disassemble cubicle systems and workstations on site and haul them out.",
+      },
+      {
+        question: "What happens to old office computers?",
+        answer:
+          "They go to certified e-waste recyclers. Computers and monitors are covered e-waste in California. Wipe or remove hard drives before pickup.",
+      },
+      {
+        question: "Can you work after hours?",
+        answer:
+          "Tell us your building's rules when you book. We open 10am to 8pm, seven days a week, and plan around freight elevators and loading docks.",
+      },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPostMeta | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
+}
+
+// Posts that cover a service, best matches first (the service is the post's
+// primary topic, then a secondary one), newest first within each group.
+export function getPostsForService(serviceSlug: string, limit = 6): BlogPostMeta[] {
+  return BLOG_POSTS.filter((p) => p.relatedServices.includes(serviceSlug))
+    .map((p) => ({ p, rank: p.relatedServices.indexOf(serviceSlug) }))
+    .sort((a, b) => a.rank - b.rank || b.p.datePublished.localeCompare(a.p.datePublished))
+    .slice(0, limit)
+    .map(({ p }) => p);
+}
+
+// Other posts most related to this one: shared services (weighted toward the
+// primary service), then shared locations, then same category.
+export function getRelatedPosts(slug: string, limit = 4): BlogPostMeta[] {
+  const post = getBlogPostBySlug(slug);
+  if (!post) return [];
+  return BLOG_POSTS.filter((p) => p.slug !== slug)
+    .map((p) => {
+      let score = 0;
+      post.relatedServices.forEach((s, i) => {
+        const j = p.relatedServices.indexOf(s);
+        if (j !== -1) score += (i === 0 ? 4 : 2) + (j === 0 ? 1 : 0);
+      });
+      score += p.relatedLocations.filter((l) => post.relatedLocations.includes(l)).length * 2;
+      if (p.category === post.category) score += 1;
+      return { p, score };
+    })
+    .filter((x) => x.score > 0)
+    .sort((a, b) => b.score - a.score || b.p.datePublished.localeCompare(a.p.datePublished))
+    .slice(0, limit)
+    .map(({ p }) => p);
 }

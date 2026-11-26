@@ -13,6 +13,7 @@ import { FAQAccordion } from "@/components/FAQAccordion";
 import { ReviewSlot } from "@/components/ReviewSlot";
 import { CTABand } from "@/components/CTABand";
 import { ServicesGrid } from "@/components/ServicesGrid";
+import { ServiceGuides } from "@/components/RelatedContent";
 import { QuoteForm } from "@/components/QuoteForm";
 import { Callout } from "@/components/Callout";
 import { Hero } from "@/components/page-sections/Hero";
@@ -231,6 +232,13 @@ export default function JunkRemovalPage() {
           >
             Garage Clean-Out
           </Link>
+          . Moving into storage? See{" "}
+          <Link
+            href="/services/dump-and-store"
+            className="font-semibold text-brand-orange hover:underline"
+          >
+            Dump + Store
+          </Link>
           .
         </p>
         <p className="mt-4 leading-relaxed text-brand-charcoal">
@@ -251,6 +259,8 @@ export default function JunkRemovalPage() {
           <FAQAccordion faqs={faqs} />
         </div>
       </Section>
+
+      <ServiceGuides serviceSlug="junk-removal" label="Junk Removal" />
 
       <ServicesGrid heading="Explore All Our Services" />
 

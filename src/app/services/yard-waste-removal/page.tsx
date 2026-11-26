@@ -13,6 +13,7 @@ import { FAQAccordion } from "@/components/FAQAccordion";
 import { ReviewSlot } from "@/components/ReviewSlot";
 import { CTABand } from "@/components/CTABand";
 import { ServicesGrid } from "@/components/ServicesGrid";
+import { ServiceGuides } from "@/components/RelatedContent";
 import { QuoteForm } from "@/components/QuoteForm";
 import { Callout } from "@/components/Callout";
 import { Hero } from "@/components/page-sections/Hero";
@@ -238,6 +239,8 @@ export default function YardWasteRemovalPage() {
           .
         </div>
       </Section>
+
+      <ServiceGuides serviceSlug="yard-waste-removal" label="Yard/Green Waste Removal" />
 
       <ServicesGrid heading="Explore Our Other Services" />
 

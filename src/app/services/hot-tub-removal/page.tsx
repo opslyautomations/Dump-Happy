@@ -13,6 +13,7 @@ import { FAQAccordion } from "@/components/FAQAccordion";
 import { ReviewSlot } from "@/components/ReviewSlot";
 import { CTABand } from "@/components/CTABand";
 import { ServicesGrid } from "@/components/ServicesGrid";
+import { ServiceGuides } from "@/components/RelatedContent";
 import { QuoteForm } from "@/components/QuoteForm";
 import { Hero } from "@/components/page-sections/Hero";
 import { Section } from "@/components/page-sections/Section";
@@ -193,6 +194,8 @@ export default function HotTubRemovalPage() {
           .
         </div>
       </section>
+
+      <ServiceGuides serviceSlug="hot-tub-removal" label="Hot Tub Removal" />
 
       <ServicesGrid heading="Explore Our Other Services" />
 
